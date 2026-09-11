@@ -1,0 +1,74 @@
+{
+  "package": "anticipatory_execution_codex_handoff",
+  "version": "0.1",
+  "created_utc": "2026-09-11T16:20:24.840559+00:00",
+  "missing": [],
+  "files": [
+    {
+      "filename": "CODEX_TRANSITION.md",
+      "purpose": "Short new-session continuation prompt.",
+      "bytes": 552,
+      "sha256": "5d66659dd93b95ac37922e5940209fd6b16b6ba19000d0a8e6414d7d55c2c1ee"
+    },
+    {
+      "filename": "README.md",
+      "purpose": "Authoritative Codex continuation instructions.",
+      "bytes": 8068,
+      "sha256": "d5502be91c2529311c407a1258f71d6cf5ac738022930a21033d2400419b6c03"
+    },
+    {
+      "filename": "aeb_execution_status_g0_g1.md",
+      "purpose": "Current gate status/blockers.",
+      "bytes": 1495,
+      "sha256": "06133b1093fcc11e3ea76e4fde02802d467fbbd039b8954ec0d2b7d732646974"
+    },
+    {
+      "filename": "aeb_g0_qwen_qa_harness.py",
+      "purpose": "Qwen instrumentation QA harness.",
+      "bytes": 9759,
+      "sha256": "42e3ac673044cb31038bcdc842eef8f70ba4335ec1e3b4ddf910c0319085d7e5"
+    },
+    {
+      "filename": "aeb_g0_requirements.txt",
+      "purpose": "G0 dependencies.",
+      "bytes": 59,
+      "sha256": "4e6a55cf258ad1a2c25a1be15b2a93c6555c911949438bb28b085bcf45f566c9"
+    },
+    {
+      "filename": "aeb_g0_runbook.md",
+      "purpose": "G0 execution runbook.",
+      "bytes": 1617,
+      "sha256": "d230df8a79de7f090713aa547b12f83af234cdec46e230cbbd182aabbc354e89"
+    },
+    {
+      "filename": "aeb_g1_annotation_pilot_200.xlsx",
+      "purpose": "200-item two-annotator G1 workbook.",
+      "bytes": 55742,
+      "sha256": "63f2031293d21623abac89009d180bc0bf9f9b668d4e2b0cbfe554becf9d62ee"
+    },
+    {
+      "filename": "aeb_g1_annotation_rubric_v0_1.docx",
+      "purpose": "G1 annotation rubric.",
+      "bytes": 38896,
+      "sha256": "cfb4ece4644c9209f8a49381fe8a52b48a4f95cfdc97e5bee894c98f366dccc8"
+    },
+    {
+      "filename": "aeb_g1_pilot_gold_key.jsonl",
+      "purpose": "Owner-only development gold reference.",
+      "bytes": 93470,
+      "sha256": "fa9dee668ac05c9a7fb2b623896acd27a3acb59932ca375593ba220449e8eb0f"
+    },
+    {
+      "filename": "anticipatory_execution_preregistered_protocol_v0_1.docx",
+      "purpose": "Preregistration-quality protocol draft.",
+      "bytes": 50867,
+      "sha256": "06b66080f6a8e2a745d78e7d884189cf93c8881becc9381aad1d086c160f00a7"
+    },
+    {
+      "filename": "anticipatory_intent_literature_review_v0_3.docx",
+      "purpose": "Method-level prior-art and novelty review.",
+      "bytes": 57791,
+      "sha256": "7a68d8814eda829344d4ee511c644f7c8f293cc3ea08ad094be22110528f034a"
+    }
+  ]
+}

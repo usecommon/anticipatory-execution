@@ -1,0 +1,18 @@
+{
+  "seed":1729,
+  "boundary_lengths":[1,2,63,64,65,95,96,97,127,128],
+  "natural_qa":[
+    "Find a café in Montréal; actually, make it a bakery.",
+    "Parse https://example.org/a?q=7 and return only the hostname.",
+    "Summarize 12.5 percent growth in 2024 versus 2023 without forecasting.",
+    "Write Python: value = {'key': [1, 2, 3]}; preserve punctuation.",
+    "Draft a reply to O’Connor thanking them — do not send it.",
+    "  Compare\talpha and beta\nusing the attached figures.",
+    "Find a restaurant near the station, excluding places without outdoor seating.",
+    "Research battery suppliers in Europe; include distributors as well.",
+    "Translate the phrase naïve façade into plain English.",
+    "Schedule a 15-minute meeting next Thursday; only draft the invitation.",
+    "Explain the filename report_v2-final.csv, not its contents.",
+    "Prepare notes about the 🚲 route, then switch the destination to the museum."
+  ]
+}

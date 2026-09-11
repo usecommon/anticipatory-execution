@@ -6,6 +6,8 @@ Research on whether temporal and cross-layer states of a frozen foundation model
 
 For ChatGPT or Codex Cloud continuation, use the [detailed handoff and copy-ready startup prompt](docs/CHATGPT_CODEX_CLOUD_HANDOFF.md).
 
+The additional full raw-evidence upload is currently **incomplete**; see [transfer status and recovery instructions](docs/GITHUB_EVIDENCE_RESTORE.md). All source/report material is available in Git, including `archive/work/`.
+
 ## Current state
 
 - **G0 PASS, scoped:** canonical-v0.5, frozen Qwen2.5-7B-Instruct, NVIDIA A100-SXM4-40GB, FP32 eager, physical shape [1,128], active length 1..128, serial prefixes, explicit positions/masks, cache off. Two fresh Modal containers passed 8,427 checks each; 155 cross-container cases matched bitwise.

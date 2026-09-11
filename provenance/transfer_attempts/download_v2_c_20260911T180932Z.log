@@ -1,0 +1,4 @@
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ Cannot connect to host clobber.modal-storage.com:443 ssl:default [nodename   │
+│ nor servname provided, or not known]                                         │
+╰──────────────────────────────────────────────────────────────────────────────╯
