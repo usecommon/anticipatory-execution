@@ -1,0 +1,23 @@
+{
+  "G0": "PASS_SCOPED",
+  "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+  "scope": "canonical-v0.5 only; active length 1..128; frozen Qwen commit and exact A100/FP32/eager configuration",
+  "successful_runs": [
+    "closure_a_20260911T175740Z",
+    "closure_c_20260911T180932Z"
+  ],
+  "preserved_rejected_run": "closure_b_20260911T180521Z",
+  "checks_per_successful_run": [
+    8427,
+    8427
+  ],
+  "independent_checks": 1092,
+  "independent_failures": 0,
+  "cross_container_cases": 155,
+  "numerical_neutrality_claim": false,
+  "native_modes": "Historical failures retained; unsupported",
+  "G1": "PENDING",
+  "Stage_1": "BLOCKED",
+  "development_extraction": false,
+  "confirmatory_extraction": false
+}

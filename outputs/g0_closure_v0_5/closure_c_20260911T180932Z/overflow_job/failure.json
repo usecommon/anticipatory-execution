@@ -1,0 +1,7 @@
+{
+  "status": "BLOCKED",
+  "error_type": "ContractError",
+  "error": "Active prefix length outside 1..128; no truncation",
+  "completed_items": 0,
+  "successful_manifest": false
+}

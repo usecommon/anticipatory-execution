@@ -1,0 +1,8 @@
+{
+  "run_id": "closure_a_20260911T175740Z",
+  "exit": 0,
+  "seconds": 365.27985668182373,
+  "single_use_container": true,
+  "gpu": "A100-40GB",
+  "retries": 0
+}

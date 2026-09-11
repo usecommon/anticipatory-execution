@@ -1,0 +1,12 @@
+{
+  "logs": {
+    "/tmp/worker.log": "\nLoading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]\nLoading checkpoint shards:  25%|\u2588\u2588\u258c       | 1/4 [00:03<00:09,  3.30s/it]\nLoading checkpoint shards:  50%|\u2588\u2588\u2588\u2588\u2588     | 2/4 [00:06<00:06,  3.18s/it]\nLoading checkpoint shards:  75%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258c  | 3/4 [00:09<00:03,  3.10s/it]\nLoading checkpoint shards: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 4/4 [00:12<00:00,  3.01s/it]\nLoading checkpoint shards: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 4/4 [00:12<00:00,  3.07s/it]\n"
+  },
+  "processes": [
+    {
+      "pid": 6,
+      "cpu_seconds": 88.62,
+      "elapsed": 87.70636916160583
+    }
+  ]
+}

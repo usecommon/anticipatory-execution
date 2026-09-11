@@ -1,0 +1,17 @@
+{
+  "python": "3.11.12 (main, May 21 2025, 23:34:13) [GCC 12.2.0]",
+  "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.36",
+  "hostname": "modal",
+  "container_id": "ta-01M28SWA35FZ35ZQHNXBADQFDR",
+  "torch": "2.5.1+cu124",
+  "cuda": "12.4",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "code_hashes": {
+    "original_harness.py": "42e3ac673044cb31038bcdc842eef8f70ba4335ec1e3b4ddf910c0319085d7e5",
+    "extractor.py": "f7b871a69dbb7aa165743f2e25f24680cb2d4118844135498cb1fb9a2ac22283",
+    "pipeline.py": "a17ad5acc77e26b4b5f40e0b5b2a6b6b3220dcc4bae2059b6345f2a655b5b690",
+    "fixtures.json": "da4cdecafd1f1f2a6db55e95409d39b1fa738fd03e0c4c930e2d033ea5686978",
+    "worker.py": "76731f5ff78b081b7c1d25b528efea658679635cec7fa9ea4b93741e69987356"
+  },
+  "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0"
+}

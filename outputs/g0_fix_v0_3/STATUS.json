@@ -1,0 +1,16 @@
+{
+  "gate": "G0",
+  "status": "BLOCKED",
+  "canonical_contract_status": "PASS",
+  "native_unrestricted_status": "FAIL",
+  "canonical_failures": 0,
+  "native_failures": 54,
+  "total_checks": 5035,
+  "elapsed_seconds": 64.18077421188354,
+  "confirmatory_extraction": false,
+  "thesis_changed": false,
+  "note": "Supported-contract validation is separate from full-gate approval; native failures are preserved.",
+  "supported_path_checks": 4929,
+  "completed_word_prefixes": 75,
+  "next_allowed_action": "Restricted-contract G0 closure, including long active sequences, boundary validation and coverage of excluded modes; no research extraction."
+}

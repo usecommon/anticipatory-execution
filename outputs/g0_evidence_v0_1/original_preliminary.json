@@ -1,0 +1,457 @@
+{
+  "gate": "G0 Instrumentation",
+  "status": "FAIL",
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "dtype": "bfloat16",
+  "device": "cuda",
+  "seed": 1729,
+  "tolerances": {
+    "atol": 1e-05,
+    "rtol": 1e-05
+  },
+  "probe_layers_hidden_state_tuple_indices": [
+    1,
+    7,
+    14,
+    21,
+    28
+  ],
+  "environment": {
+    "python": "3.11.12 (main, May 21 2025, 23:34:13) [GCC 12.2.0]",
+    "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.36",
+    "torch": "2.5.1+cu124",
+    "transformers": "4.45.2",
+    "cuda_available": true,
+    "gpu": "NVIDIA A10"
+  },
+  "blocking_failures": [
+    {
+      "name": "batch_vs_single_0_layer_1",
+      "status": "FAIL",
+      "max_abs_diff": 0.015625,
+      "mean_abs_diff": 0.0005593810928985476,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_0_layer_7",
+      "status": "FAIL",
+      "max_abs_diff": 0.0625,
+      "mean_abs_diff": 0.004971206188201904,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_0_layer_14",
+      "status": "FAIL",
+      "max_abs_diff": 0.25,
+      "mean_abs_diff": 0.009242789819836617,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_0_layer_21",
+      "status": "FAIL",
+      "max_abs_diff": 0.4375,
+      "mean_abs_diff": 0.016793284565210342,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_0_layer_28",
+      "status": "FAIL",
+      "max_abs_diff": 3.0,
+      "mean_abs_diff": 0.0466114766895771,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_1_layer_1",
+      "status": "FAIL",
+      "max_abs_diff": 0.015625,
+      "mean_abs_diff": 0.0006806339370086789,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_1_layer_7",
+      "status": "FAIL",
+      "max_abs_diff": 0.0625,
+      "mean_abs_diff": 0.005562075413763523,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_1_layer_14",
+      "status": "FAIL",
+      "max_abs_diff": 0.125,
+      "mean_abs_diff": 0.010338748805224895,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_1_layer_21",
+      "status": "FAIL",
+      "max_abs_diff": 1.0,
+      "mean_abs_diff": 0.017748799175024033,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_1_layer_28",
+      "status": "FAIL",
+      "max_abs_diff": 1.5,
+      "mean_abs_diff": 0.057434942573308945,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_2_layer_1",
+      "status": "FAIL",
+      "max_abs_diff": 0.015625,
+      "mean_abs_diff": 0.0005929257022216916,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_2_layer_7",
+      "status": "FAIL",
+      "max_abs_diff": 0.03125,
+      "mean_abs_diff": 0.0049707465805113316,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_2_layer_14",
+      "status": "FAIL",
+      "max_abs_diff": 0.25,
+      "mean_abs_diff": 0.009397932328283787,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_2_layer_21",
+      "status": "FAIL",
+      "max_abs_diff": 0.25,
+      "mean_abs_diff": 0.017258627340197563,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_2_layer_28",
+      "status": "FAIL",
+      "max_abs_diff": 2.0,
+      "mean_abs_diff": 0.04259045794606209,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_3_layer_1",
+      "status": "FAIL",
+      "max_abs_diff": 0.015625,
+      "mean_abs_diff": 0.0005677193403244019,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_3_layer_7",
+      "status": "FAIL",
+      "max_abs_diff": 0.125,
+      "mean_abs_diff": 0.004983595572412014,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_3_layer_14",
+      "status": "FAIL",
+      "max_abs_diff": 0.25,
+      "mean_abs_diff": 0.00824419129639864,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_3_layer_21",
+      "status": "FAIL",
+      "max_abs_diff": 0.5,
+      "mean_abs_diff": 0.013869608752429485,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_3_layer_28",
+      "status": "FAIL",
+      "max_abs_diff": 1.0,
+      "mean_abs_diff": 0.035367827862501144,
+      "detail": ""
+    }
+  ],
+  "checks": [
+    {
+      "name": "repeat_layer_1",
+      "status": "PASS",
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "repeat_layer_7",
+      "status": "PASS",
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "repeat_layer_14",
+      "status": "PASS",
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "repeat_layer_21",
+      "status": "PASS",
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "repeat_layer_28",
+      "status": "PASS",
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_0_layer_1",
+      "status": "FAIL",
+      "max_abs_diff": 0.015625,
+      "mean_abs_diff": 0.0005593810928985476,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_0_layer_7",
+      "status": "FAIL",
+      "max_abs_diff": 0.0625,
+      "mean_abs_diff": 0.004971206188201904,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_0_layer_14",
+      "status": "FAIL",
+      "max_abs_diff": 0.25,
+      "mean_abs_diff": 0.009242789819836617,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_0_layer_21",
+      "status": "FAIL",
+      "max_abs_diff": 0.4375,
+      "mean_abs_diff": 0.016793284565210342,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_0_layer_28",
+      "status": "FAIL",
+      "max_abs_diff": 3.0,
+      "mean_abs_diff": 0.0466114766895771,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_1_layer_1",
+      "status": "FAIL",
+      "max_abs_diff": 0.015625,
+      "mean_abs_diff": 0.0006806339370086789,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_1_layer_7",
+      "status": "FAIL",
+      "max_abs_diff": 0.0625,
+      "mean_abs_diff": 0.005562075413763523,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_1_layer_14",
+      "status": "FAIL",
+      "max_abs_diff": 0.125,
+      "mean_abs_diff": 0.010338748805224895,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_1_layer_21",
+      "status": "FAIL",
+      "max_abs_diff": 1.0,
+      "mean_abs_diff": 0.017748799175024033,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_1_layer_28",
+      "status": "FAIL",
+      "max_abs_diff": 1.5,
+      "mean_abs_diff": 0.057434942573308945,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_2_layer_1",
+      "status": "FAIL",
+      "max_abs_diff": 0.015625,
+      "mean_abs_diff": 0.0005929257022216916,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_2_layer_7",
+      "status": "FAIL",
+      "max_abs_diff": 0.03125,
+      "mean_abs_diff": 0.0049707465805113316,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_2_layer_14",
+      "status": "FAIL",
+      "max_abs_diff": 0.25,
+      "mean_abs_diff": 0.009397932328283787,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_2_layer_21",
+      "status": "FAIL",
+      "max_abs_diff": 0.25,
+      "mean_abs_diff": 0.017258627340197563,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_2_layer_28",
+      "status": "FAIL",
+      "max_abs_diff": 2.0,
+      "mean_abs_diff": 0.04259045794606209,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_3_layer_1",
+      "status": "FAIL",
+      "max_abs_diff": 0.015625,
+      "mean_abs_diff": 0.0005677193403244019,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_3_layer_7",
+      "status": "FAIL",
+      "max_abs_diff": 0.125,
+      "mean_abs_diff": 0.004983595572412014,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_3_layer_14",
+      "status": "FAIL",
+      "max_abs_diff": 0.25,
+      "mean_abs_diff": 0.00824419129639864,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_3_layer_21",
+      "status": "FAIL",
+      "max_abs_diff": 0.5,
+      "mean_abs_diff": 0.013869608752429485,
+      "detail": ""
+    },
+    {
+      "name": "batch_vs_single_3_layer_28",
+      "status": "FAIL",
+      "max_abs_diff": 1.0,
+      "mean_abs_diff": 0.035367827862501144,
+      "detail": ""
+    },
+    {
+      "name": "masked_padding_invariance_layer_1",
+      "status": "PASS",
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "detail": "Changing masked token IDs must not change active-prefix state."
+    },
+    {
+      "name": "masked_padding_invariance_layer_7",
+      "status": "PASS",
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "detail": "Changing masked token IDs must not change active-prefix state."
+    },
+    {
+      "name": "masked_padding_invariance_layer_14",
+      "status": "PASS",
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "detail": "Changing masked token IDs must not change active-prefix state."
+    },
+    {
+      "name": "masked_padding_invariance_layer_21",
+      "status": "PASS",
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "detail": "Changing masked token IDs must not change active-prefix state."
+    },
+    {
+      "name": "masked_padding_invariance_layer_28",
+      "status": "PASS",
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "detail": "Changing masked token IDs must not change active-prefix state."
+    },
+    {
+      "name": "reload_layer_1",
+      "status": "PASS",
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "reload_layer_7",
+      "status": "PASS",
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "reload_layer_14",
+      "status": "PASS",
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "reload_layer_21",
+      "status": "PASS",
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "reload_layer_28",
+      "status": "PASS",
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "detail": ""
+    },
+    {
+      "name": "length_extension_diag_layer_1",
+      "status": "INFO",
+      "max_abs_diff": 0.0078125,
+      "mean_abs_diff": 0.0004270428034942597,
+      "detail": "Diagnostic only; compare magnitude to tolerance and document kernel/shape sensitivity."
+    },
+    {
+      "name": "length_extension_diag_layer_7",
+      "status": "INFO",
+      "max_abs_diff": 0.0625,
+      "mean_abs_diff": 0.004472451750189066,
+      "detail": "Diagnostic only; compare magnitude to tolerance and document kernel/shape sensitivity."
+    },
+    {
+      "name": "length_extension_diag_layer_14",
+      "status": "INFO",
+      "max_abs_diff": 0.125,
+      "mean_abs_diff": 0.009069613181054592,
+      "detail": "Diagnostic only; compare magnitude to tolerance and document kernel/shape sensitivity."
+    },
+    {
+      "name": "length_extension_diag_layer_21",
+      "status": "INFO",
+      "max_abs_diff": 0.5,
+      "mean_abs_diff": 0.014145748689770699,
+      "detail": "Diagnostic only; compare magnitude to tolerance and document kernel/shape sensitivity."
+    },
+    {
+      "name": "length_extension_diag_layer_28",
+      "status": "INFO",
+      "max_abs_diff": 1.0,
+      "mean_abs_diff": 0.03596746176481247,
+      "detail": "Diagnostic only; compare magnitude to tolerance and document kernel/shape sensitivity."
+    }
+  ],
+  "notes": [
+    "Hidden-state tuple index 0 is embedding output; final index is post-final transformer block.",
+    "Length-extension checks are diagnostic, not blocking invariants.",
+    "Any blocking failure must be resolved before Stage 1 feature extraction."
+  ]
+}

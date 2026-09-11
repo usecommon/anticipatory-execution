@@ -1,0 +1,8 @@
+{
+  "case": "fp32_eager",
+  "counts": {
+    "PASS": 55,
+    "FAIL": 23
+  },
+  "complete": true
+}

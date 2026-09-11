@@ -1,0 +1,674 @@
+[
+  {
+    "path": "outputs/g0_evidence_v0_1/modal_run_01.tar.gz",
+    "sha256": "9331f065eac76891a9ff6d0ed357a55a27a8f6b7ca0f13e48f43b9be8cf7994b",
+    "bytes": 98580197,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/single_fixed_3.pt",
+    "sha256": "e38e0f1a6d1cb532d192cf71fa68b016af73ec7041b335ec41a53e25a6d356fa",
+    "bytes": 4054615,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/supplemental_batch.pt",
+    "sha256": "b5f50cd85ebbccb01af47261aebca1a03c7f043ca460932b6d7f0b1ef17b56cf",
+    "bytes": 16205963,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_0_128.pt",
+    "sha256": "a0be56ad110309f84a19dd5ed5debbb3a86dd821f6b210466110ea1d0fd40191",
+    "bytes": 5202237,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/single_fixed_2.pt",
+    "sha256": "766f5094d31c88f116c4efc0f6ad5f26cbbb6c8d8506762dc27ab5b2f8d8aec9",
+    "bytes": 4054615,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_2_128.pt",
+    "sha256": "d5f7e5886a99884b8c8771f3a6afb1bdabdbe080506ce3d6013a3e5ec3f9be85",
+    "bytes": 5202237,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_6_128.pt",
+    "sha256": "abb029ad9027326db2f22ef3709af45678a9054c85c2289562ecd24bc7af61bf",
+    "bytes": 5202237,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_4_128.pt",
+    "sha256": "adf8fc4fcfb09adc6a8e8eb762e7ff671cecf76914fbe19a910d197c9b62d308",
+    "bytes": 5202237,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_1_128.pt",
+    "sha256": "905203feb1281990a2d396b56a59e6a13df21f0202d11b3681fe259794b3e001",
+    "bytes": 5202237,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_4_64.pt",
+    "sha256": "d4e349196258cb69c8ef06c830ffeb207a2443e681f5e0ae6242012c8f74948f",
+    "bytes": 2906928,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_0_96.pt",
+    "sha256": "cb8796679ecc82dc3f827d9e645fd3274a439e7f1afd7146db7f4692affecfa3",
+    "bytes": 4054576,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_2_96.pt",
+    "sha256": "d4bb04e724b1a684ab77519e8fd834a31068f2a945cfc07a3d636e7ba6104d14",
+    "bytes": 4054576,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_6_64.pt",
+    "sha256": "7c3af68e42356e23355943f6cc0f3008e7268c96b73e57555f28c5f9c7aa2b7a",
+    "bytes": 2906928,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/causal_full.pt",
+    "sha256": "2a9b59fe41d0481543088cb8adad78250106cb125fea8fd6cae56418174ea43c",
+    "bytes": 1077744,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_2_64.pt",
+    "sha256": "50ecbee9e5a4e4d7ae615bb960f91f0d94047449022a74334d57448c9c0db6b3",
+    "bytes": 2906928,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_6_96.pt",
+    "sha256": "de665c269d2f021c2354abd686ec94f21c0c01e05dcbefc4cc097aba5ea468e5",
+    "bytes": 4054576,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_3_128.pt",
+    "sha256": "92bb464bb7542555073246ac13f5582030b286a624b2bcb7cd52dc7b5da87e6f",
+    "bytes": 5202237,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_4_96.pt",
+    "sha256": "f95fa87d1d3913de637ee1fdf2d01aed9613eb9aa96371428ed9a1f0e0a4b467",
+    "bytes": 4054576,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_0_64.pt",
+    "sha256": "42f6a16e6bbabf607f6872c5351c9b8c7a7bcda2ae769c83ffe57baf99b61191",
+    "bytes": 2906928,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/single_fixed_1.pt",
+    "sha256": "49ae7fdcaf5311b82150f99ad97cc76e4bc4e4b1866c14bf00a54fc1353e93e0",
+    "bytes": 4054615,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_3_96.pt",
+    "sha256": "dfde4b0aa93735408e6a58666650915ed37b7865f3addd379d6881c40da85653",
+    "bytes": 4054576,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_7_64.pt",
+    "sha256": "f4d4fee2a5c121d6145a3869105a84ce341e58e835ed6436cd7fed3605bc19f1",
+    "bytes": 2906928,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_5_64.pt",
+    "sha256": "45e8817c71b77af5faea976ea3ad83202a1798e4285a06a269aecd545b646ab8",
+    "bytes": 2906928,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_7_128.pt",
+    "sha256": "81ea7b9a85bc3e52ecc953e543d369ce3ad3560adeb6b20fe0fd580591a94c58",
+    "bytes": 5202237,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_1_96.pt",
+    "sha256": "30c698b4915d9449ec57cf7937794d34d2fc060321989ffd3326487a87882a1b",
+    "bytes": 4054576,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_5_96.pt",
+    "sha256": "9b4d8dac34a78d065081ffd8ec38404117e73389dafd4bdad8c40aca4f93f57e",
+    "bytes": 4054576,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/causal_prefix.pt",
+    "sha256": "190de1ffdb2906dae9e285cae53655dc1b2cbdf96ede202c3b1802ed2e060e78",
+    "bytes": 826698,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/cache_tail.pt",
+    "sha256": "b60d82c2fe95497bc80e2e52a0fde27de9af977bcbfc2122cecd5d33ee9f1f5c",
+    "bytes": 4511206,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_1_64.pt",
+    "sha256": "abe152e73b7a3709432074e70bd28f59e1c6f00508003ca8c2d568245666a762",
+    "bytes": 2906928,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_5_128.pt",
+    "sha256": "6fa1f716a1d4d6d4a9bdbed5c4e55a92b8fc40d2a5ddefb4466499116956228f",
+    "bytes": 5202237,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/single_fixed_0.pt",
+    "sha256": "2163858b387049c7f8cf7b85e02a858c889622741eb6bd41a8b59ad6ed1f557e",
+    "bytes": 4054615,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_3_64.pt",
+    "sha256": "cdebe69af6668adcba9c049cd68aa129f26e47eb91b0ff9504f74048fa03de5d",
+    "bytes": 2906928,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_evidence_v0_1/run_20260911T163140Z/length_7_96.pt",
+    "sha256": "dcbd373a452846852ed9e789e781c1c7541f047178748bdfaaf2f09157174a01",
+    "bytes": 4054576,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_run_01.tar.gz",
+    "sha256": "463e37501d960f667fb6361dd4d2cc8008fd897d95e2c3db731f8510a36e06e8",
+    "bytes": 368453744,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/workspace_strict/cache_prefix.pt",
+    "sha256": "2dfa5d606991e0807f6155498c8a21beab068f90cc65c05e5457aca2383c6929",
+    "bytes": 4226958,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/workspace_strict/length_0_128.pt",
+    "sha256": "d559e6700c6087242efbf95108adbfbcd5ba97eee4cfae246dbee0535a5b77f2",
+    "bytes": 12806094,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/workspace_strict/repeat.pt",
+    "sha256": "6b4a007a61f1de503431a89dd7defa2374b30a4cefd37794e8264698c5bbabb1",
+    "bytes": 6708874,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/workspace_strict/isolated_qproj.pt",
+    "sha256": "dcd3f08ae398caf87c94707689a28dc230795eced16b658c80a659676d3e3f20",
+    "bytes": 5507662,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/workspace_strict/cache_full.pt",
+    "sha256": "9a00aed5cdff9dd3a099c059fcbb45a449fda9330cba3b60df76104e0a9f775a",
+    "bytes": 9151458,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/workspace_strict/length_1_128.pt",
+    "sha256": "0f35902cd4341ec45ae09d6cc5ce469765f685077e2691223bec62750cedb79b",
+    "bytes": 12806094,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/workspace_strict/masked_content.pt",
+    "sha256": "b4e632f9d4fcfc337164c3fb157b5a9cb2a72fe12acc66b505c6c6be0531d9c9",
+    "bytes": 6710266,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/workspace_strict/length_0_64.pt",
+    "sha256": "11406b471a14cf294435fa31163af1b8cb5f8a3dcfe21136f67ed12d5fc2857b",
+    "bytes": 6710200,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/workspace_strict/cache_tail.pt",
+    "sha256": "518b92839fb5ba76f784e219aa37c5ab488922bb7454d5c2d0cd639b33810c2e",
+    "bytes": 4930466,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/workspace_strict/length_1_64.pt",
+    "sha256": "25dee98da5d4a3c07a184d5957ba21c99d0c8d266317af61968527c877f491d8",
+    "bytes": 6710200,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/workspace_strict/batch64.pt",
+    "sha256": "cbacc4f2f5469a703f3b1d6e3e7726cfa23bb5f0658b5b5ad7f501a52d31b88b",
+    "bytes": 13413664,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_math/cache_prefix.pt",
+    "sha256": "213203b5708550ce5dd8424bc578e73de7b2adc8bfd84d11b2fd528987c60e10",
+    "bytes": 4226958,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_math/length_0_128.pt",
+    "sha256": "4b0c86331087ddf83e7a02a87f25bf8aaa029baecbfb7d05809dad512ea08a76",
+    "bytes": 12806094,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_math/repeat.pt",
+    "sha256": "bf1640050779345fb5bfe1d979347a4cb8c5633e258c68228b97f49c12090acc",
+    "bytes": 6708874,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_math/isolated_qproj.pt",
+    "sha256": "dcd3f08ae398caf87c94707689a28dc230795eced16b658c80a659676d3e3f20",
+    "bytes": 5507662,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_math/cache_full.pt",
+    "sha256": "f4d344def4ba201eca24ffc04161f36ff747c38ab31ccc2cd96d7fb599d5b0ad",
+    "bytes": 9151458,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_math/length_1_128.pt",
+    "sha256": "8985e37122c0e0a05f9ac908bdcb11721a7e12043b2d4e7bf8192c92e4d55010",
+    "bytes": 12806094,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_math/masked_content.pt",
+    "sha256": "062004081f4fe500681347783403637ead50d5edc2af1f4c8907fe13e32b711e",
+    "bytes": 6710266,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_math/length_0_64.pt",
+    "sha256": "1912595e9cf8274e18dae20b7379ba8e847f67fe31818d80bc229aa75dfe0d40",
+    "bytes": 6710200,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_math/cache_tail.pt",
+    "sha256": "f9ac55f66d5f5fc77076d0a2ed894351ef9519645f4923ad1e9562fa8604e834",
+    "bytes": 4930466,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_math/length_1_64.pt",
+    "sha256": "258c49b806500c1376960e566f874c101bb501255e972e05b819d3db8b661a6f",
+    "bytes": 6710200,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_math/batch64.pt",
+    "sha256": "37a1c364dc7cb6dc5f6e4e2ba4594b701e5bc828911bb64e9989fba16482c4cd",
+    "bytes": 13413664,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_eager/cache_prefix.pt",
+    "sha256": "a1224cfa389a1213a11037595833668909ab605aa7d8166b4b31655613c350a8",
+    "bytes": 4226958,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_eager/length_0_128.pt",
+    "sha256": "425e184b35121ed56d046247564558f1068cda6b3a0359afcc427971cb2bb9ed",
+    "bytes": 12806094,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_eager/repeat.pt",
+    "sha256": "4d7d48946b729dd596730754bb20354565b095093403953936de715e36434f01",
+    "bytes": 6708874,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_eager/isolated_qproj.pt",
+    "sha256": "dcd3f08ae398caf87c94707689a28dc230795eced16b658c80a659676d3e3f20",
+    "bytes": 5507662,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_eager/cache_full.pt",
+    "sha256": "642808dbd1bbb59e94b1fab718ac12a14d1f04dd21d25c3710084226f48b0aa2",
+    "bytes": 9151458,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_eager/length_1_128.pt",
+    "sha256": "648abc12054c23f7897e9ab140b6467855fd4e4441d0fa455bb045c323bdb410",
+    "bytes": 12806094,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_eager/masked_content.pt",
+    "sha256": "51b1ad35424f01450d1902d98b1f3628ac70304081d299cddeef8ff6e59645af",
+    "bytes": 6710266,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_eager/length_0_64.pt",
+    "sha256": "b1c00375a6812197049938a3b6be00eeac584b31b61e4407808a1da510efbba4",
+    "bytes": 6710200,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_eager/cache_tail.pt",
+    "sha256": "79600b90d3fc365c61f377b70cbe04cf224cdd6f86d4fa277d74be4875713fa8",
+    "bytes": 4930466,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_eager/length_1_64.pt",
+    "sha256": "448cb62aa6b56b968571e11fd265250b7c9fd53610eac33ff06bec07c244522e",
+    "bytes": 6710200,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_eager/batch64.pt",
+    "sha256": "3f5424b8c569db745ec7f8693cdd14fb20130b57ea2c00ac24974017c617a8be",
+    "bytes": 13413664,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/baseline/cache_prefix.pt",
+    "sha256": "2dfa5d606991e0807f6155498c8a21beab068f90cc65c05e5457aca2383c6929",
+    "bytes": 4226958,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/baseline/length_0_128.pt",
+    "sha256": "d559e6700c6087242efbf95108adbfbcd5ba97eee4cfae246dbee0535a5b77f2",
+    "bytes": 12806094,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/baseline/repeat.pt",
+    "sha256": "6b4a007a61f1de503431a89dd7defa2374b30a4cefd37794e8264698c5bbabb1",
+    "bytes": 6708874,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/baseline/isolated_qproj.pt",
+    "sha256": "dcd3f08ae398caf87c94707689a28dc230795eced16b658c80a659676d3e3f20",
+    "bytes": 5507662,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/baseline/cache_full.pt",
+    "sha256": "9a00aed5cdff9dd3a099c059fcbb45a449fda9330cba3b60df76104e0a9f775a",
+    "bytes": 9151458,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/baseline/length_1_128.pt",
+    "sha256": "0f35902cd4341ec45ae09d6cc5ce469765f685077e2691223bec62750cedb79b",
+    "bytes": 12806094,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/baseline/masked_content.pt",
+    "sha256": "b4e632f9d4fcfc337164c3fb157b5a9cb2a72fe12acc66b505c6c6be0531d9c9",
+    "bytes": 6710266,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/baseline/length_0_64.pt",
+    "sha256": "11406b471a14cf294435fa31163af1b8cb5f8a3dcfe21136f67ed12d5fc2857b",
+    "bytes": 6710200,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/baseline/cache_tail.pt",
+    "sha256": "518b92839fb5ba76f784e219aa37c5ab488922bb7454d5c2d0cd639b33810c2e",
+    "bytes": 4930466,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/baseline/length_1_64.pt",
+    "sha256": "25dee98da5d4a3c07a184d5957ba21c99d0c8d266317af61968527c877f491d8",
+    "bytes": 6710200,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/baseline/batch64.pt",
+    "sha256": "cbacc4f2f5469a703f3b1d6e3e7726cfa23bb5f0658b5b5ad7f501a52d31b88b",
+    "bytes": 13413664,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_no_reduced/cache_prefix.pt",
+    "sha256": "1dd829d027d922ca6d41006296eb3baa7b2bb8b853489995201d578c4749731f",
+    "bytes": 4226958,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_no_reduced/length_0_128.pt",
+    "sha256": "881d0152a93e5e80cf8d34e8c25a0dffdec37826718f6a70fff0a3cbeb699c00",
+    "bytes": 12806094,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_no_reduced/repeat.pt",
+    "sha256": "ed8607244379adbf178314af7355ee326c8b2eb78633c671f9e75dc9e0ce5831",
+    "bytes": 6708874,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_no_reduced/isolated_qproj.pt",
+    "sha256": "dcd3f08ae398caf87c94707689a28dc230795eced16b658c80a659676d3e3f20",
+    "bytes": 5507662,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_no_reduced/cache_full.pt",
+    "sha256": "835a3798577b5b2fcc787fda93525eb336d4cc8bfb208e54b3068ecf87a4c1f7",
+    "bytes": 9151458,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_no_reduced/length_1_128.pt",
+    "sha256": "eef5f0e2a848da65932cafd6a2c7ac5f6f39726a86d5fed17d861cf894c561a5",
+    "bytes": 12806094,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_no_reduced/masked_content.pt",
+    "sha256": "4d7d0047c1f20c29e5aff8132810fa0a9f5696941e23536d21f7596adbd0ff13",
+    "bytes": 6710266,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_no_reduced/length_0_64.pt",
+    "sha256": "0143b6a652c40e295173c6e3c8bbf57776e727266ca5590d6f38338ea205252b",
+    "bytes": 6710200,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_no_reduced/cache_tail.pt",
+    "sha256": "3642c05a3edbc0093f981943b29dde57cfec7e016ba9e5e4b8542ec1f170b18a",
+    "bytes": 4930466,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_no_reduced/length_1_64.pt",
+    "sha256": "10be162c92c2a74180b67d595590be9d92d4182630c1c634fbcf7d7666811dae",
+    "bytes": 6710200,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/bf16_no_reduced/batch64.pt",
+    "sha256": "b65f94ea66f0e53998ffcf3fde2fb8d01ae8de3d7aaa9df3bff0e62af343eebb",
+    "bytes": 13413664,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/fp32_eager/cache_prefix.pt",
+    "sha256": "4fc9d77e0b499ee3791a965158a95996f9189c770b1bba71f15db8bebe675a1e",
+    "bytes": 4798286,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/fp32_eager/length_0_128.pt",
+    "sha256": "2fc937b8a175ef54ab7f62d2d1051aef8f2277df5323d130d76ce7c9274211f6",
+    "bytes": 24995726,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/fp32_eager/repeat.pt",
+    "sha256": "dc1ec08faeaacf1d434f3d515052d8fb29947636c828d5a7bc85bf200501d901",
+    "bytes": 12803722,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/fp32_eager/isolated_qproj.pt",
+    "sha256": "be355038443d6969bcc2342f8fc49ac215d33f0816ecbf407c55c3692479850a",
+    "bytes": 8260174,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/fp32_eager/cache_full.pt",
+    "sha256": "7fe92c2076d2ceba42baecb756e356b03acd4a9c618afbaff172139aa496e565",
+    "bytes": 10389410,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/fp32_eager/length_1_128.pt",
+    "sha256": "a38d11ab96bc04db242eafb04df94df73c700250b0deee1623a4590323389e33",
+    "bytes": 24995726,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/fp32_eager/masked_content.pt",
+    "sha256": "bba7f24cd868031d98e16ac3211b393daca1662d0a270b7a7ff5002314da1973",
+    "bytes": 12805050,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/fp32_eager/length_0_64.pt",
+    "sha256": "a830380728b11da4edc9163232ff6dffaad09ae485718b78b736361ce65dddc5",
+    "bytes": 12804984,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/fp32_eager/cache_tail.pt",
+    "sha256": "07758d8914b4d1f25f7faa530447ab4baaf21432578b786cdf6e3e644f3101d3",
+    "bytes": 5597026,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/fp32_eager/length_1_64.pt",
+    "sha256": "dcefe76a129af267032222b2cc275c45d68d67a7b8f59b6a49c613174b6d7124",
+    "bytes": 12804984,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_rca_v0_2/rca_20260911T165054Z/fp32_eager/batch64.pt",
+    "sha256": "98833038a4a8dffb6a5055e48f22ba3d13ffad559005b96d436f48e04a1c2108",
+    "bytes": 25603296,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_fix_v0_3/evidence_subset.tar.gz",
+    "sha256": "e26987b5d0529784c24c557d6a44f797425fb4bab0c19ed750d73fe929eeb59e",
+    "bytes": 40781285,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_fix_v0_3/fix_20260911T171625Z/masked_content_0.pt",
+    "sha256": "ab15ddbaaaf5cc03fa3851590fce3ab55672e7416f7fdeed2d6eaf54c1e96672",
+    "bytes": 9287266,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_fix_v0_3/fix_20260911T171625Z/canonical_0.pt",
+    "sha256": "4f82a241e0cc3ece98d52ed39d22cf29a0dafab2329cdb627412b2637fbc6a7c",
+    "bytes": 9287216,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_fix_v0_3/fix_20260911T171625Z/native_cache.pt",
+    "sha256": "c34f8f238a3ae41ae9e6ce72925cf85657cfe80058934ffea14c1372df9eca10",
+    "bytes": 13603204,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_fix_v0_3/fix_20260911T171625Z/causal_extension_0.pt",
+    "sha256": "ed799f64e6dac29c34c194da6aa5a9e107813a5a9ee9f462e9d723dadc5d98dc",
+    "bytes": 12359286,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_closure_v0_5/closure_b.tar.gz",
+    "sha256": "480b7c3b9c9e208d128128498c0f429c91311fa85d98d33c914bfe43da1dc11e",
+    "bytes": 1254,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_closure_v0_5/closure_a.tar.gz",
+    "sha256": "89b4fb43b97a4507559013f0ac044f80593b169cc578f90dd74b678c111626bc",
+    "bytes": 153467481,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_closure_v0_5/closure_c.tar.gz",
+    "sha256": "289717b32fabbd4be90b10ed2d4639dbebbb6e098f1705804e3119a078dcd156",
+    "bytes": 153468461,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_closure_v0_5/closure_a_20260911T175740Z/comparison_states.pt",
+    "sha256": "807d95912d8639492a6c90e061ccb7a6686bc6a189b858e5cac81528e277a9f9",
+    "bytes": 159441810,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_closure_v0_5/closure_a_20260911T175740Z/representative_original.pt",
+    "sha256": "4cd12ca4dd55ffd4e4fa88587601fab5adbea21c1ddf7961ed32c0a8bb3ccf96",
+    "bytes": 9221660,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_closure_v0_5/closure_c_20260911T180932Z/comparison_states.pt",
+    "sha256": "807d95912d8639492a6c90e061ccb7a6686bc6a189b858e5cac81528e277a9f9",
+    "bytes": 159441810,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  },
+  {
+    "path": "outputs/g0_closure_v0_5/closure_c_20260911T180932Z/representative_original.pt",
+    "sha256": "4cd12ca4dd55ffd4e4fa88587601fab5adbea21c1ddf7961ed32c0a8bb3ccf96",
+    "bytes": 9221660,
+    "storage": "Original task outputs plus corresponding Modal evidence volume; archives may be local-only"
+  }
+]

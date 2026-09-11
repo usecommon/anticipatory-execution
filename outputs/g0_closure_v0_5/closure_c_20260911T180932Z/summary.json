@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": 8427,
+  "failures": 0,
+  "natural_prefixes": 115,
+  "natural_texts": 12,
+  "actual_forwards": 410,
+  "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+  "wall_seconds": 358.32855439186096,
+  "max_cuda_allocated_bytes": 30784005632,
+  "confirmatory_extraction": false,
+  "development_extraction": false
+}

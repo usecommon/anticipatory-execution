@@ -1,0 +1,27 @@
+✓ Initialized. View run at 
+https://modal.com/apps/jeff-34667/main/ap-xGHAumuZny52vfTxmRQYwh
+✓ Created objects.
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/work/g0_v0_5/modal_closure_v0_5_2.py
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/work/g0_v0_5/original_harness.py
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/work/g0_v0_5/fixtures.json
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/work/g0_v0_5/pipeline.py
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/work/g0_v0_5/worker.py
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/work/g0_v0_5/extractor.py
+├── 🔨 Created function run.
+└── 🔨 Created function verify_checkpoint.
+Starting fresh-container closure: closure_c
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/jeff-34667/main/ap-xGHAumuZny52vfTxmRQYwh

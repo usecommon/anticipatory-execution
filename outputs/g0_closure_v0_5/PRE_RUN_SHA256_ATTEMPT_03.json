@@ -1,0 +1,10 @@
+{
+  "worker.py": "76731f5ff78b081b7c1d25b528efea658679635cec7fa9ea4b93741e69987356",
+  "modal_closure_v0_5_2.py": "9bea5bd8e4120a548010fb34b1012bed1c0797ba7960c0426073bec0af748f12",
+  "extractor.py": "f7b871a69dbb7aa165743f2e25f24680cb2d4118844135498cb1fb9a2ac22283",
+  "pipeline.py": "a17ad5acc77e26b4b5f40e0b5b2a6b6b3220dcc4bae2059b6345f2a655b5b690",
+  "fixtures.json": "da4cdecafd1f1f2a6db55e95409d39b1fa738fd03e0c4c930e2d033ea5686978",
+  "modal_closure_v0_5_1.py": "d21afec3a1253d4e8f27062d999b61ebffa0adc0bf626fcf938b316e265edfbc",
+  "modal_closure.py": "962d0a6f87a061cd3b22915320c7212c3d85f353710328bc74883db5dd0b4a73",
+  "original_harness.py": "42e3ac673044cb31038bcdc842eef8f70ba4335ec1e3b4ddf910c0319085d7e5"
+}

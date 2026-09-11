@@ -1,0 +1,8 @@
+{
+  "case": "bf16_math",
+  "counts": {
+    "PASS": 19,
+    "FAIL": 59
+  },
+  "complete": true
+}

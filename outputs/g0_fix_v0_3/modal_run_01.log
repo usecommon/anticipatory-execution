@@ -1,0 +1,19 @@
+✓ Initialized. View run at 
+https://modal.com/apps/jeff-34667/main/ap-CM5rdNP91pidOjba2DIbNx
+✓ Created objects.
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/work/fix_modal_v0_3.py
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/work/fix_worker_v0_3.py
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/work/canonical_g0_v0_3.py
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/work/aeb_g0_qwen_qa_harness.py
+└── 🔨 Created function validate.
+2026-09-11 13:18:02-04:00 Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/jeff-34667/main/ap-CM5rdNP91pidOjba2DIbNx

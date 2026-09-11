@@ -1,0 +1,54 @@
+{
+  "fixture_counts": [
+    {
+      "id": 0,
+      "tokens": 14
+    },
+    {
+      "id": 1,
+      "tokens": 15
+    },
+    {
+      "id": 2,
+      "tokens": 25
+    },
+    {
+      "id": 3,
+      "tokens": 21
+    },
+    {
+      "id": 4,
+      "tokens": 15
+    },
+    {
+      "id": 5,
+      "tokens": 11
+    },
+    {
+      "id": 6,
+      "tokens": 13
+    },
+    {
+      "id": 7,
+      "tokens": 11
+    },
+    {
+      "id": 8,
+      "tokens": 11
+    },
+    {
+      "id": 9,
+      "tokens": 15
+    },
+    {
+      "id": 10,
+      "tokens": 14
+    },
+    {
+      "id": 11,
+      "tokens": 17
+    }
+  ],
+  "scope": "QA-only; no development benchmark or confirmatory set was inspected",
+  "development_coverage": "UNKNOWN; first future development job must preflight and block on overflow"
+}

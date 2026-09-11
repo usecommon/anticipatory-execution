@@ -1,0 +1,212 @@
+[
+  {
+    "filename": "run_20260911T163140Z/original_harness_exit.json",
+    "type": "file",
+    "created_modified": "2026-09-11 12:38 EDT",
+    "size": "235 B"
+  },
+  {
+    "filename": "run_20260911T163140Z/original_harness.log",
+    "type": "file",
+    "created_modified": "2026-09-11 12:38 EDT",
+    "size": "2.7 KiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/original_harness_report.json",
+    "type": "file",
+    "created_modified": "2026-09-11 12:38 EDT",
+    "size": "11.5 KiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_reproduction.json",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "30.5 KiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_7_96.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "3.9 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_7_64.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "2.8 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_7_128.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "5.0 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_6_96.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "3.9 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_6_64.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "2.8 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_6_128.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "5.0 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_5_96.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "3.9 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_5_64.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "2.8 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_5_128.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "5.0 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_4_96.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "3.9 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_4_64.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "2.8 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_4_128.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "5.0 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_3_96.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "3.9 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_3_64.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "2.8 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_3_128.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "5.0 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_2_96.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "3.9 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_2_64.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "2.8 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_2_128.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "5.0 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_1_96.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "3.9 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_1_64.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "2.8 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_1_128.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "5.0 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_0_96.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "3.9 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_0_64.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "2.8 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/length_0_128.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "5.0 MiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/checks_incremental.json",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "28.7 KiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/qa_texts.json",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "519 B"
+  },
+  {
+    "filename": "run_20260911T163140Z/environment.json",
+    "type": "file",
+    "created_modified": "2026-09-11 12:37 EDT",
+    "size": "749 B"
+  },
+  {
+    "filename": "run_20260911T163140Z/worker.log",
+    "type": "file",
+    "created_modified": "2026-09-11 12:36 EDT",
+    "size": "290 B"
+  },
+  {
+    "filename": "run_20260911T163140Z/resolved_revision.json",
+    "type": "file",
+    "created_modified": "2026-09-11 12:31 EDT",
+    "size": "214 B"
+  },
+  {
+    "filename": "run_20260911T163140Z/pip_freeze.txt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:31 EDT",
+    "size": "1.0 KiB"
+  },
+  {
+    "filename": "run_20260911T163140Z/nvidia_smi.txt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:31 EDT",
+    "size": "1.6 KiB"
+  }
+]

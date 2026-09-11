@@ -1,0 +1,8 @@
+{
+  "case": "bf16_no_reduced",
+  "counts": {
+    "PASS": 19,
+    "FAIL": 59
+  },
+  "complete": true
+}

@@ -1,0 +1,6 @@
+{
+  "container_id": "ta-01M28THZAKJG1ZXPDKXBV0HD3R",
+  "stdout": "name, uuid, driver_version, memory.total [MiB]\nNVIDIA A100-SXM4-40GB, GPU-909ef40e-bd1c-94f5-d373-3e12e487c89f, 580.95.05, 40960 MiB\n",
+  "stderr": "",
+  "exit": 0
+}

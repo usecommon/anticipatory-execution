@@ -1,0 +1,6 @@
+{
+  "inspection_status": "container_already_finished",
+  "cli_exit": 1,
+  "reported_message": "Task has already finished with status success",
+  "interpretation": "Read-only progress inspection arrived after container completion; not a numerical QA result."
+}

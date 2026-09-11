@@ -1,0 +1,32 @@
+{
+  "gate": "G0",
+  "status": "FAIL",
+  "original_harness_status": "FAIL",
+  "original_counts": {
+    "PASS": 15,
+    "FAIL": 20,
+    "INFO": 5
+  },
+  "length_outside_tolerance": 80,
+  "length_total": 80,
+  "supplemental_counts": {
+    "PASS": 20,
+    "FAIL": 26
+  },
+  "worker_failure": null,
+  "execution": {
+    "run_id": "run_20260911T163140Z",
+    "exit": 0,
+    "wall_seconds": 399.22167229652405,
+    "gpu_request": "A10",
+    "gpu_timeout_seconds": 1800,
+    "retries": 0
+  },
+  "exact_historical_replay": false,
+  "confirmatory_extraction": false,
+  "all_finalized_artifact_checksums_verified": true,
+  "progression": "BLOCKED",
+  "alignment_mask_counts": {
+    "PASS": 4
+  }
+}

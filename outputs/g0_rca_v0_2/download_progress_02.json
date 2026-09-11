@@ -1,0 +1,134 @@
+[
+  {
+    "filename": ".cache/huggingface/download/model-00004-of-00004.safetensors.metadata",
+    "type": "file",
+    "created_modified": "2026-09-11 12:47 EDT",
+    "size": "125 B"
+  },
+  {
+    "filename": ".cache/huggingface/download/model-00004-of-00004.safetensors.lock",
+    "type": "file",
+    "created_modified": "2026-09-11 12:47 EDT",
+    "size": "0 B"
+  },
+  {
+    "filename": ".cache/huggingface/download/model-00002-of-00004.safetensors.metadata",
+    "type": "file",
+    "created_modified": "2026-09-11 12:46 EDT",
+    "size": "124 B"
+  },
+  {
+    "filename": ".cache/huggingface/download/model-00002-of-00004.safetensors.lock",
+    "type": "file",
+    "created_modified": "2026-09-11 12:46 EDT",
+    "size": "0 B"
+  },
+  {
+    "filename": ".cache/huggingface/download/vocab.json.metadata",
+    "type": "file",
+    "created_modified": "2026-09-11 12:46 EDT",
+    "size": "101 B"
+  },
+  {
+    "filename": ".cache/huggingface/download/vocab.json.lock",
+    "type": "file",
+    "created_modified": "2026-09-11 12:46 EDT",
+    "size": "0 B"
+  },
+  {
+    "filename": ".cache/huggingface/download/tokenizer_config.json.metadata",
+    "type": "file",
+    "created_modified": "2026-09-11 12:46 EDT",
+    "size": "101 B"
+  },
+  {
+    "filename": ".cache/huggingface/download/tokenizer_config.json.lock",
+    "type": "file",
+    "created_modified": "2026-09-11 12:46 EDT",
+    "size": "0 B"
+  },
+  {
+    "filename": ".cache/huggingface/download/tokenizer.json.metadata",
+    "type": "file",
+    "created_modified": "2026-09-11 12:46 EDT",
+    "size": "101 B"
+  },
+  {
+    "filename": ".cache/huggingface/download/tokenizer.json.lock",
+    "type": "file",
+    "created_modified": "2026-09-11 12:46 EDT",
+    "size": "0 B"
+  },
+  {
+    "filename": ".cache/huggingface/download/model.safetensors.index.json.metadata",
+    "type": "file",
+    "created_modified": "2026-09-11 12:46 EDT",
+    "size": "101 B"
+  },
+  {
+    "filename": ".cache/huggingface/download/model.safetensors.index.json.lock",
+    "type": "file",
+    "created_modified": "2026-09-11 12:46 EDT",
+    "size": "0 B"
+  },
+  {
+    "filename": ".cache/huggingface/download/model-00003-of-00004.safetensors.metadata",
+    "type": "file",
+    "created_modified": "2026-09-11 12:46 EDT",
+    "size": "125 B"
+  },
+  {
+    "filename": ".cache/huggingface/download/model-00003-of-00004.safetensors.lock",
+    "type": "file",
+    "created_modified": "2026-09-11 12:46 EDT",
+    "size": "0 B"
+  },
+  {
+    "filename": ".cache/huggingface/download/model-00001-of-00004.safetensors.lock",
+    "type": "file",
+    "created_modified": "2026-09-11 12:45 EDT",
+    "size": "0 B"
+  },
+  {
+    "filename": ".cache/huggingface/download/model-00001-of-00004.safetensors.a1333e6293854747c481288ea83b348226af178dd565c49b6f9495ba1966aba7.incomplete",
+    "type": "file",
+    "created_modified": "2026-09-11 12:45 EDT",
+    "size": "90.0 MiB"
+  },
+  {
+    "filename": ".cache/huggingface/download/merges.txt.metadata",
+    "type": "file",
+    "created_modified": "2026-09-11 12:45 EDT",
+    "size": "101 B"
+  },
+  {
+    "filename": ".cache/huggingface/download/merges.txt.lock",
+    "type": "file",
+    "created_modified": "2026-09-11 12:45 EDT",
+    "size": "0 B"
+  },
+  {
+    "filename": ".cache/huggingface/download/generation_config.json.metadata",
+    "type": "file",
+    "created_modified": "2026-09-11 12:45 EDT",
+    "size": "100 B"
+  },
+  {
+    "filename": ".cache/huggingface/download/generation_config.json.lock",
+    "type": "file",
+    "created_modified": "2026-09-11 12:45 EDT",
+    "size": "0 B"
+  },
+  {
+    "filename": ".cache/huggingface/download/config.json.metadata",
+    "type": "file",
+    "created_modified": "2026-09-11 12:45 EDT",
+    "size": "101 B"
+  },
+  {
+    "filename": ".cache/huggingface/download/config.json.lock",
+    "type": "file",
+    "created_modified": "2026-09-11 12:45 EDT",
+    "size": "0 B"
+  }
+]

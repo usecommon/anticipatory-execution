@@ -1,0 +1,17 @@
+{
+  "case": "fp32_eager",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "torch": "2.5.1+cu124",
+  "transformers": "4.45.2",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "dtype": "torch.float32",
+  "attention": "eager",
+  "workspace": ":4096:8",
+  "warn_only": false,
+  "bf16_reduced_precision_reduction": true,
+  "fp16_reduced_precision_reduction": true,
+  "tf32": false,
+  "seed": 1729,
+  "atol": 1e-05,
+  "rtol": 1e-05
+}

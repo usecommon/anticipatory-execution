@@ -1,0 +1,5343 @@
+{
+  "gate": "G0",
+  "status": "PASS",
+  "scope": "canonical-v0.5 only; active length 1..128; frozen Qwen commit and exact A100/FP32/eager configuration",
+  "checks": [
+    {
+      "name": "closure_a_download_hashes",
+      "status": "PASS",
+      "verified": 22,
+      "remote_only": 115
+    },
+    {
+      "name": "closure_a_suite",
+      "status": "PASS",
+      "summary": {
+        "status": "PASS",
+        "checks": 8427,
+        "failures": 0,
+        "natural_prefixes": 115,
+        "natural_texts": 12,
+        "actual_forwards": 410,
+        "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+        "wall_seconds": 357.3381609916687,
+        "max_cuda_allocated_bytes": 30784005632,
+        "confirmatory_extraction": false,
+        "development_extraction": false
+      }
+    },
+    {
+      "name": "closure_c_download_hashes",
+      "status": "PASS",
+      "verified": 23,
+      "remote_only": 115
+    },
+    {
+      "name": "closure_c_suite",
+      "status": "PASS",
+      "summary": {
+        "status": "PASS",
+        "checks": 8427,
+        "failures": 0,
+        "natural_prefixes": 115,
+        "natural_texts": 12,
+        "actual_forwards": 410,
+        "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+        "wall_seconds": 358.32855439186096,
+        "max_cuda_allocated_bytes": 30784005632,
+        "confirmatory_extraction": false,
+        "development_extraction": false
+      }
+    },
+    {
+      "name": "identical_contract",
+      "status": "PASS"
+    },
+    {
+      "name": "distinct_containers",
+      "status": "PASS",
+      "container_a": "ta-01M28SWA35FZ35ZQHNXBADQFDR",
+      "container_b": "ta-01M28THZAKJG1ZXPDKXBV0HD3R"
+    },
+    {
+      "name": "identical_case_set",
+      "status": "PASS",
+      "cases": 155
+    },
+    {
+      "name": "boundary_mixed_1_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_mixed_1_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_mixed_1_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_mixed_1_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_mixed_1_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_1_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_1_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_127_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_mixed_127_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_mixed_127_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_mixed_127_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_mixed_127_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_127_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_127_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_128_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_mixed_128_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_mixed_128_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_mixed_128_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_mixed_128_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_128_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_128_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_2_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_mixed_2_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_mixed_2_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_mixed_2_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_mixed_2_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_2_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_2_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_63_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_mixed_63_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_mixed_63_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_mixed_63_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_mixed_63_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_63_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_63_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_64_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_mixed_64_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_mixed_64_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_mixed_64_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_mixed_64_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_64_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_64_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_65_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_mixed_65_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_mixed_65_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_mixed_65_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_mixed_65_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_65_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_65_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_95_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_mixed_95_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_mixed_95_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_mixed_95_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_mixed_95_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_95_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_95_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_96_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_mixed_96_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_mixed_96_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_mixed_96_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_mixed_96_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_96_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_96_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_97_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_mixed_97_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_mixed_97_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_mixed_97_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_mixed_97_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_97_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_mixed_97_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_1_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_repeated_1_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_repeated_1_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_repeated_1_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_repeated_1_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_1_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_1_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_127_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_repeated_127_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_repeated_127_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_repeated_127_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_repeated_127_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_127_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_127_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_128_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_repeated_128_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_repeated_128_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_repeated_128_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_repeated_128_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_128_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_128_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_2_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_repeated_2_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_repeated_2_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_repeated_2_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_repeated_2_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_2_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_2_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_63_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_repeated_63_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_repeated_63_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_repeated_63_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_repeated_63_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_63_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_63_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_64_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_repeated_64_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_repeated_64_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_repeated_64_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_repeated_64_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_64_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_64_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_65_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_repeated_65_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_repeated_65_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_repeated_65_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_repeated_65_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_65_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_65_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_95_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_repeated_95_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_repeated_95_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_repeated_95_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_repeated_95_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_95_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_95_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_96_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_repeated_96_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_repeated_96_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_repeated_96_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_repeated_96_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_96_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_96_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_97_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_repeated_97_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "boundary_repeated_97_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_repeated_97_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "boundary_repeated_97_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_97_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "boundary_repeated_97_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_0_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_0_0_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_0_0_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_0_0_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_0_0_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_0_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_0_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_1_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_0_1_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_0_1_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_0_1_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_0_1_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_1_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_1_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_2_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_0_2_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_0_2_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_0_2_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_0_2_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_2_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_2_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_3_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_0_3_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_0_3_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_0_3_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_0_3_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_3_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_3_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_4_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_0_4_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_0_4_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_0_4_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_0_4_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_4_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_4_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_5_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_0_5_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_0_5_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_0_5_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_0_5_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_5_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_5_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_6_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_0_6_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_0_6_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_0_6_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_0_6_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_6_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_6_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_7_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_0_7_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_0_7_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_0_7_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_0_7_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_7_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_7_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_8_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_0_8_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_0_8_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_0_8_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_0_8_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_8_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_8_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_9_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_0_9_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_0_9_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_0_9_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_0_9_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_9_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_0_9_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_10_0_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_10_0_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_10_0_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_10_0_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_10_0_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_10_0_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_10_0_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_10_1_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_10_1_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_10_1_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_10_1_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_10_1_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_10_1_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_10_1_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_10_2_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_10_2_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_10_2_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_10_2_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_10_2_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_10_2_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_10_2_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_10_3_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_10_3_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_10_3_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_10_3_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_10_3_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_10_3_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_10_3_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_10_4_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_10_4_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_10_4_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_10_4_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_10_4_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_10_4_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_10_4_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_10_5_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_10_5_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_10_5_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_10_5_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_10_5_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_10_5_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_10_5_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_10_6_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_10_6_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_10_6_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_10_6_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_10_6_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_10_6_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_10_6_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_0_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_0_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_0_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_0_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_0_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_0_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_0_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_1_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_1_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_1_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_1_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_1_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_1_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_1_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_10_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_10_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_10_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_10_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_10_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_10_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_10_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_11_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_11_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_11_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_11_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_11_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_11_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_11_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_12_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_12_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_12_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_12_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_12_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_12_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_12_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_2_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_2_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_2_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_2_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_2_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_2_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_2_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_3_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_3_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_3_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_3_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_3_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_3_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_3_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_4_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_4_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_4_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_4_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_4_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_4_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_4_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_5_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_5_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_5_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_5_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_5_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_5_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_5_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_6_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_6_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_6_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_6_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_6_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_6_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_6_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_7_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_7_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_7_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_7_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_7_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_7_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_7_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_8_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_8_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_8_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_8_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_8_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_8_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_8_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_9_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_9_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_11_9_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_9_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_11_9_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_9_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_11_9_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_1_0_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_1_0_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_1_0_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_1_0_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_1_0_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_1_0_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_1_0_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_1_1_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_1_1_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_1_1_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_1_1_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_1_1_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_1_1_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_1_1_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_1_2_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_1_2_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_1_2_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_1_2_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_1_2_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_1_2_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_1_2_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_1_3_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_1_3_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_1_3_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_1_3_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_1_3_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_1_3_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_1_3_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_1_4_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_1_4_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_1_4_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_1_4_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_1_4_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_1_4_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_1_4_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_1_5_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_1_5_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_1_5_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_1_5_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_1_5_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_1_5_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_1_5_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_1_6_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_1_6_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_1_6_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_1_6_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_1_6_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_1_6_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_1_6_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_0_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_2_0_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_2_0_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_2_0_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_2_0_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_0_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_0_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_1_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_2_1_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_2_1_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_2_1_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_2_1_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_1_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_1_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_2_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_2_2_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_2_2_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_2_2_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_2_2_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_2_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_2_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_3_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_2_3_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_2_3_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_2_3_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_2_3_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_3_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_3_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_4_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_2_4_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_2_4_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_2_4_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_2_4_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_4_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_4_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_5_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_2_5_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_2_5_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_2_5_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_2_5_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_5_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_5_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_6_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_2_6_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_2_6_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_2_6_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_2_6_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_6_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_6_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_7_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_2_7_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_2_7_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_2_7_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_2_7_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_7_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_7_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_8_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_2_8_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_2_8_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_2_8_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_2_8_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_8_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_8_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_9_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_2_9_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_2_9_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_2_9_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_2_9_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_9_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_2_9_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_0_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_3_0_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_3_0_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_3_0_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_3_0_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_0_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_0_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_1_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_3_1_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_3_1_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_3_1_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_3_1_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_1_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_1_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_2_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_3_2_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_3_2_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_3_2_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_3_2_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_2_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_2_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_3_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_3_3_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_3_3_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_3_3_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_3_3_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_3_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_3_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_4_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_3_4_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_3_4_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_3_4_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_3_4_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_4_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_4_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_5_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_3_5_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_3_5_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_3_5_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_3_5_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_5_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_5_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_6_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_3_6_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_3_6_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_3_6_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_3_6_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_6_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_6_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_7_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_3_7_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_3_7_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_3_7_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_3_7_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_7_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_7_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_8_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_3_8_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_3_8_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_3_8_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_3_8_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_8_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_8_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_9_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_3_9_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_3_9_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_3_9_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_3_9_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_9_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_3_9_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_0_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_0_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_0_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_0_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_0_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_0_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_0_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_1_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_1_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_1_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_1_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_1_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_1_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_1_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_10_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_10_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_10_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_10_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_10_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_10_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_10_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_11_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_11_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_11_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_11_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_11_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_11_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_11_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_2_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_2_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_2_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_2_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_2_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_2_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_2_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_3_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_3_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_3_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_3_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_3_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_3_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_3_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_4_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_4_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_4_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_4_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_4_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_4_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_4_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_5_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_5_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_5_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_5_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_5_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_5_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_5_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_6_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_6_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_6_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_6_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_6_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_6_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_6_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_7_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_7_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_7_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_7_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_7_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_7_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_7_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_8_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_8_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_8_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_8_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_8_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_8_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_8_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_9_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_9_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_4_9_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_9_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_4_9_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_9_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_4_9_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_0_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_5_0_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_5_0_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_5_0_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_5_0_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_0_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_0_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_1_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_5_1_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_5_1_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_5_1_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_5_1_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_1_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_1_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_2_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_5_2_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_5_2_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_5_2_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_5_2_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_2_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_2_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_3_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_5_3_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_5_3_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_5_3_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_5_3_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_3_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_3_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_4_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_5_4_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_5_4_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_5_4_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_5_4_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_4_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_4_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_5_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_5_5_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_5_5_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_5_5_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_5_5_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_5_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_5_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_6_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_5_6_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_5_6_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_5_6_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_5_6_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_6_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_6_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_7_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_5_7_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_5_7_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_5_7_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_5_7_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_7_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_5_7_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_0_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_0_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_0_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_0_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_0_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_0_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_0_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_1_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_1_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_1_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_1_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_1_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_1_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_1_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_10_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_10_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_10_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_10_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_10_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_10_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_10_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_2_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_2_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_2_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_2_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_2_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_2_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_2_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_3_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_3_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_3_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_3_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_3_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_3_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_3_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_4_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_4_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_4_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_4_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_4_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_4_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_4_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_5_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_5_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_5_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_5_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_5_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_5_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_5_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_6_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_6_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_6_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_6_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_6_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_6_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_6_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_7_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_7_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_7_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_7_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_7_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_7_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_7_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_8_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_8_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_8_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_8_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_8_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_8_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_8_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_9_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_9_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_6_9_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_9_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_6_9_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_9_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_6_9_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_0_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_7_0_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_7_0_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_7_0_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_7_0_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_0_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_0_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_1_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_7_1_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_7_1_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_7_1_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_7_1_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_1_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_1_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_2_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_7_2_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_7_2_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_7_2_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_7_2_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_2_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_2_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_3_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_7_3_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_7_3_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_7_3_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_7_3_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_3_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_3_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_4_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_7_4_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_7_4_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_7_4_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_7_4_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_4_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_4_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_5_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_7_5_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_7_5_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_7_5_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_7_5_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_5_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_5_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_6_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_7_6_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_7_6_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_7_6_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_7_6_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_6_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_6_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_7_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_7_7_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_7_7_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_7_7_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_7_7_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_7_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_7_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_8_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_7_8_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_7_8_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_7_8_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_7_8_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_8_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_7_8_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_0_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_8_0_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_8_0_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_8_0_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_8_0_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_0_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_0_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_1_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_8_1_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_8_1_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_8_1_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_8_1_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_1_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_1_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_2_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_8_2_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_8_2_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_8_2_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_8_2_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_2_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_2_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_3_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_8_3_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_8_3_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_8_3_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_8_3_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_3_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_3_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_4_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_8_4_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_8_4_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_8_4_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_8_4_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_4_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_4_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_5_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_8_5_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_8_5_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_8_5_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_8_5_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_5_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_5_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_6_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_8_6_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_8_6_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_8_6_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_8_6_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_6_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_6_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_7_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_8_7_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_8_7_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_8_7_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_8_7_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_7_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_8_7_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_0_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_9_0_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_9_0_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_9_0_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_9_0_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_0_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_0_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_1_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_9_1_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_9_1_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_9_1_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_9_1_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_1_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_1_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_2_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_9_2_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_9_2_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_9_2_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_9_2_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_2_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_2_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_3_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_9_3_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_9_3_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_9_3_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_9_3_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_3_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_3_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_4_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_9_4_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_9_4_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_9_4_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_9_4_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_4_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_4_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_5_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_9_5_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_9_5_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_9_5_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_9_5_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_5_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_5_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_6_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_9_6_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_9_6_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_9_6_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_9_6_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_6_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_6_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_7_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_9_7_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_9_7_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_9_7_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_9_7_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_7_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_7_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_8_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_9_8_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_9_8_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_9_8_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_9_8_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_8_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_8_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_9_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_9_9_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_9_9_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_9_9_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_9_9_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_9_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_9_9_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_0_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_0_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_0_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_0_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_0_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_0_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_0_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_1_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_1_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_1_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_1_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_1_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_1_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_1_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_10_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_10_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_10_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_10_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_10_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_10_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_10_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_11_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_11_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_11_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_11_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_11_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_11_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_11_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_2_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_2_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_2_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_2_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_2_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_2_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_2_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_3_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_3_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_3_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_3_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_3_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_3_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_3_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_4_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_4_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_4_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_4_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_4_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_4_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_4_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_5_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_5_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_5_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_5_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_5_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_5_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_5_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_6_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_6_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_6_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_6_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_6_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_6_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_6_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_7_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_7_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_7_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_7_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_7_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_7_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_7_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_8_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_8_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_8_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_8_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_8_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_8_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_8_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_9_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_9_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "natural_full_9_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_9_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "natural_full_9_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_9_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "natural_full_9_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "original_0_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "original_0_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "original_0_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "original_0_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "original_0_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "original_0_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "original_0_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "original_1_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "original_1_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "original_1_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "original_1_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "original_1_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "original_1_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "original_1_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "original_2_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "original_2_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "original_2_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "original_2_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "original_2_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "original_2_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "original_2_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "original_3_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "original_3_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "original_3_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "original_3_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "original_3_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "original_3_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "original_3_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "original_4_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "original_4_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "original_4_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "original_4_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "original_4_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "original_4_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "original_4_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "original_5_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "original_5_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "original_5_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "original_5_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "original_5_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "original_5_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "original_5_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "original_6_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "original_6_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "original_6_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "original_6_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "original_6_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "original_6_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "original_6_position_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "original_7_hidden_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "original_7_logits_last",
+      "status": "PASS",
+      "bitwise_equal": true,
+      "max_abs": 0.0
+    },
+    {
+      "name": "original_7_hidden_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "original_7_logits_all_sha",
+      "status": "PASS",
+      "detail": "Full active-state digest equality. If unequal, do not infer allclose from last-state equality; full comparison remains required."
+    },
+    {
+      "name": "original_7_input_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "original_7_attention_mask",
+      "status": "PASS"
+    },
+    {
+      "name": "original_7_position_ids",
+      "status": "PASS"
+    }
+  ],
+  "cross_container_case_count": 155,
+  "failures": 0,
+  "G1": "PENDING",
+  "research_extraction_enabled": false,
+  "numerical_neutrality_claim": false
+}

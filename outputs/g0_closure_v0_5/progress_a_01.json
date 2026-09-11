@@ -1,0 +1,38 @@
+[
+  {
+    "filename": "closure_a_20260911T175740Z/representative_original.pt",
+    "type": "file",
+    "created_modified": "2026-09-11 13:59 EDT",
+    "size": "8.8 MiB"
+  },
+  {
+    "filename": "closure_a_20260911T175740Z/pip_freeze.txt",
+    "type": "file",
+    "created_modified": "2026-09-11 13:59 EDT",
+    "size": "1.0 KiB"
+  },
+  {
+    "filename": "closure_a_20260911T175740Z/nvidia_smi.txt",
+    "type": "file",
+    "created_modified": "2026-09-11 13:59 EDT",
+    "size": "1.6 KiB"
+  },
+  {
+    "filename": "closure_a_20260911T175740Z/identity.json",
+    "type": "file",
+    "created_modified": "2026-09-11 13:59 EDT",
+    "size": "2.8 KiB"
+  },
+  {
+    "filename": "closure_a_20260911T175740Z/environment.json",
+    "type": "file",
+    "created_modified": "2026-09-11 13:59 EDT",
+    "size": "831 B"
+  },
+  {
+    "filename": "closure_a_20260911T175740Z/contract.json",
+    "type": "file",
+    "created_modified": "2026-09-11 13:59 EDT",
+    "size": "1.7 KiB"
+  }
+]

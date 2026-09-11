@@ -1,0 +1,7 @@
+{
+  "status": "BLOCKED",
+  "error_type": "ContractError",
+  "error": "Invalid/duplicate item or unexpected future-information field",
+  "completed_items": 0,
+  "successful_manifest": false
+}

@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/src/worker.py", line 121, in <module>
+    try:main()
+        ^^^^^^
+  File "/src/worker.py", line 13, in main
+    start=time.time();x=load_extractor('/model',MANIFEST)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/src/extractor.py", line 94, in load_extractor
+    configure();root=Path(model_dir)
+    ^^^^^^^^^^^
+  File "/src/extractor.py", line 29, in configure
+    runtime_check()
+  File "/src/extractor.py", line 20, in runtime_check
+    if not torch.cuda.is_available() or torch.cuda.get_device_name(0)!=GPU:raise ContractError('Unvalidated GPU')
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+extractor.ContractError: Unvalidated GPU

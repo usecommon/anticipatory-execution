@@ -1,0 +1,68 @@
+[
+  {
+    "filename": ".cache",
+    "type": "dir",
+    "created_modified": "2026-09-11 12:45 EDT",
+    "size": "11 B"
+  },
+  {
+    "filename": "model-00004-of-00004.safetensors",
+    "type": "file",
+    "created_modified": "2026-09-11 12:47 EDT",
+    "size": "3.3 GiB"
+  },
+  {
+    "filename": "model-00002-of-00004.safetensors",
+    "type": "file",
+    "created_modified": "2026-09-11 12:46 EDT",
+    "size": "3.6 GiB"
+  },
+  {
+    "filename": "vocab.json",
+    "type": "file",
+    "created_modified": "2026-09-11 12:46 EDT",
+    "size": "2.6 MiB"
+  },
+  {
+    "filename": "tokenizer_config.json",
+    "type": "file",
+    "created_modified": "2026-09-11 12:46 EDT",
+    "size": "7.1 KiB"
+  },
+  {
+    "filename": "tokenizer.json",
+    "type": "file",
+    "created_modified": "2026-09-11 12:46 EDT",
+    "size": "6.7 MiB"
+  },
+  {
+    "filename": "model.safetensors.index.json",
+    "type": "file",
+    "created_modified": "2026-09-11 12:46 EDT",
+    "size": "27.1 KiB"
+  },
+  {
+    "filename": "model-00003-of-00004.safetensors",
+    "type": "file",
+    "created_modified": "2026-09-11 12:46 EDT",
+    "size": "3.6 GiB"
+  },
+  {
+    "filename": "merges.txt",
+    "type": "file",
+    "created_modified": "2026-09-11 12:45 EDT",
+    "size": "1.6 MiB"
+  },
+  {
+    "filename": "generation_config.json",
+    "type": "file",
+    "created_modified": "2026-09-11 12:45 EDT",
+    "size": "243 B"
+  },
+  {
+    "filename": "config.json",
+    "type": "file",
+    "created_modified": "2026-09-11 12:45 EDT",
+    "size": "663 B"
+  }
+]

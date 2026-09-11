@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": {
+    "original_harness.py": {
+      "pre_run_matches_execution": true,
+      "current_source_matches_execution": true
+    },
+    "extractor.py": {
+      "pre_run_matches_execution": true,
+      "current_source_matches_execution": true
+    },
+    "pipeline.py": {
+      "pre_run_matches_execution": true,
+      "current_source_matches_execution": true
+    },
+    "fixtures.json": {
+      "pre_run_matches_execution": true,
+      "current_source_matches_execution": true
+    },
+    "worker.py": {
+      "pre_run_matches_execution": true,
+      "current_source_matches_execution": true
+    }
+  }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "file": "CODEX_TRANSITION.md",
+    "match": true
+  },
+  {
+    "file": "README.md",
+    "match": true
+  },
+  {
+    "file": "aeb_execution_status_g0_g1.md",
+    "match": true
+  },
+  {
+    "file": "aeb_g0_qwen_qa_harness.py",
+    "match": true
+  },
+  {
+    "file": "aeb_g0_requirements.txt",
+    "match": true
+  },
+  {
+    "file": "aeb_g0_runbook.md",
+    "match": true
+  },
+  {
+    "file": "aeb_g1_annotation_pilot_200.xlsx",
+    "match": true
+  },
+  {
+    "file": "aeb_g1_annotation_rubric_v0_1.docx",
+    "match": true
+  },
+  {
+    "file": "aeb_g1_pilot_gold_key.jsonl",
+    "match": true
+  },
+  {
+    "file": "anticipatory_execution_preregistered_protocol_v0_1.docx",
+    "match": true
+  },
+  {
+    "file": "anticipatory_intent_literature_review_v0_3.docx",
+    "match": true
+  }
+]

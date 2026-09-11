@@ -1,0 +1,19 @@
+{
+  "gate": "G0",
+  "status": "FAIL",
+  "progression": "BLOCKED",
+  "rca_complete": true,
+  "cases_completed": 6,
+  "root_cause_evidence": "Shape-dependent BF16 Q projection isolated and matched to full-model activations; differences begin before attention.",
+  "limitations": "Exact low-level kernel mechanism unprofiled; not a complete G0 rerun; not all cache divergence uniquely attributed.",
+  "confirmed_controls_insufficient": [
+    "CuBLAS strict determinism",
+    "eager attention",
+    "forced math SDPA",
+    "BF16 reduced-precision reduction disabled",
+    "FP32 eager under existing tolerances"
+  ],
+  "confirmatory_extraction": false,
+  "thesis_changed": false,
+  "baseline_strict_all_metrics_identical": true
+}

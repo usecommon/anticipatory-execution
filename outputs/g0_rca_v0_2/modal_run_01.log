@@ -1,0 +1,44 @@
+✓ Initialized. View run at 
+https://modal.com/apps/jeff-34667/main/ap-9MReGpOBkBqsflun45Ztqi
+✓ Created objects.
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/work/rca_modal_v0_2.py
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/work/rca_worker_v0_2.py
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/work/aeb_g0_qwen_qa_harness.py
+├── 🔨 Created function prepare.
+└── 🔨 Created function investigate.
+2026-09-11 12:45:33-04:00 
+2026-09-11 12:45:33-04:00 [1AFetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]
+2026-09-11 12:45:53-04:00 
+2026-09-11 12:45:53-04:00 [1AFetching 11 files:  27%|██▋       | 3/11 [00:20<00:53,  6.67s/it]2026-09-11 12:46:42-04:00 
+2026-09-11 12:46:42-04:00 [1A2026-09-11 12:46:42-04:00 Fetching 11 files:  36%|███▋      | 4/11 [01:09<02:00, 17.26s/it]
+2026-09-11 12:46:42-04:00 [1AFetching 11 files:  55%|█████▍    | 6/11 [01:09<00:57, 11.53s/it]
+2026-09-11 12:46:43-04:00 
+2026-09-11 12:46:43-04:00 [1AFetching 11 files:  73%|███████▎  | 8/11 [01:09<00:26,  8.67s/it]
+2026-09-11 12:46:53-04:00 
+2026-09-11 12:46:53-04:00 [1A2026-09-11 12:46:53-04:00 Fetching 11 files:  73%|███████▎  | 8/11 [01:20<00:30, 10.00s/it]
+2026-09-11 12:46:53-04:00 [1AFetching 11 files:  82%|████████▏ | 9/11 [01:20<00:17,  8.91s/it]
+2026-09-11 12:47:08-04:00 
+2026-09-11 12:47:08-04:00 [1AFetching 11 files:  91%|█████████ | 10/11 [01:34<00:09,  9.43s/it]2026-09-11 12:50:28-04:00 
+2026-09-11 12:50:28-04:00 [1A2026-09-11 12:50:28-04:00 Fetching 11 files: 100%|██████████| 11/11 [04:54<00:00, 26.76s/it]
+2026-09-11 12:50:28-04:00 [1A2026-09-11 12:50:28-04:00 Fetching 11 files: 100%|██████████| 11/11 [04:54<00:00, 26.76s/it]
+2026-09-11 12:50:54-04:00 Starting baseline
+2026-09-11 12:51:33-04:00 {'case': 'baseline', 'exit': 0, 'seconds': 36.038641691207886}
+2026-09-11 12:51:33-04:00 Starting workspace_strict
+2026-09-11 12:51:59-04:00 {'case': 'workspace_strict', 'exit': 0, 'seconds': 25.068740844726562}
+2026-09-11 12:51:59-04:00 Starting bf16_eager
+2026-09-11 12:52:26-04:00 {'case': 'bf16_eager', 'exit': 0, 'seconds': 24.258110284805298}
+2026-09-11 12:52:26-04:00 Starting bf16_math
+2026-09-11 12:52:52-04:00 {'case': 'bf16_math', 'exit': 0, 'seconds': 23.388991117477417}
+2026-09-11 12:52:52-04:00 Starting bf16_no_reduced
+2026-09-11 12:53:19-04:00 {'case': 'bf16_no_reduced', 'exit': 0, 'seconds': 24.04816222190857}
+2026-09-11 12:53:19-04:00 Starting fp32_eager
+2026-09-11 12:54:05-04:00 {'case': 'fp32_eager', 'exit': 0, 'seconds': 43.91731595993042}
+2026-09-11 12:57:56-04:00 Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/jeff-34667/main/ap-9MReGpOBkBqsflun45Ztqi

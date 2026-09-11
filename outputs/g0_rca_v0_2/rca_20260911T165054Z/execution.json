@@ -1,0 +1,38 @@
+{
+  "run_id": "rca_20260911T165054Z",
+  "cases": [
+    {
+      "case": "baseline",
+      "exit": 0,
+      "seconds": 36.038641691207886
+    },
+    {
+      "case": "workspace_strict",
+      "exit": 0,
+      "seconds": 25.068740844726562
+    },
+    {
+      "case": "bf16_eager",
+      "exit": 0,
+      "seconds": 24.258110284805298
+    },
+    {
+      "case": "bf16_math",
+      "exit": 0,
+      "seconds": 23.388991117477417
+    },
+    {
+      "case": "bf16_no_reduced",
+      "exit": 0,
+      "seconds": 24.04816222190857
+    },
+    {
+      "case": "fp32_eager",
+      "exit": 0,
+      "seconds": 43.91731595993042
+    }
+  ],
+  "wall_seconds": 191.75522994995117,
+  "gpu": "A100-40GB",
+  "confirmatory": false
+}

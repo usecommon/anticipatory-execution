@@ -1,0 +1,40 @@
+{
+  "gate": "G0",
+  "status": "BLOCKED",
+  "checks": [
+    {
+      "name": "closure_a_download_hashes",
+      "status": "PASS",
+      "verified": 22,
+      "remote_only": 115
+    },
+    {
+      "name": "closure_a_suite",
+      "status": "PASS",
+      "summary": {
+        "status": "PASS",
+        "checks": 8427,
+        "failures": 0,
+        "natural_prefixes": 115,
+        "natural_texts": 12,
+        "actual_forwards": 410,
+        "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+        "wall_seconds": 357.3381609916687,
+        "max_cuda_allocated_bytes": 30784005632,
+        "confirmatory_extraction": false,
+        "development_extraction": false
+      }
+    },
+    {
+      "name": "closure_b_download_hashes",
+      "status": "PASS",
+      "verified": 5,
+      "remote_only": 0
+    },
+    {
+      "name": "closure_b_completion",
+      "status": "FAIL",
+      "detail": "Traceback (most recent call last):\n  File \"/src/worker.py\", line 121, in <module>\n    try:main()\n        ^^^^^^\n  File \"/src/worker.py\", line 13, in main\n    start=time.time();x=load_extractor('/model',MANIFEST)\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/src/extractor.py\", line 94, in load_extractor\n    configure();root=Path(model_dir)\n    ^^^^^^^^^^^\n  File \"/src/extractor.py\", line 29, in configure\n    runtime_check()\n  File \"/src/extractor.py\", line 20, in runtime_check\n    if not torch.cuda.is_available() or torch.cuda.get_device_name(0)!=GPU:raise ContractError('Unvalidated GPU')\n                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nextractor.ContractError: Unvalidated GPU\n"
+    }
+  ]
+}

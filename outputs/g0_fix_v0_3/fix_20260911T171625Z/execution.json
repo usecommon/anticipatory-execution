@@ -1,0 +1,8 @@
+{
+  "run_id": "fix_20260911T171625Z",
+  "exit": 0,
+  "wall_seconds": 70.20905447006226,
+  "gpu": "A100-40GB",
+  "retries": 0,
+  "timeout": 1200
+}

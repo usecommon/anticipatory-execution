@@ -1,0 +1,464 @@
+{
+  "baseline": {
+    "length_": {
+      "count": 10,
+      "fail": 10,
+      "max_abs": 2.0,
+      "max_relative_l2": 0.015760067475322145
+    },
+    "batch_": {
+      "count": 10,
+      "fail": 10,
+      "max_abs": 2.0,
+      "max_relative_l2": 0.015760067475322145
+    },
+    "cache_": {
+      "count": 6,
+      "fail": 6,
+      "max_abs": 3.4375,
+      "max_relative_l2": 0.0183078839606034
+    },
+    "repeat_": {
+      "count": 5,
+      "fail": 0,
+      "max_abs": 0.0,
+      "max_relative_l2": 0.0
+    },
+    "masked_content_": {
+      "count": 5,
+      "fail": 0,
+      "max_abs": 0.0,
+      "max_relative_l2": 0.0
+    },
+    "isolated_": {
+      "count": 2,
+      "fail": 1,
+      "max_abs": 0.015625,
+      "max_relative_l2": 3.0172271765396633e-05
+    },
+    "first_nonzero_length0": {
+      "name": "localize_length_0_model.layers.0.self_attn.q_proj",
+      "status": "FAIL",
+      "max_abs": 0.015625,
+      "mean_abs": 1.2487779486036743e-06,
+      "relative_l2": 3.0172271765396633e-05,
+      "unequal_elements": 33,
+      "elements": 32256
+    },
+    "first_nonzero_batch0": {
+      "name": "localize_batch_0_model.layers.0.self_attn.q_proj",
+      "status": "FAIL",
+      "max_abs": 0.015625,
+      "mean_abs": 1.2487779486036743e-06,
+      "relative_l2": 3.0172271765396633e-05,
+      "unequal_elements": 33,
+      "elements": 32256
+    },
+    "isolated_projection": [
+      {
+        "name": "isolated_qproj_native_shape",
+        "status": "FAIL",
+        "max_abs": 0.015625,
+        "mean_abs": 1.2487779486036743e-06,
+        "relative_l2": 3.0172271765396633e-05,
+        "unequal_elements": 33,
+        "elements": 32256
+      },
+      {
+        "name": "isolated_qproj_fp32_shape",
+        "status": "PASS",
+        "max_abs": 1.52587890625e-05,
+        "mean_abs": 1.4815520898991963e-07,
+        "relative_l2": 1.214428534340784e-07,
+        "unequal_elements": 26127,
+        "elements": 32256
+      }
+    ],
+    "complete": true
+  },
+  "workspace_strict": {
+    "length_": {
+      "count": 10,
+      "fail": 10,
+      "max_abs": 2.0,
+      "max_relative_l2": 0.015760067475322145
+    },
+    "batch_": {
+      "count": 10,
+      "fail": 10,
+      "max_abs": 2.0,
+      "max_relative_l2": 0.015760067475322145
+    },
+    "cache_": {
+      "count": 6,
+      "fail": 6,
+      "max_abs": 3.4375,
+      "max_relative_l2": 0.0183078839606034
+    },
+    "repeat_": {
+      "count": 5,
+      "fail": 0,
+      "max_abs": 0.0,
+      "max_relative_l2": 0.0
+    },
+    "masked_content_": {
+      "count": 5,
+      "fail": 0,
+      "max_abs": 0.0,
+      "max_relative_l2": 0.0
+    },
+    "isolated_": {
+      "count": 2,
+      "fail": 1,
+      "max_abs": 0.015625,
+      "max_relative_l2": 3.0172271765396633e-05
+    },
+    "first_nonzero_length0": {
+      "name": "localize_length_0_model.layers.0.self_attn.q_proj",
+      "status": "FAIL",
+      "max_abs": 0.015625,
+      "mean_abs": 1.2487779486036743e-06,
+      "relative_l2": 3.0172271765396633e-05,
+      "unequal_elements": 33,
+      "elements": 32256
+    },
+    "first_nonzero_batch0": {
+      "name": "localize_batch_0_model.layers.0.self_attn.q_proj",
+      "status": "FAIL",
+      "max_abs": 0.015625,
+      "mean_abs": 1.2487779486036743e-06,
+      "relative_l2": 3.0172271765396633e-05,
+      "unequal_elements": 33,
+      "elements": 32256
+    },
+    "isolated_projection": [
+      {
+        "name": "isolated_qproj_native_shape",
+        "status": "FAIL",
+        "max_abs": 0.015625,
+        "mean_abs": 1.2487779486036743e-06,
+        "relative_l2": 3.0172271765396633e-05,
+        "unequal_elements": 33,
+        "elements": 32256
+      },
+      {
+        "name": "isolated_qproj_fp32_shape",
+        "status": "PASS",
+        "max_abs": 1.52587890625e-05,
+        "mean_abs": 1.4815520898991963e-07,
+        "relative_l2": 1.214428534340784e-07,
+        "unequal_elements": 26127,
+        "elements": 32256
+      }
+    ],
+    "complete": true
+  },
+  "bf16_eager": {
+    "length_": {
+      "count": 10,
+      "fail": 10,
+      "max_abs": 16.0,
+      "max_relative_l2": 0.12370428159589926
+    },
+    "batch_": {
+      "count": 10,
+      "fail": 10,
+      "max_abs": 16.0,
+      "max_relative_l2": 0.12370428159589926
+    },
+    "cache_": {
+      "count": 6,
+      "fail": 6,
+      "max_abs": 13.5,
+      "max_relative_l2": 0.05348156698931319
+    },
+    "repeat_": {
+      "count": 5,
+      "fail": 0,
+      "max_abs": 0.0,
+      "max_relative_l2": 0.0
+    },
+    "masked_content_": {
+      "count": 5,
+      "fail": 0,
+      "max_abs": 0.0,
+      "max_relative_l2": 0.0
+    },
+    "isolated_": {
+      "count": 2,
+      "fail": 1,
+      "max_abs": 0.015625,
+      "max_relative_l2": 3.0172271765396633e-05
+    },
+    "first_nonzero_length0": {
+      "name": "localize_length_0_model.layers.0.self_attn.q_proj",
+      "status": "FAIL",
+      "max_abs": 0.015625,
+      "mean_abs": 1.2487779486036743e-06,
+      "relative_l2": 3.0172271765396633e-05,
+      "unequal_elements": 33,
+      "elements": 32256
+    },
+    "first_nonzero_batch0": {
+      "name": "localize_batch_0_model.layers.0.self_attn.q_proj",
+      "status": "FAIL",
+      "max_abs": 0.015625,
+      "mean_abs": 1.2487779486036743e-06,
+      "relative_l2": 3.0172271765396633e-05,
+      "unequal_elements": 33,
+      "elements": 32256
+    },
+    "isolated_projection": [
+      {
+        "name": "isolated_qproj_native_shape",
+        "status": "FAIL",
+        "max_abs": 0.015625,
+        "mean_abs": 1.2487779486036743e-06,
+        "relative_l2": 3.0172271765396633e-05,
+        "unequal_elements": 33,
+        "elements": 32256
+      },
+      {
+        "name": "isolated_qproj_fp32_shape",
+        "status": "PASS",
+        "max_abs": 1.52587890625e-05,
+        "mean_abs": 1.4815520898991963e-07,
+        "relative_l2": 1.214428534340784e-07,
+        "unequal_elements": 26127,
+        "elements": 32256
+      }
+    ],
+    "complete": true
+  },
+  "bf16_math": {
+    "length_": {
+      "count": 10,
+      "fail": 10,
+      "max_abs": 4.5,
+      "max_relative_l2": 0.022135631029734974
+    },
+    "batch_": {
+      "count": 10,
+      "fail": 10,
+      "max_abs": 4.5,
+      "max_relative_l2": 0.022135631029734974
+    },
+    "cache_": {
+      "count": 6,
+      "fail": 6,
+      "max_abs": 1.75,
+      "max_relative_l2": 0.014048938881881086
+    },
+    "repeat_": {
+      "count": 5,
+      "fail": 0,
+      "max_abs": 0.0,
+      "max_relative_l2": 0.0
+    },
+    "masked_content_": {
+      "count": 5,
+      "fail": 0,
+      "max_abs": 0.0,
+      "max_relative_l2": 0.0
+    },
+    "isolated_": {
+      "count": 2,
+      "fail": 1,
+      "max_abs": 0.015625,
+      "max_relative_l2": 3.0172271765396633e-05
+    },
+    "first_nonzero_length0": {
+      "name": "localize_length_0_model.layers.0.self_attn.q_proj",
+      "status": "FAIL",
+      "max_abs": 0.015625,
+      "mean_abs": 1.2487779486036743e-06,
+      "relative_l2": 3.0172271765396633e-05,
+      "unequal_elements": 33,
+      "elements": 32256
+    },
+    "first_nonzero_batch0": {
+      "name": "localize_batch_0_model.layers.0.self_attn.q_proj",
+      "status": "FAIL",
+      "max_abs": 0.015625,
+      "mean_abs": 1.2487779486036743e-06,
+      "relative_l2": 3.0172271765396633e-05,
+      "unequal_elements": 33,
+      "elements": 32256
+    },
+    "isolated_projection": [
+      {
+        "name": "isolated_qproj_native_shape",
+        "status": "FAIL",
+        "max_abs": 0.015625,
+        "mean_abs": 1.2487779486036743e-06,
+        "relative_l2": 3.0172271765396633e-05,
+        "unequal_elements": 33,
+        "elements": 32256
+      },
+      {
+        "name": "isolated_qproj_fp32_shape",
+        "status": "PASS",
+        "max_abs": 1.52587890625e-05,
+        "mean_abs": 1.4815520898991963e-07,
+        "relative_l2": 1.214428534340784e-07,
+        "unequal_elements": 26127,
+        "elements": 32256
+      }
+    ],
+    "complete": true
+  },
+  "bf16_no_reduced": {
+    "length_": {
+      "count": 10,
+      "fail": 10,
+      "max_abs": 1.0,
+      "max_relative_l2": 0.012399457121885706
+    },
+    "batch_": {
+      "count": 10,
+      "fail": 10,
+      "max_abs": 1.0,
+      "max_relative_l2": 0.012399457121885706
+    },
+    "cache_": {
+      "count": 6,
+      "fail": 6,
+      "max_abs": 3.5,
+      "max_relative_l2": 0.01162059541816079
+    },
+    "repeat_": {
+      "count": 5,
+      "fail": 0,
+      "max_abs": 0.0,
+      "max_relative_l2": 0.0
+    },
+    "masked_content_": {
+      "count": 5,
+      "fail": 0,
+      "max_abs": 0.0,
+      "max_relative_l2": 0.0
+    },
+    "isolated_": {
+      "count": 2,
+      "fail": 1,
+      "max_abs": 0.015625,
+      "max_relative_l2": 3.0172271765396633e-05
+    },
+    "first_nonzero_length0": {
+      "name": "localize_length_0_model.layers.0.self_attn.q_proj",
+      "status": "FAIL",
+      "max_abs": 0.015625,
+      "mean_abs": 1.2487779486036743e-06,
+      "relative_l2": 3.0172271765396633e-05,
+      "unequal_elements": 33,
+      "elements": 32256
+    },
+    "first_nonzero_batch0": {
+      "name": "localize_batch_0_model.layers.0.self_attn.q_proj",
+      "status": "FAIL",
+      "max_abs": 0.015625,
+      "mean_abs": 1.2487779486036743e-06,
+      "relative_l2": 3.0172271765396633e-05,
+      "unequal_elements": 33,
+      "elements": 32256
+    },
+    "isolated_projection": [
+      {
+        "name": "isolated_qproj_native_shape",
+        "status": "FAIL",
+        "max_abs": 0.015625,
+        "mean_abs": 1.2487779486036743e-06,
+        "relative_l2": 3.0172271765396633e-05,
+        "unequal_elements": 33,
+        "elements": 32256
+      },
+      {
+        "name": "isolated_qproj_fp32_shape",
+        "status": "PASS",
+        "max_abs": 1.52587890625e-05,
+        "mean_abs": 1.4815520898991963e-07,
+        "relative_l2": 1.214428534340784e-07,
+        "unequal_elements": 26127,
+        "elements": 32256
+      }
+    ],
+    "complete": true
+  },
+  "fp32_eager": {
+    "length_": {
+      "count": 10,
+      "fail": 8,
+      "max_abs": 0.000186920166015625,
+      "max_relative_l2": 6.292478253110694e-06
+    },
+    "batch_": {
+      "count": 10,
+      "fail": 8,
+      "max_abs": 0.000186920166015625,
+      "max_relative_l2": 6.292478253110694e-06
+    },
+    "cache_": {
+      "count": 6,
+      "fail": 3,
+      "max_abs": 0.0001983642578125,
+      "max_relative_l2": 1.9606183361165313e-06
+    },
+    "repeat_": {
+      "count": 5,
+      "fail": 0,
+      "max_abs": 0.0,
+      "max_relative_l2": 0.0
+    },
+    "masked_content_": {
+      "count": 5,
+      "fail": 0,
+      "max_abs": 0.0,
+      "max_relative_l2": 0.0
+    },
+    "isolated_": {
+      "count": 2,
+      "fail": 0,
+      "max_abs": 1.33514404296875e-05,
+      "max_relative_l2": 1.4286169909279634e-07
+    },
+    "first_nonzero_length0": {
+      "name": "localize_length_0_model.layers.0.self_attn.q_proj",
+      "status": "PASS",
+      "max_abs": 1.33514404296875e-05,
+      "mean_abs": 2.3131900661610416e-07,
+      "relative_l2": 1.4286169909279634e-07,
+      "unequal_elements": 28540,
+      "elements": 32256
+    },
+    "first_nonzero_batch0": {
+      "name": "localize_batch_0_model.layers.0.self_attn.q_proj",
+      "status": "PASS",
+      "max_abs": 1.33514404296875e-05,
+      "mean_abs": 2.3131900661610416e-07,
+      "relative_l2": 1.4286169909279634e-07,
+      "unequal_elements": 28540,
+      "elements": 32256
+    },
+    "isolated_projection": [
+      {
+        "name": "isolated_qproj_native_shape",
+        "status": "PASS",
+        "max_abs": 1.33514404296875e-05,
+        "mean_abs": 2.3131900661610416e-07,
+        "relative_l2": 1.4286169909279634e-07,
+        "unequal_elements": 28540,
+        "elements": 32256
+      },
+      {
+        "name": "isolated_qproj_fp32_shape",
+        "status": "PASS",
+        "max_abs": 1.33514404296875e-05,
+        "mean_abs": 2.3131900661610416e-07,
+        "relative_l2": 1.4286169909279634e-07,
+        "unequal_elements": 28540,
+        "elements": 32256
+      }
+    ],
+    "complete": true
+  }
+}

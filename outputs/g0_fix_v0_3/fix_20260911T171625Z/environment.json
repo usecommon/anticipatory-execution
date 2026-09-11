@@ -1,0 +1,23 @@
+{
+  "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "tokenizer_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "torch": "2.5.1+cu124",
+  "transformers": "4.45.2",
+  "cuda": "12.4",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "dtype": "torch.float32",
+  "attention": "eager",
+  "physical_shape": [
+    1,
+    128
+  ],
+  "mask": "explicit 4D additive causal and padding mask",
+  "positions": "explicit arange(128)",
+  "cache": false,
+  "workspace": ":4096:8",
+  "deterministic_warn_only": false,
+  "tf32": false,
+  "seed": 1729,
+  "atol": 1e-05,
+  "rtol": 1e-05
+}

@@ -1,0 +1,7 @@
+{
+  "status": "BLOCKED",
+  "error_type": "ContractError",
+  "error": "Only instrumentation QA is authorized; research extraction is blocked",
+  "completed_items": 0,
+  "successful_manifest": false
+}

@@ -1,0 +1,18 @@
+{
+  "canonical_shape": [
+    1,
+    128
+  ],
+  "mask_shape": [
+    1,
+    1,
+    128,
+    128
+  ],
+  "hidden_state_count": 29,
+  "masked_content_bitwise_equal_hidden": true,
+  "masked_content_bitwise_equal_logits": true,
+  "causal_extension_bitwise_equal_hidden": true,
+  "causal_extension_bitwise_equal_logits": true,
+  "real_extension_added_tokens": 3
+}

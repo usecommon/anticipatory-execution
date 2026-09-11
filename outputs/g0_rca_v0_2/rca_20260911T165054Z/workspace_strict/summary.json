@@ -1,0 +1,8 @@
+{
+  "case": "workspace_strict",
+  "counts": {
+    "PASS": 19,
+    "FAIL": 59
+  },
+  "complete": true
+}
