@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "sheets": {
+    "README": {
+      "changed_cells": 3,
+      "styles_validations_widths_merges_panes_preserved": true
+    },
+    "Ontology": {
+      "changed_cells": 0,
+      "styles_validations_widths_merges_panes_preserved": true
+    },
+    "Annotator_A": {
+      "changed_cells": 0,
+      "styles_validations_widths_merges_panes_preserved": true
+    },
+    "Annotator_B": {
+      "changed_cells": 0,
+      "styles_validations_widths_merges_panes_preserved": true
+    },
+    "Pilot_Composition": {
+      "changed_cells": 0,
+      "styles_validations_widths_merges_panes_preserved": true
+    },
+    "Adjudication": {
+      "changed_cells": 609,
+      "styles_validations_widths_merges_panes_preserved": true
+    }
+  },
+  "original_sha256": "63f2031293d21623abac89009d180bc0bf9f9b668d4e2b0cbfe554becf9d62ee",
+  "fixed_sha256": "5a621cac2f8b598e3e9fd70a191946722a5de3483a741905c4a6d102a80c642b",
+  "all_primary_labels_blank": true,
+  "engine": "artifact-tool; Excel application not executed"
+}

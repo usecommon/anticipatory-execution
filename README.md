@@ -8,6 +8,8 @@ For ChatGPT or Codex Cloud continuation, use the [detailed handoff and copy-read
 
 The additional full raw-evidence upload is currently **incomplete**; see [transfer status and recovery instructions](docs/GITHUB_EVIDENCE_RESTORE.md). All source/report material is available in Git, including `archive/work/`.
 
+Use the [corrected G1 annotation workbook](outputs/g1_workbook_fix_v0_2/aeb_g1_annotation_pilot_200_v0_2.xlsx) for labeling; see its [calculation changes and validation](outputs/g1_workbook_fix_v0_2/CHANGELOG.md). The original workbook remains preserved.
+
 ## Current state
 
 - **G0 PASS, scoped:** canonical-v0.5, frozen Qwen2.5-7B-Instruct, NVIDIA A100-SXM4-40GB, FP32 eager, physical shape [1,128], active length 1..128, serial prefixes, explicit positions/masks, cache off. Two fresh Modal containers passed 8,427 checks each; 155 cross-container cases matched bitwise.

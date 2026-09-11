@@ -1,0 +1,98 @@
+[
+  {
+    "name": "blank",
+    "ok": true,
+    "paired": 0,
+    "status": "PENDING",
+    "kappa": "",
+    "disagreements": 0
+  },
+  {
+    "name": "all_zero",
+    "ok": true,
+    "paired": 200,
+    "status": "DEGENERATE",
+    "kappa": "",
+    "disagreements": 0
+  },
+  {
+    "name": "perfect_balanced",
+    "ok": true,
+    "paired": 200,
+    "status": "MEETS THRESHOLD",
+    "kappa": 1,
+    "disagreements": 0
+  },
+  {
+    "name": "exact_threshold",
+    "ok": true,
+    "paired": 200,
+    "status": "MEETS THRESHOLD",
+    "kappa": 0.7,
+    "disagreements": 30
+  },
+  {
+    "name": "below_threshold",
+    "ok": true,
+    "paired": 200,
+    "status": "BELOW THRESHOLD",
+    "kappa": 0.6799999999999999,
+    "disagreements": 32
+  },
+  {
+    "name": "missing_one",
+    "ok": true,
+    "paired": 199,
+    "status": "PENDING",
+    "kappa": "",
+    "disagreements": 0
+  },
+  {
+    "name": "invalid_two",
+    "ok": true,
+    "paired": 199,
+    "status": "INVALID",
+    "kappa": "",
+    "disagreements": 0
+  },
+  {
+    "name": "invalid_boolean",
+    "ok": true,
+    "paired": 199,
+    "status": "INVALID",
+    "kappa": "",
+    "disagreements": 0
+  },
+  {
+    "name": "numeric_formula_requires_independent_checker",
+    "ok": true,
+    "paired": 200,
+    "status": "MEETS THRESHOLD",
+    "kappa": 1,
+    "disagreements": 0
+  },
+  {
+    "name": "reordered_rows",
+    "ok": true,
+    "paired": 200,
+    "status": "MEETS THRESHOLD",
+    "kappa": 1,
+    "disagreements": 0
+  },
+  {
+    "name": "duplicate_id",
+    "ok": true,
+    "paired": 198,
+    "status": "INVALID",
+    "kappa": "",
+    "disagreements": 0
+  },
+  {
+    "name": "final_blank",
+    "ok": true,
+    "paired": 0,
+    "status": "PENDING",
+    "kappa": "",
+    "disagreements": 0
+  }
+]
