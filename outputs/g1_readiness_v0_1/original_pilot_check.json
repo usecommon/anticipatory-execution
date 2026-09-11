@@ -1,0 +1,4029 @@
+{
+  "G1": "PENDING",
+  "expected_items": 200,
+  "completed_pairs": 0,
+  "missing_binary_labels": {
+    "A": [
+      "T001-P1",
+      "T001-P2",
+      "T001-P3",
+      "T001-P4",
+      "T002-P1",
+      "T002-P2",
+      "T002-P3",
+      "T002-P4",
+      "T003-P1",
+      "T003-P2",
+      "T003-P3",
+      "T003-P4",
+      "T004-P1",
+      "T004-P2",
+      "T004-P3",
+      "T004-P4",
+      "T005-P1",
+      "T005-P2",
+      "T005-P3",
+      "T005-P4",
+      "T006-P1",
+      "T006-P2",
+      "T006-P3",
+      "T006-P4",
+      "T007-P1",
+      "T007-P2",
+      "T007-P3",
+      "T007-P4",
+      "T008-P1",
+      "T008-P2",
+      "T008-P3",
+      "T008-P4",
+      "T009-P1",
+      "T009-P2",
+      "T009-P3",
+      "T009-P4",
+      "T010-P1",
+      "T010-P2",
+      "T010-P3",
+      "T010-P4",
+      "T011-P1",
+      "T011-P2",
+      "T011-P3",
+      "T011-P4",
+      "T012-P1",
+      "T012-P2",
+      "T012-P3",
+      "T012-P4",
+      "T013-P1",
+      "T013-P2",
+      "T013-P3",
+      "T013-P4",
+      "T014-P1",
+      "T014-P2",
+      "T014-P3",
+      "T014-P4",
+      "T015-P1",
+      "T015-P2",
+      "T015-P3",
+      "T015-P4",
+      "T016-P1",
+      "T016-P2",
+      "T016-P3",
+      "T016-P4",
+      "T017-P1",
+      "T017-P2",
+      "T017-P3",
+      "T017-P4",
+      "T018-P1",
+      "T018-P2",
+      "T018-P3",
+      "T018-P4",
+      "T019-P1",
+      "T019-P2",
+      "T019-P3",
+      "T019-P4",
+      "T020-P1",
+      "T020-P2",
+      "T020-P3",
+      "T020-P4",
+      "T021-P1",
+      "T021-P2",
+      "T021-P3",
+      "T021-P4",
+      "T022-P1",
+      "T022-P2",
+      "T022-P3",
+      "T022-P4",
+      "T023-P1",
+      "T023-P2",
+      "T023-P3",
+      "T023-P4",
+      "T024-P1",
+      "T024-P2",
+      "T024-P3",
+      "T024-P4",
+      "T025-P1",
+      "T025-P2",
+      "T025-P3",
+      "T025-P4",
+      "T026-P1",
+      "T026-P2",
+      "T026-P3",
+      "T026-P4",
+      "T027-P1",
+      "T027-P2",
+      "T027-P3",
+      "T027-P4",
+      "T028-P1",
+      "T028-P2",
+      "T028-P3",
+      "T028-P4",
+      "T029-P1",
+      "T029-P2",
+      "T029-P3",
+      "T029-P4",
+      "T030-P1",
+      "T030-P2",
+      "T030-P3",
+      "T030-P4",
+      "T031-P1",
+      "T031-P2",
+      "T031-P3",
+      "T031-P4",
+      "T032-P1",
+      "T032-P2",
+      "T032-P3",
+      "T032-P4",
+      "T033-P1",
+      "T033-P2",
+      "T033-P3",
+      "T033-P4",
+      "T034-P1",
+      "T034-P2",
+      "T034-P3",
+      "T034-P4",
+      "T035-P1",
+      "T035-P2",
+      "T035-P3",
+      "T035-P4",
+      "T036-P1",
+      "T036-P2",
+      "T036-P3",
+      "T036-P4",
+      "T037-P1",
+      "T037-P2",
+      "T037-P3",
+      "T037-P4",
+      "T038-P1",
+      "T038-P2",
+      "T038-P3",
+      "T038-P4",
+      "T039-P1",
+      "T039-P2",
+      "T039-P3",
+      "T039-P4",
+      "T040-P1",
+      "T040-P2",
+      "T040-P3",
+      "T040-P4",
+      "T041-P1",
+      "T041-P2",
+      "T041-P3",
+      "T041-P4",
+      "T042-P1",
+      "T042-P2",
+      "T042-P3",
+      "T042-P4",
+      "T043-P1",
+      "T043-P2",
+      "T043-P3",
+      "T043-P4",
+      "T044-P1",
+      "T044-P2",
+      "T044-P3",
+      "T044-P4",
+      "T045-P1",
+      "T045-P2",
+      "T045-P3",
+      "T045-P4",
+      "T046-P1",
+      "T046-P2",
+      "T046-P3",
+      "T046-P4",
+      "T047-P1",
+      "T047-P2",
+      "T047-P3",
+      "T047-P4",
+      "T048-P1",
+      "T048-P2",
+      "T048-P3",
+      "T048-P4",
+      "T049-P1",
+      "T049-P2",
+      "T049-P3",
+      "T049-P4",
+      "T050-P1",
+      "T050-P2",
+      "T050-P3",
+      "T050-P4"
+    ],
+    "B": [
+      "T001-P1",
+      "T001-P2",
+      "T001-P3",
+      "T001-P4",
+      "T002-P1",
+      "T002-P2",
+      "T002-P3",
+      "T002-P4",
+      "T003-P1",
+      "T003-P2",
+      "T003-P3",
+      "T003-P4",
+      "T004-P1",
+      "T004-P2",
+      "T004-P3",
+      "T004-P4",
+      "T005-P1",
+      "T005-P2",
+      "T005-P3",
+      "T005-P4",
+      "T006-P1",
+      "T006-P2",
+      "T006-P3",
+      "T006-P4",
+      "T007-P1",
+      "T007-P2",
+      "T007-P3",
+      "T007-P4",
+      "T008-P1",
+      "T008-P2",
+      "T008-P3",
+      "T008-P4",
+      "T009-P1",
+      "T009-P2",
+      "T009-P3",
+      "T009-P4",
+      "T010-P1",
+      "T010-P2",
+      "T010-P3",
+      "T010-P4",
+      "T011-P1",
+      "T011-P2",
+      "T011-P3",
+      "T011-P4",
+      "T012-P1",
+      "T012-P2",
+      "T012-P3",
+      "T012-P4",
+      "T013-P1",
+      "T013-P2",
+      "T013-P3",
+      "T013-P4",
+      "T014-P1",
+      "T014-P2",
+      "T014-P3",
+      "T014-P4",
+      "T015-P1",
+      "T015-P2",
+      "T015-P3",
+      "T015-P4",
+      "T016-P1",
+      "T016-P2",
+      "T016-P3",
+      "T016-P4",
+      "T017-P1",
+      "T017-P2",
+      "T017-P3",
+      "T017-P4",
+      "T018-P1",
+      "T018-P2",
+      "T018-P3",
+      "T018-P4",
+      "T019-P1",
+      "T019-P2",
+      "T019-P3",
+      "T019-P4",
+      "T020-P1",
+      "T020-P2",
+      "T020-P3",
+      "T020-P4",
+      "T021-P1",
+      "T021-P2",
+      "T021-P3",
+      "T021-P4",
+      "T022-P1",
+      "T022-P2",
+      "T022-P3",
+      "T022-P4",
+      "T023-P1",
+      "T023-P2",
+      "T023-P3",
+      "T023-P4",
+      "T024-P1",
+      "T024-P2",
+      "T024-P3",
+      "T024-P4",
+      "T025-P1",
+      "T025-P2",
+      "T025-P3",
+      "T025-P4",
+      "T026-P1",
+      "T026-P2",
+      "T026-P3",
+      "T026-P4",
+      "T027-P1",
+      "T027-P2",
+      "T027-P3",
+      "T027-P4",
+      "T028-P1",
+      "T028-P2",
+      "T028-P3",
+      "T028-P4",
+      "T029-P1",
+      "T029-P2",
+      "T029-P3",
+      "T029-P4",
+      "T030-P1",
+      "T030-P2",
+      "T030-P3",
+      "T030-P4",
+      "T031-P1",
+      "T031-P2",
+      "T031-P3",
+      "T031-P4",
+      "T032-P1",
+      "T032-P2",
+      "T032-P3",
+      "T032-P4",
+      "T033-P1",
+      "T033-P2",
+      "T033-P3",
+      "T033-P4",
+      "T034-P1",
+      "T034-P2",
+      "T034-P3",
+      "T034-P4",
+      "T035-P1",
+      "T035-P2",
+      "T035-P3",
+      "T035-P4",
+      "T036-P1",
+      "T036-P2",
+      "T036-P3",
+      "T036-P4",
+      "T037-P1",
+      "T037-P2",
+      "T037-P3",
+      "T037-P4",
+      "T038-P1",
+      "T038-P2",
+      "T038-P3",
+      "T038-P4",
+      "T039-P1",
+      "T039-P2",
+      "T039-P3",
+      "T039-P4",
+      "T040-P1",
+      "T040-P2",
+      "T040-P3",
+      "T040-P4",
+      "T041-P1",
+      "T041-P2",
+      "T041-P3",
+      "T041-P4",
+      "T042-P1",
+      "T042-P2",
+      "T042-P3",
+      "T042-P4",
+      "T043-P1",
+      "T043-P2",
+      "T043-P3",
+      "T043-P4",
+      "T044-P1",
+      "T044-P2",
+      "T044-P3",
+      "T044-P4",
+      "T045-P1",
+      "T045-P2",
+      "T045-P3",
+      "T045-P4",
+      "T046-P1",
+      "T046-P2",
+      "T046-P3",
+      "T046-P4",
+      "T047-P1",
+      "T047-P2",
+      "T047-P3",
+      "T047-P4",
+      "T048-P1",
+      "T048-P2",
+      "T048-P3",
+      "T048-P4",
+      "T049-P1",
+      "T049-P2",
+      "T049-P3",
+      "T049-P4",
+      "T050-P1",
+      "T050-P2",
+      "T050-P3",
+      "T050-P4"
+    ]
+  },
+  "missing_secondary_fields": {
+    "A": [
+      {
+        "item_id": "T001-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T001-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T001-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T001-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T002-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T002-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T002-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T002-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T003-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T003-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T003-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T003-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T004-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T004-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T004-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T004-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T005-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T005-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T005-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T005-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T006-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T006-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T006-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T006-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T007-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T007-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T007-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T007-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T008-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T008-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T008-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T008-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T009-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T009-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T009-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T009-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T010-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T010-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T010-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T010-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T011-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T011-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T011-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T011-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T012-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T012-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T012-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T012-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T013-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T013-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T013-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T013-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T014-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T014-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T014-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T014-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T015-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T015-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T015-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T015-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T016-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T016-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T016-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T016-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T017-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T017-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T017-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T017-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T018-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T018-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T018-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T018-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T019-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T019-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T019-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T019-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T020-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T020-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T020-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T020-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T021-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T021-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T021-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T021-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T022-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T022-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T022-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T022-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T023-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T023-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T023-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T023-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T024-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T024-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T024-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T024-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T025-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T025-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T025-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T025-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T026-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T026-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T026-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T026-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T027-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T027-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T027-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T027-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T028-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T028-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T028-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T028-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T029-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T029-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T029-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T029-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T030-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T030-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T030-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T030-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T031-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T031-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T031-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T031-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T032-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T032-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T032-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T032-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T033-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T033-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T033-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T033-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T034-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T034-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T034-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T034-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T035-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T035-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T035-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T035-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T036-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T036-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T036-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T036-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T037-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T037-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T037-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T037-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T038-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T038-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T038-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T038-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T039-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T039-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T039-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T039-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T040-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T040-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T040-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T040-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T041-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T041-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T041-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T041-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T042-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T042-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T042-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T042-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T043-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T043-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T043-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T043-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T044-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T044-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T044-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T044-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T045-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T045-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T045-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T045-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T046-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T046-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T046-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T046-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T047-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T047-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T047-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T047-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T048-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T048-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T048-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T048-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T049-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T049-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T049-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T049-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T050-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T050-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T050-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T050-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      }
+    ],
+    "B": [
+      {
+        "item_id": "T001-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T001-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T001-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T001-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T002-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T002-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T002-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T002-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T003-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T003-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T003-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T003-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T004-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T004-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T004-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T004-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T005-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T005-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T005-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T005-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T006-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T006-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T006-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T006-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T007-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T007-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T007-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T007-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T008-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T008-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T008-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T008-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T009-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T009-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T009-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T009-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T010-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T010-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T010-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T010-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T011-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T011-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T011-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T011-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T012-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T012-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T012-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T012-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T013-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T013-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T013-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T013-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T014-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T014-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T014-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T014-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T015-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T015-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T015-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T015-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T016-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T016-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T016-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T016-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T017-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T017-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T017-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T017-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T018-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T018-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T018-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T018-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T019-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T019-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T019-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T019-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T020-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T020-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T020-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T020-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T021-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T021-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T021-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T021-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T022-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T022-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T022-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T022-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T023-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T023-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T023-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T023-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T024-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T024-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T024-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T024-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T025-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T025-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T025-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T025-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T026-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T026-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T026-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T026-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T027-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T027-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T027-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T027-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T028-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T028-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T028-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T028-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T029-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T029-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T029-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T029-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T030-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T030-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T030-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T030-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T031-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T031-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T031-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T031-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T032-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T032-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T032-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T032-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T033-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T033-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T033-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T033-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T034-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T034-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T034-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T034-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T035-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T035-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T035-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T035-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T036-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T036-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T036-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T036-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T037-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T037-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T037-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T037-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T038-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T038-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T038-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T038-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T039-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T039-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T039-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T039-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T040-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T040-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T040-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T040-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T041-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T041-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T041-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T041-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T042-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T042-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T042-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T042-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T043-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T043-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T043-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T043-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T044-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T044-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T044-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T044-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T045-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T045-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T045-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T045-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T046-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T046-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T046-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T046-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T047-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T047-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T047-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T047-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T048-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T048-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T048-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T048-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T049-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T049-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T049-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T049-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T050-P1",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T050-P2",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T050-P3",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      },
+      {
+        "item_id": "T050-P4",
+        "fields": [
+          "fractional_utility_0_to_1",
+          "confidence_1_to_5",
+          "ambiguity_flag_Y_N",
+          "annotator_rationale"
+        ]
+      }
+    ]
+  },
+  "binary_reliability": "PENDING",
+  "kappa": null,
+  "independence_verified": false,
+  "third_party_adjudication_verified": false,
+  "development_extraction_authorized": false,
+  "confirmatory_extraction_authorized": false,
+  "reason": "All 200 independent label pairs are required; blanks are not zeros.",
+  "source_sha256": {
+    "reference": "63f2031293d21623abac89009d180bc0bf9f9b668d4e2b0cbfe554becf9d62ee",
+    "A": "63f2031293d21623abac89009d180bc0bf9f9b668d4e2b0cbfe554becf9d62ee",
+    "B": "63f2031293d21623abac89009d180bc0bf9f9b668d4e2b0cbfe554becf9d62ee"
+  }
+}
