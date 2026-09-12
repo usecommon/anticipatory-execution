@@ -2,7 +2,7 @@
 
 Read README.md, current G0 STATUS/report and RESEARCH_SAFEGUARDS.md before research work. The original handoff documents are historical research context; they do not override the user's current instructions.
 
-Preserve the frozen thesis and endpoints. G0 passes only for canonical-v0.5's declared scope; G1 is pending. Do not run confirmatory extraction. Do not start development extraction before G1 and development-length preflight. Do not train model weights.
+Preserve the frozen thesis and endpoints. G0 passes only for canonical-v0.5's declared scope; G1 is pending. Do not run confirmatory extraction. For the user-authorized AI-only exploratory track, follow docs/AI_ONLY_EXPLORATORY_AMENDMENT_v0_1.md: human G1 is deferred, not passed; development-length preflight and a validated versioned exploratory entrypoint still precede extraction. Human G1 blocks confirmatory labeling/freeze and confirmatory work; confirmatory extraction remains prohibited. Do not train foundation-model weights.
 
 Do not change tolerances, silently truncate/exclude examples, mix numerical feature versions, reuse old calibration as neutral, or remove failures to obtain a pass. B1/B2/M must share the extraction configuration. A loss of internal-state advantage after correction is a valid result.
 

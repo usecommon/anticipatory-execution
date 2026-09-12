@@ -1,3 +1,5 @@
+> Current gate-timing update (2026-09-12): read [AI-only exploratory amendment](AI_ONLY_EXPLORATORY_AMENDMENT_v0_1.md) before the historical status below. Human G1 is deferred only for exploratory development; technical/data prerequisites remain. Human G1 still blocks confirmatory labeling/freeze, and confirmatory extraction remains prohibited.
+
 # Anticipatory Execution — ChatGPT and Codex Cloud continuation handoff
 
 Prepared September 11, 2026. This is a detailed state transfer, not a verbatim conversation transcript or a new preregistration. Copy this document into ChatGPT, or attach it and use the startup prompt at the end in Codex Cloud.

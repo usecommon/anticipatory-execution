@@ -38,7 +38,7 @@ The [fresh AI judge of the 220 review cases](outputs/checkpoint_ai_judge_v0_1/RE
 
 - **G0 PASS, scoped:** canonical-v0.5, frozen Qwen2.5-7B-Instruct, NVIDIA A100-SXM4-40GB, FP32 eager, physical shape [1,128], active length 1..128, serial prefixes, explicit positions/masks, cache off. Two fresh Modal containers passed 8,427 checks each; 155 cross-container cases matched bitwise.
 - **G1 PENDING:** two independent annotators and prescribed agreement/adjudication are still required.
-- **Stage 1 BLOCKED. No confirmatory extraction.** The executable permits QA only.
+- **AI-only exploratory preparation AUTHORIZED:** see the [temporary gate-timing amendment](docs/AI_ONLY_EXPLORATORY_AMENDMENT_v0_1.md). Human G1 is deferred for this separate track, not passed. Extraction still needs length/data preflight and a validated versioned entrypoint; the preserved executable permits QA only. Human G1 blocks confirmatory labeling/freeze. **No confirmatory extraction.**
 - Corrections are **not presumed numerically neutral**. Historical failures remain failures. Changes may reduce or eliminate the apparent internal-state advantage.
 
 Start with [closure report](outputs/g0_closure_v0_5/G0_CLOSURE_REPORT.md), [research safeguards](outputs/g0_closure_v0_5/RESEARCH_SAFEGUARDS.md), and [runbook](outputs/g0_closure_v0_5/RUNBOOK.md). Machine-readable current status: [STATUS.json](outputs/g0_closure_v0_5/STATUS.json).
