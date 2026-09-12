@@ -1,0 +1,369 @@
+{
+  "source_tasks": 50,
+  "historical_items": 200,
+  "observations": 703,
+  "distinct_prefix_texts": 666,
+  "literal_prefix_failures": 0,
+  "nested_sequence_failures": 0,
+  "word_boundary_failures": 0,
+  "source_unchanged": true,
+  "full_instruction_matches_at_last_boundary": 50,
+  "prefix_input_keys": [
+    "observation_id",
+    "prefix"
+  ],
+  "model_token_lengths_measured": false,
+  "model_inference": false,
+  "per_task": [
+    {
+      "task_id": "T001",
+      "word_boundary_observations": 14,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T002",
+      "word_boundary_observations": 14,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T003",
+      "word_boundary_observations": 19,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T004",
+      "word_boundary_observations": 16,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T005",
+      "word_boundary_observations": 16,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T006",
+      "word_boundary_observations": 16,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T007",
+      "word_boundary_observations": 13,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T008",
+      "word_boundary_observations": 10,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T009",
+      "word_boundary_observations": 19,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T010",
+      "word_boundary_observations": 13,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T011",
+      "word_boundary_observations": 12,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T012",
+      "word_boundary_observations": 19,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T013",
+      "word_boundary_observations": 15,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T014",
+      "word_boundary_observations": 11,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T015",
+      "word_boundary_observations": 14,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T016",
+      "word_boundary_observations": 13,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T017",
+      "word_boundary_observations": 12,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T018",
+      "word_boundary_observations": 20,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T019",
+      "word_boundary_observations": 15,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T020",
+      "word_boundary_observations": 12,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T021",
+      "word_boundary_observations": 16,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T022",
+      "word_boundary_observations": 13,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T023",
+      "word_boundary_observations": 15,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T024",
+      "word_boundary_observations": 14,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T025",
+      "word_boundary_observations": 14,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T026",
+      "word_boundary_observations": 17,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T027",
+      "word_boundary_observations": 15,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T028",
+      "word_boundary_observations": 14,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T029",
+      "word_boundary_observations": 15,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T030",
+      "word_boundary_observations": 18,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T031",
+      "word_boundary_observations": 19,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T032",
+      "word_boundary_observations": 17,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T033",
+      "word_boundary_observations": 11,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T034",
+      "word_boundary_observations": 13,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T035",
+      "word_boundary_observations": 15,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T036",
+      "word_boundary_observations": 9,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T037",
+      "word_boundary_observations": 11,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T038",
+      "word_boundary_observations": 12,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T039",
+      "word_boundary_observations": 12,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T040",
+      "word_boundary_observations": 13,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T041",
+      "word_boundary_observations": 17,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T042",
+      "word_boundary_observations": 11,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T043",
+      "word_boundary_observations": 9,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T044",
+      "word_boundary_observations": 11,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T045",
+      "word_boundary_observations": 11,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T046",
+      "word_boundary_observations": 14,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T047",
+      "word_boundary_observations": 13,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T048",
+      "word_boundary_observations": 13,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T049",
+      "word_boundary_observations": 10,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    },
+    {
+      "task_id": "T050",
+      "word_boundary_observations": 18,
+      "all_prefixes_literal": true,
+      "strictly_nested": true,
+      "last_observation_equals_full_instruction": true
+    }
+  ]
+}

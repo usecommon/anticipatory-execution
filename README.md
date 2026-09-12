@@ -12,9 +12,13 @@ Use the [corrected G1 annotation workbook](outputs/g1_workbook_fix_v0_2/aeb_g1_a
 
 The [public dataset audit](outputs/public_dataset_audit_v0_1/AUDIT.md) identifies reusable task sources and potential executable supervision; it does not waive G1 or change the protocol.
 
+The owner's [public-data and result-sensitivity requirement](docs/PUBLIC_DATA_AND_RESULT_SENSITIVITY.md) requires exact public source versions, traceable transformations and reproducible evaluation artifacts. Dataset changes may alter or reverse results. The current 50-task pilot candidate has unverified public provenance and remains diagnostic only.
+
 The [200-item AI annotation trial](outputs/g1_ai_trial_v0_1/TRIAL_REPORT.md) is rubric-diagnostic work only. It does not close G1; keep its labels away from independent annotators until their submissions are preserved.
 
 The [three-agent annotation and judgment study](outputs/g1_team_v0_1/TEAM_REPORT.md) preserves 600 AI ratings, original agreement and 26 unresolved judgments. High AI agreement does not close human G1 or establish dataset validity.
+
+The [literal-prefix dataset candidate](outputs/prefix_dataset_candidate_v0_1/README.md) reconstructs 703 word-boundary observations from the 50 exposed pilot tasks. It has no new actions or labels and does not change the research gates.
 
 ## Current state
 

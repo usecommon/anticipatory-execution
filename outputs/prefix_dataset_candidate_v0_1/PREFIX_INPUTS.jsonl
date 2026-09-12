@@ -1,0 +1,703 @@
+{"observation_id": "pc1-T001-w001", "prefix": "Find"}
+{"observation_id": "pc1-T001-w002", "prefix": "Find flights"}
+{"observation_id": "pc1-T001-w003", "prefix": "Find flights from"}
+{"observation_id": "pc1-T001-w004", "prefix": "Find flights from Boston"}
+{"observation_id": "pc1-T001-w005", "prefix": "Find flights from Boston to"}
+{"observation_id": "pc1-T001-w006", "prefix": "Find flights from Boston to Tokyo"}
+{"observation_id": "pc1-T001-w007", "prefix": "Find flights from Boston to Tokyo next"}
+{"observation_id": "pc1-T001-w008", "prefix": "Find flights from Boston to Tokyo next month,"}
+{"observation_id": "pc1-T001-w009", "prefix": "Find flights from Boston to Tokyo next month, business"}
+{"observation_id": "pc1-T001-w010", "prefix": "Find flights from Boston to Tokyo next month, business class,"}
+{"observation_id": "pc1-T001-w011", "prefix": "Find flights from Boston to Tokyo next month, business class, using"}
+{"observation_id": "pc1-T001-w012", "prefix": "Find flights from Boston to Tokyo next month, business class, using points"}
+{"observation_id": "pc1-T001-w013", "prefix": "Find flights from Boston to Tokyo next month, business class, using points if"}
+{"observation_id": "pc1-T001-w014", "prefix": "Find flights from Boston to Tokyo next month, business class, using points if available."}
+{"observation_id": "pc1-T002-w001", "prefix": "Find"}
+{"observation_id": "pc1-T002-w002", "prefix": "Find a"}
+{"observation_id": "pc1-T002-w003", "prefix": "Find a hotel"}
+{"observation_id": "pc1-T002-w004", "prefix": "Find a hotel near"}
+{"observation_id": "pc1-T002-w005", "prefix": "Find a hotel near Shinjuku"}
+{"observation_id": "pc1-T002-w006", "prefix": "Find a hotel near Shinjuku Station"}
+{"observation_id": "pc1-T002-w007", "prefix": "Find a hotel near Shinjuku Station for"}
+{"observation_id": "pc1-T002-w008", "prefix": "Find a hotel near Shinjuku Station for three"}
+{"observation_id": "pc1-T002-w009", "prefix": "Find a hotel near Shinjuku Station for three nights,"}
+{"observation_id": "pc1-T002-w010", "prefix": "Find a hotel near Shinjuku Station for three nights, but"}
+{"observation_id": "pc1-T002-w011", "prefix": "Find a hotel near Shinjuku Station for three nights, but not"}
+{"observation_id": "pc1-T002-w012", "prefix": "Find a hotel near Shinjuku Station for three nights, but not a"}
+{"observation_id": "pc1-T002-w013", "prefix": "Find a hotel near Shinjuku Station for three nights, but not a capsule"}
+{"observation_id": "pc1-T002-w014", "prefix": "Find a hotel near Shinjuku Station for three nights, but not a capsule hotel."}
+{"observation_id": "pc1-T003-w001", "prefix": "Plan"}
+{"observation_id": "pc1-T003-w002", "prefix": "Plan a"}
+{"observation_id": "pc1-T003-w003", "prefix": "Plan a rental"}
+{"observation_id": "pc1-T003-w004", "prefix": "Plan a rental car"}
+{"observation_id": "pc1-T003-w005", "prefix": "Plan a rental car at"}
+{"observation_id": "pc1-T003-w006", "prefix": "Plan a rental car at JFK"}
+{"observation_id": "pc1-T003-w007", "prefix": "Plan a rental car at JFK for"}
+{"observation_id": "pc1-T003-w008", "prefix": "Plan a rental car at JFK for Friday,"}
+{"observation_id": "pc1-T003-w009", "prefix": "Plan a rental car at JFK for Friday, then"}
+{"observation_id": "pc1-T003-w010", "prefix": "Plan a rental car at JFK for Friday, then actually"}
+{"observation_id": "pc1-T003-w011", "prefix": "Plan a rental car at JFK for Friday, then actually switch"}
+{"observation_id": "pc1-T003-w012", "prefix": "Plan a rental car at JFK for Friday, then actually switch it"}
+{"observation_id": "pc1-T003-w013", "prefix": "Plan a rental car at JFK for Friday, then actually switch it to"}
+{"observation_id": "pc1-T003-w014", "prefix": "Plan a rental car at JFK for Friday, then actually switch it to Newark"}
+{"observation_id": "pc1-T003-w015", "prefix": "Plan a rental car at JFK for Friday, then actually switch it to Newark because"}
+{"observation_id": "pc1-T003-w016", "prefix": "Plan a rental car at JFK for Friday, then actually switch it to Newark because my"}
+{"observation_id": "pc1-T003-w017", "prefix": "Plan a rental car at JFK for Friday, then actually switch it to Newark because my arrival"}
+{"observation_id": "pc1-T003-w018", "prefix": "Plan a rental car at JFK for Friday, then actually switch it to Newark because my arrival airport"}
+{"observation_id": "pc1-T003-w019", "prefix": "Plan a rental car at JFK for Friday, then actually switch it to Newark because my arrival airport changed."}
+{"observation_id": "pc1-T004-w001", "prefix": "Find"}
+{"observation_id": "pc1-T004-w002", "prefix": "Find a"}
+{"observation_id": "pc1-T004-w003", "prefix": "Find a nonstop"}
+{"observation_id": "pc1-T004-w004", "prefix": "Find a nonstop flight"}
+{"observation_id": "pc1-T004-w005", "prefix": "Find a nonstop flight to"}
+{"observation_id": "pc1-T004-w006", "prefix": "Find a nonstop flight to Chicago,"}
+{"observation_id": "pc1-T004-w007", "prefix": "Find a nonstop flight to Chicago, unless"}
+{"observation_id": "pc1-T004-w008", "prefix": "Find a nonstop flight to Chicago, unless nonstop"}
+{"observation_id": "pc1-T004-w009", "prefix": "Find a nonstop flight to Chicago, unless nonstop is"}
+{"observation_id": "pc1-T004-w010", "prefix": "Find a nonstop flight to Chicago, unless nonstop is over"}
+{"observation_id": "pc1-T004-w011", "prefix": "Find a nonstop flight to Chicago, unless nonstop is over $200"}
+{"observation_id": "pc1-T004-w012", "prefix": "Find a nonstop flight to Chicago, unless nonstop is over $200 more,"}
+{"observation_id": "pc1-T004-w013", "prefix": "Find a nonstop flight to Chicago, unless nonstop is over $200 more, then"}
+{"observation_id": "pc1-T004-w014", "prefix": "Find a nonstop flight to Chicago, unless nonstop is over $200 more, then allow"}
+{"observation_id": "pc1-T004-w015", "prefix": "Find a nonstop flight to Chicago, unless nonstop is over $200 more, then allow one"}
+{"observation_id": "pc1-T004-w016", "prefix": "Find a nonstop flight to Chicago, unless nonstop is over $200 more, then allow one stop."}
+{"observation_id": "pc1-T005-w001", "prefix": "Find"}
+{"observation_id": "pc1-T005-w002", "prefix": "Find an"}
+{"observation_id": "pc1-T005-w003", "prefix": "Find an Italian"}
+{"observation_id": "pc1-T005-w004", "prefix": "Find an Italian restaurant"}
+{"observation_id": "pc1-T005-w005", "prefix": "Find an Italian restaurant near"}
+{"observation_id": "pc1-T005-w006", "prefix": "Find an Italian restaurant near my"}
+{"observation_id": "pc1-T005-w007", "prefix": "Find an Italian restaurant near my hotel"}
+{"observation_id": "pc1-T005-w008", "prefix": "Find an Italian restaurant near my hotel for"}
+{"observation_id": "pc1-T005-w009", "prefix": "Find an Italian restaurant near my hotel for dinner,"}
+{"observation_id": "pc1-T005-w010", "prefix": "Find an Italian restaurant near my hotel for dinner, but"}
+{"observation_id": "pc1-T005-w011", "prefix": "Find an Italian restaurant near my hotel for dinner, but I"}
+{"observation_id": "pc1-T005-w012", "prefix": "Find an Italian restaurant near my hotel for dinner, but I need"}
+{"observation_id": "pc1-T005-w013", "prefix": "Find an Italian restaurant near my hotel for dinner, but I need one"}
+{"observation_id": "pc1-T005-w014", "prefix": "Find an Italian restaurant near my hotel for dinner, but I need one with"}
+{"observation_id": "pc1-T005-w015", "prefix": "Find an Italian restaurant near my hotel for dinner, but I need one with outdoor"}
+{"observation_id": "pc1-T005-w016", "prefix": "Find an Italian restaurant near my hotel for dinner, but I need one with outdoor seating."}
+{"observation_id": "pc1-T006-w001", "prefix": "Find"}
+{"observation_id": "pc1-T006-w002", "prefix": "Find a"}
+{"observation_id": "pc1-T006-w003", "prefix": "Find a coffee"}
+{"observation_id": "pc1-T006-w004", "prefix": "Find a coffee shop"}
+{"observation_id": "pc1-T006-w005", "prefix": "Find a coffee shop open"}
+{"observation_id": "pc1-T006-w006", "prefix": "Find a coffee shop open early"}
+{"observation_id": "pc1-T006-w007", "prefix": "Find a coffee shop open early tomorrow;"}
+{"observation_id": "pc1-T006-w008", "prefix": "Find a coffee shop open early tomorrow; actually"}
+{"observation_id": "pc1-T006-w009", "prefix": "Find a coffee shop open early tomorrow; actually I"}
+{"observation_id": "pc1-T006-w010", "prefix": "Find a coffee shop open early tomorrow; actually I need"}
+{"observation_id": "pc1-T006-w011", "prefix": "Find a coffee shop open early tomorrow; actually I need a"}
+{"observation_id": "pc1-T006-w012", "prefix": "Find a coffee shop open early tomorrow; actually I need a bakery"}
+{"observation_id": "pc1-T006-w013", "prefix": "Find a coffee shop open early tomorrow; actually I need a bakery that"}
+{"observation_id": "pc1-T006-w014", "prefix": "Find a coffee shop open early tomorrow; actually I need a bakery that also"}
+{"observation_id": "pc1-T006-w015", "prefix": "Find a coffee shop open early tomorrow; actually I need a bakery that also serves"}
+{"observation_id": "pc1-T006-w016", "prefix": "Find a coffee shop open early tomorrow; actually I need a bakery that also serves coffee."}
+{"observation_id": "pc1-T007-w001", "prefix": "Find"}
+{"observation_id": "pc1-T007-w002", "prefix": "Find a"}
+{"observation_id": "pc1-T007-w003", "prefix": "Find a gym"}
+{"observation_id": "pc1-T007-w004", "prefix": "Find a gym nearby"}
+{"observation_id": "pc1-T007-w005", "prefix": "Find a gym nearby with"}
+{"observation_id": "pc1-T007-w006", "prefix": "Find a gym nearby with a"}
+{"observation_id": "pc1-T007-w007", "prefix": "Find a gym nearby with a day"}
+{"observation_id": "pc1-T007-w008", "prefix": "Find a gym nearby with a day pass,"}
+{"observation_id": "pc1-T007-w009", "prefix": "Find a gym nearby with a day pass, preferably"}
+{"observation_id": "pc1-T007-w010", "prefix": "Find a gym nearby with a day pass, preferably one"}
+{"observation_id": "pc1-T007-w011", "prefix": "Find a gym nearby with a day pass, preferably one with"}
+{"observation_id": "pc1-T007-w012", "prefix": "Find a gym nearby with a day pass, preferably one with a"}
+{"observation_id": "pc1-T007-w013", "prefix": "Find a gym nearby with a day pass, preferably one with a sauna."}
+{"observation_id": "pc1-T008-w001", "prefix": "Find"}
+{"observation_id": "pc1-T008-w002", "prefix": "Find a"}
+{"observation_id": "pc1-T008-w003", "prefix": "Find a pharmacy"}
+{"observation_id": "pc1-T008-w004", "prefix": "Find a pharmacy open"}
+{"observation_id": "pc1-T008-w005", "prefix": "Find a pharmacy open now,"}
+{"observation_id": "pc1-T008-w006", "prefix": "Find a pharmacy open now, but"}
+{"observation_id": "pc1-T008-w007", "prefix": "Find a pharmacy open now, but exclude"}
+{"observation_id": "pc1-T008-w008", "prefix": "Find a pharmacy open now, but exclude stores"}
+{"observation_id": "pc1-T008-w009", "prefix": "Find a pharmacy open now, but exclude stores inside"}
+{"observation_id": "pc1-T008-w010", "prefix": "Find a pharmacy open now, but exclude stores inside hospitals."}
+{"observation_id": "pc1-T009-w001", "prefix": "Research"}
+{"observation_id": "pc1-T009-w002", "prefix": "Research U.S."}
+{"observation_id": "pc1-T009-w003", "prefix": "Research U.S. manufacturers"}
+{"observation_id": "pc1-T009-w004", "prefix": "Research U.S. manufacturers of"}
+{"observation_id": "pc1-T009-w005", "prefix": "Research U.S. manufacturers of robotic"}
+{"observation_id": "pc1-T009-w006", "prefix": "Research U.S. manufacturers of robotic actuators"}
+{"observation_id": "pc1-T009-w007", "prefix": "Research U.S. manufacturers of robotic actuators that"}
+{"observation_id": "pc1-T009-w008", "prefix": "Research U.S. manufacturers of robotic actuators that could"}
+{"observation_id": "pc1-T009-w009", "prefix": "Research U.S. manufacturers of robotic actuators that could substitute"}
+{"observation_id": "pc1-T009-w010", "prefix": "Research U.S. manufacturers of robotic actuators that could substitute for"}
+{"observation_id": "pc1-T009-w011", "prefix": "Research U.S. manufacturers of robotic actuators that could substitute for Chinese"}
+{"observation_id": "pc1-T009-w012", "prefix": "Research U.S. manufacturers of robotic actuators that could substitute for Chinese suppliers,"}
+{"observation_id": "pc1-T009-w013", "prefix": "Research U.S. manufacturers of robotic actuators that could substitute for Chinese suppliers, and"}
+{"observation_id": "pc1-T009-w014", "prefix": "Research U.S. manufacturers of robotic actuators that could substitute for Chinese suppliers, and identify"}
+{"observation_id": "pc1-T009-w015", "prefix": "Research U.S. manufacturers of robotic actuators that could substitute for Chinese suppliers, and identify distributors"}
+{"observation_id": "pc1-T009-w016", "prefix": "Research U.S. manufacturers of robotic actuators that could substitute for Chinese suppliers, and identify distributors specializing"}
+{"observation_id": "pc1-T009-w017", "prefix": "Research U.S. manufacturers of robotic actuators that could substitute for Chinese suppliers, and identify distributors specializing in"}
+{"observation_id": "pc1-T009-w018", "prefix": "Research U.S. manufacturers of robotic actuators that could substitute for Chinese suppliers, and identify distributors specializing in U.S.-made"}
+{"observation_id": "pc1-T009-w019", "prefix": "Research U.S. manufacturers of robotic actuators that could substitute for Chinese suppliers, and identify distributors specializing in U.S.-made parts."}
+{"observation_id": "pc1-T010-w001", "prefix": "Compare"}
+{"observation_id": "pc1-T010-w002", "prefix": "Compare two"}
+{"observation_id": "pc1-T010-w003", "prefix": "Compare two 15L"}
+{"observation_id": "pc1-T010-w004", "prefix": "Compare two 15L cross-body"}
+{"observation_id": "pc1-T010-w005", "prefix": "Compare two 15L cross-body bags"}
+{"observation_id": "pc1-T010-w006", "prefix": "Compare two 15L cross-body bags with"}
+{"observation_id": "pc1-T010-w007", "prefix": "Compare two 15L cross-body bags with handles,"}
+{"observation_id": "pc1-T010-w008", "prefix": "Compare two 15L cross-body bags with handles, but"}
+{"observation_id": "pc1-T010-w009", "prefix": "Compare two 15L cross-body bags with handles, but prioritize"}
+{"observation_id": "pc1-T010-w010", "prefix": "Compare two 15L cross-body bags with handles, but prioritize weight"}
+{"observation_id": "pc1-T010-w011", "prefix": "Compare two 15L cross-body bags with handles, but prioritize weight over"}
+{"observation_id": "pc1-T010-w012", "prefix": "Compare two 15L cross-body bags with handles, but prioritize weight over laptop"}
+{"observation_id": "pc1-T010-w013", "prefix": "Compare two 15L cross-body bags with handles, but prioritize weight over laptop padding."}
+{"observation_id": "pc1-T011-w001", "prefix": "Find"}
+{"observation_id": "pc1-T011-w002", "prefix": "Find a"}
+{"observation_id": "pc1-T011-w003", "prefix": "Find a brown"}
+{"observation_id": "pc1-T011-w004", "prefix": "Find a brown faux-suede"}
+{"observation_id": "pc1-T011-w005", "prefix": "Find a brown faux-suede men's"}
+{"observation_id": "pc1-T011-w006", "prefix": "Find a brown faux-suede men's jacket"}
+{"observation_id": "pc1-T011-w007", "prefix": "Find a brown faux-suede men's jacket with"}
+{"observation_id": "pc1-T011-w008", "prefix": "Find a brown faux-suede men's jacket with a"}
+{"observation_id": "pc1-T011-w009", "prefix": "Find a brown faux-suede men's jacket with a stand"}
+{"observation_id": "pc1-T011-w010", "prefix": "Find a brown faux-suede men's jacket with a stand collar"}
+{"observation_id": "pc1-T011-w011", "prefix": "Find a brown faux-suede men's jacket with a stand collar under"}
+{"observation_id": "pc1-T011-w012", "prefix": "Find a brown faux-suede men's jacket with a stand collar under $200."}
+{"observation_id": "pc1-T012-w001", "prefix": "Research"}
+{"observation_id": "pc1-T012-w002", "prefix": "Research synthetic"}
+{"observation_id": "pc1-T012-w003", "prefix": "Research synthetic data"}
+{"observation_id": "pc1-T012-w004", "prefix": "Research synthetic data tools"}
+{"observation_id": "pc1-T012-w005", "prefix": "Research synthetic data tools for"}
+{"observation_id": "pc1-T012-w006", "prefix": "Research synthetic data tools for robotics,"}
+{"observation_id": "pc1-T012-w007", "prefix": "Research synthetic data tools for robotics, especially"}
+{"observation_id": "pc1-T012-w008", "prefix": "Research synthetic data tools for robotics, especially Unreal"}
+{"observation_id": "pc1-T012-w009", "prefix": "Research synthetic data tools for robotics, especially Unreal Engine,"}
+{"observation_id": "pc1-T012-w010", "prefix": "Research synthetic data tools for robotics, especially Unreal Engine, but"}
+{"observation_id": "pc1-T012-w011", "prefix": "Research synthetic data tools for robotics, especially Unreal Engine, but exclude"}
+{"observation_id": "pc1-T012-w012", "prefix": "Research synthetic data tools for robotics, especially Unreal Engine, but exclude purely"}
+{"observation_id": "pc1-T012-w013", "prefix": "Research synthetic data tools for robotics, especially Unreal Engine, but exclude purely visual"}
+{"observation_id": "pc1-T012-w014", "prefix": "Research synthetic data tools for robotics, especially Unreal Engine, but exclude purely visual rendering"}
+{"observation_id": "pc1-T012-w015", "prefix": "Research synthetic data tools for robotics, especially Unreal Engine, but exclude purely visual rendering tools"}
+{"observation_id": "pc1-T012-w016", "prefix": "Research synthetic data tools for robotics, especially Unreal Engine, but exclude purely visual rendering tools with"}
+{"observation_id": "pc1-T012-w017", "prefix": "Research synthetic data tools for robotics, especially Unreal Engine, but exclude purely visual rendering tools with no"}
+{"observation_id": "pc1-T012-w018", "prefix": "Research synthetic data tools for robotics, especially Unreal Engine, but exclude purely visual rendering tools with no physics"}
+{"observation_id": "pc1-T012-w019", "prefix": "Research synthetic data tools for robotics, especially Unreal Engine, but exclude purely visual rendering tools with no physics support."}
+{"observation_id": "pc1-T013-w001", "prefix": "Find"}
+{"observation_id": "pc1-T013-w002", "prefix": "Find a"}
+{"observation_id": "pc1-T013-w003", "prefix": "Find a compact"}
+{"observation_id": "pc1-T013-w004", "prefix": "Find a compact standing"}
+{"observation_id": "pc1-T013-w005", "prefix": "Find a compact standing desk"}
+{"observation_id": "pc1-T013-w006", "prefix": "Find a compact standing desk converter"}
+{"observation_id": "pc1-T013-w007", "prefix": "Find a compact standing desk converter under"}
+{"observation_id": "pc1-T013-w008", "prefix": "Find a compact standing desk converter under $250,"}
+{"observation_id": "pc1-T013-w009", "prefix": "Find a compact standing desk converter under $250, but"}
+{"observation_id": "pc1-T013-w010", "prefix": "Find a compact standing desk converter under $250, but not"}
+{"observation_id": "pc1-T013-w011", "prefix": "Find a compact standing desk converter under $250, but not one"}
+{"observation_id": "pc1-T013-w012", "prefix": "Find a compact standing desk converter under $250, but not one that"}
+{"observation_id": "pc1-T013-w013", "prefix": "Find a compact standing desk converter under $250, but not one that requires"}
+{"observation_id": "pc1-T013-w014", "prefix": "Find a compact standing desk converter under $250, but not one that requires permanent"}
+{"observation_id": "pc1-T013-w015", "prefix": "Find a compact standing desk converter under $250, but not one that requires permanent mounting."}
+{"observation_id": "pc1-T014-w001", "prefix": "Schedule"}
+{"observation_id": "pc1-T014-w002", "prefix": "Schedule a"}
+{"observation_id": "pc1-T014-w003", "prefix": "Schedule a 30-minute"}
+{"observation_id": "pc1-T014-w004", "prefix": "Schedule a 30-minute meeting"}
+{"observation_id": "pc1-T014-w005", "prefix": "Schedule a 30-minute meeting with"}
+{"observation_id": "pc1-T014-w006", "prefix": "Schedule a 30-minute meeting with Alex"}
+{"observation_id": "pc1-T014-w007", "prefix": "Schedule a 30-minute meeting with Alex next"}
+{"observation_id": "pc1-T014-w008", "prefix": "Schedule a 30-minute meeting with Alex next week,"}
+{"observation_id": "pc1-T014-w009", "prefix": "Schedule a 30-minute meeting with Alex next week, preferably"}
+{"observation_id": "pc1-T014-w010", "prefix": "Schedule a 30-minute meeting with Alex next week, preferably Tuesday"}
+{"observation_id": "pc1-T014-w011", "prefix": "Schedule a 30-minute meeting with Alex next week, preferably Tuesday afternoon."}
+{"observation_id": "pc1-T015-w001", "prefix": "Move"}
+{"observation_id": "pc1-T015-w002", "prefix": "Move my"}
+{"observation_id": "pc1-T015-w003", "prefix": "Move my dentist"}
+{"observation_id": "pc1-T015-w004", "prefix": "Move my dentist appointment"}
+{"observation_id": "pc1-T015-w005", "prefix": "Move my dentist appointment to"}
+{"observation_id": "pc1-T015-w006", "prefix": "Move my dentist appointment to Friday;"}
+{"observation_id": "pc1-T015-w007", "prefix": "Move my dentist appointment to Friday; if"}
+{"observation_id": "pc1-T015-w008", "prefix": "Move my dentist appointment to Friday; if Friday"}
+{"observation_id": "pc1-T015-w009", "prefix": "Move my dentist appointment to Friday; if Friday is"}
+{"observation_id": "pc1-T015-w010", "prefix": "Move my dentist appointment to Friday; if Friday is unavailable,"}
+{"observation_id": "pc1-T015-w011", "prefix": "Move my dentist appointment to Friday; if Friday is unavailable, keep"}
+{"observation_id": "pc1-T015-w012", "prefix": "Move my dentist appointment to Friday; if Friday is unavailable, keep the"}
+{"observation_id": "pc1-T015-w013", "prefix": "Move my dentist appointment to Friday; if Friday is unavailable, keep the current"}
+{"observation_id": "pc1-T015-w014", "prefix": "Move my dentist appointment to Friday; if Friday is unavailable, keep the current appointment."}
+{"observation_id": "pc1-T016-w001", "prefix": "Find"}
+{"observation_id": "pc1-T016-w002", "prefix": "Find time"}
+{"observation_id": "pc1-T016-w003", "prefix": "Find time for"}
+{"observation_id": "pc1-T016-w004", "prefix": "Find time for a"}
+{"observation_id": "pc1-T016-w005", "prefix": "Find time for a team"}
+{"observation_id": "pc1-T016-w006", "prefix": "Find time for a team sync"}
+{"observation_id": "pc1-T016-w007", "prefix": "Find time for a team sync this"}
+{"observation_id": "pc1-T016-w008", "prefix": "Find time for a team sync this week,"}
+{"observation_id": "pc1-T016-w009", "prefix": "Find time for a team sync this week, but"}
+{"observation_id": "pc1-T016-w010", "prefix": "Find time for a team sync this week, but not"}
+{"observation_id": "pc1-T016-w011", "prefix": "Find time for a team sync this week, but not before"}
+{"observation_id": "pc1-T016-w012", "prefix": "Find time for a team sync this week, but not before 10"}
+{"observation_id": "pc1-T016-w013", "prefix": "Find time for a team sync this week, but not before 10 AM."}
+{"observation_id": "pc1-T017-w001", "prefix": "Remind"}
+{"observation_id": "pc1-T017-w002", "prefix": "Remind me"}
+{"observation_id": "pc1-T017-w003", "prefix": "Remind me to"}
+{"observation_id": "pc1-T017-w004", "prefix": "Remind me to submit"}
+{"observation_id": "pc1-T017-w005", "prefix": "Remind me to submit the"}
+{"observation_id": "pc1-T017-w006", "prefix": "Remind me to submit the report"}
+{"observation_id": "pc1-T017-w007", "prefix": "Remind me to submit the report tomorrow"}
+{"observation_id": "pc1-T017-w008", "prefix": "Remind me to submit the report tomorrow evening,"}
+{"observation_id": "pc1-T017-w009", "prefix": "Remind me to submit the report tomorrow evening, not"}
+{"observation_id": "pc1-T017-w010", "prefix": "Remind me to submit the report tomorrow evening, not in"}
+{"observation_id": "pc1-T017-w011", "prefix": "Remind me to submit the report tomorrow evening, not in the"}
+{"observation_id": "pc1-T017-w012", "prefix": "Remind me to submit the report tomorrow evening, not in the morning."}
+{"observation_id": "pc1-T018-w001", "prefix": "Draft"}
+{"observation_id": "pc1-T018-w002", "prefix": "Draft an"}
+{"observation_id": "pc1-T018-w003", "prefix": "Draft an email"}
+{"observation_id": "pc1-T018-w004", "prefix": "Draft an email to"}
+{"observation_id": "pc1-T018-w005", "prefix": "Draft an email to the"}
+{"observation_id": "pc1-T018-w006", "prefix": "Draft an email to the recruiter"}
+{"observation_id": "pc1-T018-w007", "prefix": "Draft an email to the recruiter thanking"}
+{"observation_id": "pc1-T018-w008", "prefix": "Draft an email to the recruiter thanking them"}
+{"observation_id": "pc1-T018-w009", "prefix": "Draft an email to the recruiter thanking them and"}
+{"observation_id": "pc1-T018-w010", "prefix": "Draft an email to the recruiter thanking them and saying"}
+{"observation_id": "pc1-T018-w011", "prefix": "Draft an email to the recruiter thanking them and saying I'm"}
+{"observation_id": "pc1-T018-w012", "prefix": "Draft an email to the recruiter thanking them and saying I'm happy"}
+{"observation_id": "pc1-T018-w013", "prefix": "Draft an email to the recruiter thanking them and saying I'm happy to"}
+{"observation_id": "pc1-T018-w014", "prefix": "Draft an email to the recruiter thanking them and saying I'm happy to provide"}
+{"observation_id": "pc1-T018-w015", "prefix": "Draft an email to the recruiter thanking them and saying I'm happy to provide anything"}
+{"observation_id": "pc1-T018-w016", "prefix": "Draft an email to the recruiter thanking them and saying I'm happy to provide anything else"}
+{"observation_id": "pc1-T018-w017", "prefix": "Draft an email to the recruiter thanking them and saying I'm happy to provide anything else useful"}
+{"observation_id": "pc1-T018-w018", "prefix": "Draft an email to the recruiter thanking them and saying I'm happy to provide anything else useful for"}
+{"observation_id": "pc1-T018-w019", "prefix": "Draft an email to the recruiter thanking them and saying I'm happy to provide anything else useful for the"}
+{"observation_id": "pc1-T018-w020", "prefix": "Draft an email to the recruiter thanking them and saying I'm happy to provide anything else useful for the evaluation."}
+{"observation_id": "pc1-T019-w001", "prefix": "Write"}
+{"observation_id": "pc1-T019-w002", "prefix": "Write a"}
+{"observation_id": "pc1-T019-w003", "prefix": "Write a Slack"}
+{"observation_id": "pc1-T019-w004", "prefix": "Write a Slack message"}
+{"observation_id": "pc1-T019-w005", "prefix": "Write a Slack message saying"}
+{"observation_id": "pc1-T019-w006", "prefix": "Write a Slack message saying the"}
+{"observation_id": "pc1-T019-w007", "prefix": "Write a Slack message saying the build"}
+{"observation_id": "pc1-T019-w008", "prefix": "Write a Slack message saying the build is"}
+{"observation_id": "pc1-T019-w009", "prefix": "Write a Slack message saying the build is delayed,"}
+{"observation_id": "pc1-T019-w010", "prefix": "Write a Slack message saying the build is delayed, but"}
+{"observation_id": "pc1-T019-w011", "prefix": "Write a Slack message saying the build is delayed, but don't"}
+{"observation_id": "pc1-T019-w012", "prefix": "Write a Slack message saying the build is delayed, but don't blame"}
+{"observation_id": "pc1-T019-w013", "prefix": "Write a Slack message saying the build is delayed, but don't blame the"}
+{"observation_id": "pc1-T019-w014", "prefix": "Write a Slack message saying the build is delayed, but don't blame the infrastructure"}
+{"observation_id": "pc1-T019-w015", "prefix": "Write a Slack message saying the build is delayed, but don't blame the infrastructure team."}
+{"observation_id": "pc1-T020-w001", "prefix": "Draft"}
+{"observation_id": "pc1-T020-w002", "prefix": "Draft a"}
+{"observation_id": "pc1-T020-w003", "prefix": "Draft a polite"}
+{"observation_id": "pc1-T020-w004", "prefix": "Draft a polite text"}
+{"observation_id": "pc1-T020-w005", "prefix": "Draft a polite text declining"}
+{"observation_id": "pc1-T020-w006", "prefix": "Draft a polite text declining dinner"}
+{"observation_id": "pc1-T020-w007", "prefix": "Draft a polite text declining dinner tonight"}
+{"observation_id": "pc1-T020-w008", "prefix": "Draft a polite text declining dinner tonight and"}
+{"observation_id": "pc1-T020-w009", "prefix": "Draft a polite text declining dinner tonight and suggest"}
+{"observation_id": "pc1-T020-w010", "prefix": "Draft a polite text declining dinner tonight and suggest next"}
+{"observation_id": "pc1-T020-w011", "prefix": "Draft a polite text declining dinner tonight and suggest next weekend"}
+{"observation_id": "pc1-T020-w012", "prefix": "Draft a polite text declining dinner tonight and suggest next weekend instead."}
+{"observation_id": "pc1-T021-w001", "prefix": "Write"}
+{"observation_id": "pc1-T021-w002", "prefix": "Write a"}
+{"observation_id": "pc1-T021-w003", "prefix": "Write a customer"}
+{"observation_id": "pc1-T021-w004", "prefix": "Write a customer reply"}
+{"observation_id": "pc1-T021-w005", "prefix": "Write a customer reply confirming"}
+{"observation_id": "pc1-T021-w006", "prefix": "Write a customer reply confirming the"}
+{"observation_id": "pc1-T021-w007", "prefix": "Write a customer reply confirming the refund"}
+{"observation_id": "pc1-T021-w008", "prefix": "Write a customer reply confirming the refund was"}
+{"observation_id": "pc1-T021-w009", "prefix": "Write a customer reply confirming the refund was approved,"}
+{"observation_id": "pc1-T021-w010", "prefix": "Write a customer reply confirming the refund was approved, but"}
+{"observation_id": "pc1-T021-w011", "prefix": "Write a customer reply confirming the refund was approved, but do"}
+{"observation_id": "pc1-T021-w012", "prefix": "Write a customer reply confirming the refund was approved, but do not"}
+{"observation_id": "pc1-T021-w013", "prefix": "Write a customer reply confirming the refund was approved, but do not promise"}
+{"observation_id": "pc1-T021-w014", "prefix": "Write a customer reply confirming the refund was approved, but do not promise the"}
+{"observation_id": "pc1-T021-w015", "prefix": "Write a customer reply confirming the refund was approved, but do not promise the posting"}
+{"observation_id": "pc1-T021-w016", "prefix": "Write a customer reply confirming the refund was approved, but do not promise the posting date."}
+{"observation_id": "pc1-T022-w001", "prefix": "Find"}
+{"observation_id": "pc1-T022-w002", "prefix": "Find papers"}
+{"observation_id": "pc1-T022-w003", "prefix": "Find papers on"}
+{"observation_id": "pc1-T022-w004", "prefix": "Find papers on frozen-model"}
+{"observation_id": "pc1-T022-w005", "prefix": "Find papers on frozen-model hidden"}
+{"observation_id": "pc1-T022-w006", "prefix": "Find papers on frozen-model hidden states"}
+{"observation_id": "pc1-T022-w007", "prefix": "Find papers on frozen-model hidden states for"}
+{"observation_id": "pc1-T022-w008", "prefix": "Find papers on frozen-model hidden states for predicting"}
+{"observation_id": "pc1-T022-w009", "prefix": "Find papers on frozen-model hidden states for predicting future"}
+{"observation_id": "pc1-T022-w010", "prefix": "Find papers on frozen-model hidden states for predicting future intent,"}
+{"observation_id": "pc1-T022-w011", "prefix": "Find papers on frozen-model hidden states for predicting future intent, prioritizing"}
+{"observation_id": "pc1-T022-w012", "prefix": "Find papers on frozen-model hidden states for predicting future intent, prioritizing peer-reviewed"}
+{"observation_id": "pc1-T022-w013", "prefix": "Find papers on frozen-model hidden states for predicting future intent, prioritizing peer-reviewed work."}
+{"observation_id": "pc1-T023-w001", "prefix": "Look"}
+{"observation_id": "pc1-T023-w002", "prefix": "Look up"}
+{"observation_id": "pc1-T023-w003", "prefix": "Look up the"}
+{"observation_id": "pc1-T023-w004", "prefix": "Look up the latest"}
+{"observation_id": "pc1-T023-w005", "prefix": "Look up the latest documentation"}
+{"observation_id": "pc1-T023-w006", "prefix": "Look up the latest documentation for"}
+{"observation_id": "pc1-T023-w007", "prefix": "Look up the latest documentation for a"}
+{"observation_id": "pc1-T023-w008", "prefix": "Look up the latest documentation for a Python"}
+{"observation_id": "pc1-T023-w009", "prefix": "Look up the latest documentation for a Python library,"}
+{"observation_id": "pc1-T023-w010", "prefix": "Look up the latest documentation for a Python library, but"}
+{"observation_id": "pc1-T023-w011", "prefix": "Look up the latest documentation for a Python library, but only"}
+{"observation_id": "pc1-T023-w012", "prefix": "Look up the latest documentation for a Python library, but only use"}
+{"observation_id": "pc1-T023-w013", "prefix": "Look up the latest documentation for a Python library, but only use the"}
+{"observation_id": "pc1-T023-w014", "prefix": "Look up the latest documentation for a Python library, but only use the official"}
+{"observation_id": "pc1-T023-w015", "prefix": "Look up the latest documentation for a Python library, but only use the official docs."}
+{"observation_id": "pc1-T024-w001", "prefix": "Find"}
+{"observation_id": "pc1-T024-w002", "prefix": "Find the"}
+{"observation_id": "pc1-T024-w003", "prefix": "Find the current"}
+{"observation_id": "pc1-T024-w004", "prefix": "Find the current CEO"}
+{"observation_id": "pc1-T024-w005", "prefix": "Find the current CEO and"}
+{"observation_id": "pc1-T024-w006", "prefix": "Find the current CEO and recent"}
+{"observation_id": "pc1-T024-w007", "prefix": "Find the current CEO and recent earnings"}
+{"observation_id": "pc1-T024-w008", "prefix": "Find the current CEO and recent earnings for"}
+{"observation_id": "pc1-T024-w009", "prefix": "Find the current CEO and recent earnings for the"}
+{"observation_id": "pc1-T024-w010", "prefix": "Find the current CEO and recent earnings for the company,"}
+{"observation_id": "pc1-T024-w011", "prefix": "Find the current CEO and recent earnings for the company, but"}
+{"observation_id": "pc1-T024-w012", "prefix": "Find the current CEO and recent earnings for the company, but exclude"}
+{"observation_id": "pc1-T024-w013", "prefix": "Find the current CEO and recent earnings for the company, but exclude analyst"}
+{"observation_id": "pc1-T024-w014", "prefix": "Find the current CEO and recent earnings for the company, but exclude analyst estimates."}
+{"observation_id": "pc1-T025-w001", "prefix": "Research"}
+{"observation_id": "pc1-T025-w002", "prefix": "Research regulations"}
+{"observation_id": "pc1-T025-w003", "prefix": "Research regulations for"}
+{"observation_id": "pc1-T025-w004", "prefix": "Research regulations for consumer"}
+{"observation_id": "pc1-T025-w005", "prefix": "Research regulations for consumer AI"}
+{"observation_id": "pc1-T025-w006", "prefix": "Research regulations for consumer AI in"}
+{"observation_id": "pc1-T025-w007", "prefix": "Research regulations for consumer AI in California,"}
+{"observation_id": "pc1-T025-w008", "prefix": "Research regulations for consumer AI in California, not"}
+{"observation_id": "pc1-T025-w009", "prefix": "Research regulations for consumer AI in California, not federal"}
+{"observation_id": "pc1-T025-w010", "prefix": "Research regulations for consumer AI in California, not federal rules"}
+{"observation_id": "pc1-T025-w011", "prefix": "Research regulations for consumer AI in California, not federal rules unless"}
+{"observation_id": "pc1-T025-w012", "prefix": "Research regulations for consumer AI in California, not federal rules unless needed"}
+{"observation_id": "pc1-T025-w013", "prefix": "Research regulations for consumer AI in California, not federal rules unless needed for"}
+{"observation_id": "pc1-T025-w014", "prefix": "Research regulations for consumer AI in California, not federal rules unless needed for context."}
+{"observation_id": "pc1-T026-w001", "prefix": "Find"}
+{"observation_id": "pc1-T026-w002", "prefix": "Find current"}
+{"observation_id": "pc1-T026-w003", "prefix": "Find current benchmark"}
+{"observation_id": "pc1-T026-w004", "prefix": "Find current benchmark results"}
+{"observation_id": "pc1-T026-w005", "prefix": "Find current benchmark results for"}
+{"observation_id": "pc1-T026-w006", "prefix": "Find current benchmark results for small"}
+{"observation_id": "pc1-T026-w007", "prefix": "Find current benchmark results for small open-weight"}
+{"observation_id": "pc1-T026-w008", "prefix": "Find current benchmark results for small open-weight reasoning"}
+{"observation_id": "pc1-T026-w009", "prefix": "Find current benchmark results for small open-weight reasoning models,"}
+{"observation_id": "pc1-T026-w010", "prefix": "Find current benchmark results for small open-weight reasoning models, but"}
+{"observation_id": "pc1-T026-w011", "prefix": "Find current benchmark results for small open-weight reasoning models, but exclude"}
+{"observation_id": "pc1-T026-w012", "prefix": "Find current benchmark results for small open-weight reasoning models, but exclude vendor"}
+{"observation_id": "pc1-T026-w013", "prefix": "Find current benchmark results for small open-weight reasoning models, but exclude vendor self-reported"}
+{"observation_id": "pc1-T026-w014", "prefix": "Find current benchmark results for small open-weight reasoning models, but exclude vendor self-reported numbers"}
+{"observation_id": "pc1-T026-w015", "prefix": "Find current benchmark results for small open-weight reasoning models, but exclude vendor self-reported numbers unless"}
+{"observation_id": "pc1-T026-w016", "prefix": "Find current benchmark results for small open-weight reasoning models, but exclude vendor self-reported numbers unless independently"}
+{"observation_id": "pc1-T026-w017", "prefix": "Find current benchmark results for small open-weight reasoning models, but exclude vendor self-reported numbers unless independently reproduced."}
+{"observation_id": "pc1-T027-w001", "prefix": "Compare"}
+{"observation_id": "pc1-T027-w002", "prefix": "Compare QQQ"}
+{"observation_id": "pc1-T027-w003", "prefix": "Compare QQQ and"}
+{"observation_id": "pc1-T027-w004", "prefix": "Compare QQQ and DIA"}
+{"observation_id": "pc1-T027-w005", "prefix": "Compare QQQ and DIA downside"}
+{"observation_id": "pc1-T027-w006", "prefix": "Compare QQQ and DIA downside scenarios"}
+{"observation_id": "pc1-T027-w007", "prefix": "Compare QQQ and DIA downside scenarios for"}
+{"observation_id": "pc1-T027-w008", "prefix": "Compare QQQ and DIA downside scenarios for a"}
+{"observation_id": "pc1-T027-w009", "prefix": "Compare QQQ and DIA downside scenarios for a 7%"}
+{"observation_id": "pc1-T027-w010", "prefix": "Compare QQQ and DIA downside scenarios for a 7% market"}
+{"observation_id": "pc1-T027-w011", "prefix": "Compare QQQ and DIA downside scenarios for a 7% market decline,"}
+{"observation_id": "pc1-T027-w012", "prefix": "Compare QQQ and DIA downside scenarios for a 7% market decline, without"}
+{"observation_id": "pc1-T027-w013", "prefix": "Compare QQQ and DIA downside scenarios for a 7% market decline, without recommending"}
+{"observation_id": "pc1-T027-w014", "prefix": "Compare QQQ and DIA downside scenarios for a 7% market decline, without recommending a"}
+{"observation_id": "pc1-T027-w015", "prefix": "Compare QQQ and DIA downside scenarios for a 7% market decline, without recommending a trade."}
+{"observation_id": "pc1-T028-w001", "prefix": "Summarize"}
+{"observation_id": "pc1-T028-w002", "prefix": "Summarize my"}
+{"observation_id": "pc1-T028-w003", "prefix": "Summarize my budget"}
+{"observation_id": "pc1-T028-w004", "prefix": "Summarize my budget categories"}
+{"observation_id": "pc1-T028-w005", "prefix": "Summarize my budget categories and"}
+{"observation_id": "pc1-T028-w006", "prefix": "Summarize my budget categories and identify"}
+{"observation_id": "pc1-T028-w007", "prefix": "Summarize my budget categories and identify the"}
+{"observation_id": "pc1-T028-w008", "prefix": "Summarize my budget categories and identify the biggest"}
+{"observation_id": "pc1-T028-w009", "prefix": "Summarize my budget categories and identify the biggest variance,"}
+{"observation_id": "pc1-T028-w010", "prefix": "Summarize my budget categories and identify the biggest variance, but"}
+{"observation_id": "pc1-T028-w011", "prefix": "Summarize my budget categories and identify the biggest variance, but don't"}
+{"observation_id": "pc1-T028-w012", "prefix": "Summarize my budget categories and identify the biggest variance, but don't move"}
+{"observation_id": "pc1-T028-w013", "prefix": "Summarize my budget categories and identify the biggest variance, but don't move any"}
+{"observation_id": "pc1-T028-w014", "prefix": "Summarize my budget categories and identify the biggest variance, but don't move any money."}
+{"observation_id": "pc1-T029-w001", "prefix": "Check"}
+{"observation_id": "pc1-T029-w002", "prefix": "Check whether"}
+{"observation_id": "pc1-T029-w003", "prefix": "Check whether my"}
+{"observation_id": "pc1-T029-w004", "prefix": "Check whether my portfolio"}
+{"observation_id": "pc1-T029-w005", "prefix": "Check whether my portfolio concentration"}
+{"observation_id": "pc1-T029-w006", "prefix": "Check whether my portfolio concentration increased"}
+{"observation_id": "pc1-T029-w007", "prefix": "Check whether my portfolio concentration increased this"}
+{"observation_id": "pc1-T029-w008", "prefix": "Check whether my portfolio concentration increased this month,"}
+{"observation_id": "pc1-T029-w009", "prefix": "Check whether my portfolio concentration increased this month, using"}
+{"observation_id": "pc1-T029-w010", "prefix": "Check whether my portfolio concentration increased this month, using holdings"}
+{"observation_id": "pc1-T029-w011", "prefix": "Check whether my portfolio concentration increased this month, using holdings only"}
+{"observation_id": "pc1-T029-w012", "prefix": "Check whether my portfolio concentration increased this month, using holdings only and"}
+{"observation_id": "pc1-T029-w013", "prefix": "Check whether my portfolio concentration increased this month, using holdings only and not"}
+{"observation_id": "pc1-T029-w014", "prefix": "Check whether my portfolio concentration increased this month, using holdings only and not transaction"}
+{"observation_id": "pc1-T029-w015", "prefix": "Check whether my portfolio concentration increased this month, using holdings only and not transaction history."}
+{"observation_id": "pc1-T030-w001", "prefix": "Calculate"}
+{"observation_id": "pc1-T030-w002", "prefix": "Calculate the"}
+{"observation_id": "pc1-T030-w003", "prefix": "Calculate the breakeven"}
+{"observation_id": "pc1-T030-w004", "prefix": "Calculate the breakeven for"}
+{"observation_id": "pc1-T030-w005", "prefix": "Calculate the breakeven for an"}
+{"observation_id": "pc1-T030-w006", "prefix": "Calculate the breakeven for an options"}
+{"observation_id": "pc1-T030-w007", "prefix": "Calculate the breakeven for an options spread"}
+{"observation_id": "pc1-T030-w008", "prefix": "Calculate the breakeven for an options spread from"}
+{"observation_id": "pc1-T030-w009", "prefix": "Calculate the breakeven for an options spread from the"}
+{"observation_id": "pc1-T030-w010", "prefix": "Calculate the breakeven for an options spread from the prices"}
+{"observation_id": "pc1-T030-w011", "prefix": "Calculate the breakeven for an options spread from the prices I"}
+{"observation_id": "pc1-T030-w012", "prefix": "Calculate the breakeven for an options spread from the prices I provide,"}
+{"observation_id": "pc1-T030-w013", "prefix": "Calculate the breakeven for an options spread from the prices I provide, but"}
+{"observation_id": "pc1-T030-w014", "prefix": "Calculate the breakeven for an options spread from the prices I provide, but do"}
+{"observation_id": "pc1-T030-w015", "prefix": "Calculate the breakeven for an options spread from the prices I provide, but do not"}
+{"observation_id": "pc1-T030-w016", "prefix": "Calculate the breakeven for an options spread from the prices I provide, but do not fetch"}
+{"observation_id": "pc1-T030-w017", "prefix": "Calculate the breakeven for an options spread from the prices I provide, but do not fetch live"}
+{"observation_id": "pc1-T030-w018", "prefix": "Calculate the breakeven for an options spread from the prices I provide, but do not fetch live quotes."}
+{"observation_id": "pc1-T031-w001", "prefix": "Write"}
+{"observation_id": "pc1-T031-w002", "prefix": "Write a"}
+{"observation_id": "pc1-T031-w003", "prefix": "Write a Python"}
+{"observation_id": "pc1-T031-w004", "prefix": "Write a Python function"}
+{"observation_id": "pc1-T031-w005", "prefix": "Write a Python function to"}
+{"observation_id": "pc1-T031-w006", "prefix": "Write a Python function to parse"}
+{"observation_id": "pc1-T031-w007", "prefix": "Write a Python function to parse the"}
+{"observation_id": "pc1-T031-w008", "prefix": "Write a Python function to parse the log"}
+{"observation_id": "pc1-T031-w009", "prefix": "Write a Python function to parse the log file"}
+{"observation_id": "pc1-T031-w010", "prefix": "Write a Python function to parse the log file and"}
+{"observation_id": "pc1-T031-w011", "prefix": "Write a Python function to parse the log file and return"}
+{"observation_id": "pc1-T031-w012", "prefix": "Write a Python function to parse the log file and return error"}
+{"observation_id": "pc1-T031-w013", "prefix": "Write a Python function to parse the log file and return error counts,"}
+{"observation_id": "pc1-T031-w014", "prefix": "Write a Python function to parse the log file and return error counts, but"}
+{"observation_id": "pc1-T031-w015", "prefix": "Write a Python function to parse the log file and return error counts, but don't"}
+{"observation_id": "pc1-T031-w016", "prefix": "Write a Python function to parse the log file and return error counts, but don't modify"}
+{"observation_id": "pc1-T031-w017", "prefix": "Write a Python function to parse the log file and return error counts, but don't modify the"}
+{"observation_id": "pc1-T031-w018", "prefix": "Write a Python function to parse the log file and return error counts, but don't modify the source"}
+{"observation_id": "pc1-T031-w019", "prefix": "Write a Python function to parse the log file and return error counts, but don't modify the source file."}
+{"observation_id": "pc1-T032-w001", "prefix": "Debug"}
+{"observation_id": "pc1-T032-w002", "prefix": "Debug why"}
+{"observation_id": "pc1-T032-w003", "prefix": "Debug why the"}
+{"observation_id": "pc1-T032-w004", "prefix": "Debug why the API"}
+{"observation_id": "pc1-T032-w005", "prefix": "Debug why the API client"}
+{"observation_id": "pc1-T032-w006", "prefix": "Debug why the API client times"}
+{"observation_id": "pc1-T032-w007", "prefix": "Debug why the API client times out,"}
+{"observation_id": "pc1-T032-w008", "prefix": "Debug why the API client times out, but"}
+{"observation_id": "pc1-T032-w009", "prefix": "Debug why the API client times out, but don't"}
+{"observation_id": "pc1-T032-w010", "prefix": "Debug why the API client times out, but don't change"}
+{"observation_id": "pc1-T032-w011", "prefix": "Debug why the API client times out, but don't change retry"}
+{"observation_id": "pc1-T032-w012", "prefix": "Debug why the API client times out, but don't change retry settings"}
+{"observation_id": "pc1-T032-w013", "prefix": "Debug why the API client times out, but don't change retry settings until"}
+{"observation_id": "pc1-T032-w014", "prefix": "Debug why the API client times out, but don't change retry settings until we"}
+{"observation_id": "pc1-T032-w015", "prefix": "Debug why the API client times out, but don't change retry settings until we identify"}
+{"observation_id": "pc1-T032-w016", "prefix": "Debug why the API client times out, but don't change retry settings until we identify the"}
+{"observation_id": "pc1-T032-w017", "prefix": "Debug why the API client times out, but don't change retry settings until we identify the cause."}
+{"observation_id": "pc1-T033-w001", "prefix": "Refactor"}
+{"observation_id": "pc1-T033-w002", "prefix": "Refactor this"}
+{"observation_id": "pc1-T033-w003", "prefix": "Refactor this function"}
+{"observation_id": "pc1-T033-w004", "prefix": "Refactor this function for"}
+{"observation_id": "pc1-T033-w005", "prefix": "Refactor this function for readability"}
+{"observation_id": "pc1-T033-w006", "prefix": "Refactor this function for readability while"}
+{"observation_id": "pc1-T033-w007", "prefix": "Refactor this function for readability while preserving"}
+{"observation_id": "pc1-T033-w008", "prefix": "Refactor this function for readability while preserving behavior"}
+{"observation_id": "pc1-T033-w009", "prefix": "Refactor this function for readability while preserving behavior and"}
+{"observation_id": "pc1-T033-w010", "prefix": "Refactor this function for readability while preserving behavior and public"}
+{"observation_id": "pc1-T033-w011", "prefix": "Refactor this function for readability while preserving behavior and public API."}
+{"observation_id": "pc1-T034-w001", "prefix": "Create"}
+{"observation_id": "pc1-T034-w002", "prefix": "Create tests"}
+{"observation_id": "pc1-T034-w003", "prefix": "Create tests for"}
+{"observation_id": "pc1-T034-w004", "prefix": "Create tests for the"}
+{"observation_id": "pc1-T034-w005", "prefix": "Create tests for the parser,"}
+{"observation_id": "pc1-T034-w006", "prefix": "Create tests for the parser, focusing"}
+{"observation_id": "pc1-T034-w007", "prefix": "Create tests for the parser, focusing on"}
+{"observation_id": "pc1-T034-w008", "prefix": "Create tests for the parser, focusing on malformed"}
+{"observation_id": "pc1-T034-w009", "prefix": "Create tests for the parser, focusing on malformed inputs"}
+{"observation_id": "pc1-T034-w010", "prefix": "Create tests for the parser, focusing on malformed inputs rather"}
+{"observation_id": "pc1-T034-w011", "prefix": "Create tests for the parser, focusing on malformed inputs rather than"}
+{"observation_id": "pc1-T034-w012", "prefix": "Create tests for the parser, focusing on malformed inputs rather than performance"}
+{"observation_id": "pc1-T034-w013", "prefix": "Create tests for the parser, focusing on malformed inputs rather than performance benchmarks."}
+{"observation_id": "pc1-T035-w001", "prefix": "Rewrite"}
+{"observation_id": "pc1-T035-w002", "prefix": "Rewrite the"}
+{"observation_id": "pc1-T035-w003", "prefix": "Rewrite the memo"}
+{"observation_id": "pc1-T035-w004", "prefix": "Rewrite the memo to"}
+{"observation_id": "pc1-T035-w005", "prefix": "Rewrite the memo to be"}
+{"observation_id": "pc1-T035-w006", "prefix": "Rewrite the memo to be shorter"}
+{"observation_id": "pc1-T035-w007", "prefix": "Rewrite the memo to be shorter and"}
+{"observation_id": "pc1-T035-w008", "prefix": "Rewrite the memo to be shorter and more"}
+{"observation_id": "pc1-T035-w009", "prefix": "Rewrite the memo to be shorter and more executive,"}
+{"observation_id": "pc1-T035-w010", "prefix": "Rewrite the memo to be shorter and more executive, but"}
+{"observation_id": "pc1-T035-w011", "prefix": "Rewrite the memo to be shorter and more executive, but keep"}
+{"observation_id": "pc1-T035-w012", "prefix": "Rewrite the memo to be shorter and more executive, but keep all"}
+{"observation_id": "pc1-T035-w013", "prefix": "Rewrite the memo to be shorter and more executive, but keep all numerical"}
+{"observation_id": "pc1-T035-w014", "prefix": "Rewrite the memo to be shorter and more executive, but keep all numerical claims"}
+{"observation_id": "pc1-T035-w015", "prefix": "Rewrite the memo to be shorter and more executive, but keep all numerical claims unchanged."}
+{"observation_id": "pc1-T036-w001", "prefix": "Summarize"}
+{"observation_id": "pc1-T036-w002", "prefix": "Summarize this"}
+{"observation_id": "pc1-T036-w003", "prefix": "Summarize this report"}
+{"observation_id": "pc1-T036-w004", "prefix": "Summarize this report into"}
+{"observation_id": "pc1-T036-w005", "prefix": "Summarize this report into one"}
+{"observation_id": "pc1-T036-w006", "prefix": "Summarize this report into one page,"}
+{"observation_id": "pc1-T036-w007", "prefix": "Summarize this report into one page, excluding"}
+{"observation_id": "pc1-T036-w008", "prefix": "Summarize this report into one page, excluding the"}
+{"observation_id": "pc1-T036-w009", "prefix": "Summarize this report into one page, excluding the appendix."}
+{"observation_id": "pc1-T037-w001", "prefix": "Turn"}
+{"observation_id": "pc1-T037-w002", "prefix": "Turn these"}
+{"observation_id": "pc1-T037-w003", "prefix": "Turn these notes"}
+{"observation_id": "pc1-T037-w004", "prefix": "Turn these notes into"}
+{"observation_id": "pc1-T037-w005", "prefix": "Turn these notes into a"}
+{"observation_id": "pc1-T037-w006", "prefix": "Turn these notes into a proposal,"}
+{"observation_id": "pc1-T037-w007", "prefix": "Turn these notes into a proposal, but"}
+{"observation_id": "pc1-T037-w008", "prefix": "Turn these notes into a proposal, but leave"}
+{"observation_id": "pc1-T037-w009", "prefix": "Turn these notes into a proposal, but leave pricing"}
+{"observation_id": "pc1-T037-w010", "prefix": "Turn these notes into a proposal, but leave pricing as"}
+{"observation_id": "pc1-T037-w011", "prefix": "Turn these notes into a proposal, but leave pricing as TBD."}
+{"observation_id": "pc1-T038-w001", "prefix": "Compare"}
+{"observation_id": "pc1-T038-w002", "prefix": "Compare the"}
+{"observation_id": "pc1-T038-w003", "prefix": "Compare the two"}
+{"observation_id": "pc1-T038-w004", "prefix": "Compare the two resume"}
+{"observation_id": "pc1-T038-w005", "prefix": "Compare the two resume versions"}
+{"observation_id": "pc1-T038-w006", "prefix": "Compare the two resume versions and"}
+{"observation_id": "pc1-T038-w007", "prefix": "Compare the two resume versions and identify"}
+{"observation_id": "pc1-T038-w008", "prefix": "Compare the two resume versions and identify differences,"}
+{"observation_id": "pc1-T038-w009", "prefix": "Compare the two resume versions and identify differences, without"}
+{"observation_id": "pc1-T038-w010", "prefix": "Compare the two resume versions and identify differences, without rewriting"}
+{"observation_id": "pc1-T038-w011", "prefix": "Compare the two resume versions and identify differences, without rewriting either"}
+{"observation_id": "pc1-T038-w012", "prefix": "Compare the two resume versions and identify differences, without rewriting either one."}
+{"observation_id": "pc1-T039-w001", "prefix": "Turn"}
+{"observation_id": "pc1-T039-w002", "prefix": "Turn on"}
+{"observation_id": "pc1-T039-w003", "prefix": "Turn on the"}
+{"observation_id": "pc1-T039-w004", "prefix": "Turn on the living-room"}
+{"observation_id": "pc1-T039-w005", "prefix": "Turn on the living-room lights"}
+{"observation_id": "pc1-T039-w006", "prefix": "Turn on the living-room lights at"}
+{"observation_id": "pc1-T039-w007", "prefix": "Turn on the living-room lights at 30%,"}
+{"observation_id": "pc1-T039-w008", "prefix": "Turn on the living-room lights at 30%, but"}
+{"observation_id": "pc1-T039-w009", "prefix": "Turn on the living-room lights at 30%, but don't"}
+{"observation_id": "pc1-T039-w010", "prefix": "Turn on the living-room lights at 30%, but don't change"}
+{"observation_id": "pc1-T039-w011", "prefix": "Turn on the living-room lights at 30%, but don't change the"}
+{"observation_id": "pc1-T039-w012", "prefix": "Turn on the living-room lights at 30%, but don't change the color."}
+{"observation_id": "pc1-T040-w001", "prefix": "Set"}
+{"observation_id": "pc1-T040-w002", "prefix": "Set the"}
+{"observation_id": "pc1-T040-w003", "prefix": "Set the thermostat"}
+{"observation_id": "pc1-T040-w004", "prefix": "Set the thermostat to"}
+{"observation_id": "pc1-T040-w005", "prefix": "Set the thermostat to 70"}
+{"observation_id": "pc1-T040-w006", "prefix": "Set the thermostat to 70 tonight,"}
+{"observation_id": "pc1-T040-w007", "prefix": "Set the thermostat to 70 tonight, unless"}
+{"observation_id": "pc1-T040-w008", "prefix": "Set the thermostat to 70 tonight, unless the"}
+{"observation_id": "pc1-T040-w009", "prefix": "Set the thermostat to 70 tonight, unless the house"}
+{"observation_id": "pc1-T040-w010", "prefix": "Set the thermostat to 70 tonight, unless the house is"}
+{"observation_id": "pc1-T040-w011", "prefix": "Set the thermostat to 70 tonight, unless the house is already"}
+{"observation_id": "pc1-T040-w012", "prefix": "Set the thermostat to 70 tonight, unless the house is already below"}
+{"observation_id": "pc1-T040-w013", "prefix": "Set the thermostat to 70 tonight, unless the house is already below 68."}
+{"observation_id": "pc1-T041-w001", "prefix": "Lock"}
+{"observation_id": "pc1-T041-w002", "prefix": "Lock the"}
+{"observation_id": "pc1-T041-w003", "prefix": "Lock the back"}
+{"observation_id": "pc1-T041-w004", "prefix": "Lock the back door"}
+{"observation_id": "pc1-T041-w005", "prefix": "Lock the back door after"}
+{"observation_id": "pc1-T041-w006", "prefix": "Lock the back door after I"}
+{"observation_id": "pc1-T041-w007", "prefix": "Lock the back door after I leave,"}
+{"observation_id": "pc1-T041-w008", "prefix": "Lock the back door after I leave, but"}
+{"observation_id": "pc1-T041-w009", "prefix": "Lock the back door after I leave, but only"}
+{"observation_id": "pc1-T041-w010", "prefix": "Lock the back door after I leave, but only if"}
+{"observation_id": "pc1-T041-w011", "prefix": "Lock the back door after I leave, but only if the"}
+{"observation_id": "pc1-T041-w012", "prefix": "Lock the back door after I leave, but only if the door"}
+{"observation_id": "pc1-T041-w013", "prefix": "Lock the back door after I leave, but only if the door sensor"}
+{"observation_id": "pc1-T041-w014", "prefix": "Lock the back door after I leave, but only if the door sensor shows"}
+{"observation_id": "pc1-T041-w015", "prefix": "Lock the back door after I leave, but only if the door sensor shows it"}
+{"observation_id": "pc1-T041-w016", "prefix": "Lock the back door after I leave, but only if the door sensor shows it is"}
+{"observation_id": "pc1-T041-w017", "prefix": "Lock the back door after I leave, but only if the door sensor shows it is closed."}
+{"observation_id": "pc1-T042-w001", "prefix": "Start"}
+{"observation_id": "pc1-T042-w002", "prefix": "Start the"}
+{"observation_id": "pc1-T042-w003", "prefix": "Start the robot"}
+{"observation_id": "pc1-T042-w004", "prefix": "Start the robot vacuum"}
+{"observation_id": "pc1-T042-w005", "prefix": "Start the robot vacuum in"}
+{"observation_id": "pc1-T042-w006", "prefix": "Start the robot vacuum in the"}
+{"observation_id": "pc1-T042-w007", "prefix": "Start the robot vacuum in the kitchen,"}
+{"observation_id": "pc1-T042-w008", "prefix": "Start the robot vacuum in the kitchen, not"}
+{"observation_id": "pc1-T042-w009", "prefix": "Start the robot vacuum in the kitchen, not the"}
+{"observation_id": "pc1-T042-w010", "prefix": "Start the robot vacuum in the kitchen, not the whole"}
+{"observation_id": "pc1-T042-w011", "prefix": "Start the robot vacuum in the kitchen, not the whole floor."}
+{"observation_id": "pc1-T043-w001", "prefix": "Find"}
+{"observation_id": "pc1-T043-w002", "prefix": "Find a"}
+{"observation_id": "pc1-T043-w003", "prefix": "Find a documentary"}
+{"observation_id": "pc1-T043-w004", "prefix": "Find a documentary about"}
+{"observation_id": "pc1-T043-w005", "prefix": "Find a documentary about robotics,"}
+{"observation_id": "pc1-T043-w006", "prefix": "Find a documentary about robotics, preferably"}
+{"observation_id": "pc1-T043-w007", "prefix": "Find a documentary about robotics, preferably under"}
+{"observation_id": "pc1-T043-w008", "prefix": "Find a documentary about robotics, preferably under 90"}
+{"observation_id": "pc1-T043-w009", "prefix": "Find a documentary about robotics, preferably under 90 minutes."}
+{"observation_id": "pc1-T044-w001", "prefix": "Make"}
+{"observation_id": "pc1-T044-w002", "prefix": "Make a"}
+{"observation_id": "pc1-T044-w003", "prefix": "Make a playlist"}
+{"observation_id": "pc1-T044-w004", "prefix": "Make a playlist of"}
+{"observation_id": "pc1-T044-w005", "prefix": "Make a playlist of upbeat"}
+{"observation_id": "pc1-T044-w006", "prefix": "Make a playlist of upbeat jazz"}
+{"observation_id": "pc1-T044-w007", "prefix": "Make a playlist of upbeat jazz for"}
+{"observation_id": "pc1-T044-w008", "prefix": "Make a playlist of upbeat jazz for work,"}
+{"observation_id": "pc1-T044-w009", "prefix": "Make a playlist of upbeat jazz for work, but"}
+{"observation_id": "pc1-T044-w010", "prefix": "Make a playlist of upbeat jazz for work, but no"}
+{"observation_id": "pc1-T044-w011", "prefix": "Make a playlist of upbeat jazz for work, but no vocals."}
+{"observation_id": "pc1-T045-w001", "prefix": "Recommend"}
+{"observation_id": "pc1-T045-w002", "prefix": "Recommend a"}
+{"observation_id": "pc1-T045-w003", "prefix": "Recommend a movie"}
+{"observation_id": "pc1-T045-w004", "prefix": "Recommend a movie for"}
+{"observation_id": "pc1-T045-w005", "prefix": "Recommend a movie for tonight,"}
+{"observation_id": "pc1-T045-w006", "prefix": "Recommend a movie for tonight, not"}
+{"observation_id": "pc1-T045-w007", "prefix": "Recommend a movie for tonight, not horror"}
+{"observation_id": "pc1-T045-w008", "prefix": "Recommend a movie for tonight, not horror and"}
+{"observation_id": "pc1-T045-w009", "prefix": "Recommend a movie for tonight, not horror and under"}
+{"observation_id": "pc1-T045-w010", "prefix": "Recommend a movie for tonight, not horror and under two"}
+{"observation_id": "pc1-T045-w011", "prefix": "Recommend a movie for tonight, not horror and under two hours."}
+{"observation_id": "pc1-T046-w001", "prefix": "Find"}
+{"observation_id": "pc1-T046-w002", "prefix": "Find a"}
+{"observation_id": "pc1-T046-w003", "prefix": "Find a podcast"}
+{"observation_id": "pc1-T046-w004", "prefix": "Find a podcast episode"}
+{"observation_id": "pc1-T046-w005", "prefix": "Find a podcast episode on"}
+{"observation_id": "pc1-T046-w006", "prefix": "Find a podcast episode on AI"}
+{"observation_id": "pc1-T046-w007", "prefix": "Find a podcast episode on AI agents,"}
+{"observation_id": "pc1-T046-w008", "prefix": "Find a podcast episode on AI agents, but"}
+{"observation_id": "pc1-T046-w009", "prefix": "Find a podcast episode on AI agents, but prioritize"}
+{"observation_id": "pc1-T046-w010", "prefix": "Find a podcast episode on AI agents, but prioritize technical"}
+{"observation_id": "pc1-T046-w011", "prefix": "Find a podcast episode on AI agents, but prioritize technical interviews"}
+{"observation_id": "pc1-T046-w012", "prefix": "Find a podcast episode on AI agents, but prioritize technical interviews over"}
+{"observation_id": "pc1-T046-w013", "prefix": "Find a podcast episode on AI agents, but prioritize technical interviews over news"}
+{"observation_id": "pc1-T046-w014", "prefix": "Find a podcast episode on AI agents, but prioritize technical interviews over news recaps."}
+{"observation_id": "pc1-T047-w001", "prefix": "Make"}
+{"observation_id": "pc1-T047-w002", "prefix": "Make a"}
+{"observation_id": "pc1-T047-w003", "prefix": "Make a packing"}
+{"observation_id": "pc1-T047-w004", "prefix": "Make a packing checklist"}
+{"observation_id": "pc1-T047-w005", "prefix": "Make a packing checklist for"}
+{"observation_id": "pc1-T047-w006", "prefix": "Make a packing checklist for a"}
+{"observation_id": "pc1-T047-w007", "prefix": "Make a packing checklist for a three-day"}
+{"observation_id": "pc1-T047-w008", "prefix": "Make a packing checklist for a three-day business"}
+{"observation_id": "pc1-T047-w009", "prefix": "Make a packing checklist for a three-day business trip,"}
+{"observation_id": "pc1-T047-w010", "prefix": "Make a packing checklist for a three-day business trip, but"}
+{"observation_id": "pc1-T047-w011", "prefix": "Make a packing checklist for a three-day business trip, but don't"}
+{"observation_id": "pc1-T047-w012", "prefix": "Make a packing checklist for a three-day business trip, but don't include"}
+{"observation_id": "pc1-T047-w013", "prefix": "Make a packing checklist for a three-day business trip, but don't include formalwear."}
+{"observation_id": "pc1-T048-w001", "prefix": "Plan"}
+{"observation_id": "pc1-T048-w002", "prefix": "Plan my"}
+{"observation_id": "pc1-T048-w003", "prefix": "Plan my morning"}
+{"observation_id": "pc1-T048-w004", "prefix": "Plan my morning around"}
+{"observation_id": "pc1-T048-w005", "prefix": "Plan my morning around a"}
+{"observation_id": "pc1-T048-w006", "prefix": "Plan my morning around a 9"}
+{"observation_id": "pc1-T048-w007", "prefix": "Plan my morning around a 9 AM"}
+{"observation_id": "pc1-T048-w008", "prefix": "Plan my morning around a 9 AM appointment,"}
+{"observation_id": "pc1-T048-w009", "prefix": "Plan my morning around a 9 AM appointment, with"}
+{"observation_id": "pc1-T048-w010", "prefix": "Plan my morning around a 9 AM appointment, with 30"}
+{"observation_id": "pc1-T048-w011", "prefix": "Plan my morning around a 9 AM appointment, with 30 minutes"}
+{"observation_id": "pc1-T048-w012", "prefix": "Plan my morning around a 9 AM appointment, with 30 minutes for"}
+{"observation_id": "pc1-T048-w013", "prefix": "Plan my morning around a 9 AM appointment, with 30 minutes for travel."}
+{"observation_id": "pc1-T049-w001", "prefix": "Create"}
+{"observation_id": "pc1-T049-w002", "prefix": "Create a"}
+{"observation_id": "pc1-T049-w003", "prefix": "Create a grocery"}
+{"observation_id": "pc1-T049-w004", "prefix": "Create a grocery list"}
+{"observation_id": "pc1-T049-w005", "prefix": "Create a grocery list for"}
+{"observation_id": "pc1-T049-w006", "prefix": "Create a grocery list for tacos,"}
+{"observation_id": "pc1-T049-w007", "prefix": "Create a grocery list for tacos, but"}
+{"observation_id": "pc1-T049-w008", "prefix": "Create a grocery list for tacos, but make"}
+{"observation_id": "pc1-T049-w009", "prefix": "Create a grocery list for tacos, but make it"}
+{"observation_id": "pc1-T049-w010", "prefix": "Create a grocery list for tacos, but make it vegetarian."}
+{"observation_id": "pc1-T050-w001", "prefix": "Prioritize"}
+{"observation_id": "pc1-T050-w002", "prefix": "Prioritize my"}
+{"observation_id": "pc1-T050-w003", "prefix": "Prioritize my task"}
+{"observation_id": "pc1-T050-w004", "prefix": "Prioritize my task list"}
+{"observation_id": "pc1-T050-w005", "prefix": "Prioritize my task list for"}
+{"observation_id": "pc1-T050-w006", "prefix": "Prioritize my task list for today,"}
+{"observation_id": "pc1-T050-w007", "prefix": "Prioritize my task list for today, but"}
+{"observation_id": "pc1-T050-w008", "prefix": "Prioritize my task list for today, but keep"}
+{"observation_id": "pc1-T050-w009", "prefix": "Prioritize my task list for today, but keep the"}
+{"observation_id": "pc1-T050-w010", "prefix": "Prioritize my task list for today, but keep the client"}
+{"observation_id": "pc1-T050-w011", "prefix": "Prioritize my task list for today, but keep the client deadline"}
+{"observation_id": "pc1-T050-w012", "prefix": "Prioritize my task list for today, but keep the client deadline first"}
+{"observation_id": "pc1-T050-w013", "prefix": "Prioritize my task list for today, but keep the client deadline first even"}
+{"observation_id": "pc1-T050-w014", "prefix": "Prioritize my task list for today, but keep the client deadline first even if"}
+{"observation_id": "pc1-T050-w015", "prefix": "Prioritize my task list for today, but keep the client deadline first even if another"}
+{"observation_id": "pc1-T050-w016", "prefix": "Prioritize my task list for today, but keep the client deadline first even if another task"}
+{"observation_id": "pc1-T050-w017", "prefix": "Prioritize my task list for today, but keep the client deadline first even if another task is"}
+{"observation_id": "pc1-T050-w018", "prefix": "Prioritize my task list for today, but keep the client deadline first even if another task is shorter."}

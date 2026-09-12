@@ -1,0 +1,8 @@
+{
+  "method": "Character-walk reconstruction independent of regex boundary enumeration",
+  "tasks_checked": 50,
+  "observations_checked": 703,
+  "exact_sequence_matches": 50,
+  "all_hashes_match": true,
+  "no_inference": true
+}
