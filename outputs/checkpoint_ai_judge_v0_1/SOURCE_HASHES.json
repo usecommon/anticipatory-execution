@@ -1,0 +1,6 @@
+{
+  "checkpoint_human_pilot_v0_1/SELECTED_MAIN.jsonl": "e9bdfd64f59fec1d5282793ec556cbc8b89eaf2f66a0c247133e7b2f1306fbac",
+  "checkpoint_human_pilot_v0_1/BOUNDARY_CONTROLS.jsonl": "f0f7dedbbc2e9b02da4532d645258df31a2a4f77ede11fd12531ceb311de9338",
+  "checkpoint_human_pilot_v0_1/REVIEW_INPUT_FREEZE.json": "e2ed62cc9451850bfec6811b20469dcc1b6070a58d1c1f208e4a1cd20472472e",
+  "checkpoint_human_pilot_v0_1/PACKAGE_MANIFEST.json": "5eb1b91b5cbad088a767a780c6b9768ffb54d482000dcd75e441b903886ece48"
+}

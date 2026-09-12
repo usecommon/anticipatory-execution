@@ -1,0 +1,21 @@
+{
+  "judge_session": "checkpoint_case_judge",
+  "fork_turns": "none",
+  "model": "Inherited Codex session model; exact version and sampling controls not exposed",
+  "input_files": [
+    "JUDGE_INPUT.jsonl",
+    "ORIGINAL_RUBRIC.txt",
+    "JUDGE_INSTRUCTIONS.txt"
+  ],
+  "one_rating_per_case": true,
+  "prior_ratings_available_to_judge": false,
+  "source_or_boundary_identity_available_to_judge": false,
+  "isolation": "Instruction-based fresh session on shared filesystem; not a demonstrated security boundary or protection against pretraining exposure",
+  "provenance_caveat": "Source wording may reveal data origin; same model family as earlier agents, not independently established ground truth",
+  "source_join": "Only after raw submission freeze",
+  "comparison_to_prior": "Only after raw submission freeze; not used to alter judgments",
+  "auditor": "Reused bfcl_adjudicator with disclosed prior exposure; numerical/provenance audit only",
+  "human_packages": "Immutable, contain no new AI ratings",
+  "human_G1": "PENDING",
+  "reproduction": "Saved-output scoring can replay deterministically; exact judge sampling not reproducible from exposed configuration"
+}

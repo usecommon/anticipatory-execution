@@ -1,0 +1,83 @@
+Anticipatory Execution — G1 Annotation Rubric
+200-item development pilot · action non-revision labeling
+1. What annotators are judging
+For each item, judge whether the proposed candidate action, inferred from the partial user instruction, would still produce work that can be reused in the final correct task after the complete instruction is known.
+This is not a prediction task. Do not ask whether the candidate action was the most likely final intent. Ask whether the work itself survives future input without material re-execution.
+2. Primary binary label
+Label
+Meaning
+Decision rule
+1
+Useful / non-revised
+The action output can be reused in the final correct task without material re-execution.
+0
+Invalidated / revised
+Later input changes the target, action, constraints, or arguments enough that the work must be discarded or materially redone.
+3. Secondary fields
+Fractional utility (0.0–1.0): how much of the candidate work product survives.
+Confidence (1–5): confidence in your binary label, not confidence in the user intent.
+Ambiguity flag (Y/N): mark Y when the rubric leaves a genuine judgment call.
+Rationale: one short sentence naming what survives or what is invalidated.
+4. Material revision rules
+Target change: 
+Boston→Tokyo search changed to Boston→Chicago: target-specific work is invalidated.
+Action-type change: 
+Restaurant dining search becomes grocery/fresh-pasta shopping: dining-specific retrieval is invalidated.
+Constraint reversal: 
+Economy-specific flight work becomes business-class-only: economy-specific work is invalidated.
+Narrowing that preserves reusable work: 
+Broad U.S. actuator manufacturer retrieval narrowed to servo actuators: broad results can still be filtered, so earlier work may remain useful.
+Conditional execution: 
+Checking Friday appointment availability remains useful even if the final rule is 'keep current appointment if Friday unavailable.'
+Cosmetic reformulation: 
+Equivalent query wording does not constitute revision.
+5. Execution classes
+Class
+Name
+Definition
+Examples
+0
+Observe
+No external work.
+Intent/entity hypothesis
+1
+Prepare
+Cheap, fully reversible preparation.
+Resolve entity, construct query, load context
+2
+Speculate
+Bounded disposable/reusable work.
+Search, retrieval, read-only API, calculation
+3
+Stage
+Prepare consequential work without commit.
+Draft message, populate reservation, prepare patch
+4
+Commit
+Externally visible/state-changing action.
+Send, purchase, book, publish
+6. Annotator workflow
+Work independently. Do not inspect the other annotator's sheet.
+Read the prefix and candidate action first, then the full instruction.
+Assign the binary usefulness label.
+Assign fractional utility, confidence, ambiguity flag, and rationale.
+Do not infer hidden user preferences beyond the text.
+Complete all 200 items before any adjudication begins.
+7. G1 acceptance criterion
+After both independent sheets are complete, the adjudication sheet computes Cohen's kappa on the 200 binary labels. G1 passes only if κ ≥ 0.70 and the label prevalence is not degenerate. If κ < 0.70, revise the rubric/ontology and run a new development pilot before protocol freeze.
+8. Worked examples
+Prefix: Research U.S. manufacturers
+Action: Search U.S. manufacturers
+Full: Research U.S. manufacturers of robotic actuators ... and identify distributors ...
+Label 1 — 
+Broad manufacturer retrieval remains reusable after later constraints.
+Prefix: ... robotic actuators
+Action: Exclude distributors
+Full: ... and identify distributors specializing in U.S.-made parts.
+Label 0 — 
+The exclusion conflicts with a later required action.
+Prefix: Move my dentist appointment to Friday
+Action: Check Friday availability
+Full: ... if Friday is unavailable, keep the current appointment.
+Label 1 — 
+The availability check is necessary to evaluate the final condition.

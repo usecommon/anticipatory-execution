@@ -1,0 +1,151 @@
+{
+  "main": {
+    "items": 200,
+    "dispositions": {
+      "reusable": 171,
+      "non_reusable": 21,
+      "unresolved_reuse": 8,
+      "invalid_candidate": 0,
+      "uncertain_candidate": 0
+    },
+    "ambiguity_flags": 53,
+    "reusable_per_selected_item": 0.855
+  },
+  "by_source": {
+    "public_bfcl": {
+      "items": 100,
+      "dispositions": {
+        "reusable": 87,
+        "non_reusable": 5,
+        "unresolved_reuse": 8,
+        "invalid_candidate": 0,
+        "uncertain_candidate": 0
+      },
+      "ambiguity_flags": 25,
+      "reusable_per_selected_item": 0.87
+    },
+    "synthetic": {
+      "items": 100,
+      "dispositions": {
+        "reusable": 84,
+        "non_reusable": 16,
+        "unresolved_reuse": 0,
+        "invalid_candidate": 0,
+        "uncertain_candidate": 0
+      },
+      "ambiguity_flags": 28,
+      "reusable_per_selected_item": 0.84
+    }
+  },
+  "by_source_checkpoint": {
+    "public_bfcl:6": {
+      "items": 16,
+      "dispositions": {
+        "reusable": 11,
+        "non_reusable": 2,
+        "unresolved_reuse": 3,
+        "invalid_candidate": 0,
+        "uncertain_candidate": 0
+      },
+      "ambiguity_flags": 6,
+      "reusable_per_selected_item": 0.6875
+    },
+    "public_bfcl:12": {
+      "items": 25,
+      "dispositions": {
+        "reusable": 22,
+        "non_reusable": 0,
+        "unresolved_reuse": 3,
+        "invalid_candidate": 0,
+        "uncertain_candidate": 0
+      },
+      "ambiguity_flags": 5,
+      "reusable_per_selected_item": 0.88
+    },
+    "public_bfcl:18": {
+      "items": 59,
+      "dispositions": {
+        "reusable": 54,
+        "non_reusable": 3,
+        "unresolved_reuse": 2,
+        "invalid_candidate": 0,
+        "uncertain_candidate": 0
+      },
+      "ambiguity_flags": 14,
+      "reusable_per_selected_item": 0.9152542372881356
+    },
+    "synthetic:6": {
+      "items": 49,
+      "dispositions": {
+        "reusable": 33,
+        "non_reusable": 16,
+        "unresolved_reuse": 0,
+        "invalid_candidate": 0,
+        "uncertain_candidate": 0
+      },
+      "ambiguity_flags": 16,
+      "reusable_per_selected_item": 0.673469387755102
+    },
+    "synthetic:12": {
+      "items": 30,
+      "dispositions": {
+        "reusable": 30,
+        "non_reusable": 0,
+        "unresolved_reuse": 0,
+        "invalid_candidate": 0,
+        "uncertain_candidate": 0
+      },
+      "ambiguity_flags": 5,
+      "reusable_per_selected_item": 1.0
+    },
+    "synthetic:18": {
+      "items": 21,
+      "dispositions": {
+        "reusable": 21,
+        "non_reusable": 0,
+        "unresolved_reuse": 0,
+        "invalid_candidate": 0,
+        "uncertain_candidate": 0
+      },
+      "ambiguity_flags": 7,
+      "reusable_per_selected_item": 1.0
+    }
+  },
+  "boundary": {
+    "items": 20,
+    "dispositions": {
+      "reusable": 0,
+      "non_reusable": 0,
+      "unresolved_reuse": 0,
+      "invalid_candidate": 20,
+      "uncertain_candidate": 0
+    },
+    "ambiguity_flags": 0,
+    "reusable_per_selected_item": 0.0
+  },
+  "prior_six_word_comparison": {
+    "exact_artifact_overlaps": 65,
+    "changed_dispositions": 6,
+    "transitions": {
+      "reusable -> reusable": 41,
+      "non_reusable -> non_reusable": 17,
+      "non_reusable -> reusable": 3,
+      "unresolved_reuse -> unresolved_reuse": 1,
+      "reusable -> non_reusable": 1,
+      "reusable -> unresolved_reuse": 1,
+      "non_reusable -> unresolved_reuse": 1
+    },
+    "prior_source_sha256": "2b49edd4eaa8408be5e67d2b55fe1c67bcb3ce9d3d2b13a9f189b33e6a6bf468",
+    "interpretation": "One new judge versus earlier AI adjudication, not independent truth, efficacy or neutral rescoring."
+  },
+  "judges_per_case": 1,
+  "inter_rater_kappa": null,
+  "human_submissions_received": 0,
+  "G1": "PENDING",
+  "human_packages_modified": false,
+  "source_effect_established": false,
+  "confirmatory_extraction": false,
+  "research_model_inference": false,
+  "fixture_execution": false,
+  "unselected_pool_items_not_evaluated": 60
+}

@@ -1,0 +1,9 @@
+# Fresh AI judge of the human-review cases
+
+Evaluate exactly the frozen200 main cases and20 boundary cases in the human packages, using a fresh source-obscured shuffle. One AI judge receives only opaque IDs, prefixes, actions, artifacts, declared execution class, full instructions and fixture contract, plus the original rubric and unchanged sufficiency clarification. Do not reveal prior labels, source membership, control identity or expected boundary decisions. This is one AI rating per case, not paired independent ratings or human annotation. No kappa can be computed for this single judge alone.
+
+Freeze inputs before dispatch, preserve raw output before source/control joins, validate every row, and report main200 and boundary20 separately. Preserve reusable/non-reusable/unresolved/no-material/uncertain dispositions. Do not recode no-material as negative, edit old labels, repair artifacts, filter failures or force favorable results. Report source/checkpoint counts with selected-case denominators, not as representative prevalence or frozen-model accuracy. The60 unselected pool products are outside this request.
+
+After the new raw rating is frozen, compare exact overlapping six-word artifacts with prior shared-policy AI adjudication as a judgment-sensitivity diagnostic. Differences reflect reviewer/context variation, not new model efficacy or neutral rescoring. Never use earlier ratings to select or change new labels.
+
+Human packages stay byte-preserved and contain no new AI labels. Human G1 remains pending, and actual human annotators must remain unaware of these item-level judgments. The public adaptation is still private and not fully release-eligible. No owner key access, tool execution, research-model features, training, development/confirmatory extraction or hypothesis change. Boundary artifacts are designed diagnostics, not independently established ground truth. Main/task/template dependencies remain.

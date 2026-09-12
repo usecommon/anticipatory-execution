@@ -32,6 +32,8 @@ The [shared-policy public/synthetic pilot](outputs/shared_policy_pilot_v0_1/READ
 
 The [later-checkpoint and human-review package](outputs/checkpoint_human_pilot_v0_1/README.md) adds 12/18-word proposals and prepares two blind 220-case review packages (200 main + 20 boundary diagnostics). The combined pool has 260 work products across 900 scheduled opportunities; no new reuse labels or genuine human submissions exist yet.
 
+The [fresh AI judge of the 220 review cases](outputs/checkpoint_ai_judge_v0_1/README.md) rated the main 200 as 171 reusable, 21 non-reusable and 8 unresolved, with 53 ambiguity flags. The 20 boundary cases were separately judged insufficient work. Six of 65 unchanged six-word cases changed disposition versus prior AI adjudication; human packages remain blank and unchanged.
+
 ## Current state
 
 - **G0 PASS, scoped:** canonical-v0.5, frozen Qwen2.5-7B-Instruct, NVIDIA A100-SXM4-40GB, FP32 eager, physical shape [1,128], active length 1..128, serial prefixes, explicit positions/masks, cache off. Two fresh Modal containers passed 8,427 checks each; 155 cross-container cases matched bitwise.

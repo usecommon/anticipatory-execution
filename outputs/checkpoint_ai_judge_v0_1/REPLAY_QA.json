@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "byte_identical_result_files": [
+    "ALL_220.jsonl",
+    "BOUNDARY_20.jsonl",
+    "MAIN_200.jsonl",
+    "MAIN_INVALID_CANDIDATE.jsonl",
+    "MAIN_NON_REUSABLE.jsonl",
+    "MAIN_REUSABLE.jsonl",
+    "MAIN_UNCERTAIN_CANDIDATE.jsonl",
+    "MAIN_UNRESOLVED_REUSE.jsonl",
+    "PRIOR_COMPARISON.jsonl",
+    "REVIEW.md",
+    "REVIEW_ATTENTION.jsonl",
+    "SCORES.json"
+  ],
+  "method": "Fresh temporary source layout; scoring frozen raw decisions only; judge not rerun"
+}
