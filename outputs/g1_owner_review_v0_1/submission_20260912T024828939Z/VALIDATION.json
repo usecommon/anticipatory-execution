@@ -1,0 +1,61 @@
+{
+  "G1": "PENDING",
+  "source_hash_valid": true,
+  "all_ids_valid": true,
+  "entries_received": 75,
+  "structurally_complete": 73,
+  "incomplete": [
+    {
+      "item_id": "T002-P1",
+      "missing": [
+        "annotator_rationale"
+      ]
+    },
+    {
+      "item_id": "T016-P3",
+      "missing": [
+        "decision"
+      ]
+    }
+  ],
+  "selected_non_reusable": 74,
+  "selected_reusable": 0,
+  "selected_unresolved": 0,
+  "missing_decision": 1,
+  "clarification_needed": {
+    "reason": "Selected 0 but rationale says agreed with AI decision where AI decision was unresolved; retain explicit selections pending clarification.",
+    "item_ids": [
+      "T001-P1",
+      "T003-P1",
+      "T005-P1",
+      "T010-P1",
+      "T014-P3",
+      "T018-P1",
+      "T019-P1",
+      "T020-P1",
+      "T021-P1",
+      "T022-P1",
+      "T023-P1",
+      "T029-P1",
+      "T031-P1",
+      "T032-P3",
+      "T034-P1",
+      "T035-P1",
+      "T036-P2",
+      "T037-P2",
+      "T043-P1",
+      "T044-P1",
+      "T046-P1",
+      "T047-P1",
+      "T048-P1",
+      "T049-P1",
+      "T050-P1"
+    ],
+    "count": 25
+  },
+  "previous_owner_submission": null,
+  "unreviewed_items_outside_selected_subset": 125,
+  "dataset_and_AI_labels_changed": false,
+  "human_G1_pass": false,
+  "submission_sha256": "d678b58e5ed476a28e303ed41bdd2201df0182fa291d2fa7f9a81fd052aea718"
+}
