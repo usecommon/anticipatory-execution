@@ -1,0 +1,61 @@
+{
+  "G1": "PENDING",
+  "initial_agreement_unchanged": true,
+  "judge_role": "C after freezing all blind submissions",
+  "reviewed": 62,
+  "judge_decisions": {
+    "unresolved": 26,
+    "reusable": 23,
+    "not_reusable": 13
+  },
+  "final_provisional_counts": {
+    "unresolved": 26,
+    "1": 125,
+    "0": 49
+  },
+  "unresolved_ids": [
+    "T001-P1",
+    "T002-P1",
+    "T003-P1",
+    "T005-P1",
+    "T010-P1",
+    "T014-P3",
+    "T018-P1",
+    "T019-P1",
+    "T020-P1",
+    "T021-P1",
+    "T022-P1",
+    "T023-P1",
+    "T029-P1",
+    "T031-P1",
+    "T032-P3",
+    "T034-P1",
+    "T035-P1",
+    "T036-P2",
+    "T037-P2",
+    "T043-P1",
+    "T044-P1",
+    "T046-P1",
+    "T047-P1",
+    "T048-P1",
+    "T049-P1",
+    "T050-P1"
+  ],
+  "changed_from_initial_C_ids": [
+    "T026-P3"
+  ],
+  "rubric_issues": {
+    "unspecified_output": 21,
+    "partial_reuse": 12,
+    "none": 17,
+    "unsupported_constraint": 2,
+    "boundary_tolerance": 2,
+    "preference_vs_constraint": 2,
+    "unsupported_content": 1,
+    "conditional_action": 5
+  },
+  "adjudication_sha256": "29f34a8558d31ab9e53fd543516b848ad17404582b509591760ccbd9c56cac04",
+  "independent_human_pairs": 0,
+  "development_extraction": false,
+  "confirmatory_extraction": false
+}

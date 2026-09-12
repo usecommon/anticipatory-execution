@@ -1,0 +1,23 @@
+{
+  "files": {
+    "A": {
+      "submission.jsonl": "485b35b4f065597bc1a406886fbeef190ecc3e76887f7b210bbb597e6da1f40b",
+      "METHODS.md": "5507ef4f10d3322541e703e7d3c086cc9ddd4ad0eee0d269d32a0a9b6b0ba499",
+      "items.jsonl": "d6856f445d1ad89605c9389e5e981b8c53280b49c80522efea798a5dc0e7c154",
+      "RUBRIC.txt": "95a21c324668f010475d2d2f550f8b22bd3011173c76b36276d529929321e11e"
+    },
+    "B": {
+      "submission.jsonl": "797694800bc3950c44df737b21a8932385320a92af985a9abe6b6385be3df893",
+      "METHODS.md": "02be07c011500fd6f4a6c82cfd513db7d167f1d158ad71bfa336a0ab245dc6d1",
+      "items.jsonl": "72cffd3c5cfbe003432a2c01bac6fa2a8165a76b02342378c47d225a5c1d0b60",
+      "RUBRIC.txt": "95a21c324668f010475d2d2f550f8b22bd3011173c76b36276d529929321e11e"
+    },
+    "C": {
+      "submission.jsonl": "ffba76d58b4a424669cddcd33e8b0dad3ea25bc312cbfddf8d80dc1790cd0647",
+      "METHODS.md": "683741b5db96dfbc97aea21d4e46b3ef5a9b9435e297efac157263678416cf10",
+      "items.jsonl": "ec70cfd741f664615a34fece7603b13b242a5c3758a6c4af3f4b7a1ffc049a0f",
+      "RUBRIC.txt": "95a21c324668f010475d2d2f550f8b22bd3011173c76b36276d529929321e11e"
+    }
+  },
+  "validation_errors": []
+}

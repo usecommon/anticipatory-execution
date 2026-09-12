@@ -1,0 +1,11 @@
+{
+  "items_context_exact": 200,
+  "ratings_exact": 600,
+  "judgment_rows_checked": 200,
+  "cached_pairwise_kappa_matches_independent_calculation": true,
+  "summary_counts_match": true,
+  "frozen_submission_hashes_unchanged": true,
+  "native_Numbers_checked": false,
+  "G1": "PENDING",
+  "workbook_sha256": "0006c754bf20825efeb71d2e7ddfc9cb28a6e3a31d68609e0d809fa761461cf2"
+}

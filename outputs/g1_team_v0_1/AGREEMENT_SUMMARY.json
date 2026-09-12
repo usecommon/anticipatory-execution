@@ -1,0 +1,114 @@
+{
+  "G1": "PENDING",
+  "raters": "3 AI agents using same configured model",
+  "items": 200,
+  "primary_pair": "AB",
+  "pairwise": {
+    "AB": {
+      "completed_pairs": 200,
+      "kappa": 0.9743326488706365,
+      "observed_agreement": 0.99,
+      "expected_agreement": 0.6104,
+      "positive_labels": {
+        "A": 146,
+        "B": 148
+      },
+      "contingency": {
+        "00": 52,
+        "01": 2,
+        "10": 0,
+        "11": 146
+      },
+      "binary_reliability": "MEETS_THRESHOLD",
+      "disagreement_ids": [
+        "T048-P1",
+        "T050-P1"
+      ]
+    },
+    "AC": {
+      "completed_pairs": 200,
+      "kappa": 0.9486652977412731,
+      "observed_agreement": 0.98,
+      "expected_agreement": 0.6104,
+      "positive_labels": {
+        "A": 146,
+        "B": 148
+      },
+      "contingency": {
+        "00": 51,
+        "01": 3,
+        "10": 1,
+        "11": 145
+      },
+      "binary_reliability": "MEETS_THRESHOLD",
+      "disagreement_ids": [
+        "T026-P3",
+        "T037-P2",
+        "T048-P1",
+        "T050-P1"
+      ]
+    },
+    "BC": {
+      "completed_pairs": 200,
+      "kappa": 0.974012474012474,
+      "observed_agreement": 0.99,
+      "expected_agreement": 0.6152,
+      "positive_labels": {
+        "A": 148,
+        "B": 148
+      },
+      "contingency": {
+        "00": 51,
+        "01": 1,
+        "10": 1,
+        "11": 147
+      },
+      "binary_reliability": "MEETS_THRESHOLD",
+      "disagreement_ids": [
+        "T026-P3",
+        "T037-P2"
+      ]
+    }
+  },
+  "fleiss_kappa": 0.9656337705481414,
+  "unanimous_binary_items": 196,
+  "binary_disagreements": 4,
+  "judge_queue_items": 62,
+  "preselected_control_items": 20,
+  "rater_summaries": {
+    "A": {
+      "positive": 146,
+      "negative": 54,
+      "ambiguous": 37,
+      "confidence": {
+        "3": 27,
+        "4": 36,
+        "5": 137
+      }
+    },
+    "B": {
+      "positive": 148,
+      "negative": 52,
+      "ambiguous": 34,
+      "confidence": {
+        "2": 11,
+        "4": 29,
+        "5": 142,
+        "3": 18
+      }
+    },
+    "C": {
+      "positive": 148,
+      "negative": 52,
+      "ambiguous": 32,
+      "confidence": {
+        "3": 20,
+        "4": 31,
+        "5": 149
+      }
+    }
+  },
+  "independent_human_pairs": 0,
+  "confirmatory_extraction": false,
+  "development_extraction": false
+}

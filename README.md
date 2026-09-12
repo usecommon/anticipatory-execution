@@ -14,6 +14,8 @@ The [public dataset audit](outputs/public_dataset_audit_v0_1/AUDIT.md) identifie
 
 The [200-item AI annotation trial](outputs/g1_ai_trial_v0_1/TRIAL_REPORT.md) is rubric-diagnostic work only. It does not close G1; keep its labels away from independent annotators until their submissions are preserved.
 
+The [three-agent annotation and judgment study](outputs/g1_team_v0_1/TEAM_REPORT.md) preserves 600 AI ratings, original agreement and 26 unresolved judgments. High AI agreement does not close human G1 or establish dataset validity.
+
 ## Current state
 
 - **G0 PASS, scoped:** canonical-v0.5, frozen Qwen2.5-7B-Instruct, NVIDIA A100-SXM4-40GB, FP32 eager, physical shape [1,128], active length 1..128, serial prefixes, explicit positions/masks, cache off. Two fresh Modal containers passed 8,427 checks each; 155 cross-container cases matched bitwise.

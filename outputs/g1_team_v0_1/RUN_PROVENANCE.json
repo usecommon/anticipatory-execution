@@ -1,0 +1,12 @@
+{
+  "study_plan_sha256": "9dec2b6c733c57dd524737b47428d87d9acd3e60538eda90a3dfbb5603f71e54",
+  "agents": {
+    "A": "/root/rater_a",
+    "B": "/root/rater_b",
+    "C": "/root/rater_judge_c"
+  },
+  "history_fork": "none for all three",
+  "shared_filesystem": true,
+  "prompt_isolation_not_security_isolation": true,
+  "model_override": null
+}

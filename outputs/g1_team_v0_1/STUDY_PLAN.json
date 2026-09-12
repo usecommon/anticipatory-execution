@@ -1,0 +1,56 @@
+{
+  "study": "AI multi-agent label and judgment study v0.1",
+  "G1": "PENDING",
+  "roles": {
+    "A": "blind AI rater",
+    "B": "blind AI rater",
+    "C": "blind AI rater first; adjudicator only after all submissions frozen"
+  },
+  "items_per_rater": 200,
+  "blinding": "Fresh agents without conversation history; opaque role-specific IDs and independently shuffled item order; workflow isolation on a shared filesystem, not an access-control sandbox. Original text and domain retained.",
+  "prior_AI_labels_excluded": true,
+  "owner_key_excluded": true,
+  "primary_comparison": "A versus B before adjudication",
+  "secondary_comparisons": [
+    "A versus C",
+    "B versus C",
+    "three-rater Fleiss kappa descriptive"
+  ],
+  "threshold": "Report relationship to 0.70 descriptively; AI agreement does not satisfy human G1.",
+  "adjudication": "C reviews union of nonunanimous binary labels, any rater ambiguity flags, and 20 preselected controls; freeze initial C labels first. Retain all original labels and unresolved outcomes.",
+  "preselected_control_ids": [
+    "T024-P1",
+    "T002-P3",
+    "T040-P4",
+    "T023-P2",
+    "T022-P2",
+    "T044-P2",
+    "T007-P2",
+    "T044-P4",
+    "T032-P3",
+    "T038-P3",
+    "T001-P2",
+    "T047-P4",
+    "T009-P3",
+    "T014-P4",
+    "T045-P2",
+    "T034-P2",
+    "T028-P1",
+    "T024-P4",
+    "T022-P3",
+    "T027-P4"
+  ],
+  "input_sha256": {
+    "A": "d6856f445d1ad89605c9389e5e981b8c53280b49c80522efea798a5dc0e7c154",
+    "B": "72cffd3c5cfbe003432a2c01bac6fa2a8165a76b02342378c47d225a5c1d0b60",
+    "C": "ec70cfd741f664615a34fece7603b13b242a5c3758a6c4af3f4b7a1ffc049a0f"
+  },
+  "model_diversity": "Agents inherit the same configured model; same-model correlation is a limitation. Exact service model revision is not independently pinned.",
+  "prohibited": [
+    "Owner key use",
+    "Prior AI result use by raters",
+    "Changing items or frozen rubric",
+    "Training or extraction",
+    "Marking human G1 passed"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "explanation": "The existing G1 checker names the two compared slots A and B, including positive_labels and contingency axes. Secondary comparison files retain that original schema. Map slots to actual rater IDs using this table. Numeric results are unchanged; arithmetic audit warnings are preserved.",
+  "AB": {
+    "A": "A",
+    "B": "B"
+  },
+  "AC": {
+    "A": "A",
+    "B": "C"
+  },
+  "BC": {
+    "A": "B",
+    "B": "C"
+  }
+}

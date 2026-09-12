@@ -1,0 +1,37 @@
+{
+  "G1": "PENDING",
+  "expected_items": 200,
+  "completed_pairs": 200,
+  "missing_binary_labels": {
+    "A": [],
+    "B": []
+  },
+  "missing_secondary_fields": {
+    "A": [],
+    "B": []
+  },
+  "binary_reliability": "MEETS_THRESHOLD",
+  "kappa": 0.974012474012474,
+  "independence_verified": false,
+  "third_party_adjudication_verified": false,
+  "development_extraction_authorized": false,
+  "confirmatory_extraction_authorized": false,
+  "contingency": {
+    "00": 51,
+    "01": 1,
+    "10": 1,
+    "11": 147
+  },
+  "observed_agreement": 0.99,
+  "expected_agreement": 0.6152,
+  "positive_labels": {
+    "A": 148,
+    "B": 148
+  },
+  "disagreement_ids": [
+    "T026-P3",
+    "T037-P2"
+  ],
+  "reason": "Binary statistic only. Check independence, all required fields, prevalence and third-party adjudication before G1 closure.",
+  "interpretation": "AI descriptive agreement only; not human reliability or annotation accuracy"
+}
