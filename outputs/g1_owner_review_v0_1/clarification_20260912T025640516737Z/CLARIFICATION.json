@@ -1,0 +1,36 @@
+{
+  "user_statement": "not unresolved. not useable",
+  "specific_answers": {
+    "T002-P1": "agreed and not useable",
+    "T016-P3": "agreed and not useable"
+  },
+  "applies_to_previously_flagged_ids": [
+    "T001-P1",
+    "T003-P1",
+    "T005-P1",
+    "T010-P1",
+    "T014-P3",
+    "T018-P1",
+    "T019-P1",
+    "T020-P1",
+    "T021-P1",
+    "T022-P1",
+    "T023-P1",
+    "T029-P1",
+    "T031-P1",
+    "T032-P3",
+    "T034-P1",
+    "T035-P1",
+    "T036-P2",
+    "T037-P2",
+    "T043-P1",
+    "T044-P1",
+    "T046-P1",
+    "T047-P1",
+    "T048-P1",
+    "T049-P1",
+    "T050-P1"
+  ],
+  "previous_submission": "submission_20260912T024828939Z",
+  "received_at_utc": "20260912T025640516737Z"
+}

@@ -1,0 +1,17 @@
+{
+  "G1": "PENDING",
+  "review_type": "owner_review_after_AI_results_exposure",
+  "previous_submission": "submission_20260912T024828939Z",
+  "entries_received": 75,
+  "structurally_complete": 75,
+  "selected_non_reusable": 75,
+  "selected_reusable": 0,
+  "selected_unresolved": 0,
+  "missing_fields": [],
+  "pending_clarifications": [],
+  "clarifications_resolved": 25,
+  "unreviewed_items_outside_selected_subset": 125,
+  "source_hash_valid": true,
+  "dataset_and_AI_labels_changed": false,
+  "previous_submission_preserved": true
+}
