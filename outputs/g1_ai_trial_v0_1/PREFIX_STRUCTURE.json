@@ -1,0 +1,1202 @@
+[
+  {
+    "item_id": "T001-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T001-P2",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T001-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T001-P4",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T002-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T002-P2",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T002-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T002-P4",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T003-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T003-P2",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T003-P3",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T003-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T004-P1",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T004-P2",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T004-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T004-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T005-P1",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T005-P2",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T005-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T005-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T006-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T006-P2",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T006-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T006-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T007-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T007-P2",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T007-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T007-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T008-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T008-P2",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T008-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T008-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T009-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T009-P2",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T009-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T009-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T010-P1",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T010-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T010-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T010-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T011-P1",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T011-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T011-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T011-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T012-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T012-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T012-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T012-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T013-P1",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T013-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T013-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T013-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T014-P1",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T014-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T014-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T014-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T015-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T015-P2",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T015-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T015-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T016-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T016-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T016-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T016-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T017-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T017-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T017-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T017-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T018-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T018-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T018-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T018-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T019-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T019-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T019-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T019-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T020-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T020-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T020-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T020-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T021-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T021-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T021-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T021-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T022-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T022-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T022-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T022-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T023-P1",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T023-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T023-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T023-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T024-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T024-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T024-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T024-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T025-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T025-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T025-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T025-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T026-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T026-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T026-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T026-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T027-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T027-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T027-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T027-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T028-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T028-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T028-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T028-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T029-P1",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T029-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T029-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T029-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T030-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T030-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T030-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T030-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T031-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T031-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T031-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T031-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T032-P1",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T032-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T032-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T032-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T033-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T033-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T033-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T033-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T034-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T034-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T034-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T034-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T035-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T035-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T035-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T035-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T036-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T036-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T036-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T036-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T037-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T037-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T037-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T037-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T038-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T038-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T038-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T038-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T039-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T039-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T039-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T039-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T040-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T040-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T040-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T040-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T041-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T041-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T041-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T041-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T042-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T042-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T042-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T042-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T043-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T043-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T043-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T043-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T044-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T044-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T044-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T044-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T045-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T045-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T045-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T045-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T046-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T046-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T046-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T046-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T047-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T047-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T047-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T047-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T048-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T048-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T048-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T048-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T049-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T049-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T049-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T049-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T050-P1",
+    "literal_prefix": true,
+    "casefold_prefix": true,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T050-P2",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  },
+  {
+    "item_id": "T050-P3",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": false
+  },
+  {
+    "item_id": "T050-P4",
+    "literal_prefix": false,
+    "casefold_prefix": false,
+    "literal_substring": true
+  }
+]

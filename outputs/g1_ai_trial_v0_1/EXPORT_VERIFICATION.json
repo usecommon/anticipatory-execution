@@ -1,0 +1,11 @@
+{
+  "exact_label_roundtrip": true,
+  "source_context_unchanged": true,
+  "second_rater_blank": true,
+  "only_authorized_cell_values_changed": true,
+  "changed_cells": 1004,
+  "G1": "PENDING",
+  "completed_pairs": 0,
+  "kappa": null,
+  "workbook_sha256": "e6ac635fe15938412fe175c5e561f3d2dcae3414ee1912524b5f1f38cd985ca1"
+}

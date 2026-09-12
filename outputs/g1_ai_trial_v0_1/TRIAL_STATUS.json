@@ -1,0 +1,44 @@
+{
+  "G1": "PENDING",
+  "purpose": "AI trial only; not independent human reliability",
+  "labels": 200,
+  "positive": 148,
+  "negative": 52,
+  "ambiguous": 86,
+  "confidence_counts": {
+    "2": 19,
+    "3": 32,
+    "5": 113,
+    "4": 36
+  },
+  "label_counts_by_item_position": {
+    "1": {
+      "1": 46,
+      "0": 4
+    },
+    "2": {
+      "1": 48,
+      "0": 2
+    },
+    "3": {
+      "0": 46,
+      "1": 4
+    },
+    "4": {
+      "1": 50
+    }
+  },
+  "literal_prefix_count": 54,
+  "casefold_prefix_count": 54,
+  "literal_substring_count": 142,
+  "class_4_items": 4,
+  "kappa": null,
+  "independent_human_submissions": 0,
+  "owner_gold_key_used": false,
+  "external_actions_executed": false,
+  "development_extraction": false,
+  "confirmatory_extraction": false,
+  "source_sha256": "5a621cac2f8b598e3e9fd70a191946722a5de3483a741905c4a6d102a80c642b",
+  "method": "One Codex session read task groups with prefixes, actions, arguments, execution class and full instructions; authored every label and rationale explicitly. No label inferred by a rule in this script. No separate blind second model or human rater. Rubric worked examples and prior project context were visible. Prefix-first staged presentation was not reproduced.",
+  "fractional_utility_note": "Subjective coarse estimates, not measured output fractions or calibrated probabilities."
+}
