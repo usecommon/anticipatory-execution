@@ -1,0 +1,17 @@
+{
+  "G1": "PENDING",
+  "independent_submissions_received": 0,
+  "labels_generated": false,
+  "packages": {
+    "A": {
+      "workbook_sha256": "5a621cac2f8b598e3e9fd70a191946722a5de3483a741905c4a6d102a80c642b",
+      "exact_copy_of_corrected_blank_workbook": true,
+      "sheet_to_fill": "Annotator_A"
+    },
+    "B": {
+      "workbook_sha256": "5a621cac2f8b598e3e9fd70a191946722a5de3483a741905c4a6d102a80c642b",
+      "exact_copy_of_corrected_blank_workbook": true,
+      "sheet_to_fill": "Annotator_B"
+    }
+  }
+}
