@@ -1,0 +1,18 @@
+{
+  "G1": "PENDING",
+  "binary_decisions": 200,
+  "non_reusable": 75,
+  "reusable": 125,
+  "unresolved_binary_decisions": 0,
+  "individually_completed_entries": 75,
+  "bulk_accepted_entries": 125,
+  "entries_missing_secondary_annotation_fields": 125,
+  "independent_blind_human_pairs": 0,
+  "sources": [
+    "outputs/g1_owner_review_v0_1/clarification_20260912T025640516737Z",
+    "outputs/g1_owner_review_remaining_v0_1/bulk_acceptance_20260912T030737282943Z"
+  ],
+  "dataset_or_AI_labels_modified": false,
+  "development_extraction": false,
+  "confirmatory_extraction": false
+}
