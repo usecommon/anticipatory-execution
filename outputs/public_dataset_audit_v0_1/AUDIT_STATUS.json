@@ -1,0 +1,30 @@
+{
+  "audit_date": "2026-09-11",
+  "scope": "Bounded public-dataset documentation, schema and evaluator-source audit",
+  "decision": "Reuse public tasks and validated executable supervision where applicable; no verified drop-in G1 replacement found in inspected sources",
+  "G0": "PASS_SCOPED",
+  "G1": "PENDING",
+  "protocol_amended": false,
+  "model_inference": false,
+  "development_extraction": false,
+  "confirmatory_extraction": false,
+  "owner_gold_key_used": false,
+  "numbers_feedback": "User reports v0.2 Numbers workbook looks good; native file, labels and export not independently verified in this audit",
+  "bfcl_base_records_parsed": 200,
+  "bfcl_reference_records_parsed": 200,
+  "bfcl_content_sample_ids": [
+    "multi_turn_base_0"
+  ],
+  "source_downloads": 9,
+  "runtime_evaluator_checks": 0,
+  "limitations": [
+    "inCLINC README and CSV web fetches returned Internal Error; raw columns not verified",
+    "Creative Commons target page timed out; official dataset link identifies CC BY 4.0",
+    "ComplexFuncBench HF viewer shows mixed-type parsing failure; raw dataset not downloaded",
+    "ComplexFuncBench card narrative and statistics total disagree; unresolved",
+    "Successor tau benchmark schemas not audited",
+    "No tokenizer coverage measurement",
+    "No action-level oracle validated",
+    "Raw research tensor transfer to GitHub remains incomplete"
+  ]
+}

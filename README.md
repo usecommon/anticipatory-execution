@@ -10,6 +10,8 @@ The additional full raw-evidence upload is currently **incomplete**; see [transf
 
 Use the [corrected G1 annotation workbook](outputs/g1_workbook_fix_v0_2/aeb_g1_annotation_pilot_200_v0_2.xlsx) for labeling; see its [calculation changes and validation](outputs/g1_workbook_fix_v0_2/CHANGELOG.md). The original workbook remains preserved.
 
+The [public dataset audit](outputs/public_dataset_audit_v0_1/AUDIT.md) identifies reusable task sources and potential executable supervision; it does not waive G1 or change the protocol.
+
 ## Current state
 
 - **G0 PASS, scoped:** canonical-v0.5, frozen Qwen2.5-7B-Instruct, NVIDIA A100-SXM4-40GB, FP32 eager, physical shape [1,128], active length 1..128, serial prefixes, explicit positions/masks, cache off. Two fresh Modal containers passed 8,427 checks each; 155 cross-container cases matched bitwise.
