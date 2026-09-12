@@ -1,0 +1,97 @@
+{
+  "bfcl": {
+    "records": 200,
+    "unique_ids": 200,
+    "reference_records": 200,
+    "ids_match": true,
+    "record_fields": [
+      "id",
+      "question",
+      "initial_config",
+      "path",
+      "involved_classes",
+      "excluded_function"
+    ],
+    "content_inspected_ids": [
+      "multi_turn_base_0"
+    ],
+    "runtime_evaluator_checks": 0
+  },
+  "sgd": {
+    "file_dialogues": 128,
+    "unique_ids": 128,
+    "service_call_frames": 321,
+    "service_results_frames": 321,
+    "content_inspected_ids": [
+      "1_00000"
+    ],
+    "full_corpus_count_measured": false
+  },
+  "lost": {
+    "records": 627,
+    "unique_ids": 627,
+    "task_counts": {
+      "code": 100,
+      "database": 107,
+      "actions": 105,
+      "math": 103,
+      "data2text": 120,
+      "summary": 92
+    },
+    "claimed_filename_count": 600,
+    "count_discrepancy_preserved": true,
+    "content_inspected_ids": [
+      "sharded-HumanEval/105"
+    ],
+    "record_fields": [
+      "task_id",
+      "prompt",
+      "test",
+      "public_test_cases",
+      "metadata",
+      "source",
+      "shards",
+      "task"
+    ]
+  },
+  "complex": {
+    "downloaded_bytes": 5672116,
+    "downloaded_sha256": "55f5bd9f6089e5d64d676964e8f71c2dab9e5688b61739a5c371044054be867c",
+    "content_inspected_ids": [],
+    "semantic_quality_validated": false,
+    "parse_complete": false,
+    "valid_jsonl_records_in_download": 182,
+    "parse_errors": [
+      {
+        "line": 183,
+        "error": "Unterminated string starting at: line 1 column 177261 (char 177260)"
+      }
+    ],
+    "admission": "HOLD: publisher size and LFS SHA256 differ from received bytes. Confirmed incomplete transfer; no upstream malformedness established.",
+    "publisher_file_bytes": 40195573,
+    "publisher_lfs_sha256": "be1e0f5951b666f6543b946e915a431a39bbda1807481878eb331245276ac088",
+    "transfer_complete": false
+  },
+  "tiny": {
+    "downloaded_bytes": 6117020,
+    "downloaded_sha256": "b72234d13bce6500428d92b3578f9b66b3c9b62b0156af1b7a2c386a9794cda3",
+    "content_inspected_ids": [],
+    "semantic_quality_validated": false,
+    "parse_complete": false,
+    "parse_error": "Unterminated string starting at: line 28938 column 30 (char 6116898)",
+    "admission": "HOLD: publisher size and LFS SHA256 differ from received bytes. Confirmed incomplete transfer; no upstream malformedness established.",
+    "publisher_file_bytes": 12806644,
+    "publisher_lfs_sha256": "50ef06977959921d6f976bb3ef0df78b7b14867b4ffe78ab9170852fee1b8809",
+    "transfer_complete": false
+  },
+  "scope": {
+    "model_inference": false,
+    "new_labels": 0,
+    "confirmatory_extraction": false,
+    "development_extraction": false,
+    "tokenizer_preflight": false,
+    "G1": "PENDING",
+    "G0": "PASS_SCOPED_UNCHANGED",
+    "sampling": "File metadata/schema checks; tiny convenience content samples, not a prevalence estimate or representative quality audit."
+  }
+}

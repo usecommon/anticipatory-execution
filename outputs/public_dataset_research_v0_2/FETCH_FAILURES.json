@@ -1,0 +1,104 @@
+{
+  "initial_sandbox": "DNS unavailable; no source bytes obtained",
+  "system_python_tls_failures": {
+    "bfcl": {
+      "key": "bfcl",
+      "repo": "ShishirPatil/gorilla",
+      "retrieved_utc": "2026-09-12T03:22:52.188533+00:00",
+      "files": [],
+      "errors": [
+        {
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+        }
+      ]
+    },
+    "smcalflow": {
+      "key": "smcalflow",
+      "repo": "microsoft/task_oriented_dialogue_as_dataflow_synthesis",
+      "retrieved_utc": "2026-09-12T03:22:52.189535+00:00",
+      "files": [],
+      "errors": [
+        {
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+        }
+      ]
+    },
+    "toolsandbox": {
+      "key": "toolsandbox",
+      "repo": "apple-aiml-research/ToolSandbox",
+      "retrieved_utc": "2026-09-12T03:22:52.189273+00:00",
+      "files": [],
+      "errors": [
+        {
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+        }
+      ]
+    },
+    "evolving": {
+      "key": "evolving",
+      "repo": "microsoft/evolving-intent",
+      "retrieved_utc": "2026-09-12T03:22:53.676295+00:00",
+      "files": [],
+      "errors": [
+        {
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+        }
+      ]
+    },
+    "multiwoz": {
+      "key": "multiwoz",
+      "repo": "budzianowski/multiwoz",
+      "retrieved_utc": "2026-09-12T03:22:53.676815+00:00",
+      "files": [],
+      "errors": [
+        {
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+        }
+      ]
+    },
+    "sgd": {
+      "key": "sgd",
+      "repo": "google-research-datasets/dstc8-schema-guided-dialogue",
+      "retrieved_utc": "2026-09-12T03:22:52.188838+00:00",
+      "files": [],
+      "errors": [
+        {
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+        }
+      ]
+    },
+    "tau": {
+      "key": "tau",
+      "repo": "sierra-research/tau2-bench",
+      "retrieved_utc": "2026-09-12T03:22:53.676739+00:00",
+      "files": [],
+      "errors": [
+        {
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+        }
+      ]
+    },
+    "lost": {
+      "key": "lost",
+      "repo": "microsoft/lost_in_conversation",
+      "retrieved_utc": "2026-09-12T03:22:53.676694+00:00",
+      "files": [],
+      "errors": [
+        {
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+        }
+      ]
+    }
+  },
+  "web_failures": [
+    "inCLINC CSV and README returned Internal Error",
+    "TinyAgent dataset viewer exceeded web tool response size; data availability assessed separately",
+    "Two initially guessed TinyAgent dataset URLs were not retrievable; corrected to the publisher-linked squeeze-ai-lab/TinyAgent-dataset"
+  ],
+  "subsequent_errors": "See SOURCE_FETCH_MANIFEST.json; failed attempts preserved even when later fetch succeeded.",
+  "analysis_failures": [
+    "Initial analysis incorrectly used array parsing then line parsing without catching incomplete-transfer errors; aborted without result file.",
+    "Changing newline splitting did not repair incomplete transfers; a transient trailing-empty-line parsing failure was also retained.",
+    "Final audit records per-file parsing failures and verifies incomplete transfers against publisher sizes and LFS hashes; no data repaired, dropped or admitted."
+  ]
+}

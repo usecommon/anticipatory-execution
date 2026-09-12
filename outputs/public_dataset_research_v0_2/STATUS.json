@@ -1,0 +1,20 @@
+{
+  "state": "RESEARCH_RECOMMENDATION_ONLY",
+  "primary_recommendation": "BFCL pinned executable development adapter",
+  "complementary_source": "SGD",
+  "diagnostic_source": "inCLINC",
+  "new_action_reusability_labels": 0,
+  "experiment_eligible_sources": 0,
+  "G0": "PASS_SCOPED_UNCHANGED",
+  "G1": "PENDING",
+  "development_extraction": false,
+  "confirmatory_extraction": false,
+  "protocol_amended": false,
+  "owner_gold_key_used": false,
+  "notes": [
+    "Source scripts preserved for provenance; original paths are work-area layout and require deliberate adaptation for reuse.",
+    "Raw downloads remain in local work/public_dataset_research_v0_2; Git contains report, source URLs, hashes, validation metadata and audit scripts, not a complete mirrored dataset.",
+    "FILE_AUDIT.json is the final adjudicated audit; historical_scripts/analyze.py is preserved pre-adjudication and does not incorporate publisher-size follow-up.",
+    "Review documentation/source hashes before adapting scripts; no benchmark evaluator or model was executed."
+  ]
+}

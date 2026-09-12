@@ -1,0 +1,32 @@
+[
+  {
+    "file": "1fee67823b317571649177dd89d63969feaae4e810cc7448ee55ba797fb7c8fc_BFCL_v4_multi_turn_base.json",
+    "bytes": 78931,
+    "records": 200,
+    "hash_verified": true
+  },
+  {
+    "file": "1a21a995d06fd6f20ba55de7bced30ef953ec35e998f502ec2ecf4d66ef1c43a_BFCL_v4_multi_turn_base.json",
+    "bytes": 390425,
+    "records": 200,
+    "hash_verified": true
+  },
+  {
+    "file": "6667a3ab2b013d51d7808ac913e24b2db843a0288da6a8c5cbddec89d6163f1e_sharded_instructions_600.json",
+    "bytes": 30352135,
+    "records": 627,
+    "hash_verified": true
+  },
+  {
+    "file": "5ce28a6e656bc88c1da29c983d243d5a81eb37de92698da3864d1cf02894ca24_dialogues_001.json",
+    "bytes": 3128575,
+    "records": 128,
+    "hash_verified": true
+  },
+  {
+    "file": "97b6c21673aa7e5c2d1ceef52aa35170c565223cdcbf33bb24c69739bda04a82_schema.json",
+    "bytes": 75764,
+    "records": 26,
+    "hash_verified": true
+  }
+]

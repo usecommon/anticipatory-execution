@@ -12,6 +12,8 @@ Use the [corrected G1 annotation workbook](outputs/g1_workbook_fix_v0_2/aeb_g1_a
 
 The [public dataset audit](outputs/public_dataset_audit_v0_1/AUDIT.md) identifies reusable task sources and potential executable supervision; it does not waive G1 or change the protocol.
 
+The [detailed public-dataset suitability research](outputs/public_dataset_research_v0_2/REPORT.md) recommends a BFCL development adapter with SGD for breadth, records pinned source checks and failures, and explains why new action-reuse validation is still needed.
+
 The owner's [public-data and result-sensitivity requirement](docs/PUBLIC_DATA_AND_RESULT_SENSITIVITY.md) requires exact public source versions, traceable transformations and reproducible evaluation artifacts. Dataset changes may alter or reverse results. The current 50-task pilot candidate has unverified public provenance and remains diagnostic only.
 
 The [200-item AI annotation trial](outputs/g1_ai_trial_v0_1/TRIAL_REPORT.md) is rubric-diagnostic work only. It does not close G1; keep its labels away from independent annotators until their submissions are preserved.

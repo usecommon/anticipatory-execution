@@ -1,0 +1,19 @@
+{
+  "COMPLEX_PUBLISHER_FILE_METADATA.json": "70502b377b06ff58ba01838de42512123ac0db7d79a8a6628596ce98b6a0c739",
+  "FETCH_FAILURES.json": "9a1c7a781a45a165959d1d9a05092c84fb72ff572efff6fff08f6b9f465a739d",
+  "FILE_AUDIT.json": "ddc6da8be9a627d61e28077575f00cf61e1c0e7dd324f01c58ec1ea8c6a39d8f",
+  "README.md": "acc317452dfd54d9cf8f16c473b7c1901351fe34c6f949b6339ad16c255602bc",
+  "REPORT.md": "f4d1ec5877ae1909f38a36396f121c9512fe6801f624e0e4f9d42b76c0382dcf",
+  "REPRODUCTION_CHECK.json": "69e044e315c0dd9c98cae759b0d31a49b4c9e4cf9b859973f274e28e6475c21e",
+  "REPRODUCTION_INPUTS.json": "5abfd855bea4b8266eaea5c755edf60128ca0eb40a0ba6cb1c78c2182f33ec22",
+  "SOURCE_FETCH_MANIFEST.json": "918530e3e83009808d14db9dc6a9108d8c8349e98ac59e247d137925dbc07fc0",
+  "STATUS.json": "6bb0926bb024f57438dee8703a71c1757d0a564d5dcc15cb66514d7da2624228",
+  "TINY_PUBLISHER_FILE_METADATA.json": "d7494b67612e242adadbd4b4f6fb9c87aa21a94348cbbbf22f420ad25c7d5f41",
+  "historical_scripts/analyze.py": "bfa352292613e4d3e3abbe583891851fc8e7ff1275de8c0cbb3367e9083ab71a",
+  "historical_scripts/analyze_failed_emptyline.py": "843b24020735336f95998d072a28ef0865398b54b660a39a774ce06a74be0517",
+  "historical_scripts/analyze_failed_splitlines.py": "6dab06545dea71b7e4f747d655bc3d1168691d8b6ad091fa7110bc8fd9093d3a",
+  "historical_scripts/fetch_additional.py": "3cf0de02655b56704e0ac3914594e37ac96dddeba894d3aeac6d8dba7661db37",
+  "historical_scripts/fetch_samples.py": "ea59402a7fe6d97a767f35e403e03523add9553f99ccc145ca3e2c61acefa67e",
+  "historical_scripts/fetch_sources.py": "7ec91f345b56f167cc06c3e44a56b1a6e8325fadb989907cbf61d83f532cd3a7",
+  "verify_source_files.py": "48178cb208f225a69b543b892a24673d2c7bd66ffc331ee38ca2b69601aa1eed"
+}

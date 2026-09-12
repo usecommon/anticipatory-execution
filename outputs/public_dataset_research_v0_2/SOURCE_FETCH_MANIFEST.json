@@ -1,0 +1,320 @@
+[
+  {
+    "evidence_group": "additional",
+    "result": [
+      {
+        "key": "bfcl_answers",
+        "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/berkeley-function-call-leaderboard/bfcl_eval/data/possible_answer/BFCL_v4_multi_turn_base.json",
+        "retrieved_utc": "2026-09-12T03:27:56.261452+00:00",
+        "bytes": 78931,
+        "sha256": "1fee67823b317571649177dd89d63969feaae4e810cc7448ee55ba797fb7c8fc"
+      },
+      {
+        "key": "bfcl_checker",
+        "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/berkeley-function-call-leaderboard/bfcl_eval/eval_checker/multi_turn_eval/multi_turn_checker.py",
+        "retrieved_utc": "2026-09-12T03:27:56.262300+00:00",
+        "bytes": 13592,
+        "sha256": "b3b787515eda3bf0e365e39634a8fc7f831763f010f716d35d86f96fd5aab1b5"
+      },
+      {
+        "key": "bfcl_math",
+        "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/berkeley-function-call-leaderboard/bfcl_eval/eval_checker/multi_turn_eval/func_source_code/math_api.py",
+        "retrieved_utc": "2026-09-12T03:27:56.262544+00:00",
+        "bytes": 12252,
+        "sha256": "abde32cc25e71b2ff3acf4d028a3c005b98409c174aba4abddbfe1c018afb9a8"
+      },
+      {
+        "key": "complex_hf_meta",
+        "url": "https://huggingface.co/api/datasets/zai-org/ComplexFuncBench",
+        "retrieved_utc": "2026-09-12T03:27:56.262789+00:00",
+        "bytes": 1321,
+        "sha256": "0e2a6890f176978bce0abe5034236cb27da4c5732b3a99bb09f11394c2c0a816"
+      },
+      {
+        "key": "tiny_hf_meta",
+        "url": "https://huggingface.co/api/datasets/squeeze-ai-lab/TinyAgent-dataset",
+        "retrieved_utc": "2026-09-12T03:27:56.263022+00:00",
+        "bytes": 1318,
+        "sha256": "4d7c641f1929e687632a7be81c745ca980f47f0e72ae7e360474d062b8022b78"
+      },
+      {
+        "key": "inclinc_page",
+        "url": "https://fordatis.fraunhofer.de/handle/fordatis/213?locale=en",
+        "retrieved_utc": "2026-09-12T03:27:58.253569+00:00",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)>"
+      }
+    ]
+  },
+  {
+    "evidence_group": "bfcl",
+    "result": {
+      "key": "bfcl",
+      "repo": "ShishirPatil/gorilla",
+      "retrieved_utc": "2026-09-12T03:23:44.426808+00:00",
+      "files": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/README.md",
+          "bytes": 16591,
+          "sha256": "cadf1e55ff5a9f1371812f292d0e97bd40c6b94f2c226b17ef82feeb742dbb64"
+        },
+        {
+          "path": "berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v4_multi_turn_base.json",
+          "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v4_multi_turn_base.json",
+          "bytes": 390425,
+          "sha256": "1a21a995d06fd6f20ba55de7bced30ef953ec35e998f502ec2ecf4d66ef1c43a"
+        }
+      ],
+      "errors": [
+        {
+          "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/berkeley-function-call-leaderboard/bfcl_eval/possible_answer/BFCL_v4_multi_turn_base.json",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/berkeley-function-call-leaderboard/bfcl_eval/eval_checker/multi_turn_eval/multi_turn_checker.py",
+          "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+        }
+      ],
+      "revision": "6ea57973c7a6097fd7c5915698c54c17c5b1b6c8",
+      "tree_truncated": false
+    }
+  },
+  {
+    "evidence_group": "evolving",
+    "result": {
+      "key": "evolving",
+      "repo": "microsoft/evolving-intent",
+      "retrieved_utc": "2026-09-12T03:24:13.778357+00:00",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/microsoft/evolving-intent/993d6be9597ac03854b46362ccd647eb1bfd267a/README.md",
+          "bytes": 10771,
+          "sha256": "95f86a7d5a6c5ee5477935555446b4b3f65d1e4ed02e908525d9c1c4eac95dd4"
+        }
+      ],
+      "errors": [
+        {
+          "url": "https://raw.githubusercontent.com/microsoft/evolving-intent/993d6be9597ac03854b46362ccd647eb1bfd267a/LICENSE",
+          "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+        }
+      ],
+      "revision": "993d6be9597ac03854b46362ccd647eb1bfd267a",
+      "tree_truncated": false
+    }
+  },
+  {
+    "evidence_group": "lost",
+    "result": {
+      "key": "lost",
+      "repo": "microsoft/lost_in_conversation",
+      "retrieved_utc": "2026-09-12T03:24:14.136547+00:00",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/microsoft/lost_in_conversation/c865793fe34a929d316119b0451d01bd9183bcfd/README.md",
+          "bytes": 13522,
+          "sha256": "be2b808dbad104e280e56f1f45448f50f324f27e6fe77a44af5ba7f79f2589ed"
+        },
+        {
+          "path": "data/sharded_instructions_600.json",
+          "url": "https://raw.githubusercontent.com/microsoft/lost_in_conversation/c865793fe34a929d316119b0451d01bd9183bcfd/data/sharded_instructions_600.json",
+          "bytes": 30352135,
+          "sha256": "6667a3ab2b013d51d7808ac913e24b2db843a0288da6a8c5cbddec89d6163f1e"
+        }
+      ],
+      "errors": [
+        {
+          "url": "https://raw.githubusercontent.com/microsoft/lost_in_conversation/c865793fe34a929d316119b0451d01bd9183bcfd/LICENSE",
+          "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+        }
+      ],
+      "revision": "c865793fe34a929d316119b0451d01bd9183bcfd",
+      "tree_truncated": false
+    }
+  },
+  {
+    "evidence_group": "multiwoz",
+    "result": {
+      "key": "multiwoz",
+      "repo": "budzianowski/multiwoz",
+      "retrieved_utc": "2026-09-12T03:25:32.547259+00:00",
+      "files": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/budzianowski/multiwoz/fe0c8e65cfcd8462bd33c86e35f21addc84ca82b/LICENSE",
+          "bytes": 1086,
+          "sha256": "d84d5c0261e1cfc4b4f10f16497feb217800ae6bf89240ee5622a75f659f5124"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/budzianowski/multiwoz/fe0c8e65cfcd8462bd33c86e35f21addc84ca82b/README.md",
+          "bytes": 29873,
+          "sha256": "9290cb2fece4d98dd25497e020797e76effde267363b3ebc9afe38776df9cf78"
+        },
+        {
+          "path": "data/MultiWOZ_2.2/README.md",
+          "url": "https://raw.githubusercontent.com/budzianowski/multiwoz/fe0c8e65cfcd8462bd33c86e35f21addc84ca82b/data/MultiWOZ_2.2/README.md",
+          "bytes": 7230,
+          "sha256": "a9b2c9bb4ca61fdf1eb64a3c5d421271b14ffcc45029852fd26c71ca32302c9e"
+        }
+      ],
+      "errors": [],
+      "revision": "fe0c8e65cfcd8462bd33c86e35f21addc84ca82b",
+      "tree_truncated": false
+    }
+  },
+  {
+    "evidence_group": "samples",
+    "result": [
+      {
+        "key": "complex_data",
+        "url": "https://huggingface.co/datasets/zai-org/ComplexFuncBench/resolve/5dc7739343f8c87aee465931ba66db13a0fb5dd4/ComplexFuncBench.jsonl",
+        "retrieved_utc": "2026-09-12T03:30:20.846607+00:00",
+        "bytes": 5672116,
+        "sha256": "55f5bd9f6089e5d64d676964e8f71c2dab9e5688b61739a5c371044054be867c"
+      },
+      {
+        "key": "complex_card",
+        "url": "https://huggingface.co/datasets/zai-org/ComplexFuncBench/resolve/5dc7739343f8c87aee465931ba66db13a0fb5dd4/README.md",
+        "retrieved_utc": "2026-09-12T03:30:20.847213+00:00",
+        "bytes": 3246,
+        "sha256": "98c34013f334b5f9511d0e94466c7b3196f9392756137060d29817a051b4c180"
+      },
+      {
+        "key": "tiny_data",
+        "url": "https://huggingface.co/datasets/squeeze-ai-lab/TinyAgent-dataset/resolve/07aae41269776824bba82519a84301648f726f2d/testing_data.json",
+        "retrieved_utc": "2026-09-12T03:30:20.847490+00:00",
+        "bytes": 6117020,
+        "sha256": "b72234d13bce6500428d92b3578f9b66b3c9b62b0156af1b7a2c386a9794cda3"
+      },
+      {
+        "key": "tiny_card",
+        "url": "https://huggingface.co/datasets/squeeze-ai-lab/TinyAgent-dataset/resolve/07aae41269776824bba82519a84301648f726f2d/README.md",
+        "retrieved_utc": "2026-09-12T03:30:20.847721+00:00",
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+      },
+      {
+        "key": "lost_commit",
+        "url": "https://api.github.com/repos/microsoft/lost_in_conversation/commits/main",
+        "retrieved_utc": "2026-09-12T03:30:20.847957+00:00",
+        "bytes": 10904,
+        "sha256": "f435c80d85f2a4147e8c98cb72422886611fe826bf1e0499f7ef9c68622ecad6"
+      }
+    ]
+  },
+  {
+    "evidence_group": "sgd",
+    "result": {
+      "key": "sgd",
+      "repo": "google-research-datasets/dstc8-schema-guided-dialogue",
+      "retrieved_utc": "2026-09-12T03:23:44.427643+00:00",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/e852981ae34990f4358979625854259302feaa78/LICENSE.txt",
+          "bytes": 20139,
+          "sha256": "71a43a169b52bb1b39510b65ec5b43b4bbb59196d449a835fe58b50af6a72742"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/e852981ae34990f4358979625854259302feaa78/README.md",
+          "bytes": 16294,
+          "sha256": "e16545f163578037e6b7315b8da243f9f9871f4f071a812ab86b73702f124168"
+        },
+        {
+          "path": "train/dialogues_001.json",
+          "url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/e852981ae34990f4358979625854259302feaa78/train/dialogues_001.json",
+          "bytes": 3128575,
+          "sha256": "5ce28a6e656bc88c1da29c983d243d5a81eb37de92698da3864d1cf02894ca24"
+        },
+        {
+          "path": "train/schema.json",
+          "url": "https://raw.githubusercontent.com/google-research-datasets/dstc8-schema-guided-dialogue/e852981ae34990f4358979625854259302feaa78/train/schema.json",
+          "bytes": 75764,
+          "sha256": "97b6c21673aa7e5c2d1ceef52aa35170c565223cdcbf33bb24c69739bda04a82"
+        }
+      ],
+      "errors": [],
+      "revision": "e852981ae34990f4358979625854259302feaa78",
+      "tree_truncated": false
+    }
+  },
+  {
+    "evidence_group": "smcalflow",
+    "result": {
+      "key": "smcalflow",
+      "repo": "microsoft/task_oriented_dialogue_as_dataflow_synthesis",
+      "retrieved_utc": "2026-09-12T03:23:44.428005+00:00",
+      "files": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/microsoft/task_oriented_dialogue_as_dataflow_synthesis/bbd16fe69687b1052a7b5937ee7d20b641f2e642/LICENSE",
+          "bytes": 1162,
+          "sha256": "9906940f61b1f0b533fa7d99baf55178b2808fbe113ea51dfbfad8572ccd5f2b"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/microsoft/task_oriented_dialogue_as_dataflow_synthesis/bbd16fe69687b1052a7b5937ee7d20b641f2e642/README.md",
+          "bytes": 25112,
+          "sha256": "5c8964f8ba3f40e4c4673783db7ae26c41c1c7aeea84b6ffbfcf4da5ebe72b5c"
+        },
+        {
+          "path": "README-SEMANTICS.md",
+          "url": "https://raw.githubusercontent.com/microsoft/task_oriented_dialogue_as_dataflow_synthesis/bbd16fe69687b1052a7b5937ee7d20b641f2e642/README-SEMANTICS.md",
+          "bytes": 11708,
+          "sha256": "2f767f6d9e33f34d35cf38349b1a6ee1481bd54281b53ed13da41cdecf55ee29"
+        }
+      ],
+      "errors": [],
+      "revision": "bbd16fe69687b1052a7b5937ee7d20b641f2e642",
+      "tree_truncated": false
+    }
+  },
+  {
+    "evidence_group": "tau",
+    "result": {
+      "key": "tau",
+      "repo": "sierra-research/tau2-bench",
+      "retrieved_utc": "2026-09-12T03:25:29.781702+00:00",
+      "files": [],
+      "errors": [
+        {
+          "error": "IncompleteRead(327680 bytes read)"
+        }
+      ],
+      "revision": "2174a603f6d014ef94473ffa95957f6ce27100db"
+    }
+  },
+  {
+    "evidence_group": "toolsandbox",
+    "result": {
+      "key": "toolsandbox",
+      "repo": "apple-aiml-research/ToolSandbox",
+      "retrieved_utc": "2026-09-12T03:23:44.427725+00:00",
+      "files": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/apple-aiml-research/ToolSandbox/c8571d7854316d2e1c5f288e59fe1e34e53f6dd1/LICENSE",
+          "bytes": 2668,
+          "sha256": "2283d5566b38210fbfb9fcb06619f1d0a8101bff9df974ea8afc3393508e9015"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/apple-aiml-research/ToolSandbox/c8571d7854316d2e1c5f288e59fe1e34e53f6dd1/README.md",
+          "bytes": 48824,
+          "sha256": "0e5cfb9077769e2dcbe74dbfc8b8fac8314d8a213ab34364ab6b2ecaf47d8fe8"
+        }
+      ],
+      "errors": [],
+      "revision": "c8571d7854316d2e1c5f288e59fe1e34e53f6dd1",
+      "tree_truncated": false
+    }
+  }
+]
