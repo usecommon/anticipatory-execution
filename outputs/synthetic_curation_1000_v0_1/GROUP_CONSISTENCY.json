@@ -1,0 +1,79 @@
+{
+  "note": "Different reviewers judge wording variants. Differences conflate framing and reviewer variation; this is not paired agreement or a controlled paraphrase experiment.",
+  "flagged_parent_groups": [
+    {
+      "parent_item_id": "SX1-F032-K-A2",
+      "labels": {
+        "1": 3,
+        "0": 2
+      },
+      "ambiguity_count": 4
+    },
+    {
+      "parent_item_id": "SX1-F024-K-A2",
+      "labels": {
+        "1": 2,
+        "0": 3
+      },
+      "ambiguity_count": 4
+    },
+    {
+      "parent_item_id": "SX1-F001-K-A2",
+      "labels": {
+        "0": 3,
+        "None": 2
+      },
+      "ambiguity_count": 5
+    },
+    {
+      "parent_item_id": "SX1-F010-R-A2",
+      "labels": {
+        "1": 5
+      },
+      "ambiguity_count": 5
+    },
+    {
+      "parent_item_id": "SX1-F040-K-A1",
+      "labels": {
+        "None": 5
+      },
+      "ambiguity_count": 5
+    },
+    {
+      "parent_item_id": "SX1-F038-K-A2",
+      "labels": {
+        "1": 5
+      },
+      "ambiguity_count": 2
+    },
+    {
+      "parent_item_id": "SX1-F034-R-A1",
+      "labels": {
+        "0": 5
+      },
+      "ambiguity_count": 1
+    },
+    {
+      "parent_item_id": "SX1-F001-R-A2",
+      "labels": {
+        "0": 2,
+        "None": 3
+      },
+      "ambiguity_count": 5
+    },
+    {
+      "parent_item_id": "SX1-F041-K-A2",
+      "labels": {
+        "None": 5
+      },
+      "ambiguity_count": 5
+    },
+    {
+      "parent_item_id": "SX1-F043-R-A2",
+      "labels": {
+        "0": 5
+      },
+      "ambiguity_count": 3
+    }
+  ]
+}

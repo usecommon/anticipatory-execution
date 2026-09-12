@@ -1,0 +1,11 @@
+{
+  "items": 1000,
+  "task_variants": 500,
+  "scenario_variants": 250,
+  "independent_template_groups": 50,
+  "domains": 12,
+  "all_literal_prefixes": true,
+  "labels_transferred": 0,
+  "variation": "Five request-framing paraphrases per prior item; work products and semantic conditions retained. Not 1000 independent tasks.",
+  "source_sha256": "8366ea86b90782b47f0f99facd97ca9fed19338a8875a45af02f452e9a904363"
+}

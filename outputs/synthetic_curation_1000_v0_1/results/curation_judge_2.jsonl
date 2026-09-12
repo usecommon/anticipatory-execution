@@ -1,0 +1,333 @@
+{"item_id": "R2-0002", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "Eastport fares must be discarded when the destination changes to Westhaven."}
+{"item_id": "R2-0003", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The unpopulated objective, evidence and limitations headings can organize an appendix summary unchanged."}
+{"item_id": "R2-0004", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The office clothing list conflicts with the camping request excluding business clothing."}
+{"item_id": "R2-0005", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The retrieved official version 3 entry point matches the final version and source requirements."}
+{"item_id": "R2-0006", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The official index already provides a reusable route to version 3 documentation."}
+{"item_id": "R2-0007", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The departure trigger remains applicable when the door changes from back to front."}
+{"item_id": "R2-0008", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The official index already provides a reusable route to version 3 documentation."}
+{"item_id": "R2-0009", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The alternative-date suggestion is expressly forbidden when accepting dinner tonight."}
+{"item_id": "R2-0010", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The absence of Friday openings determines that the existing appointment should be kept."}
+{"item_id": "R2-0011", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The symbolic lower-strike-plus-debit expression accepts the corrected debit without revision."}
+{"item_id": "R2-0012", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The office clothing list conflicts with the camping request excluding business clothing."}
+{"item_id": "R2-0013", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The 08:30 departure calculation satisfies the unchanged 09:00 arrival and 30-minute travel requirement."}
+{"item_id": "R2-0014", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The blank hotel, distance and price columns remain usable for the Maple Station comparison."}
+{"item_id": "R2-0015", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The back-door sensor reading supplies the explicitly required check before staging."}
+{"item_id": "R2-0016", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The main-report-only finding is excluded by the appendix-only instruction."}
+{"item_id": "R2-0017", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The Wednesday event has the wrong day for the required Tuesday meeting."}
+{"item_id": "R2-0018", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The staged tomorrow-at-09:00 report reminder matches the requested time."}
+{"item_id": "R2-0019", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The name-independent addition tests still check behavior while preserving caller compatibility."}
+{"item_id": "R2-0020", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The runtime predicate directly implements the required under-90-minute restriction."}
+{"item_id": "R2-0021", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The dashboard and handover scope remains usable when the pricing section changes to 500 credits."}
+{"item_id": "R2-0022", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The log-reading helper remains usable because it does not select ERROR or WARN lines."}
+{"item_id": "R2-0023", "binary_usefulness_0_or_1": null, "ambiguity_flag_Y_N": "Y", "rationale": "The Harborview shuttle note is unchanged, but the fixture does not establish its use in comparing Westhaven fares."}
+{"item_id": "R2-0024", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The Acme-specific growth calculation is excluded from a Beacon-only comparison."}
+{"item_id": "R2-0025", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The station-neutral hotel layout can compare Pine Station hotels without revising its headings."}
+{"item_id": "R2-0026", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The unfilled rental-cost expression can calculate South Terminal prices unchanged."}
+{"item_id": "R2-0027", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The business clothing checklist already omits formalwear as required."}
+{"item_id": "R2-0028", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The 105-credit breakeven uses the obsolete five-credit debit and must be recalculated."}
+{"item_id": "R2-0029", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The 15-litre shoulder-bag cards cannot supply the requested 30-litre backpacks."}
+{"item_id": "R2-0030", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The two peer-reviewed probing records satisfy the final source restriction."}
+{"item_id": "R2-0031", "binary_usefulness_0_or_1": null, "ambiguity_flag_Y_N": "Y", "rationale": "The trigger itself is reusable, but the fixture does not say whether the required sensor check preceded staging."}
+{"item_id": "R2-0032", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The Riverton city field remains correct after the membership constraint reverses."}
+{"item_id": "R2-0033", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The upbeat instrumental jazz tracks satisfy the explicit vocal exclusion."}
+{"item_id": "R2-0034", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "Y", "rationale": "The under-90-minute predicate would impose an unsupported restriction on the astronomy search."}
+{"item_id": "R2-0035", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The toothbrush, charger and identification remain useful business-trip essentials."}
+{"item_id": "R2-0036", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The beans ingredient is expressly excluded by the beef-taco instruction."}
+{"item_id": "R2-0037", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The kitchen-only plan conflicts with the replacement bedroom-only plan."}
+{"item_id": "R2-0038", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The Thursday and Friday afternoon slots satisfy the requested after-10-AM availability search."}
+{"item_id": "R2-0039", "binary_usefulness_0_or_1": null, "ambiguity_flag_Y_N": "Y", "rationale": "The shuttle note concerns the right origin, but its role in the two-flight comparison is unspecified."}
+{"item_id": "R2-0040", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The executive summary preserves the required 12-week duration and 30-credit budget."}
+{"item_id": "R2-0041", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The decline sentence remains part of the requested dinner refusal with an alternative date."}
+{"item_id": "R2-0042", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The executive summary uses the obsolete budget and audience and requires substantive rewriting."}
+{"item_id": "R2-0043", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The generic title, genre, runtime and availability columns remain usable for the eligible movie comparison."}
+{"item_id": "R2-0044", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The 30-minute travel field is explicitly retained when the appointment moves to 11 AM."}
+{"item_id": "R2-0045", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The no-recommendation closing contradicts the required candidate recommendation."}
+{"item_id": "R2-0046", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "Both retrieved pharmacies are open and standalone, satisfying the hospital exclusion."}
+{"item_id": "R2-0047", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The weight sort directly supports ranking the listed bags by lower weight."}
+{"item_id": "R2-0048", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The unfilled rental-cost expression can calculate South Terminal prices unchanged."}
+{"item_id": "R2-0049", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The bread, pastry and bakery headings require replacement for a pharmacy comparison."}
+{"item_id": "R2-0050", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The two 15-litre shoulder-bag cards include the weights needed for ranking."}
+{"item_id": "R2-0051", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The TBD pricing section exactly matches the required undecided price."}
+{"item_id": "R2-0052", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "Friday availability is explicitly irrelevant to the replacement Monday check."}
+{"item_id": "R2-0053", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The existing appointment record identifies the appointment to retain if Friday is unavailable."}
+{"item_id": "R2-0054", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The actuator definition remains relevant when manufacturers and distributors are researched together."}
+{"item_id": "R2-0055", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The current 70 F reading establishes that the proposed 68 F target differs from the current setting."}
+{"item_id": "R2-0056", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "Y", "rationale": "The under-90-minute predicate would impose an unsupported restriction on the astronomy search."}
+{"item_id": "R2-0057", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The extracted skills and experience supply the requested resume differences."}
+{"item_id": "R2-0058", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The interview-only episode cards are excluded by the news-roundup-only request."}
+{"item_id": "R2-0059", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The bakery cards cannot supply the requested pharmacies."}
+{"item_id": "R2-0060", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The blank material, color, collar and price columns can compare black cotton jackets with lapels unchanged."}
+{"item_id": "R2-0061", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The manufacturer-only cards are expressly excluded from the distributor-only list."}
+{"item_id": "R2-0062", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The tortillas, tomatoes and lettuce remain usable ingredients for beef tacos."}
+{"item_id": "R2-0063", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The brown faux-suede stand-collar jackets fail the replacement material, color and collar requirements."}
+{"item_id": "R2-0064", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The blank product comparison columns support the required under-200-credit jacket comparison."}
+{"item_id": "R2-0065", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The staged definition retains add rather than the newly required public name total."}
+{"item_id": "R2-0066", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The unapplied kitchen-only plan already excludes every other room."}
+{"item_id": "R2-0067", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The kitchen-only plan conflicts with the replacement bedroom-only plan."}
+{"item_id": "R2-0068", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The timeout location and reference identify exactly where the ten-second change must be made."}
+{"item_id": "R2-0069", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "Eastport remains the destination when the route restriction changes to one stop."}
+{"item_id": "R2-0070", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The version 3 documentation is expressly excluded and describes an entry point removed in version 4."}
+{"item_id": "R2-0071", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The start-of-month allocation supplies one of the two required concentration snapshots."}
+{"item_id": "R2-0072", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The Acme revenue figures are excluded from the Beacon-only comparison."}
+{"item_id": "R2-0073", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The next-weekend suggestion is explicitly requested for the dinner-decline message."}
+{"item_id": "R2-0074", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The technical AI-agent interviews satisfy the preference for interviews over roundups."}
+{"item_id": "R2-0075", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The add definition preserves the specified public symbol and addition behavior."}
+{"item_id": "R2-0076", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The executive summary uses the obsolete budget and audience and requires substantive rewriting."}
+{"item_id": "R2-0077", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The refund-approval sentence states approval without promising a payment date."}
+{"item_id": "R2-0078", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The staged tomorrow-at-09:00 report reminder matches the requested time."}
+{"item_id": "R2-0079", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The brown faux-suede stand-collar jackets fail the replacement material, color and collar requirements."}
+{"item_id": "R2-0080", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The probing search terms remain usable with the required peer-reviewed source filter."}
+{"item_id": "R2-0081", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The AI-agents topic query remains appropriate for finding the preferred interview episodes."}
+{"item_id": "R2-0082", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The bread, pastry and bakery headings require replacement for a pharmacy comparison."}
+{"item_id": "R2-0083", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "Both bakery cards explicitly include coffee as required."}
+{"item_id": "R2-0084", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "Both robotics documentaries satisfy the stated under-90-minute limit."}
+{"item_id": "R2-0085", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The independent scores remain usable comparison evidence while vendor claims are flagged separately."}
+{"item_id": "R2-0086", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The robotics-only documentary cards are excluded by the astronomy-only request."}
+{"item_id": "R2-0087", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The dinner-decline sentence contradicts the instruction to accept dinner tonight."}
+{"item_id": "R2-0088", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The executive summary preserves the required 12-week duration and 30-credit budget."}
+{"item_id": "R2-0089", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The official index contains version 4 and remains usable after the version change."}
+{"item_id": "R2-0090", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The blank product comparison columns support the required under-200-credit jacket comparison."}
+{"item_id": "R2-0091", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The Engine-R-only tools cannot meet the Engine-S-only compatibility requirement."}
+{"item_id": "R2-0092", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The Acme revenue figures are excluded from the Beacon-only comparison."}
+{"item_id": "R2-0093", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The 90-percent battery reading verifies sufficient charge for the staged kitchen run."}
+{"item_id": "R2-0094", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The official index already provides a reusable route to version 3 documentation."}
+{"item_id": "R2-0095", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The function counts ERROR-prefixed lines without modifying the log."}
+{"item_id": "R2-0096", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The approval-specific subject contradicts the refund-denial message and must be rewritten."}
+{"item_id": "R2-0097", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The thank-you sentence remains required when an offer of further information is added."}
+{"item_id": "R2-0098", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The Engine-R-only tools cannot meet the Engine-S-only compatibility requirement."}
+{"item_id": "R2-0099", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "Both compatibility cards meet the mandatory Engine R requirement."}
+{"item_id": "R2-0100", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The manufacturer-only cards are expressly excluded from the distributor-only list."}
+{"item_id": "R2-0101", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The Maple Station hotels are expressly omitted from the replacement Pine Station search."}
+{"item_id": "R2-0102", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The unapplied kitchen-only plan already excludes every other room."}
+{"item_id": "R2-0103", "binary_usefulness_0_or_1": null, "ambiguity_flag_Y_N": "Y", "rationale": "The unapplied 70 F plan has the right target, but the current setting needed to determine whether staging is permitted is absent."}
+{"item_id": "R2-0104", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The actuator definition remains relevant when manufacturers and distributors are researched together."}
+{"item_id": "R2-0105", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The malformed-input and error columns support the required correctness-test report."}
+{"item_id": "R2-0106", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The station-neutral hotel layout can compare Pine Station hotels without revising its headings."}
+{"item_id": "R2-0107", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The existing appointment remains the explicit fallback after availability changes to Monday."}
+{"item_id": "R2-0108", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The interview-only episode cards are excluded by the news-roundup-only request."}
+{"item_id": "R2-0109", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The two peer-reviewed probing records satisfy the final source restriction."}
+{"item_id": "R2-0110", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The beans ingredient satisfies the vegetarian taco request excluding meat."}
+{"item_id": "R2-0111", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The resume skills and experience remain evidence for explaining the candidate recommendation."}
+{"item_id": "R2-0112", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The official index contains version 4 and remains usable after the version change."}
+{"item_id": "R2-0113", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The three malformed-input cases and expected errors directly support parser correctness tests."}
+{"item_id": "R2-0114", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The beans ingredient satisfies the vegetarian taco request excluding meat."}
+{"item_id": "R2-0115", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The offer of additional information exceeds the instruction to only decline the invitation."}
+{"item_id": "R2-0116", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The add definition preserves the specified public symbol and addition behavior."}
+{"item_id": "R2-0117", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The living-room 30-percent command is explicitly discarded for the bedroom 60-percent command."}
+{"item_id": "R2-0118", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The neutral build-status heading can accompany the delay update without asserting a cause."}
+{"item_id": "R2-0119", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The back-door reading is expressly forbidden in the replacement front-door task."}
+{"item_id": "R2-0120", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The technical AI-agent interviews satisfy the preference for interviews over roundups."}
+{"item_id": "R2-0121", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The start-of-month allocation supplies one of the two required concentration snapshots."}
+{"item_id": "R2-0122", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "Both freestanding converter cards fit the price limit and exclusion of permanent mounting."}
+{"item_id": "R2-0123", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The warm-white state supplies the color to preserve while changing living-room brightness."}
+{"item_id": "R2-0124", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The current 50/50 allocation remains one of the required concentration snapshots."}
+{"item_id": "R2-0125", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The existing appointment record identifies the appointment to retain if Friday is unavailable."}
+{"item_id": "R2-0126", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The no-recommendation closing contradicts the required candidate recommendation."}
+{"item_id": "R2-0127", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "Both gym cards explicitly provide day passes and saunas as requested."}
+{"item_id": "R2-0128", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The upbeat instrumental jazz tracks satisfy the explicit vocal exclusion."}
+{"item_id": "R2-0129", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The 105-credit breakeven uses the obsolete five-credit debit and must be recalculated."}
+{"item_id": "R2-0130", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The refund-approval sentence directly contradicts the final denial."}
+{"item_id": "R2-0131", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The current 70 F reading establishes that the proposed 68 F target differs from the current setting."}
+{"item_id": "R2-0132", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "Friday availability is explicitly irrelevant to the replacement Monday check."}
+{"item_id": "R2-0133", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The source-neutral probing terms remain usable for the technical-report-only search."}
+{"item_id": "R2-0134", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The business clothing checklist already omits formalwear as required."}
+{"item_id": "R2-0135", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The current 50/50 allocation remains one of the required concentration snapshots."}
+{"item_id": "R2-0136", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The category variances identify supplies as the largest overspend."}
+{"item_id": "R2-0137", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The unpopulated objective, evidence and limitations headings can organize an appendix summary unchanged."}
+{"item_id": "R2-0138", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The Region A rules have no Region B applicability and are explicitly excluded."}
+{"item_id": "R2-0139", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The symbolic breakeven expression supports the supplied 100-credit strike and five-credit debit."}
+{"item_id": "R2-0140", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The toothbrush, charger and identification remain useful business-trip essentials."}
+{"item_id": "R2-0141", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The bread, pastry and bakery headings require replacement for a pharmacy comparison."}
+{"item_id": "R2-0142", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "Y", "rationale": "The under-90-minute predicate would impose an unsupported restriction on the astronomy search."}
+{"item_id": "R2-0143", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The bread, pastry and bakery headings require replacement for a pharmacy comparison."}
+{"item_id": "R2-0144", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The unreproduced vendor scores are expressly excluded from the independent-only comparison."}
+{"item_id": "R2-0145", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The vocal-exclusion predicate directly implements the instrumental-only requirement."}
+{"item_id": "R2-0146", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The staged Wednesday event matches the replacement day, attendees and duration."}
+{"item_id": "R2-0147", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The staged Wednesday event matches the replacement day, attendees and duration."}
+{"item_id": "R2-0148", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The 15-litre shoulder-bag cards cannot supply the requested 30-litre backpacks."}
+{"item_id": "R2-0149", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The dashboard and handover scope remains usable alongside a TBD pricing section."}
+{"item_id": "R2-0150", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The vocal-exclusion predicate directly implements the instrumental-only requirement."}
+{"item_id": "R2-0151", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "Both gym cards explicitly provide day passes and saunas as requested."}
+{"item_id": "R2-0152", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "Y", "rationale": "The record-neutral weight sort remains a usable comparison component for backpacks despite no explicit final weight ranking requirement."}
+{"item_id": "R2-0153", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "Y", "rationale": "The record-neutral weight sort remains a usable comparison component for backpacks despite no explicit final weight ranking requirement."}
+{"item_id": "R2-0154", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The 93-credit calculation is the requested seven-percent downside scenario."}
+{"item_id": "R2-0155", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The probing search terms remain usable with the required peer-reviewed source filter."}
+{"item_id": "R2-0156", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The current 70 F reading establishes that the proposed 68 F target differs from the current setting."}
+{"item_id": "R2-0157", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The shared taco ingredients remain usable when beans are chosen as the protein."}
+{"item_id": "R2-0158", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The runtime predicate directly implements the required under-90-minute restriction."}
+{"item_id": "R2-0159", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The engine-neutral physics checklist can evaluate the required Engine R tools."}
+{"item_id": "R2-0160", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "Eastport remains the destination when the route restriction changes to one stop."}
+{"item_id": "R2-0161", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "Both jacket cards meet the material, color, collar and under-200-credit requirements."}
+{"item_id": "R2-0162", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The unrestricted movie layout can compare horror films longer than two hours without changing its columns."}
+{"item_id": "R2-0163", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The original ordering places the client deadline first instead of the server incident."}
+{"item_id": "R2-0164", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The blank jurisdiction, authority, date and provision columns can compare Region B sources unchanged."}
+{"item_id": "R2-0165", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The ten-second patch changes the timeout when the final instruction requires inspection of the five-second setting only."}
+{"item_id": "R2-0166", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The back-door reading is expressly forbidden in the replacement front-door task."}
+{"item_id": "R2-0167", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The fixture clock establishes both closed-now timing and tomorrow as Tuesday for the hospital-pharmacy search."}
+{"item_id": "R2-0168", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "Neither freestanding converter can meet the required permanent-mounting constraint."}
+{"item_id": "R2-0169", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The unapplied living-room command sets 30-percent brightness and preserves color as requested."}
+{"item_id": "R2-0170", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The Cedar Square location field remains useful for the Italian restaurant search with outdoor seating."}
+{"item_id": "R2-0171", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The resume skills and experience remain evidence for explaining the candidate recommendation."}
+{"item_id": "R2-0172", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "Both route cards are explicitly nonstop as required."}
+{"item_id": "R2-0173", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The symbolic downside expression supports the requested seven-percent calculation without executing a trade."}
+{"item_id": "R2-0174", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The malformed-input and error columns support the required correctness-test report."}
+{"item_id": "R2-0175", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The blank hotel, distance and price columns remain usable for the Maple Station comparison."}
+{"item_id": "R2-0176", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The robotics-only documentary cards are excluded by the astronomy-only request."}
+{"item_id": "R2-0177", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "Neither short non-horror film meets the replacement long-horror requirement."}
+{"item_id": "R2-0178", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The Acme-specific growth calculation is excluded from a Beacon-only comparison."}
+{"item_id": "R2-0179", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The extracted Acme revenue figures are the company-specific actual values required for comparison."}
+{"item_id": "R2-0180", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The Cedar Square location field remains unchanged when the cuisine changes to Thai."}
+{"item_id": "R2-0181", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The back-door reading is expressly forbidden in the replacement front-door task."}
+{"item_id": "R2-0182", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The next-weekend suggestion is explicitly requested for the dinner-decline message."}
+{"item_id": "R2-0183", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The bakery-specific layout includes coffee availability needed for the requested comparison."}
+{"item_id": "R2-0184", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The malformed-input correctness tests are explicitly excluded by the speed-benchmark-only instruction."}
+{"item_id": "R2-0185", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The resume skills and experience remain evidence for explaining the candidate recommendation."}
+{"item_id": "R2-0186", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The resume skills and experience remain evidence for explaining the candidate recommendation."}
+{"item_id": "R2-0187", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The actual category totals remain reusable inputs for the requested budget-variance calculation."}
+{"item_id": "R2-0188", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The unordered task inventory remains usable when the server incident receives first priority."}
+{"item_id": "R2-0189", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The vendor cards can be retained as explicitly unverified claims rather than comparison evidence."}
+{"item_id": "R2-0190", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The Acme revenue figures are excluded from the Beacon-only comparison."}
+{"item_id": "R2-0191", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The peer-reviewed papers fail the replacement non-peer-reviewed technical-report requirement."}
+{"item_id": "R2-0192", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The TBD pricing section exactly matches the required undecided price."}
+{"item_id": "R2-0193", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The symbolic downside expression supports the requested seven-percent calculation without executing a trade."}
+{"item_id": "R2-0194", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The 15-litre shoulder-bag cards cannot supply the requested 30-litre backpacks."}
+{"item_id": "R2-0195", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The log-reading helper remains usable because it does not select ERROR or WARN lines."}
+{"item_id": "R2-0196", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The task inventory supplies the tasks to order with the client deadline first."}
+{"item_id": "R2-0197", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The technical AI-agent interviews satisfy the preference for interviews over roundups."}
+{"item_id": "R2-0198", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The neutral build-status heading remains valid when the reported status changes to on schedule."}
+{"item_id": "R2-0199", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "Both bakery cards explicitly include coffee as required."}
+{"item_id": "R2-0200", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The North-only rental pickups are excluded by the South Terminal requirement."}
+{"item_id": "R2-0201", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The generic legal-source columns remain useful for the Region A comparison."}
+{"item_id": "R2-0202", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The version 3 documentation is expressly excluded and describes an entry point removed in version 4."}
+{"item_id": "R2-0203", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The TBD pricing section is expressly replaced by a 500-credit quote."}
+{"item_id": "R2-0204", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The unpopulated objective, evidence and limitations headings can organize an appendix summary unchanged."}
+{"item_id": "R2-0205", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The fixed local clock supplies the time reference needed to evaluate open-now pharmacy results."}
+{"item_id": "R2-0206", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The staged ordering already places the client deadline first."}
+{"item_id": "R2-0207", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The dashboard and handover scope remains usable when the pricing section changes to 500 credits."}
+{"item_id": "R2-0208", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The alternative-date suggestion is expressly forbidden when accepting dinner tonight."}
+{"item_id": "R2-0209", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The blank jurisdiction, authority, date and provision columns can compare Region B sources unchanged."}
+{"item_id": "R2-0210", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The living-room state cannot establish bedroom state for the replacement lighting task."}
+{"item_id": "R2-0211", "binary_usefulness_0_or_1": null, "ambiguity_flag_Y_N": "Y", "rationale": "The Harborview shuttle note is unchanged, but the fixture does not establish its use in comparing Westhaven fares."}
+{"item_id": "R2-0212", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The afternoon-only availability provides no eligible before-10-AM slots."}
+{"item_id": "R2-0213", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The weight sort directly supports ranking the listed bags by lower weight."}
+{"item_id": "R2-0214", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The engine-neutral physics checklist remains usable when evaluating Engine S tools."}
+{"item_id": "R2-0215", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The instrumental tracks are expressly excluded from the vocal-only playlist."}
+{"item_id": "R2-0216", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The refund-approval sentence states approval without promising a payment date."}
+{"item_id": "R2-0217", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The generic summary headings can organize the main-report findings unchanged."}
+{"item_id": "R2-0218", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The 90-percent battery reading explicitly establishes sufficient charge for the replacement bedroom run."}
+{"item_id": "R2-0219", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The interview-only episode cards are excluded by the news-roundup-only request."}
+{"item_id": "R2-0220", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The current 70 F reading resolves the condition by showing that no new 70 F staging is needed."}
+{"item_id": "R2-0221", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The existing appointment remains the explicit fallback after availability changes to Monday."}
+{"item_id": "R2-0222", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "Both jacket cards meet the material, color, collar and under-200-credit requirements."}
+{"item_id": "R2-0223", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The Maple Station hotels are expressly omitted from the replacement Pine Station search."}
+{"item_id": "R2-0224", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The ERROR-specific predicate must be changed to count WARN lines instead."}
+{"item_id": "R2-0225", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The shared taco ingredients remain usable when beans are chosen as the protein."}
+{"item_id": "R2-0226", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The living-room state cannot establish bedroom state for the replacement lighting task."}
+{"item_id": "R2-0227", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The TBD pricing section is expressly replaced by a 500-credit quote."}
+{"item_id": "R2-0228", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The vocal-exclusion predicate removes precisely the tracks required by the vocal-only playlist."}
+{"item_id": "R2-0229", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The derived 20-percent growth result is not a company-stated actual revenue figure permitted by the final restriction."}
+{"item_id": "R2-0230", "binary_usefulness_0_or_1": null, "ambiguity_flag_Y_N": "Y", "rationale": "The Harborview shuttle note is unchanged, but the fixture does not establish its use in comparing Westhaven fares."}
+{"item_id": "R2-0231", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The engine-neutral physics checklist can evaluate the required Engine R tools."}
+{"item_id": "R2-0232", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "Both gym cards explicitly provide day passes and saunas as requested."}
+{"item_id": "R2-0233", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The Submit report title remains correct when the reminder time moves to 7 PM."}
+{"item_id": "R2-0234", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The office clothing list conflicts with the camping request excluding business clothing."}
+{"item_id": "R2-0235", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The start-of-month allocation is expressly ignored in the replacement start-of-year comparison."}
+{"item_id": "R2-0236", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The warm-white state supplies the color to preserve while changing living-room brightness."}
+{"item_id": "R2-0237", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The staged tomorrow-at-09:00 report reminder matches the requested time."}
+{"item_id": "R2-0238", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The Region A rules have no Region B applicability and are explicitly excluded."}
+{"item_id": "R2-0239", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The Wednesday event has the wrong day for the required Tuesday meeting."}
+{"item_id": "R2-0240", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The manufacturer cards remain explicitly required alongside separately added distributors."}
+{"item_id": "R2-0241", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The manufacturer cards remain explicitly required alongside separately added distributors."}
+{"item_id": "R2-0242", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The robotics-only documentary cards are excluded by the astronomy-only request."}
+{"item_id": "R2-0243", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The 90-percent battery reading explicitly establishes sufficient charge for the replacement bedroom run."}
+{"item_id": "R2-0244", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The fixture clock establishes both closed-now timing and tomorrow as Tuesday for the hospital-pharmacy search."}
+{"item_id": "R2-0245", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "Friday availability is explicitly irrelevant to the replacement Monday check."}
+{"item_id": "R2-0246", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The Region A consumer-AI rule cards match the retained jurisdiction."}
+{"item_id": "R2-0247", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The harness-supplied operation tests remain reusable after the public function is renamed total."}
+{"item_id": "R2-0248", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The symbolic rental-cost calculation remains usable with North Terminal rates."}
+{"item_id": "R2-0249", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The approval-specific subject contradicts the refund-denial message and must be rewritten."}
+{"item_id": "R2-0250", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The official index contains version 4 and remains usable after the version change."}
+{"item_id": "R2-0251", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The toothbrush, charger and identification remain useful business-trip essentials."}
+{"item_id": "R2-0252", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "Both gym cards explicitly provide day passes and saunas as requested."}
+{"item_id": "R2-0253", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The extracted Acme revenue figures are the company-specific actual values required for comparison."}
+{"item_id": "R2-0254", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The 30-minute travel field is explicitly retained when the appointment moves to 11 AM."}
+{"item_id": "R2-0255", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The delay sentence contradicts the on-schedule status and explicit prohibition on mentioning delay."}
+{"item_id": "R2-0256", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The open standalone pharmacies fail both the hospital-only and closed-now requirements."}
+{"item_id": "R2-0257", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The 250-credit ceiling remains applicable when the mounting constraint changes."}
+{"item_id": "R2-0258", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The Riverton location field remains useful for finding day-pass gyms with saunas."}
+{"item_id": "R2-0259", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The Cedar Square location field remains unchanged when the cuisine changes to Thai."}
+{"item_id": "R2-0260", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The warm-white state supplies the color to preserve while changing living-room brightness."}
+{"item_id": "R2-0261", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The timeout location and reference identify exactly where the ten-second change must be made."}
+{"item_id": "R2-0262", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The actuator definition remains relevant when manufacturers and distributors are researched together."}
+{"item_id": "R2-0263", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The Italian-only restaurant cards are excluded by the Thai-only request."}
+{"item_id": "R2-0264", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The current 50/50 concentration remains explicitly unchanged when the comparison baseline changes to start of year."}
+{"item_id": "R2-0265", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "Neither freestanding converter can meet the required permanent-mounting constraint."}
+{"item_id": "R2-0266", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The category variances identify supplies as the largest overspend."}
+{"item_id": "R2-0267", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The symbolic downside expression supports the requested seven-percent calculation without executing a trade."}
+{"item_id": "R2-0268", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The 12-week duration remains valid when the audience and budget change."}
+{"item_id": "R2-0269", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The open standalone pharmacies fail both the hospital-only and closed-now requirements."}
+{"item_id": "R2-0270", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The independently reproduced model scores satisfy the final evidence restriction."}
+{"item_id": "R2-0271", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The no-recommendation closing contradicts the required candidate recommendation."}
+{"item_id": "R2-0272", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The numeric-free scenario formula accepts a 12-percent decline without revision."}
+{"item_id": "R2-0273", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The absence of Friday openings determines that the existing appointment should be kept."}
+{"item_id": "R2-0274", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The two peer-reviewed probing records satisfy the final source restriction."}
+{"item_id": "R2-0275", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The staged patch makes exactly the requested five-to-ten-second timeout change."}
+{"item_id": "R2-0276", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The delay sentence leaves the cause unknown as required."}
+{"item_id": "R2-0277", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The Cedar Square location field remains unchanged when the cuisine changes to Thai."}
+{"item_id": "R2-0278", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The 08:30 departure calculation satisfies the unchanged 09:00 arrival and 30-minute travel requirement."}
+{"item_id": "R2-0279", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The no-recommendation closing contradicts the required candidate recommendation."}
+{"item_id": "R2-0280", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The timeout location and reference identify exactly where the ten-second change must be made."}
+{"item_id": "R2-0281", "binary_usefulness_0_or_1": null, "ambiguity_flag_Y_N": "Y", "rationale": "The trigger itself is reusable, but the fixture does not say whether the required sensor check preceded staging."}
+{"item_id": "R2-0282", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The refund-approval sentence directly contradicts the final denial."}
+{"item_id": "R2-0283", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The function counts ERROR-prefixed lines without modifying the log."}
+{"item_id": "R2-0284", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The 90-percent battery reading explicitly establishes sufficient charge for the replacement bedroom run."}
+{"item_id": "R2-0285", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The variance-only results cannot supply the requested actual totals and are expressly excluded."}
+{"item_id": "R2-0286", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The category variances identify supplies as the largest overspend."}
+{"item_id": "R2-0287", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The Maple hotel cards provide the two walking distances required for comparison."}
+{"item_id": "R2-0288", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The read-only log helper supplies lines for counting without changing the file."}
+{"item_id": "R2-0289", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The staged 09:00 reminder has the wrong time for the replacement 19:00 request."}
+{"item_id": "R2-0290", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The generic title, genre, runtime and availability columns remain usable for the eligible movie comparison."}
+{"item_id": "R2-0291", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "Both day-pass gyms are excluded by the members-only requirement forbidding day passes."}
+{"item_id": "R2-0292", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The blank jurisdiction, authority, date and provision columns can compare Region B sources unchanged."}
+{"item_id": "R2-0293", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The 12-week duration remains valid when the audience and budget change."}
+{"item_id": "R2-0294", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The upbeat instrumental jazz tracks satisfy the explicit vocal exclusion."}
+{"item_id": "R2-0295", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The main-report-only finding is excluded by the appendix-only instruction."}
+{"item_id": "R2-0296", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The generic summary headings can organize the main-report findings unchanged."}
+{"item_id": "R2-0297", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The engine-neutral physics checklist can evaluate the required Engine R tools."}
+{"item_id": "R2-0298", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The unreproduced vendor scores are expressly excluded from the independent-only comparison."}
+{"item_id": "R2-0299", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The symbolic breakeven expression supports the supplied 100-credit strike and five-credit debit."}
+{"item_id": "R2-0300", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The upbeat instrumental jazz tracks satisfy the explicit vocal exclusion."}
+{"item_id": "R2-0301", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "Both compatibility cards meet the mandatory Engine R requirement."}
+{"item_id": "R2-0302", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The fixed local clock supplies the time reference needed to evaluate open-now pharmacy results."}
+{"item_id": "R2-0303", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The retrieved official version 3 entry point matches the final version and source requirements."}
+{"item_id": "R2-0304", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The bakery cards cannot supply the requested pharmacies."}
+{"item_id": "R2-0305", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The current 50/50 allocation remains one of the required concentration snapshots."}
+{"item_id": "R2-0306", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The living-room 30-percent command is explicitly discarded for the bedroom 60-percent command."}
+{"item_id": "R2-0307", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The Wednesday event has the wrong day for the required Tuesday meeting."}
+{"item_id": "R2-0308", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "Both bakery cards explicitly include coffee as required."}
+{"item_id": "R2-0309", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The engine-neutral physics checklist remains usable when evaluating Engine S tools."}
+{"item_id": "R2-0310", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The AI-agents topic query remains usable when the required episode format changes to news roundups."}
+{"item_id": "R2-0311", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "Both non-horror movie cards satisfy the original under-two-hour selection constraints."}
+{"item_id": "R2-0312", "binary_usefulness_0_or_1": null, "ambiguity_flag_Y_N": "Y", "rationale": "The trigger itself is reusable, but the fixture does not say whether the required sensor check preceded staging."}
+{"item_id": "R2-0313", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The symbolic rental-cost calculation remains usable with North Terminal rates."}
+{"item_id": "R2-0314", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The official index contains version 4 and remains usable after the version change."}
+{"item_id": "R2-0315", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "Both day-pass gyms are excluded by the members-only requirement forbidding day passes."}
+{"item_id": "R2-0316", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The dinner-decline sentence contradicts the instruction to accept dinner tonight."}
+{"item_id": "R2-0317", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The staged definition retains add rather than the newly required public name total."}
+{"item_id": "R2-0318", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The weight sort directly supports ranking the listed bags by lower weight."}
+{"item_id": "R2-0319", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "Both Italian restaurant cards explicitly provide the requested outdoor seating."}
+{"item_id": "R2-0320", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The current 50/50 concentration remains explicitly unchanged when the comparison baseline changes to start of year."}
+{"item_id": "R2-0321", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The function counts ERROR-prefixed lines without modifying the log."}
+{"item_id": "R2-0322", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The fixture clock establishes both closed-now timing and tomorrow as Tuesday for the hospital-pharmacy search."}
+{"item_id": "R2-0323", "binary_usefulness_0_or_1": null, "ambiguity_flag_Y_N": "Y", "rationale": "The shuttle note concerns the right origin, but its role in the two-flight comparison is unspecified."}
+{"item_id": "R2-0324", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "Both robotics documentaries satisfy the stated under-90-minute limit."}
+{"item_id": "R2-0325", "binary_usefulness_0_or_1": null, "ambiguity_flag_Y_N": "Y", "rationale": "The trigger itself is reusable, but the fixture does not say whether the required sensor check preceded staging."}
+{"item_id": "R2-0326", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The Morgan thank-you sentence violates both explicit prohibitions in the decline-only instruction."}
+{"item_id": "R2-0327", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The Riverton city field remains correct after the membership constraint reverses."}
+{"item_id": "R2-0328", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The blank jurisdiction, authority, date and provision columns can compare Region B sources unchanged."}
+{"item_id": "R2-0329", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The blank hotel, distance and price columns remain usable for the Maple Station comparison."}
+{"item_id": "R2-0330", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "Neither short non-horror film meets the replacement long-horror requirement."}
+{"item_id": "R2-0331", "binary_usefulness_0_or_1": 0, "ambiguity_flag_Y_N": "N", "rationale": "The version 3 documentation is expressly excluded and describes an entry point removed in version 4."}
+{"item_id": "R2-0332", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The name-independent addition tests still check behavior while preserving caller compatibility."}
+{"item_id": "R2-0333", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "The thank-you sentence remains required when an offer of further information is added."}
+{"item_id": "R2-0334", "binary_usefulness_0_or_1": 1, "ambiguity_flag_Y_N": "N", "rationale": "Both retrieved pharmacies are open and standalone, satisfying the hospital exclusion."}

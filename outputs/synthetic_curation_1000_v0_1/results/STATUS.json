@@ -1,0 +1,29 @@
+{
+  "candidate_items": 1000,
+  "active_reusable": 665,
+  "excluded_non_reusable": 305,
+  "quarantined": 30,
+  "raw_AI_labels": {
+    "reusable": 680,
+    "non_reusable": 305,
+    "unresolved": 15,
+    "ambiguous": 39
+  },
+  "active_parent_items": 133,
+  "active_template_groups": 50,
+  "total_template_groups": 50,
+  "judgments_per_item": 1,
+  "AI_judges": 3,
+  "inter_rater_kappa": null,
+  "human_G1": "PENDING",
+  "positive_only_research_validity": "NOT_A_VALID_STANDALONE_NON_REVISION_EVALUATION",
+  "public_release": false,
+  "research_model_inference": false,
+  "confirmatory_extraction": false,
+  "old_labels_changed": false,
+  "raw_submission_hashes": {
+    "curation_judge_1.jsonl": "192371b69945656b2862d1cdbbffe28466d6a6cf10a5b52d41407cb27bcfb9c2",
+    "curation_judge_2.jsonl": "ab46d795f318637f24d14ac6d85ef38d95cd568dbf58814a7e8b19e1f45e8976",
+    "curation_judge_3.jsonl": "c4f4f7689957663e89c5b7eea7d2456cab050ce69c3f4df28d67ce0d3b7fe2cf"
+  }
+}
