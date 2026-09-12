@@ -1,0 +1,620 @@
+{
+  "overall": {
+    "opportunities": 300,
+    "unique_prefixes": 258,
+    "unique_proposed_prefixes": 62,
+    "proposed": 87,
+    "proposal_coverage": 0.29,
+    "dispositions": {
+      "reusable": 58,
+      "non_reusable": 25,
+      "unresolved_reuse": 4,
+      "invalid_candidate": 0,
+      "uncertain_candidate": 0,
+      "abstention": 213
+    },
+    "reusable_per_opportunity": 0.19333333333333333,
+    "reusable_per_proposed": 0.6666666666666666,
+    "adjudication_ambiguity": 30,
+    "action_classes": {
+      "1": 49,
+      "2": 37,
+      "3": 1
+    }
+  },
+  "by_source": {
+    "public_bfcl": {
+      "opportunities": 200,
+      "unique_prefixes": 199,
+      "unique_proposed_prefixes": 21,
+      "proposed": 21,
+      "proposal_coverage": 0.105,
+      "dispositions": {
+        "reusable": 15,
+        "non_reusable": 4,
+        "unresolved_reuse": 2,
+        "invalid_candidate": 0,
+        "uncertain_candidate": 0,
+        "abstention": 179
+      },
+      "reusable_per_opportunity": 0.075,
+      "reusable_per_proposed": 0.7142857142857143,
+      "adjudication_ambiguity": 9,
+      "action_classes": {
+        "1": 17,
+        "2": 4
+      }
+    },
+    "synthetic": {
+      "opportunities": 100,
+      "unique_prefixes": 59,
+      "unique_proposed_prefixes": 41,
+      "proposed": 66,
+      "proposal_coverage": 0.66,
+      "dispositions": {
+        "reusable": 43,
+        "non_reusable": 21,
+        "unresolved_reuse": 2,
+        "invalid_candidate": 0,
+        "uncertain_candidate": 0,
+        "abstention": 34
+      },
+      "reusable_per_opportunity": 0.43,
+      "reusable_per_proposed": 0.6515151515151515,
+      "adjudication_ambiguity": 21,
+      "action_classes": {
+        "2": 33,
+        "1": 32,
+        "3": 1
+      }
+    }
+  },
+  "rater_agreement_overall": {
+    "proposed_pairs": 87,
+    "sufficiency_agreements": 87,
+    "full_disposition_agreements": 82,
+    "complete_substantive_binary_pairs": 84,
+    "binary_agreements": 81,
+    "pairs_outside_binary_denominator": 3,
+    "kappa": 0.9135802469135803,
+    "denominator_note": "Only both-substantive resolved labels; dependent task rows, AI diagnostic not humanG1."
+  },
+  "rater_agreement_by_source": {
+    "public_bfcl": {
+      "proposed_pairs": 21,
+      "sufficiency_agreements": 21,
+      "full_disposition_agreements": 20,
+      "complete_substantive_binary_pairs": 19,
+      "binary_agreements": 19,
+      "pairs_outside_binary_denominator": 2,
+      "kappa": 1.0,
+      "denominator_note": "Only both-substantive resolved labels; dependent task rows, AI diagnostic not humanG1."
+    },
+    "synthetic": {
+      "proposed_pairs": 66,
+      "sufficiency_agreements": 66,
+      "full_disposition_agreements": 62,
+      "complete_substantive_binary_pairs": 65,
+      "binary_agreements": 62,
+      "pairs_outside_binary_denominator": 1,
+      "kappa": 0.893150684931507,
+      "denominator_note": "Only both-substantive resolved labels; dependent task rows, AI diagnostic not humanG1."
+    }
+  },
+  "common_named_domains": [
+    "Communication",
+    "Device/Home Control",
+    "Document Work",
+    "Finance-like Read-only Analysis",
+    "General Productivity",
+    "Information Retrieval",
+    "Travel"
+  ],
+  "common_domain_stratum": {
+    "public_bfcl": {
+      "opportunities": 174,
+      "unique_prefixes": 173,
+      "unique_proposed_prefixes": 20,
+      "proposed": 20,
+      "proposal_coverage": 0.11494252873563218,
+      "dispositions": {
+        "reusable": 15,
+        "non_reusable": 3,
+        "unresolved_reuse": 2,
+        "invalid_candidate": 0,
+        "uncertain_candidate": 0,
+        "abstention": 154
+      },
+      "reusable_per_opportunity": 0.08620689655172414,
+      "reusable_per_proposed": 0.75,
+      "adjudication_ambiguity": 9,
+      "action_classes": {
+        "1": 16,
+        "2": 4
+      }
+    },
+    "synthetic": {
+      "opportunities": 58,
+      "unique_prefixes": 34,
+      "unique_proposed_prefixes": 20,
+      "proposed": 32,
+      "proposal_coverage": 0.5517241379310345,
+      "dispositions": {
+        "reusable": 20,
+        "non_reusable": 10,
+        "unresolved_reuse": 2,
+        "invalid_candidate": 0,
+        "uncertain_candidate": 0,
+        "abstention": 26
+      },
+      "reusable_per_opportunity": 0.3448275862068966,
+      "reusable_per_proposed": 0.625,
+      "adjudication_ambiguity": 13,
+      "action_classes": {
+        "2": 21,
+        "1": 10,
+        "3": 1
+      }
+    }
+  },
+  "by_domain": {
+    "public_bfcl": {
+      "Communication": {
+        "opportunities": 3,
+        "unique_prefixes": 3,
+        "unique_proposed_prefixes": 0,
+        "proposed": 0,
+        "proposal_coverage": 0.0,
+        "dispositions": {
+          "reusable": 0,
+          "non_reusable": 0,
+          "unresolved_reuse": 0,
+          "invalid_candidate": 0,
+          "uncertain_candidate": 0,
+          "abstention": 3
+        },
+        "reusable_per_opportunity": 0.0,
+        "reusable_per_proposed": null,
+        "adjudication_ambiguity": 0,
+        "action_classes": {}
+      },
+      "Device/Home Control": {
+        "opportunities": 30,
+        "unique_prefixes": 30,
+        "unique_proposed_prefixes": 1,
+        "proposed": 1,
+        "proposal_coverage": 0.03333333333333333,
+        "dispositions": {
+          "reusable": 1,
+          "non_reusable": 0,
+          "unresolved_reuse": 0,
+          "invalid_candidate": 0,
+          "uncertain_candidate": 0,
+          "abstention": 29
+        },
+        "reusable_per_opportunity": 0.03333333333333333,
+        "reusable_per_proposed": 1.0,
+        "adjudication_ambiguity": 1,
+        "action_classes": {
+          "2": 1
+        }
+      },
+      "Document Work": {
+        "opportunities": 25,
+        "unique_prefixes": 25,
+        "unique_proposed_prefixes": 7,
+        "proposed": 7,
+        "proposal_coverage": 0.28,
+        "dispositions": {
+          "reusable": 7,
+          "non_reusable": 0,
+          "unresolved_reuse": 0,
+          "invalid_candidate": 0,
+          "uncertain_candidate": 0,
+          "abstention": 18
+        },
+        "reusable_per_opportunity": 0.28,
+        "reusable_per_proposed": 1.0,
+        "adjudication_ambiguity": 3,
+        "action_classes": {
+          "1": 7
+        }
+      },
+      "Finance-like Read-only Analysis": {
+        "opportunities": 24,
+        "unique_prefixes": 24,
+        "unique_proposed_prefixes": 3,
+        "proposed": 3,
+        "proposal_coverage": 0.125,
+        "dispositions": {
+          "reusable": 2,
+          "non_reusable": 1,
+          "unresolved_reuse": 0,
+          "invalid_candidate": 0,
+          "uncertain_candidate": 0,
+          "abstention": 21
+        },
+        "reusable_per_opportunity": 0.08333333333333333,
+        "reusable_per_proposed": 0.6666666666666666,
+        "adjudication_ambiguity": 1,
+        "action_classes": {
+          "2": 2,
+          "1": 1
+        }
+      },
+      "General Productivity": {
+        "opportunities": 11,
+        "unique_prefixes": 11,
+        "unique_proposed_prefixes": 3,
+        "proposed": 3,
+        "proposal_coverage": 0.2727272727272727,
+        "dispositions": {
+          "reusable": 2,
+          "non_reusable": 0,
+          "unresolved_reuse": 1,
+          "invalid_candidate": 0,
+          "uncertain_candidate": 0,
+          "abstention": 8
+        },
+        "reusable_per_opportunity": 0.18181818181818182,
+        "reusable_per_proposed": 0.6666666666666666,
+        "adjudication_ambiguity": 2,
+        "action_classes": {
+          "1": 3
+        }
+      },
+      "Information Retrieval": {
+        "opportunities": 18,
+        "unique_prefixes": 17,
+        "unique_proposed_prefixes": 4,
+        "proposed": 4,
+        "proposal_coverage": 0.2222222222222222,
+        "dispositions": {
+          "reusable": 3,
+          "non_reusable": 0,
+          "unresolved_reuse": 1,
+          "invalid_candidate": 0,
+          "uncertain_candidate": 0,
+          "abstention": 14
+        },
+        "reusable_per_opportunity": 0.16666666666666666,
+        "reusable_per_proposed": 0.75,
+        "adjudication_ambiguity": 1,
+        "action_classes": {
+          "1": 4
+        }
+      },
+      "Other/Unclear": {
+        "opportunities": 26,
+        "unique_prefixes": 26,
+        "unique_proposed_prefixes": 1,
+        "proposed": 1,
+        "proposal_coverage": 0.038461538461538464,
+        "dispositions": {
+          "reusable": 0,
+          "non_reusable": 1,
+          "unresolved_reuse": 0,
+          "invalid_candidate": 0,
+          "uncertain_candidate": 0,
+          "abstention": 25
+        },
+        "reusable_per_opportunity": 0.0,
+        "reusable_per_proposed": 0.0,
+        "adjudication_ambiguity": 0,
+        "action_classes": {
+          "1": 1
+        }
+      },
+      "Travel": {
+        "opportunities": 63,
+        "unique_prefixes": 63,
+        "unique_proposed_prefixes": 2,
+        "proposed": 2,
+        "proposal_coverage": 0.031746031746031744,
+        "dispositions": {
+          "reusable": 0,
+          "non_reusable": 2,
+          "unresolved_reuse": 0,
+          "invalid_candidate": 0,
+          "uncertain_candidate": 0,
+          "abstention": 61
+        },
+        "reusable_per_opportunity": 0.0,
+        "reusable_per_proposed": 0.0,
+        "adjudication_ambiguity": 1,
+        "action_classes": {
+          "1": 1,
+          "2": 1
+        }
+      }
+    },
+    "synthetic": {
+      "Coding": {
+        "opportunities": 8,
+        "unique_prefixes": 4,
+        "unique_proposed_prefixes": 2,
+        "proposed": 4,
+        "proposal_coverage": 0.5,
+        "dispositions": {
+          "reusable": 3,
+          "non_reusable": 1,
+          "unresolved_reuse": 0,
+          "invalid_candidate": 0,
+          "uncertain_candidate": 0,
+          "abstention": 4
+        },
+        "reusable_per_opportunity": 0.375,
+        "reusable_per_proposed": 0.75,
+        "adjudication_ambiguity": 1,
+        "action_classes": {
+          "1": 2,
+          "2": 2
+        }
+      },
+      "Communication": {
+        "opportunities": 8,
+        "unique_prefixes": 5,
+        "unique_proposed_prefixes": 2,
+        "proposed": 3,
+        "proposal_coverage": 0.375,
+        "dispositions": {
+          "reusable": 2,
+          "non_reusable": 1,
+          "unresolved_reuse": 0,
+          "invalid_candidate": 0,
+          "uncertain_candidate": 0,
+          "abstention": 5
+        },
+        "reusable_per_opportunity": 0.25,
+        "reusable_per_proposed": 0.6666666666666666,
+        "adjudication_ambiguity": 0,
+        "action_classes": {
+          "2": 2,
+          "3": 1
+        }
+      },
+      "Device/Home Control": {
+        "opportunities": 8,
+        "unique_prefixes": 5,
+        "unique_proposed_prefixes": 3,
+        "proposed": 4,
+        "proposal_coverage": 0.5,
+        "dispositions": {
+          "reusable": 2,
+          "non_reusable": 2,
+          "unresolved_reuse": 0,
+          "invalid_candidate": 0,
+          "uncertain_candidate": 0,
+          "abstention": 4
+        },
+        "reusable_per_opportunity": 0.25,
+        "reusable_per_proposed": 0.5,
+        "adjudication_ambiguity": 0,
+        "action_classes": {
+          "1": 3,
+          "2": 1
+        }
+      },
+      "Document Work": {
+        "opportunities": 8,
+        "unique_prefixes": 4,
+        "unique_proposed_prefixes": 1,
+        "proposed": 2,
+        "proposal_coverage": 0.25,
+        "dispositions": {
+          "reusable": 2,
+          "non_reusable": 0,
+          "unresolved_reuse": 0,
+          "invalid_candidate": 0,
+          "uncertain_candidate": 0,
+          "abstention": 6
+        },
+        "reusable_per_opportunity": 0.25,
+        "reusable_per_proposed": 1.0,
+        "adjudication_ambiguity": 1,
+        "action_classes": {
+          "2": 2
+        }
+      },
+      "Finance-like Read-only Analysis": {
+        "opportunities": 8,
+        "unique_prefixes": 4,
+        "unique_proposed_prefixes": 4,
+        "proposed": 8,
+        "proposal_coverage": 1.0,
+        "dispositions": {
+          "reusable": 4,
+          "non_reusable": 2,
+          "unresolved_reuse": 2,
+          "invalid_candidate": 0,
+          "uncertain_candidate": 0,
+          "abstention": 0
+        },
+        "reusable_per_opportunity": 0.5,
+        "reusable_per_proposed": 0.5,
+        "adjudication_ambiguity": 4,
+        "action_classes": {
+          "2": 8
+        }
+      },
+      "General Productivity": {
+        "opportunities": 8,
+        "unique_prefixes": 4,
+        "unique_proposed_prefixes": 2,
+        "proposed": 4,
+        "proposal_coverage": 0.5,
+        "dispositions": {
+          "reusable": 2,
+          "non_reusable": 2,
+          "unresolved_reuse": 0,
+          "invalid_candidate": 0,
+          "uncertain_candidate": 0,
+          "abstention": 4
+        },
+        "reusable_per_opportunity": 0.25,
+        "reusable_per_proposed": 0.5,
+        "adjudication_ambiguity": 4,
+        "action_classes": {
+          "2": 4
+        }
+      },
+      "Information Retrieval": {
+        "opportunities": 10,
+        "unique_prefixes": 6,
+        "unique_proposed_prefixes": 4,
+        "proposed": 6,
+        "proposal_coverage": 0.6,
+        "dispositions": {
+          "reusable": 5,
+          "non_reusable": 1,
+          "unresolved_reuse": 0,
+          "invalid_candidate": 0,
+          "uncertain_candidate": 0,
+          "abstention": 4
+        },
+        "reusable_per_opportunity": 0.5,
+        "reusable_per_proposed": 0.8333333333333334,
+        "adjudication_ambiguity": 2,
+        "action_classes": {
+          "1": 5,
+          "2": 1
+        }
+      },
+      "Local Search": {
+        "opportunities": 8,
+        "unique_prefixes": 5,
+        "unique_proposed_prefixes": 5,
+        "proposed": 8,
+        "proposal_coverage": 1.0,
+        "dispositions": {
+          "reusable": 6,
+          "non_reusable": 2,
+          "unresolved_reuse": 0,
+          "invalid_candidate": 0,
+          "uncertain_candidate": 0,
+          "abstention": 0
+        },
+        "reusable_per_opportunity": 0.75,
+        "reusable_per_proposed": 0.75,
+        "adjudication_ambiguity": 1,
+        "action_classes": {
+          "1": 8
+        }
+      },
+      "Media": {
+        "opportunities": 8,
+        "unique_prefixes": 5,
+        "unique_proposed_prefixes": 5,
+        "proposed": 8,
+        "proposal_coverage": 1.0,
+        "dispositions": {
+          "reusable": 5,
+          "non_reusable": 3,
+          "unresolved_reuse": 0,
+          "invalid_candidate": 0,
+          "uncertain_candidate": 0,
+          "abstention": 0
+        },
+        "reusable_per_opportunity": 0.625,
+        "reusable_per_proposed": 0.625,
+        "adjudication_ambiguity": 4,
+        "action_classes": {
+          "1": 4,
+          "2": 4
+        }
+      },
+      "Scheduling": {
+        "opportunities": 8,
+        "unique_prefixes": 4,
+        "unique_proposed_prefixes": 2,
+        "proposed": 4,
+        "proposal_coverage": 0.5,
+        "dispositions": {
+          "reusable": 4,
+          "non_reusable": 0,
+          "unresolved_reuse": 0,
+          "invalid_candidate": 0,
+          "uncertain_candidate": 0,
+          "abstention": 4
+        },
+        "reusable_per_opportunity": 0.5,
+        "reusable_per_proposed": 1.0,
+        "adjudication_ambiguity": 0,
+        "action_classes": {
+          "2": 4
+        }
+      },
+      "Shopping/Research": {
+        "opportunities": 10,
+        "unique_prefixes": 7,
+        "unique_proposed_prefixes": 7,
+        "proposed": 10,
+        "proposal_coverage": 1.0,
+        "dispositions": {
+          "reusable": 5,
+          "non_reusable": 5,
+          "unresolved_reuse": 0,
+          "invalid_candidate": 0,
+          "uncertain_candidate": 0,
+          "abstention": 0
+        },
+        "reusable_per_opportunity": 0.5,
+        "reusable_per_proposed": 0.5,
+        "adjudication_ambiguity": 2,
+        "action_classes": {
+          "1": 8,
+          "2": 2
+        }
+      },
+      "Travel": {
+        "opportunities": 8,
+        "unique_prefixes": 6,
+        "unique_proposed_prefixes": 4,
+        "proposed": 5,
+        "proposal_coverage": 0.625,
+        "dispositions": {
+          "reusable": 3,
+          "non_reusable": 2,
+          "unresolved_reuse": 0,
+          "invalid_candidate": 0,
+          "uncertain_candidate": 0,
+          "abstention": 3
+        },
+        "reusable_per_opportunity": 0.375,
+        "reusable_per_proposed": 0.6,
+        "adjudication_ambiguity": 2,
+        "action_classes": {
+          "2": 3,
+          "1": 2
+        }
+      }
+    }
+  },
+  "exact_context_disposition_inconsistencies": [],
+  "controls_shared": [
+    "six-word checkpoint",
+    "same proposer instructions",
+    "one proposal per exact prefix",
+    "same sufficiency clarification and original survival rubric",
+    "fresh source-blinded A/B review",
+    "all-item adjudication"
+  ],
+  "uncontrolled": [
+    "domain mix",
+    "source/template dependence",
+    "source authorship and synthetic branch frequencies",
+    "semantic completeness at six words",
+    "AI session/sampling variation and unknown pretraining exposure"
+  ],
+  "public_source_release": "Pending; previously pinned source retrievable, adaptation private and rights admission incomplete",
+  "G0": "PASS_SCOPED_UNCHANGED",
+  "G1": "PENDING",
+  "research_model_inference": false,
+  "development_extraction": false,
+  "confirmatory_extraction": false,
+  "model_training": false,
+  "fixture_execution": false,
+  "latency_measured": false,
+  "source_effect_causally_established": false,
+  "judge_sha256": "f643817d4d2159e0045c0cf1eeafd255fa74486de1c8ec97218cd715261120ae"
+}

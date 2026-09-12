@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "byte_identical_files": [
+    "BUILD_QA.json",
+    "EVALUATOR_CONTEXT.jsonl",
+    "PREFIX_GROUPS.jsonl",
+    "PROPOSER_1_INPUT.jsonl",
+    "PROPOSER_2_INPUT.jsonl",
+    "SOURCE_HASHES.json"
+  ],
+  "method": "Fresh temporary directory, copies of pinned source files, no model/task execution"
+}

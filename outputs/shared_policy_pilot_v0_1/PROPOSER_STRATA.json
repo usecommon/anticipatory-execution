@@ -1,0 +1,59 @@
+{
+  "note": "Same instructions and shuffled assignment; stochastic session and batch-context effects remain possible. Task rows dependent.",
+  "strata": [
+    {
+      "proposer": 1,
+      "source": "public_bfcl",
+      "task_opportunities": 101,
+      "unique_prefixes": 101,
+      "task_proposals": 8,
+      "unique_prefix_proposals": 8,
+      "dispositions": {
+        "reusable": 5,
+        "abstention": 93,
+        "unresolved_reuse": 2,
+        "non_reusable": 1
+      }
+    },
+    {
+      "proposer": 1,
+      "source": "synthetic",
+      "task_opportunities": 49,
+      "unique_prefixes": 28,
+      "task_proposals": 25,
+      "unique_prefix_proposals": 15,
+      "dispositions": {
+        "abstention": 24,
+        "reusable": 20,
+        "non_reusable": 5
+      }
+    },
+    {
+      "proposer": 2,
+      "source": "public_bfcl",
+      "task_opportunities": 99,
+      "unique_prefixes": 98,
+      "task_proposals": 13,
+      "unique_prefix_proposals": 13,
+      "dispositions": {
+        "abstention": 86,
+        "reusable": 10,
+        "non_reusable": 3
+      }
+    },
+    {
+      "proposer": 2,
+      "source": "synthetic",
+      "task_opportunities": 51,
+      "unique_prefixes": 31,
+      "task_proposals": 41,
+      "unique_prefix_proposals": 26,
+      "dispositions": {
+        "reusable": 23,
+        "non_reusable": 16,
+        "abstention": 10,
+        "unresolved_reuse": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "platform": "Codex Desktop team sessions",
+  "model": "Inherited session model, no overrides; exact snapshot/sampling configuration not exposed",
+  "assignment_seeds": [
+    260912302,
+    260912303,
+    260912304,
+    260912305
+  ],
+  "sampling_seed": "Unknown; assignment seeds do not control model sampling",
+  "proposer_sessions": [
+    "shared_proposer_1",
+    "shared_proposer_2"
+  ],
+  "rater_sessions": [
+    "shared_rater_a",
+    "shared_rater_b"
+  ],
+  "judge_session": "shared_judge",
+  "fresh_context": "Proposer/rater/judge sessions spawned with fork_turns=none; no source-specific or prior-label inputs authorized. Procedural isolation, not a security boundary.",
+  "auditor_session": "Reused bfcl_adjudicator after thread-capacity errors; priorBFCL exposure disclosed. Audits arithmetic not independent newlabels.",
+  "prompt_sources": [
+    "PROPOSER_INSTRUCTIONS.txt",
+    "REVIEWER_INSTRUCTIONS.txt",
+    "ORIGINAL_RUBRIC.txt"
+  ],
+  "judge_instructions": "Same reviewer instructions plus both frozen ratings, decision_reason, and explicit instruction not to force substantive status or agreement. Read only JUDGE_INPUT and rubrics.",
+  "public_reproduction": "Deterministic construction and saved-output scoring reproducible; exact AI sampling reproduction not established; private adaptation not public release.",
+  "batch_context": "Each proposer saw129distinct prefixes in a batch; cross-example adaptation is possible. This is not a validated deterministic per-example proposer or research-model inference."
+}

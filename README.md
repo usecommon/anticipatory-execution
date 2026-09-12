@@ -28,6 +28,8 @@ The [1,000-item synthetic curation](outputs/synthetic_curation_1000_v0_1/README.
 
 The [BFCL public-source pilot and synthetic comparison](outputs/bfcl_public_pilot_v0_1/README.md) covers 200 six-word proposal opportunities: 59 proposed artifacts, 141 abstentions; AI adjudication yields 24 reusable, 7 non-reusable and 28 unresolved. Differences from synthetic construction are confounded; no matched source-effect or model-efficacy result is claimed.
 
+The [shared-policy public/synthetic pilot](outputs/shared_policy_pilot_v0_1/README.md) now uses the same six-word checkpoint and proposal/rating policy on 200 public and 100 synthetic tasks: 87 proposed products, 58 reusable, 25 non-reusable, 4 unresolved and 213 abstentions. Source/domain differences and dependent variants remain; human G1 and model efficacy testing are still pending.
+
 ## Current state
 
 - **G0 PASS, scoped:** canonical-v0.5, frozen Qwen2.5-7B-Instruct, NVIDIA A100-SXM4-40GB, FP32 eager, physical shape [1,128], active length 1..128, serial prefixes, explicit positions/masks, cache off. Two fresh Modal containers passed 8,427 checks each; 155 cross-container cases matched bitwise.

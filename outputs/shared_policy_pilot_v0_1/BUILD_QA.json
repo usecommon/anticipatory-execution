@@ -1,0 +1,8 @@
+{
+  "opportunities": 300,
+  "public_tasks": 200,
+  "synthetic_tasks": 100,
+  "unique_prefixes": 258,
+  "proper_six_word_prefixes": true,
+  "prefix_reuse_policy": "One generated proposal per exact prefix across all contexts; no source or multiplicity sent to proposer."
+}
