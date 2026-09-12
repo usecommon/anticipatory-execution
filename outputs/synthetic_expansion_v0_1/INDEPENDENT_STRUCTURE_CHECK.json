@@ -1,0 +1,11 @@
+{
+  "items": 200,
+  "tasks": 100,
+  "families": 50,
+  "domains": 12,
+  "all_word_observations": 1677,
+  "all_review_anchors_are_completed_word_observations": true,
+  "independent_character_walk_matches": 100,
+  "both_actions_equal_across_future_branches": true,
+  "inference_or_tool_execution": false
+}

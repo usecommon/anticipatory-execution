@@ -1,0 +1,14 @@
+{
+  "items": 200,
+  "tasks": 100,
+  "families": 50,
+  "all_word_observations": 1677,
+  "distinct_anchor_ids": 50,
+  "old_labels_transferred": 0,
+  "all_prefixes_literal": true,
+  "all_input_actions_identical_across_future_branches": true,
+  "source_hashes": {
+    "outputs/g1_team_v0_1/PROVISIONAL_LABELS.jsonl": "6473dd26c8332d165ebeb45f67f08b3dc0bac1c8a5bb2524660a9b19149853c8",
+    "outputs/g1_owner_review_combined_v0_1/OWNER_BINARY_DECISIONS.jsonl": "98c997abd863c45e37a8b9200dd21823431dfa125c0cde6166e883bf37b46a94"
+  }
+}

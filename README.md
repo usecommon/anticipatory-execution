@@ -22,6 +22,8 @@ The [three-agent annotation and judgment study](outputs/g1_team_v0_1/TEAM_REPORT
 
 The [literal-prefix dataset candidate](outputs/prefix_dataset_candidate_v0_1/README.md) reconstructs 703 word-boundary observations from the 50 exposed pilot tasks. It has no new actions or labels and does not change the research gates.
 
+The [public-plus-synthetic plan and 200-item expansion](outputs/synthetic_expansion_v0_1/README.md) preserves the original owner labels and records fresh AI adjudication: 136 reusable, 59 non-reusable and 5 unresolved. It remains private development material; public release, source adapters and human G1 are pending.
+
 ## Current state
 
 - **G0 PASS, scoped:** canonical-v0.5, frozen Qwen2.5-7B-Instruct, NVIDIA A100-SXM4-40GB, FP32 eager, physical shape [1,128], active length 1..128, serial prefixes, explicit positions/masks, cache off. Two fresh Modal containers passed 8,427 checks each; 155 cross-container cases matched bitwise.

@@ -1,0 +1,200 @@
+{"item_id": "SX1-F001-K-A1", "prefix": "Compare flights from Harborview to Eastport", "candidate_action": "Retrieve two route-specific fares", "execution_class": 2}
+{"item_id": "SX1-F001-K-A2", "prefix": "Compare flights from Harborview to Eastport", "candidate_action": "Retrieve the origin airport access note", "execution_class": 2}
+{"item_id": "SX1-F001-R-A1", "prefix": "Compare flights from Harborview to Eastport", "candidate_action": "Retrieve two route-specific fares", "execution_class": 2}
+{"item_id": "SX1-F001-R-A2", "prefix": "Compare flights from Harborview to Eastport", "candidate_action": "Retrieve the origin airport access note", "execution_class": 2}
+{"item_id": "SX1-F002-K-A1", "prefix": "Find hotels near Maple Station", "candidate_action": "Retrieve station-specific hotel cards", "execution_class": 2}
+{"item_id": "SX1-F002-K-A2", "prefix": "Find hotels near Maple Station", "candidate_action": "Stage a hotel comparison layout", "execution_class": 3}
+{"item_id": "SX1-F002-R-A1", "prefix": "Find hotels near Maple Station", "candidate_action": "Retrieve station-specific hotel cards", "execution_class": 2}
+{"item_id": "SX1-F002-R-A2", "prefix": "Find hotels near Maple Station", "candidate_action": "Stage a hotel comparison layout", "execution_class": 3}
+{"item_id": "SX1-F003-K-A1", "prefix": "Compare Friday car rentals at North Terminal", "candidate_action": "Retrieve terminal-specific rental cards", "execution_class": 2}
+{"item_id": "SX1-F003-K-A2", "prefix": "Compare Friday car rentals at North Terminal", "candidate_action": "Prepare the comparison calculation", "execution_class": 1}
+{"item_id": "SX1-F003-R-A1", "prefix": "Compare Friday car rentals at North Terminal", "candidate_action": "Retrieve terminal-specific rental cards", "execution_class": 2}
+{"item_id": "SX1-F003-R-A2", "prefix": "Compare Friday car rentals at North Terminal", "candidate_action": "Prepare the comparison calculation", "execution_class": 1}
+{"item_id": "SX1-F004-K-A1", "prefix": "Compare nonstop flights to Eastport", "candidate_action": "Retrieve nonstop route cards", "execution_class": 2}
+{"item_id": "SX1-F004-K-A2", "prefix": "Compare nonstop flights to Eastport", "candidate_action": "Prepare the requested destination field", "execution_class": 1}
+{"item_id": "SX1-F004-R-A1", "prefix": "Compare nonstop flights to Eastport", "candidate_action": "Retrieve nonstop route cards", "execution_class": 2}
+{"item_id": "SX1-F004-R-A2", "prefix": "Compare nonstop flights to Eastport", "candidate_action": "Prepare the requested destination field", "execution_class": 1}
+{"item_id": "SX1-F005-K-A1", "prefix": "Find Italian restaurants around Cedar Square", "candidate_action": "Retrieve cuisine-specific restaurant cards", "execution_class": 2}
+{"item_id": "SX1-F005-K-A2", "prefix": "Find Italian restaurants around Cedar Square", "candidate_action": "Prepare the location field", "execution_class": 1}
+{"item_id": "SX1-F005-R-A1", "prefix": "Find Italian restaurants around Cedar Square", "candidate_action": "Retrieve cuisine-specific restaurant cards", "execution_class": 2}
+{"item_id": "SX1-F005-R-A2", "prefix": "Find Italian restaurants around Cedar Square", "candidate_action": "Prepare the location field", "execution_class": 1}
+{"item_id": "SX1-F006-K-A1", "prefix": "Find bakeries around Birch Park", "candidate_action": "Retrieve bakery cards", "execution_class": 2}
+{"item_id": "SX1-F006-K-A2", "prefix": "Find bakeries around Birch Park", "candidate_action": "Prepare a bakery-only comparison layout", "execution_class": 1}
+{"item_id": "SX1-F006-R-A1", "prefix": "Find bakeries around Birch Park", "candidate_action": "Retrieve bakery cards", "execution_class": 2}
+{"item_id": "SX1-F006-R-A2", "prefix": "Find bakeries around Birch Park", "candidate_action": "Prepare a bakery-only comparison layout", "execution_class": 1}
+{"item_id": "SX1-F007-K-A1", "prefix": "Find gyms in Riverton that sell day passes", "candidate_action": "Retrieve day-pass gym cards", "execution_class": 2}
+{"item_id": "SX1-F007-K-A2", "prefix": "Find gyms in Riverton that sell day passes", "candidate_action": "Prepare the location field", "execution_class": 1}
+{"item_id": "SX1-F007-R-A1", "prefix": "Find gyms in Riverton that sell day passes", "candidate_action": "Retrieve day-pass gym cards", "execution_class": 2}
+{"item_id": "SX1-F007-R-A2", "prefix": "Find gyms in Riverton that sell day passes", "candidate_action": "Prepare the location field", "execution_class": 1}
+{"item_id": "SX1-F008-K-A1", "prefix": "Find pharmacies in Brookfield that are open now", "candidate_action": "Retrieve open pharmacy cards", "execution_class": 2}
+{"item_id": "SX1-F008-K-A2", "prefix": "Find pharmacies in Brookfield that are open now", "candidate_action": "Prepare the search time reference", "execution_class": 1}
+{"item_id": "SX1-F008-R-A1", "prefix": "Find pharmacies in Brookfield that are open now", "candidate_action": "Retrieve open pharmacy cards", "execution_class": 2}
+{"item_id": "SX1-F008-R-A2", "prefix": "Find pharmacies in Brookfield that are open now", "candidate_action": "Prepare the search time reference", "execution_class": 1}
+{"item_id": "SX1-F009-K-A1", "prefix": "Research local robotic actuator manufacturers", "candidate_action": "Retrieve manufacturer cards", "execution_class": 2}
+{"item_id": "SX1-F009-K-A2", "prefix": "Research local robotic actuator manufacturers", "candidate_action": "Prepare the component definition", "execution_class": 1}
+{"item_id": "SX1-F009-R-A1", "prefix": "Research local robotic actuator manufacturers", "candidate_action": "Retrieve manufacturer cards", "execution_class": 2}
+{"item_id": "SX1-F009-R-A2", "prefix": "Research local robotic actuator manufacturers", "candidate_action": "Prepare the component definition", "execution_class": 1}
+{"item_id": "SX1-F010-K-A1", "prefix": "Compare 15-litre shoulder bags", "candidate_action": "Retrieve bag specification cards", "execution_class": 2}
+{"item_id": "SX1-F010-K-A2", "prefix": "Compare 15-litre shoulder bags", "candidate_action": "Prepare a weight-ranking routine", "execution_class": 1}
+{"item_id": "SX1-F010-R-A1", "prefix": "Compare 15-litre shoulder bags", "candidate_action": "Retrieve bag specification cards", "execution_class": 2}
+{"item_id": "SX1-F010-R-A2", "prefix": "Compare 15-litre shoulder bags", "candidate_action": "Prepare a weight-ranking routine", "execution_class": 1}
+{"item_id": "SX1-F011-K-A1", "prefix": "Find brown faux-suede jackets with stand collars", "candidate_action": "Retrieve jacket cards", "execution_class": 2}
+{"item_id": "SX1-F011-K-A2", "prefix": "Find brown faux-suede jackets with stand collars", "candidate_action": "Stage a product comparison layout", "execution_class": 3}
+{"item_id": "SX1-F011-R-A1", "prefix": "Find brown faux-suede jackets with stand collars", "candidate_action": "Retrieve jacket cards", "execution_class": 2}
+{"item_id": "SX1-F011-R-A2", "prefix": "Find brown faux-suede jackets with stand collars", "candidate_action": "Stage a product comparison layout", "execution_class": 3}
+{"item_id": "SX1-F012-K-A1", "prefix": "Compare robotics synthetic-data tools that support Engine R", "candidate_action": "Retrieve tool compatibility cards", "execution_class": 2}
+{"item_id": "SX1-F012-K-A2", "prefix": "Compare robotics synthetic-data tools that support Engine R", "candidate_action": "Prepare a physics-evaluation checklist", "execution_class": 1}
+{"item_id": "SX1-F012-R-A1", "prefix": "Compare robotics synthetic-data tools that support Engine R", "candidate_action": "Retrieve tool compatibility cards", "execution_class": 2}
+{"item_id": "SX1-F012-R-A2", "prefix": "Compare robotics synthetic-data tools that support Engine R", "candidate_action": "Prepare a physics-evaluation checklist", "execution_class": 1}
+{"item_id": "SX1-F013-K-A1", "prefix": "Find freestanding desk converters under 250 credits", "candidate_action": "Retrieve converter cards", "execution_class": 2}
+{"item_id": "SX1-F013-K-A2", "prefix": "Find freestanding desk converters under 250 credits", "candidate_action": "Prepare the price ceiling field", "execution_class": 1}
+{"item_id": "SX1-F013-R-A1", "prefix": "Find freestanding desk converters under 250 credits", "candidate_action": "Retrieve converter cards", "execution_class": 2}
+{"item_id": "SX1-F013-R-A2", "prefix": "Find freestanding desk converters under 250 credits", "candidate_action": "Prepare the price ceiling field", "execution_class": 1}
+{"item_id": "SX1-F014-K-A1", "prefix": "Find a 30-minute meeting for Sam and me on Tuesday", "candidate_action": "Read Tuesday availability", "execution_class": 2}
+{"item_id": "SX1-F014-K-A2", "prefix": "Find a 30-minute meeting for Sam and me on Tuesday", "candidate_action": "Stage a Wednesday calendar event", "execution_class": 3}
+{"item_id": "SX1-F014-R-A1", "prefix": "Find a 30-minute meeting for Sam and me on Tuesday", "candidate_action": "Read Tuesday availability", "execution_class": 2}
+{"item_id": "SX1-F014-R-A2", "prefix": "Find a 30-minute meeting for Sam and me on Tuesday", "candidate_action": "Stage a Wednesday calendar event", "execution_class": 3}
+{"item_id": "SX1-F015-K-A1", "prefix": "Check whether my dentist can see me on Friday", "candidate_action": "Read Friday availability", "execution_class": 2}
+{"item_id": "SX1-F015-K-A2", "prefix": "Check whether my dentist can see me on Friday", "candidate_action": "Retrieve the existing appointment", "execution_class": 2}
+{"item_id": "SX1-F015-R-A1", "prefix": "Check whether my dentist can see me on Friday", "candidate_action": "Read Friday availability", "execution_class": 2}
+{"item_id": "SX1-F015-R-A2", "prefix": "Check whether my dentist can see me on Friday", "candidate_action": "Retrieve the existing appointment", "execution_class": 2}
+{"item_id": "SX1-F016-K-A1", "prefix": "Find team meeting slots this week after 10 AM", "candidate_action": "Read afternoon team availability", "execution_class": 2}
+{"item_id": "SX1-F016-K-A2", "prefix": "Find team meeting slots this week after 10 AM", "candidate_action": "Prepare the participant list", "execution_class": 1}
+{"item_id": "SX1-F016-R-A1", "prefix": "Find team meeting slots this week after 10 AM", "candidate_action": "Read afternoon team availability", "execution_class": 2}
+{"item_id": "SX1-F016-R-A2", "prefix": "Find team meeting slots this week after 10 AM", "candidate_action": "Prepare the participant list", "execution_class": 1}
+{"item_id": "SX1-F017-K-A1", "prefix": "Prepare a report reminder for tomorrow morning", "candidate_action": "Stage a morning reminder", "execution_class": 3}
+{"item_id": "SX1-F017-K-A2", "prefix": "Prepare a report reminder for tomorrow morning", "candidate_action": "Prepare the reminder text", "execution_class": 1}
+{"item_id": "SX1-F017-R-A1", "prefix": "Prepare a report reminder for tomorrow morning", "candidate_action": "Stage a morning reminder", "execution_class": 3}
+{"item_id": "SX1-F017-R-A2", "prefix": "Prepare a report reminder for tomorrow morning", "candidate_action": "Prepare the reminder text", "execution_class": 1}
+{"item_id": "SX1-F018-K-A1", "prefix": "Draft a reply thanking Morgan for the introduction", "candidate_action": "Draft the thank-you sentence", "execution_class": 3}
+{"item_id": "SX1-F018-K-A2", "prefix": "Draft a reply thanking Morgan for the introduction", "candidate_action": "Draft an offer sentence", "execution_class": 3}
+{"item_id": "SX1-F018-R-A1", "prefix": "Draft a reply thanking Morgan for the introduction", "candidate_action": "Draft the thank-you sentence", "execution_class": 3}
+{"item_id": "SX1-F018-R-A2", "prefix": "Draft a reply thanking Morgan for the introduction", "candidate_action": "Draft an offer sentence", "execution_class": 3}
+{"item_id": "SX1-F019-K-A1", "prefix": "Draft a team update saying the build is delayed", "candidate_action": "Draft the status sentence", "execution_class": 3}
+{"item_id": "SX1-F019-K-A2", "prefix": "Draft a team update saying the build is delayed", "candidate_action": "Stage a neutral update heading", "execution_class": 3}
+{"item_id": "SX1-F019-R-A1", "prefix": "Draft a team update saying the build is delayed", "candidate_action": "Draft the status sentence", "execution_class": 3}
+{"item_id": "SX1-F019-R-A2", "prefix": "Draft a team update saying the build is delayed", "candidate_action": "Stage a neutral update heading", "execution_class": 3}
+{"item_id": "SX1-F020-K-A1", "prefix": "Draft a message declining dinner tonight", "candidate_action": "Draft the decline sentence", "execution_class": 3}
+{"item_id": "SX1-F020-K-A2", "prefix": "Draft a message declining dinner tonight", "candidate_action": "Draft the alternative-date sentence", "execution_class": 3}
+{"item_id": "SX1-F020-R-A1", "prefix": "Draft a message declining dinner tonight", "candidate_action": "Draft the decline sentence", "execution_class": 3}
+{"item_id": "SX1-F020-R-A2", "prefix": "Draft a message declining dinner tonight", "candidate_action": "Draft the alternative-date sentence", "execution_class": 3}
+{"item_id": "SX1-F021-K-A1", "prefix": "Draft a refund approval message", "candidate_action": "Draft the approval sentence", "execution_class": 3}
+{"item_id": "SX1-F021-K-A2", "prefix": "Draft a refund approval message", "candidate_action": "Stage an approval-specific reply template", "execution_class": 3}
+{"item_id": "SX1-F021-R-A1", "prefix": "Draft a refund approval message", "candidate_action": "Draft the approval sentence", "execution_class": 3}
+{"item_id": "SX1-F021-R-A2", "prefix": "Draft a refund approval message", "candidate_action": "Stage an approval-specific reply template", "execution_class": 3}
+{"item_id": "SX1-F022-K-A1", "prefix": "Find peer-reviewed papers about hidden-state probing", "candidate_action": "Retrieve peer-reviewed fixture records", "execution_class": 2}
+{"item_id": "SX1-F022-K-A2", "prefix": "Find peer-reviewed papers about hidden-state probing", "candidate_action": "Prepare the topic search terms", "execution_class": 1}
+{"item_id": "SX1-F022-R-A1", "prefix": "Find peer-reviewed papers about hidden-state probing", "candidate_action": "Retrieve peer-reviewed fixture records", "execution_class": 2}
+{"item_id": "SX1-F022-R-A2", "prefix": "Find peer-reviewed papers about hidden-state probing", "candidate_action": "Prepare the topic search terms", "execution_class": 1}
+{"item_id": "SX1-F023-K-A1", "prefix": "Find version 3 documentation for Library L", "candidate_action": "Retrieve versioned documentation", "execution_class": 2}
+{"item_id": "SX1-F023-K-A2", "prefix": "Find version 3 documentation for Library L", "candidate_action": "Retrieve the official documentation index URL", "execution_class": 2}
+{"item_id": "SX1-F023-R-A1", "prefix": "Find version 3 documentation for Library L", "candidate_action": "Retrieve versioned documentation", "execution_class": 2}
+{"item_id": "SX1-F023-R-A2", "prefix": "Find version 3 documentation for Library L", "candidate_action": "Retrieve the official documentation index URL", "execution_class": 2}
+{"item_id": "SX1-F024-K-A1", "prefix": "Compare Acme's revenue in its two annual releases", "candidate_action": "Extract Acme revenue figures", "execution_class": 2}
+{"item_id": "SX1-F024-K-A2", "prefix": "Compare Acme's revenue in its two annual releases", "candidate_action": "Calculate Acme revenue growth", "execution_class": 2}
+{"item_id": "SX1-F024-R-A1", "prefix": "Compare Acme's revenue in its two annual releases", "candidate_action": "Extract Acme revenue figures", "execution_class": 2}
+{"item_id": "SX1-F024-R-A2", "prefix": "Compare Acme's revenue in its two annual releases", "candidate_action": "Calculate Acme revenue growth", "execution_class": 2}
+{"item_id": "SX1-F025-K-A1", "prefix": "Find primary rules for Region A consumer AI systems", "candidate_action": "Retrieve jurisdiction-specific rule cards", "execution_class": 2}
+{"item_id": "SX1-F025-K-A2", "prefix": "Find primary rules for Region A consumer AI systems", "candidate_action": "Stage a legal-source comparison layout", "execution_class": 3}
+{"item_id": "SX1-F025-R-A1", "prefix": "Find primary rules for Region A consumer AI systems", "candidate_action": "Retrieve jurisdiction-specific rule cards", "execution_class": 2}
+{"item_id": "SX1-F025-R-A2", "prefix": "Find primary rules for Region A consumer AI systems", "candidate_action": "Stage a legal-source comparison layout", "execution_class": 3}
+{"item_id": "SX1-F026-K-A1", "prefix": "Compare small open-weight reasoning models", "candidate_action": "Collect vendor-only benchmark claims", "execution_class": 2}
+{"item_id": "SX1-F026-K-A2", "prefix": "Compare small open-weight reasoning models", "candidate_action": "Collect independent fixture benchmark records", "execution_class": 2}
+{"item_id": "SX1-F026-R-A1", "prefix": "Compare small open-weight reasoning models", "candidate_action": "Collect vendor-only benchmark claims", "execution_class": 2}
+{"item_id": "SX1-F026-R-A2", "prefix": "Compare small open-weight reasoning models", "candidate_action": "Collect independent fixture benchmark records", "execution_class": 2}
+{"item_id": "SX1-F027-K-A1", "prefix": "Calculate a 7 percent downside scenario for a 100-credit index", "candidate_action": "Calculate the requested scenario", "execution_class": 2}
+{"item_id": "SX1-F027-K-A2", "prefix": "Calculate a 7 percent downside scenario for a 100-credit index", "candidate_action": "Prepare the scenario formula", "execution_class": 1}
+{"item_id": "SX1-F027-R-A1", "prefix": "Calculate a 7 percent downside scenario for a 100-credit index", "candidate_action": "Calculate the requested scenario", "execution_class": 2}
+{"item_id": "SX1-F027-R-A2", "prefix": "Calculate a 7 percent downside scenario for a 100-credit index", "candidate_action": "Prepare the scenario formula", "execution_class": 1}
+{"item_id": "SX1-F028-K-A1", "prefix": "Calculate budget variance from my supplied table", "candidate_action": "Compute category variances", "execution_class": 2}
+{"item_id": "SX1-F028-K-A2", "prefix": "Calculate budget variance from my supplied table", "candidate_action": "Aggregate actual category totals", "execution_class": 2}
+{"item_id": "SX1-F028-R-A1", "prefix": "Calculate budget variance from my supplied table", "candidate_action": "Compute category variances", "execution_class": 2}
+{"item_id": "SX1-F028-R-A2", "prefix": "Calculate budget variance from my supplied table", "candidate_action": "Aggregate actual category totals", "execution_class": 2}
+{"item_id": "SX1-F029-K-A1", "prefix": "Compare current holdings with the start-of-month snapshot", "candidate_action": "Calculate start-of-month concentration", "execution_class": 2}
+{"item_id": "SX1-F029-K-A2", "prefix": "Compare current holdings with the start-of-month snapshot", "candidate_action": "Calculate current concentration", "execution_class": 2}
+{"item_id": "SX1-F029-R-A1", "prefix": "Compare current holdings with the start-of-month snapshot", "candidate_action": "Calculate start-of-month concentration", "execution_class": 2}
+{"item_id": "SX1-F029-R-A2", "prefix": "Compare current holdings with the start-of-month snapshot", "candidate_action": "Calculate current concentration", "execution_class": 2}
+{"item_id": "SX1-F030-K-A1", "prefix": "Calculate breakeven for my debit spread using the supplied values", "candidate_action": "Calculate the original breakeven", "execution_class": 2}
+{"item_id": "SX1-F030-K-A2", "prefix": "Calculate breakeven for my debit spread using the supplied values", "candidate_action": "Prepare the symbolic breakeven expression", "execution_class": 1}
+{"item_id": "SX1-F030-R-A1", "prefix": "Calculate breakeven for my debit spread using the supplied values", "candidate_action": "Calculate the original breakeven", "execution_class": 2}
+{"item_id": "SX1-F030-R-A2", "prefix": "Calculate breakeven for my debit spread using the supplied values", "candidate_action": "Prepare the symbolic breakeven expression", "execution_class": 1}
+{"item_id": "SX1-F031-K-A1", "prefix": "Write a Python function that counts ERROR lines in the supplied log", "candidate_action": "Stage an ERROR-counting function", "execution_class": 3}
+{"item_id": "SX1-F031-K-A2", "prefix": "Write a Python function that counts ERROR lines in the supplied log", "candidate_action": "Stage a log-reading helper", "execution_class": 3}
+{"item_id": "SX1-F031-R-A1", "prefix": "Write a Python function that counts ERROR lines in the supplied log", "candidate_action": "Stage an ERROR-counting function", "execution_class": 3}
+{"item_id": "SX1-F031-R-A2", "prefix": "Write a Python function that counts ERROR lines in the supplied log", "candidate_action": "Stage a log-reading helper", "execution_class": 3}
+{"item_id": "SX1-F032-K-A1", "prefix": "Inspect the client timeout path without changing the code", "candidate_action": "Collect a timeout observation", "execution_class": 2}
+{"item_id": "SX1-F032-K-A2", "prefix": "Inspect the client timeout path without changing the code", "candidate_action": "Stage a ten-second timeout patch", "execution_class": 3}
+{"item_id": "SX1-F032-R-A1", "prefix": "Inspect the client timeout path without changing the code", "candidate_action": "Collect a timeout observation", "execution_class": 2}
+{"item_id": "SX1-F032-R-A2", "prefix": "Inspect the client timeout path without changing the code", "candidate_action": "Stage a ten-second timeout patch", "execution_class": 3}
+{"item_id": "SX1-F033-K-A1", "prefix": "Refactor the add function while preserving its public name and behavior", "candidate_action": "Stage the preserving refactor", "execution_class": 3}
+{"item_id": "SX1-F033-K-A2", "prefix": "Refactor the add function while preserving its public name and behavior", "candidate_action": "Stage addition behavior tests", "execution_class": 3}
+{"item_id": "SX1-F033-R-A1", "prefix": "Refactor the add function while preserving its public name and behavior", "candidate_action": "Stage the preserving refactor", "execution_class": 3}
+{"item_id": "SX1-F033-R-A2", "prefix": "Refactor the add function while preserving its public name and behavior", "candidate_action": "Stage addition behavior tests", "execution_class": 3}
+{"item_id": "SX1-F034-K-A1", "prefix": "Add malformed-JSON tests to the parser", "candidate_action": "Stage malformed-input test cases", "execution_class": 3}
+{"item_id": "SX1-F034-K-A2", "prefix": "Add malformed-JSON tests to the parser", "candidate_action": "Prepare a correctness-test report layout", "execution_class": 1}
+{"item_id": "SX1-F034-R-A1", "prefix": "Add malformed-JSON tests to the parser", "candidate_action": "Stage malformed-input test cases", "execution_class": 3}
+{"item_id": "SX1-F034-R-A2", "prefix": "Add malformed-JSON tests to the parser", "candidate_action": "Prepare a correctness-test report layout", "execution_class": 1}
+{"item_id": "SX1-F035-K-A1", "prefix": "Rewrite this note for executives while preserving its numbers", "candidate_action": "Draft the executive summary", "execution_class": 3}
+{"item_id": "SX1-F035-K-A2", "prefix": "Rewrite this note for executives while preserving its numbers", "candidate_action": "Extract the unchanged duration", "execution_class": 2}
+{"item_id": "SX1-F035-R-A1", "prefix": "Rewrite this note for executives while preserving its numbers", "candidate_action": "Draft the executive summary", "execution_class": 3}
+{"item_id": "SX1-F035-R-A2", "prefix": "Rewrite this note for executives while preserving its numbers", "candidate_action": "Extract the unchanged duration", "execution_class": 2}
+{"item_id": "SX1-F036-K-A1", "prefix": "Summarize the main report without using the appendix", "candidate_action": "Extract main-report finding", "execution_class": 2}
+{"item_id": "SX1-F036-K-A2", "prefix": "Summarize the main report without using the appendix", "candidate_action": "Stage a summary layout", "execution_class": 3}
+{"item_id": "SX1-F036-R-A1", "prefix": "Summarize the main report without using the appendix", "candidate_action": "Extract main-report finding", "execution_class": 2}
+{"item_id": "SX1-F036-R-A2", "prefix": "Summarize the main report without using the appendix", "candidate_action": "Stage a summary layout", "execution_class": 3}
+{"item_id": "SX1-F037-K-A1", "prefix": "Draft a proposal from these notes and leave pricing undecided", "candidate_action": "Stage the pricing section", "execution_class": 3}
+{"item_id": "SX1-F037-K-A2", "prefix": "Draft a proposal from these notes and leave pricing undecided", "candidate_action": "Stage the scope section", "execution_class": 3}
+{"item_id": "SX1-F037-R-A1", "prefix": "Draft a proposal from these notes and leave pricing undecided", "candidate_action": "Stage the pricing section", "execution_class": 3}
+{"item_id": "SX1-F037-R-A2", "prefix": "Draft a proposal from these notes and leave pricing undecided", "candidate_action": "Stage the scope section", "execution_class": 3}
+{"item_id": "SX1-F038-K-A1", "prefix": "Compare these two resumes without recommending a candidate", "candidate_action": "Extract resume differences", "execution_class": 2}
+{"item_id": "SX1-F038-K-A2", "prefix": "Compare these two resumes without recommending a candidate", "candidate_action": "Stage a comparison-only closing", "execution_class": 3}
+{"item_id": "SX1-F038-R-A1", "prefix": "Compare these two resumes without recommending a candidate", "candidate_action": "Extract resume differences", "execution_class": 2}
+{"item_id": "SX1-F038-R-A2", "prefix": "Compare these two resumes without recommending a candidate", "candidate_action": "Stage a comparison-only closing", "execution_class": 3}
+{"item_id": "SX1-F039-K-A1", "prefix": "Stage the living-room lights at 30 percent brightness", "candidate_action": "Stage the requested lighting command", "execution_class": 3}
+{"item_id": "SX1-F039-K-A2", "prefix": "Stage the living-room lights at 30 percent brightness", "candidate_action": "Read living-room light state", "execution_class": 2}
+{"item_id": "SX1-F039-R-A1", "prefix": "Stage the living-room lights at 30 percent brightness", "candidate_action": "Stage the requested lighting command", "execution_class": 3}
+{"item_id": "SX1-F039-R-A2", "prefix": "Stage the living-room lights at 30 percent brightness", "candidate_action": "Read living-room light state", "execution_class": 2}
+{"item_id": "SX1-F040-K-A1", "prefix": "Stage a 70 F thermostat setting for tonight", "candidate_action": "Stage the 70 F setting", "execution_class": 3}
+{"item_id": "SX1-F040-K-A2", "prefix": "Stage a 70 F thermostat setting for tonight", "candidate_action": "Read current thermostat setting", "execution_class": 2}
+{"item_id": "SX1-F040-R-A1", "prefix": "Stage a 70 F thermostat setting for tonight", "candidate_action": "Stage the 70 F setting", "execution_class": 3}
+{"item_id": "SX1-F040-R-A2", "prefix": "Stage a 70 F thermostat setting for tonight", "candidate_action": "Read current thermostat setting", "execution_class": 2}
+{"item_id": "SX1-F041-K-A1", "prefix": "Prepare to lock the back door after I leave", "candidate_action": "Read back-door sensor", "execution_class": 2}
+{"item_id": "SX1-F041-K-A2", "prefix": "Prepare to lock the back door after I leave", "candidate_action": "Stage a departure trigger definition", "execution_class": 3}
+{"item_id": "SX1-F041-R-A1", "prefix": "Prepare to lock the back door after I leave", "candidate_action": "Read back-door sensor", "execution_class": 2}
+{"item_id": "SX1-F041-R-A2", "prefix": "Prepare to lock the back door after I leave", "candidate_action": "Stage a departure trigger definition", "execution_class": 3}
+{"item_id": "SX1-F042-K-A1", "prefix": "Stage a kitchen-only vacuum run", "candidate_action": "Stage the room-specific cleaning plan", "execution_class": 3}
+{"item_id": "SX1-F042-K-A2", "prefix": "Stage a kitchen-only vacuum run", "candidate_action": "Read vacuum battery state", "execution_class": 2}
+{"item_id": "SX1-F042-R-A1", "prefix": "Stage a kitchen-only vacuum run", "candidate_action": "Stage the room-specific cleaning plan", "execution_class": 3}
+{"item_id": "SX1-F042-R-A2", "prefix": "Stage a kitchen-only vacuum run", "candidate_action": "Read vacuum battery state", "execution_class": 2}
+{"item_id": "SX1-F043-K-A1", "prefix": "Find robotics documentaries", "candidate_action": "Retrieve robotics documentary cards", "execution_class": 2}
+{"item_id": "SX1-F043-K-A2", "prefix": "Find robotics documentaries", "candidate_action": "Prepare a runtime filter", "execution_class": 1}
+{"item_id": "SX1-F043-R-A1", "prefix": "Find robotics documentaries", "candidate_action": "Retrieve robotics documentary cards", "execution_class": 2}
+{"item_id": "SX1-F043-R-A2", "prefix": "Find robotics documentaries", "candidate_action": "Prepare a runtime filter", "execution_class": 1}
+{"item_id": "SX1-F044-K-A1", "prefix": "Build an upbeat instrumental jazz playlist", "candidate_action": "Collect instrumental track cards", "execution_class": 2}
+{"item_id": "SX1-F044-K-A2", "prefix": "Build an upbeat instrumental jazz playlist", "candidate_action": "Prepare a vocal-track exclusion predicate", "execution_class": 1}
+{"item_id": "SX1-F044-R-A1", "prefix": "Build an upbeat instrumental jazz playlist", "candidate_action": "Collect instrumental track cards", "execution_class": 2}
+{"item_id": "SX1-F044-R-A2", "prefix": "Build an upbeat instrumental jazz playlist", "candidate_action": "Prepare a vocal-track exclusion predicate", "execution_class": 1}
+{"item_id": "SX1-F045-K-A1", "prefix": "Choose a non-horror movie under two hours for tonight", "candidate_action": "Retrieve movie cards", "execution_class": 2}
+{"item_id": "SX1-F045-K-A2", "prefix": "Choose a non-horror movie under two hours for tonight", "candidate_action": "Stage a generic movie comparison layout", "execution_class": 3}
+{"item_id": "SX1-F045-R-A1", "prefix": "Choose a non-horror movie under two hours for tonight", "candidate_action": "Retrieve movie cards", "execution_class": 2}
+{"item_id": "SX1-F045-R-A2", "prefix": "Choose a non-horror movie under two hours for tonight", "candidate_action": "Stage a generic movie comparison layout", "execution_class": 3}
+{"item_id": "SX1-F046-K-A1", "prefix": "Find technical podcast interviews about AI agents", "candidate_action": "Retrieve interview episode cards", "execution_class": 2}
+{"item_id": "SX1-F046-K-A2", "prefix": "Find technical podcast interviews about AI agents", "candidate_action": "Prepare the topic query", "execution_class": 1}
+{"item_id": "SX1-F046-R-A1", "prefix": "Find technical podcast interviews about AI agents", "candidate_action": "Retrieve interview episode cards", "execution_class": 2}
+{"item_id": "SX1-F046-R-A2", "prefix": "Find technical podcast interviews about AI agents", "candidate_action": "Prepare the topic query", "execution_class": 1}
+{"item_id": "SX1-F047-K-A1", "prefix": "Make a three-day business-trip packing checklist", "candidate_action": "Draft the clothing checklist", "execution_class": 3}
+{"item_id": "SX1-F047-K-A2", "prefix": "Make a three-day business-trip packing checklist", "candidate_action": "Draft the shared essentials checklist", "execution_class": 3}
+{"item_id": "SX1-F047-R-A1", "prefix": "Make a three-day business-trip packing checklist", "candidate_action": "Draft the clothing checklist", "execution_class": 3}
+{"item_id": "SX1-F047-R-A2", "prefix": "Make a three-day business-trip packing checklist", "candidate_action": "Draft the shared essentials checklist", "execution_class": 3}
+{"item_id": "SX1-F048-K-A1", "prefix": "Plan my morning around a 9 AM appointment", "candidate_action": "Calculate the original departure time", "execution_class": 2}
+{"item_id": "SX1-F048-K-A2", "prefix": "Plan my morning around a 9 AM appointment", "candidate_action": "Prepare the travel-duration field", "execution_class": 1}
+{"item_id": "SX1-F048-R-A1", "prefix": "Plan my morning around a 9 AM appointment", "candidate_action": "Calculate the original departure time", "execution_class": 2}
+{"item_id": "SX1-F048-R-A2", "prefix": "Plan my morning around a 9 AM appointment", "candidate_action": "Prepare the travel-duration field", "execution_class": 1}
+{"item_id": "SX1-F049-K-A1", "prefix": "Build a shopping list for vegetarian tacos", "candidate_action": "Draft the protein ingredient", "execution_class": 3}
+{"item_id": "SX1-F049-K-A2", "prefix": "Build a shopping list for vegetarian tacos", "candidate_action": "Draft the shared taco ingredients", "execution_class": 3}
+{"item_id": "SX1-F049-R-A1", "prefix": "Build a shopping list for vegetarian tacos", "candidate_action": "Draft the protein ingredient", "execution_class": 3}
+{"item_id": "SX1-F049-R-A2", "prefix": "Build a shopping list for vegetarian tacos", "candidate_action": "Draft the shared taco ingredients", "execution_class": 3}
+{"item_id": "SX1-F050-K-A1", "prefix": "Prioritize today's tasks with the client deadline first", "candidate_action": "Stage the original ordering", "execution_class": 3}
+{"item_id": "SX1-F050-K-A2", "prefix": "Prioritize today's tasks with the client deadline first", "candidate_action": "Extract today's task inventory", "execution_class": 2}
+{"item_id": "SX1-F050-R-A1", "prefix": "Prioritize today's tasks with the client deadline first", "candidate_action": "Stage the original ordering", "execution_class": 3}
+{"item_id": "SX1-F050-R-A2", "prefix": "Prioritize today's tasks with the client deadline first", "candidate_action": "Extract today's task inventory", "execution_class": 2}

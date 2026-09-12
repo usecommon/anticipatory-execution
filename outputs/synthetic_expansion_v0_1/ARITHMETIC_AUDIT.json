@@ -1,0 +1,338 @@
+{
+  "audit_type": "Read-only independent arithmetic audit after original AI ratings frozen",
+  "scope": "Counts, binary label consistency, ID integrity, domain sums, and byte hashes; no fixture execution or efficacy measurement. Frozen files other than authorized rating/result inputs were read as bytes for hashing only.",
+  "checks": {
+    "author": true,
+    "A": true,
+    "B": true,
+    "judge": true,
+    "identical_id_sets": true,
+    "all_15_frozen_hashes_match": true,
+    "exactly_5_judge_unresolved": true,
+    "domain_sums_match_judge": true,
+    "embedded_labels_match_sources": true
+  },
+  "computed": {
+    "items": 200,
+    "tasks": 100,
+    "families": 50,
+    "author_expectations": {
+      "reusable": 150,
+      "non_reusable": 50,
+      "unresolved": 0,
+      "ambiguity_flags": 0
+    },
+    "rater_A": {
+      "reusable": 138,
+      "non_reusable": 61,
+      "unresolved": 1,
+      "ambiguity_flags": 10
+    },
+    "rater_B": {
+      "reusable": 139,
+      "non_reusable": 60,
+      "unresolved": 1,
+      "ambiguity_flags": 13
+    },
+    "judge": {
+      "reusable": 136,
+      "non_reusable": 59,
+      "unresolved": 5,
+      "ambiguity_flags": 19
+    },
+    "rater_agreement": {
+      "total": 200,
+      "complete_binary_pairs": 199,
+      "unresolved_pairs": 1,
+      "binary_agreements": 198,
+      "binary_disagreements": 1,
+      "observed_agreement": 0.9949748743718593,
+      "kappa": 0.9881257831612864,
+      "degenerate_kappa": false,
+      "contingency": {
+        "0,0": 60,
+        "0,1": 1,
+        "1,0": 0,
+        "1,1": 138
+      }
+    },
+    "author_vs_judge_consistency": {
+      "total": 200,
+      "complete_binary_pairs": 195,
+      "unresolved_pairs": 5,
+      "binary_agreements": 182,
+      "binary_disagreements": 13,
+      "observed_agreement": 0.9333333333333333,
+      "kappa": 0.8349071963529795,
+      "degenerate_kappa": false,
+      "contingency": {
+        "0,0": 48,
+        "0,1": 2,
+        "1,0": 11,
+        "1,1": 134
+      }
+    },
+    "changed_or_unresolved_from_author": 18,
+    "by_domain": {
+      "Coding": {
+        "reusable": 10,
+        "non_reusable": 4,
+        "unresolved": 2,
+        "ambiguity_flags": 4
+      },
+      "Communication": {
+        "reusable": 9,
+        "non_reusable": 7,
+        "unresolved": 0,
+        "ambiguity_flags": 0
+      },
+      "Device/Home Control": {
+        "reusable": 9,
+        "non_reusable": 5,
+        "unresolved": 2,
+        "ambiguity_flags": 5
+      },
+      "Document Work": {
+        "reusable": 12,
+        "non_reusable": 4,
+        "unresolved": 0,
+        "ambiguity_flags": 1
+      },
+      "Finance-like Read-only Analysis": {
+        "reusable": 12,
+        "non_reusable": 4,
+        "unresolved": 0,
+        "ambiguity_flags": 1
+      },
+      "General Productivity": {
+        "reusable": 12,
+        "non_reusable": 4,
+        "unresolved": 0,
+        "ambiguity_flags": 2
+      },
+      "Information Retrieval": {
+        "reusable": 13,
+        "non_reusable": 6,
+        "unresolved": 1,
+        "ambiguity_flags": 2
+      },
+      "Local Search": {
+        "reusable": 11,
+        "non_reusable": 5,
+        "unresolved": 0,
+        "ambiguity_flags": 0
+      },
+      "Media": {
+        "reusable": 10,
+        "non_reusable": 6,
+        "unresolved": 0,
+        "ambiguity_flags": 1
+      },
+      "Scheduling": {
+        "reusable": 11,
+        "non_reusable": 5,
+        "unresolved": 0,
+        "ambiguity_flags": 0
+      },
+      "Shopping/Research": {
+        "reusable": 15,
+        "non_reusable": 5,
+        "unresolved": 0,
+        "ambiguity_flags": 1
+      },
+      "Travel": {
+        "reusable": 12,
+        "non_reusable": 4,
+        "unresolved": 0,
+        "ambiguity_flags": 2
+      }
+    }
+  },
+  "author_changes": [
+    {
+      "item_id": "SX1-F006-R-A2",
+      "author": 1,
+      "judge": 0
+    },
+    {
+      "item_id": "SX1-F014-K-A2",
+      "author": 1,
+      "judge": 0
+    },
+    {
+      "item_id": "SX1-F018-R-A2",
+      "author": 1,
+      "judge": 0
+    },
+    {
+      "item_id": "SX1-F020-R-A2",
+      "author": 1,
+      "judge": 0
+    },
+    {
+      "item_id": "SX1-F021-R-A2",
+      "author": 1,
+      "judge": 0
+    },
+    {
+      "item_id": "SX1-F024-K-A2",
+      "author": 1,
+      "judge": null
+    },
+    {
+      "item_id": "SX1-F024-R-A2",
+      "author": 1,
+      "judge": 0
+    },
+    {
+      "item_id": "SX1-F031-K-A1",
+      "author": 1,
+      "judge": null
+    },
+    {
+      "item_id": "SX1-F032-K-A2",
+      "author": 1,
+      "judge": null
+    },
+    {
+      "item_id": "SX1-F032-R-A1",
+      "author": 0,
+      "judge": 1
+    },
+    {
+      "item_id": "SX1-F034-R-A2",
+      "author": 1,
+      "judge": 0
+    },
+    {
+      "item_id": "SX1-F038-R-A1",
+      "author": 0,
+      "judge": 1
+    },
+    {
+      "item_id": "SX1-F038-R-A2",
+      "author": 1,
+      "judge": 0
+    },
+    {
+      "item_id": "SX1-F039-R-A2",
+      "author": 1,
+      "judge": 0
+    },
+    {
+      "item_id": "SX1-F040-K-A1",
+      "author": 1,
+      "judge": null
+    },
+    {
+      "item_id": "SX1-F041-K-A2",
+      "author": 1,
+      "judge": null
+    },
+    {
+      "item_id": "SX1-F043-R-A2",
+      "author": 1,
+      "judge": 0
+    },
+    {
+      "item_id": "SX1-F044-R-A2",
+      "author": 1,
+      "judge": 0
+    }
+  ],
+  "unresolved_ids": [
+    "SX1-F024-K-A2",
+    "SX1-F031-K-A1",
+    "SX1-F032-K-A2",
+    "SX1-F040-K-A1",
+    "SX1-F041-K-A2"
+  ],
+  "input_freeze_hashes": {
+    "STUDY_PLAN.md": {
+      "expected": "3f9c3d99c74a3a57eb48d80b7af7b62c6cfc072c267d264d423a5248a2adc0df",
+      "actual": "3f9c3d99c74a3a57eb48d80b7af7b62c6cfc072c267d264d423a5248a2adc0df",
+      "matches": true
+    },
+    "SCENARIO_SPECS.json": {
+      "expected": "c845ee86c4d9594027a228bb6f2ecad631401c5630c37431045700ac748ac81a",
+      "actual": "c845ee86c4d9594027a228bb6f2ecad631401c5630c37431045700ac748ac81a",
+      "matches": true
+    },
+    "RUBRIC.txt": {
+      "expected": "95a21c324668f010475d2d2f550f8b22bd3011173c76b36276d529929321e11e",
+      "actual": "95a21c324668f010475d2d2f550f8b22bd3011173c76b36276d529929321e11e",
+      "matches": true
+    },
+    "build.py": {
+      "expected": "57af1eb56e06057823b5f0edd44c13f71adea4ae7b9e5c4b1dc5d0562afc918d",
+      "actual": "57af1eb56e06057823b5f0edd44c13f71adea4ae7b9e5c4b1dc5d0562afc918d",
+      "matches": true
+    },
+    "dataset/ALL_WORD_PREFIXES.jsonl": {
+      "expected": "26a2d7d24e154ae66837469261e53bd2f9b18d73d1a7d4053504a5a05f9e51b9",
+      "actual": "26a2d7d24e154ae66837469261e53bd2f9b18d73d1a7d4053504a5a05f9e51b9",
+      "matches": true
+    },
+    "dataset/AUTHOR_EXPECTATIONS.jsonl": {
+      "expected": "6fdf4861f40e7e1fd035eea31c510f4068969642fb6264b5c9a1a8bfedcf15f1",
+      "actual": "6fdf4861f40e7e1fd035eea31c510f4068969642fb6264b5c9a1a8bfedcf15f1",
+      "matches": true
+    },
+    "dataset/CANDIDATE_POLICY_INPUTS.jsonl": {
+      "expected": "881169df7ff7cc31da4c1b01d99b3fd2d71c9521a148bfa0576bff83ca06d2ff",
+      "actual": "881169df7ff7cc31da4c1b01d99b3fd2d71c9521a148bfa0576bff83ca06d2ff",
+      "matches": true
+    },
+    "dataset/ITEMS.jsonl": {
+      "expected": "8366ea86b90782b47f0f99facd97ca9fed19338a8875a45af02f452e9a904363",
+      "actual": "8366ea86b90782b47f0f99facd97ca9fed19338a8875a45af02f452e9a904363",
+      "matches": true
+    },
+    "dataset/RATER_A_INPUT.jsonl": {
+      "expected": "fe3934484fb0d9581eb7a030c3290afa6dfa4b1aa5dfb2398e334836f32b967c",
+      "actual": "fe3934484fb0d9581eb7a030c3290afa6dfa4b1aa5dfb2398e334836f32b967c",
+      "matches": true
+    },
+    "dataset/RATER_A_MAPPING.jsonl": {
+      "expected": "78e660d96f86094658b2e7659e5259dad9101e392d6bbda4d89cbedc516d8dc8",
+      "actual": "78e660d96f86094658b2e7659e5259dad9101e392d6bbda4d89cbedc516d8dc8",
+      "matches": true
+    },
+    "dataset/RATER_B_INPUT.jsonl": {
+      "expected": "5448610b9b36ad6e286bb708cd3ee289f546b3a90db95b62ee471c345f5aaba7",
+      "actual": "5448610b9b36ad6e286bb708cd3ee289f546b3a90db95b62ee471c345f5aaba7",
+      "matches": true
+    },
+    "dataset/RATER_B_MAPPING.jsonl": {
+      "expected": "42b7c40937e5ff2d8e8433ddded7f4e0d2b4e4615fabd06d99806250fb179898",
+      "actual": "42b7c40937e5ff2d8e8433ddded7f4e0d2b4e4615fabd06d99806250fb179898",
+      "matches": true
+    },
+    "dataset/STRUCTURE_QA.json": {
+      "expected": "c4267d4795d8cde05f1f26d48202287c8050a8a2846df818168c48431e11083e",
+      "actual": "c4267d4795d8cde05f1f26d48202287c8050a8a2846df818168c48431e11083e",
+      "matches": true
+    },
+    "dataset/STYLE_LINEAGE.jsonl": {
+      "expected": "4e932e98f52949da596eee25d88add12a991abb4c7ed89e15ac9d52a7f344a90",
+      "actual": "4e932e98f52949da596eee25d88add12a991abb4c7ed89e15ac9d52a7f344a90",
+      "matches": true
+    },
+    "dataset/TASKS_EVALUATOR_ONLY.jsonl": {
+      "expected": "1370eaf56660fabff804ee4d443c731b3e6c2dfa1553bcb75b2e97386f2f4cfe",
+      "actual": "1370eaf56660fabff804ee4d443c731b3e6c2dfa1553bcb75b2e97386f2f4cfe",
+      "matches": true
+    }
+  },
+  "discrepancies": [],
+  "unverified_scores_fields": [
+    "word_observations",
+    "source_pool_owner_accepted_items",
+    "style_anchors_used",
+    "old_owner_labels_changed",
+    "review_attention_items",
+    "judge_raw_sha256",
+    "G0/G1 provenance and execution claims"
+  ],
+  "interpretation": "Agreement and kappa quantify consistency among AI provisional labels on correlated synthetic items, not predictive efficacy, human G1 agreement, tool success, or saved execution cost. No source code or scoring implementation was executed."
+}

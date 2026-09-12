@@ -1,0 +1,21 @@
+{
+  "state": "SYNTHETIC_DEVELOPMENT_AI_REVIEW_COMPLETE",
+  "items": 200,
+  "tasks": 100,
+  "families": 50,
+  "all_word_observations": 1677,
+  "AI_judged_reusable": 136,
+  "AI_judged_non_reusable": 59,
+  "AI_judged_unresolved": 5,
+  "AI_labeling_performed": true,
+  "frozen_research_model_inference": false,
+  "G0": "PASS_SCOPED_UNCHANGED",
+  "G1": "PENDING",
+  "independent_human_pairs": 0,
+  "old_owner_decisions_unchanged": true,
+  "public_release_completed": false,
+  "public_source_adapter_completed": false,
+  "development_extraction": false,
+  "confirmatory_extraction": false,
+  "scores_model_inference_field_scope": "results/SCORES.json model_inference=false means no frozen research-model inference; AI rater/judge sessions did run."
+}

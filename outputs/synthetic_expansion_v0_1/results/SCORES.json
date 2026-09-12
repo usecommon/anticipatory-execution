@@ -1,0 +1,141 @@
+{
+  "state": "SYNTHETIC_DEVELOPMENT_AI_REVIEW_ONLY",
+  "items": 200,
+  "tasks": 100,
+  "families": 50,
+  "word_observations": 1677,
+  "source_pool_owner_accepted_items": 125,
+  "style_anchors_used": 50,
+  "old_owner_labels_changed": 0,
+  "author_expectations": {
+    "reusable": 150,
+    "non_reusable": 50,
+    "unresolved": 0,
+    "ambiguity_flags": 0
+  },
+  "rater_A": {
+    "reusable": 138,
+    "non_reusable": 61,
+    "unresolved": 1,
+    "ambiguity_flags": 10
+  },
+  "rater_B": {
+    "reusable": 139,
+    "non_reusable": 60,
+    "unresolved": 1,
+    "ambiguity_flags": 13
+  },
+  "judge": {
+    "reusable": 136,
+    "non_reusable": 59,
+    "unresolved": 5,
+    "ambiguity_flags": 19
+  },
+  "rater_agreement": {
+    "total": 200,
+    "complete_binary_pairs": 199,
+    "unresolved_pairs": 1,
+    "binary_agreements": 198,
+    "binary_disagreements": 1,
+    "observed_agreement": 0.9949748743718593,
+    "kappa": 0.9881257831612864,
+    "degenerate_kappa": false,
+    "denominator_policy": "Only pairs with two binary labels; unresolved count retained explicitly."
+  },
+  "author_vs_judge_consistency": {
+    "total": 200,
+    "complete_binary_pairs": 195,
+    "unresolved_pairs": 5,
+    "binary_agreements": 182,
+    "binary_disagreements": 13,
+    "observed_agreement": 0.9333333333333333,
+    "kappa": 0.8349071963529795,
+    "degenerate_kappa": false,
+    "denominator_policy": "Only pairs with two binary labels; unresolved count retained explicitly."
+  },
+  "changed_or_unresolved_from_author": 18,
+  "review_attention_items": 19,
+  "by_domain": {
+    "Coding": {
+      "reusable": 10,
+      "non_reusable": 4,
+      "unresolved": 2,
+      "ambiguity_flags": 4
+    },
+    "Communication": {
+      "reusable": 9,
+      "non_reusable": 7,
+      "unresolved": 0,
+      "ambiguity_flags": 0
+    },
+    "Device/Home Control": {
+      "reusable": 9,
+      "non_reusable": 5,
+      "unresolved": 2,
+      "ambiguity_flags": 5
+    },
+    "Document Work": {
+      "reusable": 12,
+      "non_reusable": 4,
+      "unresolved": 0,
+      "ambiguity_flags": 1
+    },
+    "Finance-like Read-only Analysis": {
+      "reusable": 12,
+      "non_reusable": 4,
+      "unresolved": 0,
+      "ambiguity_flags": 1
+    },
+    "General Productivity": {
+      "reusable": 12,
+      "non_reusable": 4,
+      "unresolved": 0,
+      "ambiguity_flags": 2
+    },
+    "Information Retrieval": {
+      "reusable": 13,
+      "non_reusable": 6,
+      "unresolved": 1,
+      "ambiguity_flags": 2
+    },
+    "Local Search": {
+      "reusable": 11,
+      "non_reusable": 5,
+      "unresolved": 0,
+      "ambiguity_flags": 0
+    },
+    "Media": {
+      "reusable": 10,
+      "non_reusable": 6,
+      "unresolved": 0,
+      "ambiguity_flags": 1
+    },
+    "Scheduling": {
+      "reusable": 11,
+      "non_reusable": 5,
+      "unresolved": 0,
+      "ambiguity_flags": 0
+    },
+    "Shopping/Research": {
+      "reusable": 15,
+      "non_reusable": 5,
+      "unresolved": 0,
+      "ambiguity_flags": 1
+    },
+    "Travel": {
+      "reusable": 12,
+      "non_reusable": 4,
+      "unresolved": 0,
+      "ambiguity_flags": 2
+    }
+  },
+  "G0": "PASS_SCOPED_UNCHANGED",
+  "G1": "PENDING",
+  "independent_human_pairs": 0,
+  "model_inference": false,
+  "development_extraction": false,
+  "confirmatory_extraction": false,
+  "public_release_status": "PRIVATE_REPO_ONLY_NOT_PUBLICLY_RELEASED",
+  "scientific_predictive_accuracy_measured": false,
+  "judge_raw_sha256": "03169903552e4c8dfd5a24b5d332654f1bfb11be9ccba204df08cfce30702d52"
+}

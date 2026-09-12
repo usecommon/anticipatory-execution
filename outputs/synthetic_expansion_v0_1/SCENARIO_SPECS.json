@@ -1,0 +1,502 @@
+[
+  [
+    "T001-P2",
+    "Compare flights from Harborview to Eastport",
+    " and show the two listed morning options.",
+    " but change the destination to Westhaven and discard the Eastport options.",
+    "Retrieve two route-specific fares",
+    "Harborview–Eastport 08:00, 120 credits; Harborview–Eastport 10:00, 150 credits.",
+    "Retrieve the origin airport access note",
+    "Harborview airport: rail shuttle departs downtown every 20 minutes."
+  ],
+  [
+    "T002-P2",
+    "Find hotels near Maple Station",
+    " and compare the two listed hotels by walking distance.",
+    " but use Pine Station instead and omit Maple Station hotels.",
+    "Retrieve station-specific hotel cards",
+    "Maple Lodge: 3-minute walk to Maple Station; Maple House: 5-minute walk.",
+    "Stage a hotel comparison layout",
+    "Columns: hotel name, distance to requested station, nightly price; no hotels filled in."
+  ],
+  [
+    "T003-P4",
+    "Compare Friday car rentals at North Terminal",
+    " and keep pickup at North Terminal.",
+    " but pickup must be at South Terminal instead, with no North Terminal results.",
+    "Retrieve terminal-specific rental cards",
+    "North Terminal: Compact A, 40 credits/day; Compact B, 45 credits/day. Both are North-only pickups.",
+    "Prepare the comparison calculation",
+    "Total rental cost = daily rate × number of days + disclosed fees; values remain unfilled."
+  ],
+  [
+    "T004-P2",
+    "Compare nonstop flights to Eastport",
+    " and list only nonstop itineraries.",
+    " but I now want only one-stop itineraries to Eastport.",
+    "Retrieve nonstop route cards",
+    "Route N1: nonstop, 2 hours; route N2: nonstop, 3 hours. Neither includes a stop.",
+    "Prepare the requested destination field",
+    "Destination field: Eastport; no route or fare chosen."
+  ],
+  [
+    "T005-P2",
+    "Find Italian restaurants around Cedar Square",
+    " and choose places with outdoor seating.",
+    " but change the cuisine to Thai and exclude Italian restaurants.",
+    "Retrieve cuisine-specific restaurant cards",
+    "Cedar Pasta: Italian, outdoor seating; Olive Room: Italian, outdoor seating; neither serves Thai cuisine.",
+    "Prepare the location field",
+    "Search area: Cedar Square; cuisine, hours and price remain unfilled."
+  ],
+  [
+    "T006-P3",
+    "Find bakeries around Birch Park",
+    " that serve coffee, including the two listed options.",
+    " but I meant pharmacies around Birch Park, not bakeries.",
+    "Retrieve bakery cards",
+    "Birch Bake: bakery with coffee; Loaf House: bakery with coffee; neither is a pharmacy.",
+    "Prepare a bakery-only comparison layout",
+    "Columns: bakery name, bread selection, pastry selection, coffee availability; four fixed headings."
+  ],
+  [
+    "T007-P2",
+    "Find gyms in Riverton that sell day passes",
+    " and prioritize day-pass gyms with a sauna.",
+    " but only consider members-only gyms that do not sell day passes.",
+    "Retrieve day-pass gym cards",
+    "River Fit: day passes and sauna; North Fit: day passes and sauna. Both sell day passes.",
+    "Prepare the location field",
+    "City field: Riverton; membership type remains unfilled."
+  ],
+  [
+    "T008-P2",
+    "Find pharmacies in Brookfield that are open now",
+    " and omit hospital-based pharmacies.",
+    " but only list hospital pharmacies that are closed now and open tomorrow.",
+    "Retrieve open pharmacy cards",
+    "Brook Pharmacy: open now, standalone; Elm Pharmacy: open now, standalone. Neither is hospital-based.",
+    "Prepare the search time reference",
+    "Fixture clock: Monday 14:00 local time; tomorrow resolves to Tuesday in this fixture."
+  ],
+  [
+    "T009-P2",
+    "Research local robotic actuator manufacturers",
+    " and retain the manufacturers while adding distributors separately.",
+    " but list distributors only and exclude manufacturers.",
+    "Retrieve manufacturer cards",
+    "Aster Motion and Delta Drive manufacture robotic actuators locally; neither distributes other makers' parts.",
+    "Prepare the component definition",
+    "Robotic actuator: component that converts a control input into mechanical movement; no supplier selected."
+  ],
+  [
+    "T010-P2",
+    "Compare 15-litre shoulder bags",
+    " and rank the two listed bags by lower weight.",
+    " but compare 30-litre backpacks instead and do not include shoulder bags.",
+    "Retrieve bag specification cards",
+    "Bag L: shoulder bag, 15 L, 0.5 kg; Bag M: shoulder bag, 15 L, 0.7 kg; neither converts to a backpack.",
+    "Prepare a weight-ranking routine",
+    "Sort supplied product records by numeric weight_kg ascending; no records or capacity filter embedded."
+  ],
+  [
+    "T011-P2",
+    "Find brown faux-suede jackets with stand collars",
+    " and compare the listed options under 200 credits.",
+    " but use black cotton jackets with lapels instead and discard the original options.",
+    "Retrieve jacket cards",
+    "Jacket A: brown faux suede, stand collar, 120 credits; Jacket B: brown faux suede, stand collar, 150 credits.",
+    "Stage a product comparison layout",
+    "Columns: material, color, collar type, price; values unfilled."
+  ],
+  [
+    "T012-P2",
+    "Compare robotics synthetic-data tools that support Engine R",
+    " and keep Engine R support mandatory.",
+    " but only consider tools for Engine S that do not support Engine R.",
+    "Retrieve tool compatibility cards",
+    "Sim A and Sim B support Engine R only; neither supports Engine S.",
+    "Prepare a physics-evaluation checklist",
+    "Check gravity, collision response, sensor noise and deterministic replay; no engine-specific commands."
+  ],
+  [
+    "T013-P2",
+    "Find freestanding desk converters under 250 credits",
+    " and exclude permanently mounted converters.",
+    " but only show permanently mounted converters and discard freestanding ones.",
+    "Retrieve converter cards",
+    "Lift A: freestanding, 150 credits; Lift B: freestanding, 220 credits. Neither can be permanently mounted.",
+    "Prepare the price ceiling field",
+    "Maximum price field: 250 credits; mounting type unfilled."
+  ],
+  [
+    "T014-P2",
+    "Find a 30-minute meeting for Sam and me on Tuesday",
+    " and use either of the two listed Tuesday slots.",
+    " but switch the meeting to Wednesday and ignore Tuesday availability.",
+    "Read Tuesday availability",
+    "Sam and requester both free Tuesday 14:00–14:30 and 15:00–15:30. No Wednesday availability included.",
+    "Stage a Wednesday calendar event",
+    "Unsent event object: attendees Sam and requester, duration 30 minutes, day Wednesday; no time set."
+  ],
+  [
+    "T015-P2",
+    "Check whether my dentist can see me on Friday",
+    " and keep my existing appointment if Friday has no openings.",
+    " but check Monday instead and ignore Friday openings, keeping my existing appointment as fallback.",
+    "Read Friday availability",
+    "The fixture dentist has no Friday openings; no Monday availability included.",
+    "Retrieve the existing appointment",
+    "Current appointment: Wednesday 11:00, dentist Dr Vale, appointment ID D17."
+  ],
+  [
+    "T016-P2",
+    "Find team meeting slots this week after 10 AM",
+    " and show the two listed afternoon slots.",
+    " but only consider slots before 10 AM this week.",
+    "Read afternoon team availability",
+    "Whole team free Thursday 13:00–13:30 and Friday 14:00–14:30; no morning data included.",
+    "Prepare the participant list",
+    "Participants: Sam, Jo and requester; no time selected."
+  ],
+  [
+    "T017-P2",
+    "Prepare a report reminder for tomorrow morning",
+    " and set its time to 9 AM.",
+    " but change it to tomorrow evening at 7 PM.",
+    "Stage a morning reminder",
+    "Unsent reminder: title Submit report, day tomorrow, time 09:00.",
+    "Prepare the reminder text",
+    "Reminder title: Submit report; date and time unfilled."
+  ],
+  [
+    "T018-P2",
+    "Draft a reply thanking Morgan for the introduction",
+    " and offer to provide more information.",
+    " but do not thank Morgan or mention the introduction; only decline the invitation.",
+    "Draft the thank-you sentence",
+    "Thank you for making the introduction, Morgan.",
+    "Draft an offer sentence",
+    "I would be happy to provide any additional information you need."
+  ],
+  [
+    "T019-P2",
+    "Draft a team update saying the build is delayed",
+    " and keep the cause neutral because it is not yet known.",
+    " but the build is on schedule, so report that and do not mention a delay.",
+    "Draft the status sentence",
+    "The build is delayed; we are still investigating the cause.",
+    "Stage a neutral update heading",
+    "Heading: Build status update; no status claim or cause included."
+  ],
+  [
+    "T020-P2",
+    "Draft a message declining dinner tonight",
+    " and suggest meeting next weekend.",
+    " but accept dinner tonight instead and do not suggest another date.",
+    "Draft the decline sentence",
+    "I cannot make dinner tonight.",
+    "Draft the alternative-date sentence",
+    "Would you like to meet next weekend instead?"
+  ],
+  [
+    "T021-P2",
+    "Draft a refund approval message",
+    " and avoid promising a payment date.",
+    " but the refund is denied, so explain the denial and do not promise payment.",
+    "Draft the approval sentence",
+    "Your refund has been approved.",
+    "Stage an approval-specific reply template",
+    "Subject: Refund approved. Closing: Thank you for your patience. Body unfilled."
+  ],
+  [
+    "T022-P2",
+    "Find peer-reviewed papers about hidden-state probing",
+    " and use only peer-reviewed sources.",
+    " but use only non-peer-reviewed technical reports about hidden-state probing.",
+    "Retrieve peer-reviewed fixture records",
+    "Paper P and Paper Q: peer-reviewed hidden-state probing papers in the synthetic catalogue; no technical reports included.",
+    "Prepare the topic search terms",
+    "Terms: hidden-state probing, representation analysis; no publication-type filter."
+  ],
+  [
+    "T023-P2",
+    "Find version 3 documentation for Library L",
+    " and use only the official version 3 material.",
+    " but use version 4 instead and exclude all version 3 documentation.",
+    "Retrieve versioned documentation",
+    "Official Library L version 3: old_connect(endpoint) is the connection entry point. This fixture marks it removed in version 4.",
+    "Retrieve the official documentation index URL",
+    "Fixture URL: https://library-l.example/docs/ ; index lists version 3 and version 4."
+  ],
+  [
+    "T024-P2",
+    "Compare Acme's revenue in its two annual releases",
+    " and report company-stated actual revenue only.",
+    " but compare Beacon's releases instead, with no Acme figures.",
+    "Extract Acme revenue figures",
+    "Acme fixture: prior year revenue 10 million credits; current year 12 million credits.",
+    "Calculate Acme revenue growth",
+    "Acme revenue growth = (12 − 10) / 10 = 20%; calculation uses Acme values."
+  ],
+  [
+    "T025-P2",
+    "Find primary rules for Region A consumer AI systems",
+    " and keep Region A as the main jurisdiction.",
+    " but use Region B rules only and exclude Region A rules.",
+    "Retrieve jurisdiction-specific rule cards",
+    "Rule A1 and Rule A2: synthetic Region A consumer-AI rules, with no applicability in Region B.",
+    "Stage a legal-source comparison layout",
+    "Columns: jurisdiction, issuing authority, effective date, provision; no legal claims filled in."
+  ],
+  [
+    "T026-P2",
+    "Compare small open-weight reasoning models",
+    " and flag vendor-only scores as unverified rather than treating them as evidence.",
+    " but include only independently reproduced scores and omit vendor-only claims entirely.",
+    "Collect vendor-only benchmark claims",
+    "Vendor card: Model K claims 80 points and Model J claims 85 points; neither claim is independently reproduced.",
+    "Collect independent fixture benchmark records",
+    "Independent lab fixture: Model K 70 points, Model J 72 points, same test and evaluation settings; both small and open-weight."
+  ],
+  [
+    "T027-P2",
+    "Calculate a 7 percent downside scenario for a 100-credit index",
+    " and show the hypothetical level without making a trade.",
+    " but use a 12 percent decline instead and omit the 7 percent case.",
+    "Calculate the requested scenario",
+    "100 × (1 − 0.07) = 93 credits; only the 7% result retained.",
+    "Prepare the scenario formula",
+    "Scenario level = starting level × (1 − decline_fraction); no numeric assumptions embedded."
+  ],
+  [
+    "T028-P2",
+    "Calculate budget variance from my supplied table",
+    " and identify the largest overspend.",
+    " but show actual category totals only, without calculating or reporting variances.",
+    "Compute category variances",
+    "Fixture variances: supplies +20 credits, travel +5 credits, meals −10 credits; positive means overspend.",
+    "Aggregate actual category totals",
+    "Fixture actuals: supplies 120 credits, travel 85 credits, meals 40 credits; source-table sums retained."
+  ],
+  [
+    "T029-P2",
+    "Compare current holdings with the start-of-month snapshot",
+    " and report concentration changes for those two snapshots.",
+    " but compare current holdings with the start-of-year snapshot instead and ignore start-of-month holdings.",
+    "Calculate start-of-month concentration",
+    "Start-of-month fixture: asset A 60%, asset B 40%; no other date included.",
+    "Calculate current concentration",
+    "Current fixture: asset A 50%, asset B 50%; values unchanged across comparisons."
+  ],
+  [
+    "T030-P2",
+    "Calculate breakeven for my debit spread using the supplied values",
+    " and use the supplied 5-credit debit and 100-credit lower strike.",
+    " but correct the debit to 8 credits while keeping the lower strike at 100 credits.",
+    "Calculate the original breakeven",
+    "For this fixture's specified call debit spread: 100 + 5 = 105 credits.",
+    "Prepare the symbolic breakeven expression",
+    "For the specified call debit spread: lower_strike + net_debit; no prices filled in."
+  ],
+  [
+    "T031-P2",
+    "Write a Python function that counts ERROR lines in the supplied log",
+    " and return the count without changing the file.",
+    " but count WARN lines instead and do not count ERROR lines.",
+    "Stage an ERROR-counting function",
+    "def count_lines(lines): return sum(line.startswith('ERROR ') for line in lines)",
+    "Stage a log-reading helper",
+    "def read_lines(path):\n    with open(path, encoding='utf-8') as f:\n        return f.read().splitlines()"
+  ],
+  [
+    "T032-P2",
+    "Inspect the client timeout path without changing the code",
+    " and identify where its five-second timeout is set.",
+    " but modify the default timeout to ten seconds instead of producing an inspection report.",
+    "Collect a timeout observation",
+    "Fixture client.py line 8: DEFAULT_TIMEOUT = 5; request() passes this constant as its timeout argument.",
+    "Stage a ten-second timeout patch",
+    "Unapplied patch replaces DEFAULT_TIMEOUT = 5 with DEFAULT_TIMEOUT = 10; no other edits."
+  ],
+  [
+    "T033-P2",
+    "Refactor the add function while preserving its public name and behavior",
+    " and keep its existing callers compatible.",
+    " but rename the public function to total and update callers to use total.",
+    "Stage the preserving refactor",
+    "Replacement definition: def add(a, b): return a + b; public symbol remains add.",
+    "Stage addition behavior tests",
+    "Assertions: operation(2, 3) == 5; operation(-1, 1) == 0; operation supplied by the test harness, not hardcoded to a name."
+  ],
+  [
+    "T034-P2",
+    "Add malformed-JSON tests to the parser",
+    " and keep this work limited to correctness tests.",
+    " but benchmark parsing speed only and do not add correctness tests.",
+    "Stage malformed-input test cases",
+    "Inputs: an unmatched opening brace, an unfinished numeric array, and an object with an unquoted key; expected outcome for each: parse error.",
+    "Prepare a correctness-test report layout",
+    "Columns: malformed input, expected error, observed error; no timing column."
+  ],
+  [
+    "T035-P2",
+    "Rewrite this note for executives while preserving its numbers",
+    " and keep both the 12-week duration and 30-credit budget.",
+    " but make it a technical note for engineers and correct the budget to 40 credits.",
+    "Draft the executive summary",
+    "The project will take 12 weeks with a budget of 30 credits; the decision needed is approval to proceed.",
+    "Extract the unchanged duration",
+    "Duration fact from the supplied fixture note: 12 weeks."
+  ],
+  [
+    "T036-P1",
+    "Summarize the main report without using the appendix",
+    " and use only the main report findings.",
+    " but summarize the appendix only and ignore the main report.",
+    "Extract main-report finding",
+    "Main report fixture: trial A completed in 8 days with 2 defects. This fact appears only in the main report.",
+    "Stage a summary layout",
+    "Headings: objective, evidence, limitations; no source facts populated."
+  ],
+  [
+    "T037-P1",
+    "Draft a proposal from these notes and leave pricing undecided",
+    " and mark pricing as TBD.",
+    " but quote the supplied fixed price of 500 credits and remove TBD pricing.",
+    "Stage the pricing section",
+    "Pricing: TBD. No numeric quote is included.",
+    "Stage the scope section",
+    "Scope: deliver one dashboard and its handover guide; no price or schedule included."
+  ],
+  [
+    "T038-P2",
+    "Compare these two resumes without recommending a candidate",
+    " and list differences only.",
+    " but recommend a candidate using the same resumes and explain the choice.",
+    "Extract resume differences",
+    "Resume A lists Python and 3 years of experience; Resume B lists Java and 5 years. These are fixture facts.",
+    "Stage a comparison-only closing",
+    "These differences are presented without any hiring recommendation."
+  ],
+  [
+    "T039-P2",
+    "Stage the living-room lights at 30 percent brightness",
+    " while preserving their current color, without applying changes.",
+    " but stage bedroom lights at 60 percent instead and discard the living-room command.",
+    "Stage the requested lighting command",
+    "Unapplied command: room=living_room, brightness=30, color=unchanged.",
+    "Read living-room light state",
+    "Living-room fixture: brightness 80%, color warm white. No bedroom state included."
+  ],
+  [
+    "T040-P2",
+    "Stage a 70 F thermostat setting for tonight",
+    " only if the current setting differs from 70 F; do not apply it.",
+    " but stage 68 F instead, only if the current setting differs from 68 F; do not apply it.",
+    "Stage the 70 F setting",
+    "Unapplied thermostat plan: tonight, target 70 F.",
+    "Read current thermostat setting",
+    "Current fixture thermostat setting: 70 F; reading retained for conditional comparison."
+  ],
+  [
+    "T041-P2",
+    "Prepare to lock the back door after I leave",
+    " and check the back-door sensor before staging anything.",
+    " but prepare to lock the front door instead and do not use the back-door sensor reading.",
+    "Read back-door sensor",
+    "Back-door fixture sensor: closed and unlocked; timestamp belongs to the fixed scenario snapshot.",
+    "Stage a departure trigger definition",
+    "Trigger: requester_departed becomes true; no door or lock operation attached."
+  ],
+  [
+    "T042-P2",
+    "Stage a kitchen-only vacuum run",
+    " and keep all other rooms excluded; do not start cleaning.",
+    " but stage a bedroom-only run instead and discard the kitchen plan.",
+    "Stage the room-specific cleaning plan",
+    "Unapplied vacuum plan: include kitchen; exclude bedroom, hall and living room.",
+    "Read vacuum battery state",
+    "Fixture vacuum battery: 90%; sufficient for either single-room run in this scenario."
+  ],
+  [
+    "T043-P2",
+    "Find robotics documentaries",
+    " and include only titles under 90 minutes.",
+    " but find astronomy documentaries only and exclude robotics titles.",
+    "Retrieve robotics documentary cards",
+    "Robot Workshop: robotics, 60 minutes; Machine Motion: robotics, 75 minutes; neither covers astronomy.",
+    "Prepare a runtime filter",
+    "Keep input records whose runtime_minutes < 90; no topic filter or titles embedded."
+  ],
+  [
+    "T044-P2",
+    "Build an upbeat instrumental jazz playlist",
+    " and exclude vocal tracks.",
+    " but include only vocal jazz tracks and exclude instrumentals.",
+    "Collect instrumental track cards",
+    "Track A and Track B: upbeat jazz, instrumental; no vocals in either fixture track.",
+    "Prepare a vocal-track exclusion predicate",
+    "Keep a supplied track only when has_vocals is false; no titles embedded."
+  ],
+  [
+    "T045-P2",
+    "Choose a non-horror movie under two hours for tonight",
+    " and compare the listed eligible options.",
+    " but choose a horror movie longer than two hours instead.",
+    "Retrieve movie cards",
+    "Film A: comedy, 90 minutes; Film B: drama, 105 minutes; both explicitly not horror.",
+    "Stage a generic movie comparison layout",
+    "Columns: title, genre, runtime, availability tonight; no candidate titles or restrictions filled in."
+  ],
+  [
+    "T046-P2",
+    "Find technical podcast interviews about AI agents",
+    " and favor interviews over news roundups.",
+    " but use only news roundups and exclude interviews.",
+    "Retrieve interview episode cards",
+    "Episode I and Episode J: technical AI-agent interviews; neither is a news roundup.",
+    "Prepare the topic query",
+    "Topic query: AI agents; no episode-format restriction."
+  ],
+  [
+    "T047-P2",
+    "Make a three-day business-trip packing checklist",
+    " and omit formalwear.",
+    " but make it a three-day camping checklist instead, with no business clothing.",
+    "Draft the clothing checklist",
+    "Two business shirts; one pair of office trousers; office shoes. No formalwear included.",
+    "Draft the shared essentials checklist",
+    "Toothbrush; phone charger; personal identification. No destination-specific supplies included."
+  ],
+  [
+    "T048-P2",
+    "Plan my morning around a 9 AM appointment",
+    " and reserve 30 minutes to travel there.",
+    " but move the appointment to 11 AM while retaining the 30-minute travel requirement.",
+    "Calculate the original departure time",
+    "For a 09:00 arrival and 30 minutes travel, depart at 08:30.",
+    "Prepare the travel-duration field",
+    "Travel duration field: 30 minutes; no appointment or departure time filled in."
+  ],
+  [
+    "T049-P2",
+    "Build a shopping list for vegetarian tacos",
+    " and include beans instead of meat.",
+    " but make beef tacos instead and omit beans.",
+    "Draft the protein ingredient",
+    "One tin of beans; no meat.",
+    "Draft the shared taco ingredients",
+    "Tortillas, tomatoes and lettuce; no protein ingredient selected."
+  ],
+  [
+    "T050-P2",
+    "Prioritize today's tasks with the client deadline first",
+    " and keep the client deadline at the top.",
+    " but put the server incident first and move the client deadline below it.",
+    "Stage the original ordering",
+    "1. Client deadline; 2. Server incident; 3. File receipts.",
+    "Extract today's task inventory",
+    "Tasks due today: client deadline, server incident, file receipts; inventory has no priority ordering."
+  ]
+]
