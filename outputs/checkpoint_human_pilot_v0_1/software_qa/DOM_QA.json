@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "method": "Actual embedded JavaScript in Node VM with minimal DOM/local-storage/download harness; not a real browser",
+  "cases": [
+    "blank_initial_labels_and_attestations",
+    "220_unique_items",
+    "nonmaterial_disables_reuse",
+    "sufficiency_change_clears_stale_labels",
+    "explicit_uncertainty_validation",
+    "draft_export",
+    "local_storage_reload",
+    "same_package_import",
+    "item_navigation",
+    "wrong_role_import_rejected"
+  ],
+  "human_labels_generated": false,
+  "test_responses": "SOFTWARE_QA_DRAFT.json is an incomplete software fixture, never a human submission",
+  "visual_browser_verification": "BLOCKED; see BROWSER_BLOCKED.json"
+}

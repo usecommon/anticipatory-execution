@@ -1,0 +1,30 @@
+{
+  "A": {
+    "package_id": "CPH1-A-416e5eea267c55ec1fce",
+    "reviewer_role": "Annotator_A",
+    "items": 220,
+    "main_items": 200,
+    "boundary_items": 20,
+    "files": {
+      "ITEMS.json": "6bb59cb3b5d8b8e4af7c7ad0e55eaae65a3aae55ded9b86abd020d55c9a2b865",
+      "ORIGINAL_RUBRIC.txt": "95a21c324668f010475d2d2f550f8b22bd3011173c76b36276d529929321e11e",
+      "REVIEW.html": "e8205fe3ae58013fba09cdf658fbfe917937085ab8b34ea448261e61559f3007",
+      "START_HERE.md": "9ab4c01a0d3aae972fc9fae0f2092dc87f70c9ae394c44fca21686da2128ef72"
+    },
+    "zip_sha256": "07baaf2a90897981ad3a19c64c7fb800e19ad03d044834483e2c0c9f2e8bc0c2"
+  },
+  "B": {
+    "package_id": "CPH1-B-e9caec316ec50ff69d27",
+    "reviewer_role": "Annotator_B",
+    "items": 220,
+    "main_items": 200,
+    "boundary_items": 20,
+    "files": {
+      "ITEMS.json": "d61810ab2f89dc3ce49f1efe20f8739bd8932b43845bc0fab7d4c06ea80a4db2",
+      "ORIGINAL_RUBRIC.txt": "95a21c324668f010475d2d2f550f8b22bd3011173c76b36276d529929321e11e",
+      "REVIEW.html": "6049aa679fe50ece6090c85e21c8114ff479e2c61b62b152fb7ebded1318181c",
+      "START_HERE.md": "f2516db51aa38c8959979eb95aa4471bdfcd2e416f328590a0a55b57acf81b36"
+    },
+    "zip_sha256": "befc9f01f7837330c7c28c413f8fd476a9d973e7c200a076eba7c42be955ab4d"
+  }
+}

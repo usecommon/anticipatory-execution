@@ -1,0 +1,7 @@
+{
+  "issue": "Very large valid JSON integer fraction caused OverflowError in math.isfinite before range checking.",
+  "fix": "Reject out-of-range values before floating-point finiteness conversion.",
+  "pre_fix_sha256": "25adc5bc86fb3e1693bf5c65a8a732ff5a13854c1c37b87226c9f0c2463f5fde",
+  "post_fix_sha256": "6cc0b93ac68209be97b14039da36fb33693fd282682b9c64cf32086ae64a54a9",
+  "real_human_submissions": 0
+}

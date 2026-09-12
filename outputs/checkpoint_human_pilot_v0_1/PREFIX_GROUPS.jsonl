@@ -1,0 +1,473 @@
+{"item_id": "N001", "prefix": "Find primary rules for Region A consumer AI systems but use Region B rules only and exclude Region", "opportunity_ids": ["CP1-SP1-S-SX1-F025-R-W18"]}
+{"item_id": "N002", "prefix": "I've noticed that some of my car doors are slightly ajar while", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_51-W12"]}
+{"item_id": "N003", "prefix": "Find a 30-minute meeting for Sam and me on Tuesday but switch the meeting to Wednesday and ignore", "opportunity_ids": ["CP1-SP1-S-SX1-F014-R-W18"]}
+{"item_id": "N004", "prefix": "I'm planning a journey from Los Angeles to New York on the morning of April 15th 2026, preferring", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_199-W18"]}
+{"item_id": "N005", "prefix": "Compare these two resumes without recommending a candidate but recommend a candidate using the same resumes and explain", "opportunity_ids": ["CP1-SP1-S-SX1-F038-R-W18"]}
+{"item_id": "N006", "prefix": "In my workspace folder, direct your attention to the initial directory we", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_48-W12"]}
+{"item_id": "N007", "prefix": "I'm setting sail on an adventure from Crescent Hollow to Rivermist and need the scoop on flight costs", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_166-W18"]}
+{"item_id": "N008", "prefix": "Find hotels near Maple Station and compare the two listed hotels by", "opportunity_ids": ["CP1-SP1-S-SX1-F002-K-W12"]}
+{"item_id": "N009", "prefix": "I'm contemplating enhancing my investment portfolio with some tech industry assets, and", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_100-W12"]}
+{"item_id": "N010", "prefix": "Imagine I just embarked on a lovely road trip and had to make a stop at the gas", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_65-W18"]}
+{"item_id": "N011", "prefix": "I need to cap my travel expenses at 20,000 RMB. Sort out everything to make sure this limit", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_180-W18"]}
+{"item_id": "N012", "prefix": "It's getting late here, and I'm wrapping up my notes for the day. Please initiate a file creation", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_6-W18"]}
+{"item_id": "N013", "prefix": "I've recently retired after spending years poring over electrical blueprints and energy", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_181-W12"]}
+{"item_id": "N014", "prefix": "Hello! I'm laying out a detailed plan for an extended road trip and need to verify if my", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_94-W18"]}
+{"item_id": "N015", "prefix": "I'm gearing up for a quick business getaway and need my ride all set. Would you be able", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_78-W18"]}
+{"item_id": "N016", "prefix": "Having established the market scenario, imagine you're poised to place an order to acquire 150 shares of 'NEPT'", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_130-W18"]}
+{"item_id": "N017", "prefix": "Summarize the main report without using the appendix but summarize the appendix", "opportunity_ids": ["CP1-SP1-S-SX1-F036-R-W12"]}
+{"item_id": "N018", "prefix": "Wonderful, in light of the prevailing market landscape, could we dive into", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_112-W12"]}
+{"item_id": "N019", "prefix": "Before I set off for Stonebrook to uncover family history, I need", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_77-W12"]}
+{"item_id": "N020", "prefix": "Stage a 70 F thermostat setting for tonight only if the current setting differs from 70 F; do", "opportunity_ids": ["CP1-SP1-S-SX1-F040-K-W18"]}
+{"item_id": "N021", "prefix": "Find hotels near Maple Station but use Pine Station instead and omit", "opportunity_ids": ["CP1-SP1-S-SX1-F002-R-W12"]}
+{"item_id": "N022", "prefix": "Hey there! Could you help me by identifying the stocks currently present", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_146-W12"]}
+{"item_id": "N023", "prefix": "As part of my latest photography project, I need to gather files", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_3-W12"]}
+{"item_id": "N024", "prefix": "Find a 30-minute meeting for Sam and me on Tuesday but switch", "opportunity_ids": ["CP1-SP1-S-SX1-F014-R-W12"]}
+{"item_id": "N025", "prefix": "I'm reviewing my account, and I'd like you to confirm the current", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_123-W12"]}
+{"item_id": "N026", "prefix": "I'd like some help managing my stock watchlist. There's one particular stock", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_141-W12"]}
+{"item_id": "N027", "prefix": "I'm embarking on an adventure to spend some time with my family.", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_158-W12"]}
+{"item_id": "N028", "prefix": "Draft a refund approval message but the refund is denied, so explain", "opportunity_ids": ["CP1-SP1-S-SX1-F021-R-W12"]}
+{"item_id": "N029", "prefix": "It's been quite an adventure today! Before embarking on a long trip, I filled up my cars fuel", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_60-W18"]}
+{"item_id": "N030", "prefix": "I'm about to embark on a road trip adventure and I want my car to be in peak", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_68-W18"]}
+{"item_id": "N031", "prefix": "I'm planning a business class trip from JFK in New York to", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_176-W12"]}
+{"item_id": "N032", "prefix": "Ensure the fuel tank is replenished adequately by adding 38 liters of gasoline so that we're well-prepared for", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_70-W18"]}
+{"item_id": "N033", "prefix": "Could you provide me with an inventory of files that are currently visible and hidden in the directory", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_17-W18"]}
+{"item_id": "N034", "prefix": "I have a list of student record in this directory, could you find me where is it by", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_47-W18"]}
+{"item_id": "N035", "prefix": "I noticed some promising trends and want to proceed with a 'Buy' order for 100 shares of AAPL", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_122-W18"]}
+{"item_id": "N036", "prefix": "I’m re-evaluating my current investment portfolio and need to make informed decisions.", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_127-W12"]}
+{"item_id": "N037", "prefix": "Refactor the add function while preserving its public name and behavior but", "opportunity_ids": ["CP1-SP1-S-SX1-F033-R-W12"]}
+{"item_id": "N038", "prefix": "Plan my morning around a 9 AM appointment but move the appointment", "opportunity_ids": ["CP1-SP1-S-SX1-F048-R-W12"]}
+{"item_id": "N039", "prefix": "Copy all the text files of the 'Quarter1_Reports' directory and place it in a new directory naming it", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_18-W18"]}
+{"item_id": "N040", "prefix": "I've been issued a new credit card with id 'card_4893', and it's", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_187-W12"]}
+{"item_id": "N041", "prefix": "Check whether my dentist can see me on Friday but check Monday instead and ignore Friday openings, keeping", "opportunity_ids": ["CP1-SP1-S-SX1-F015-R-W18"]}
+{"item_id": "N042", "prefix": "Just acquired a stunning electric vehicle, and it's like a canvas waiting", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_96-W12"]}
+{"item_id": "N043", "prefix": "Compare current holdings with the start-of-month snapshot but compare current holdings with", "opportunity_ids": ["CP1-SP1-S-SX1-F029-R-W12"]}
+{"item_id": "N044", "prefix": "What's the name of the python file my current directory? There should be only one and. Do not", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_33-W18"]}
+{"item_id": "N045", "prefix": "I'm reviewing my account, and I'd like you to confirm the current balance and provide the account details.", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_123-W18"]}
+{"item_id": "N046", "prefix": "Examine current directory for any presence of the file named 'summary.txt'. If", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_25-W12"]}
+{"item_id": "N047", "prefix": "What's the name of the python file my current directory? There should", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_33-W12"]}
+{"item_id": "N048", "prefix": "Draft a message declining dinner tonight but accept dinner tonight instead and", "opportunity_ids": ["CP1-SP1-S-SX1-F020-R-W12"]}
+{"item_id": "N049", "prefix": "Copy all the text files of the 'Quarter1_Reports' directory and place it", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_18-W12"]}
+{"item_id": "N050", "prefix": "Calculate a 7 percent downside scenario for a 100-credit index but use a 12 percent decline instead and", "opportunity_ids": ["CP1-SP1-S-SX1-F027-R-W18"]}
+{"item_id": "N051", "prefix": "Today feels like the right day to make a strategic move since the market is showing signs of", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_124-W18"]}
+{"item_id": "N052", "prefix": "After confirming the market's operational status, proceed to purchase 100 Apple shares", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_120-W12"]}
+{"item_id": "N053", "prefix": "I'm organizing a trip from San Francisco to Rome on October 10th", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_174-W12"]}
+{"item_id": "N054", "prefix": "Find version 3 documentation for Library L but use version 4 instead", "opportunity_ids": ["CP1-SP1-S-SX1-F023-R-W12"]}
+{"item_id": "N055", "prefix": "I heard that the technology sector is booming these days. Get me", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_109-W12"]}
+{"item_id": "N056", "prefix": "I've heard a friend of mine in Rivermist recently visited Stonebrook, and she mentioned the journey felt quite", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_97-W18"]}
+{"item_id": "N057", "prefix": "I'm cruising down a country road in my brand-new convertible, admiring the scenic lavender fields when I notice", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_81-W18"]}
+{"item_id": "N058", "prefix": "Stage the living-room lights at 30 percent brightness but stage bedroom lights at 60 percent instead and discard", "opportunity_ids": ["CP1-SP1-S-SX1-F039-R-W18"]}
+{"item_id": "N059", "prefix": "Find freestanding desk converters under 250 credits but only show permanently mounted", "opportunity_ids": ["CP1-SP1-S-SX1-F013-R-W12"]}
+{"item_id": "N060", "prefix": "Draft a team update saying the build is delayed and keep the", "opportunity_ids": ["CP1-SP1-S-SX1-F019-K-W12"]}
+{"item_id": "N061", "prefix": "Prioritize today's tasks with the client deadline first and keep the client", "opportunity_ids": ["CP1-SP1-S-SX1-F050-K-W12"]}
+{"item_id": "N062", "prefix": "Calculate budget variance from my supplied table but show actual category totals", "opportunity_ids": ["CP1-SP1-S-SX1-F028-R-W12"]}
+{"item_id": "N063", "prefix": "Find bakeries around Birch Park that serve coffee, including the two listed", "opportunity_ids": ["CP1-SP1-S-SX1-F006-K-W12"]}
+{"item_id": "N064", "prefix": "I need you to verify my travel documents before I embark on this journey. Confirm if my personal", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_154-W18"]}
+{"item_id": "N065", "prefix": "Hello, I'm Josephine, an academic specializing in cognitive science, but today I'm", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_125-W12"]}
+{"item_id": "N066", "prefix": "Refactor the add function while preserving its public name and behavior but rename the public function to total", "opportunity_ids": ["CP1-SP1-S-SX1-F033-R-W18"]}
+{"item_id": "N067", "prefix": "Consider this: A patient, a traveler in this context, wants to book a flight using the card with", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_177-W18"]}
+{"item_id": "N068", "prefix": "Find primary rules for Region A consumer AI systems and keep Region", "opportunity_ids": ["CP1-SP1-S-SX1-F025-K-W12"]}
+{"item_id": "N069", "prefix": "Add malformed-JSON tests to the parser but benchmark parsing speed only and", "opportunity_ids": ["CP1-SP1-S-SX1-F034-R-W12"]}
+{"item_id": "N070", "prefix": "Find Italian restaurants around Cedar Square but change the cuisine to Thai", "opportunity_ids": ["CP1-SP1-S-SX1-F005-R-W12"]}
+{"item_id": "N071", "prefix": "I just relocated to Rivermist and I'm looking to book a flight to Los Angeles for a crucial", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_169-W18"]}
+{"item_id": "N072", "prefix": "As a high-ranking government official residing in Rivermist, I require assistance in", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_186-W12"]}
+{"item_id": "N073", "prefix": "As a seasoned real estate agent, my expertise is all about ensuring your bakery finds the perfect spot", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_160-W18"]}
+{"item_id": "N074", "prefix": "Within the temp directory, could you list all the current files directly in the terminal including all the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_49-W18"]}
+{"item_id": "N075", "prefix": "Hey there, I need to set up a directory titled 'Reports' in my current workspace. Once that's in", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_31-W18"]}
+{"item_id": "N076", "prefix": "I have a list of student record in this directory, could you", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_47-W12"]}
+{"item_id": "N077", "prefix": "As I gear up for another delightful journey exploring the captivating waterways, I'm looking to convert 60 gallons", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_87-W18"]}
+{"item_id": "N078", "prefix": "Could you provide the current time? I need to assess market conditions", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_131-W12"]}
+{"item_id": "N079", "prefix": "Refactor the add function while preserving its public name and behavior and", "opportunity_ids": ["CP1-SP1-S-SX1-F033-K-W12"]}
+{"item_id": "N080", "prefix": "My tires need to be in top-notch condition before embarking on my", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_82-W12"]}
+{"item_id": "N081", "prefix": "I'm embarking on an adventure to spend some time with my family. Could you confirm my travel details", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_158-W18"]}
+{"item_id": "N082", "prefix": "Hey there, I noticed that all of my car doors seem to have locked themselves up, and with", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_50-W18"]}
+{"item_id": "N083", "prefix": "I'm planning a road trip to the Grand Canyon and need to", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_99-W12"]}
+{"item_id": "N084", "prefix": "Ensure the fuel tank is replenished adequately by adding 38 liters of", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_70-W12"]}
+{"item_id": "N085", "prefix": "As I'm in the process of planning an upcoming journey, I have specific departure and arrival cities in", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_182-W18"]}
+{"item_id": "N086", "prefix": "I wish to place an order to purchase 120 shares of the stock that represents the top tech", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_129-W18"]}
+{"item_id": "N087", "prefix": "Compare current holdings with the start-of-month snapshot and report concentration changes for", "opportunity_ids": ["CP1-SP1-S-SX1-F029-K-W12"]}
+{"item_id": "N088", "prefix": "I'd like some assistance today with my investment portfolio. If Zeta Corp is part of my watchlist, please", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_117-W18"]}
+{"item_id": "N089", "prefix": "I need details on the performance of a particular stock, 'SYNX', can you provide me with the critical", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_132-W18"]}
+{"item_id": "N090", "prefix": "Imagine you've meticulously planned a surprise getaway to the Maldives, brimming with", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_193-W12"]}
+{"item_id": "N091", "prefix": "I require assistance in determining the quantity of gasoline necessary for an", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_63-W12"]}
+{"item_id": "N092", "prefix": "Could you populate 'annual_report.txt' with data on quarterly revenue: 'Q1: $5000, Q2:", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_44-W12"]}
+{"item_id": "N093", "prefix": "I need you to set up a fresh folder named 'WebDevProjects' wherever", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_39-W12"]}
+{"item_id": "N094", "prefix": "I'm keen to gather comprehensive insights regarding a company trading under 'Quasar", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_134-W12"]}
+{"item_id": "N095", "prefix": "I've recently compiled an extensive log of outcomes from my latest scientific", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_8-W12"]}
+{"item_id": "N096", "prefix": "I've been thinking of visiting Autumnville for a while now, but I'm not sure how far it is", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_57-W18"]}
+{"item_id": "N097", "prefix": "I'm planning to fly from LAX to JFK on November 15th 2026 and aim to travel in business", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_155-W18"]}
+{"item_id": "N098", "prefix": "I've noticed my car is nearing empty, and I could really use some extra fuel in the tank.", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_73-W18"]}
+{"item_id": "N099", "prefix": "Calculate a 7 percent downside scenario for a 100-credit index and show the hypothetical level without making a", "opportunity_ids": ["CP1-SP1-S-SX1-F027-K-W18"]}
+{"item_id": "N100", "prefix": "I have recently come across Zeta Corp and I'm intrigued by their", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_143-W12"]}
+{"item_id": "N101", "prefix": "I'm planning a road trip from Rivermist to Stonebrook and would love", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_89-W12"]}
+{"item_id": "N102", "prefix": "Plan my morning around a 9 AM appointment but move the appointment to 11 AM while retaining the", "opportunity_ids": ["CP1-SP1-S-SX1-F048-R-W18"]}
+{"item_id": "N103", "prefix": "Plan my morning around a 9 AM appointment and reserve 30 minutes", "opportunity_ids": ["CP1-SP1-S-SX1-F048-K-W12"]}
+{"item_id": "N104", "prefix": "I'm setting off on a road trip and my departure point is sunny San Francisco. Could you determine", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_56-W18"]}
+{"item_id": "N105", "prefix": "Make a three-day business-trip packing checklist but make it a three-day camping", "opportunity_ids": ["CP1-SP1-S-SX1-F047-R-W12"]}
+{"item_id": "N106", "prefix": "I've just put together a file named 'ProjectOverview.txt' into my working directory", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_21-W12"]}
+{"item_id": "N107", "prefix": "Give me an update on where Zeta Corp's stock stands right now and proceed with purchasing 50 shares", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_136-W18"]}
+{"item_id": "N108", "prefix": "As I'm mapping out the logistics for my forthcoming business class journey,", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_185-W12"]}
+{"item_id": "N109", "prefix": "I'd appreciate if you could initiate an order, purchasing 100 shares of the company under the symbol AAPL", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_148-W18"]}
+{"item_id": "N110", "prefix": "I require assistance with my car. Can you kindly ensure that the fuel tank is refilled with precisely", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_74-W18"]}
+{"item_id": "N111", "prefix": "Planning an incredible journey from NYC to Tokyo on December 24th 2026 in first class! I have my", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_189-W18"]}
+{"item_id": "N112", "prefix": "I am at the gas station and ready to fill up my car with gasoline. I would appreciate", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_83-W18"]}
+{"item_id": "N113", "prefix": "Compare current holdings with the start-of-month snapshot but compare current holdings with the start-of-year snapshot instead and ignore", "opportunity_ids": ["CP1-SP1-S-SX1-F029-R-W18"]}
+{"item_id": "N114", "prefix": "I've recently retired after spending years poring over electrical blueprints and energy systems across Spain. I'm planning an", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_181-W18"]}
+{"item_id": "N115", "prefix": "Estimate the distance between San Francisco and Rivermist. Afterwards, fill the tank with 40 additional liters of gasoline", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_69-W18"]}
+{"item_id": "N116", "prefix": "Check the verification of Eleanor Smith's personal details, including her date of", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_165-W12"]}
+{"item_id": "N117", "prefix": "It would mean a lot if you could include Quasar Ltd.'s stock in my watchlist. After that's completed,", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_113-W18"]}
+{"item_id": "N118", "prefix": "In my workspace folder, direct your attention to the initial directory we have access to and list out", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_48-W18"]}
+{"item_id": "N119", "prefix": "It would mean a lot if you could include Quasar Ltd.'s stock", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_113-W12"]}
+{"item_id": "N120", "prefix": "Before I start packing my bags for the upcoming trip, I need to double-check that all my personal", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_153-W18"]}
+{"item_id": "N121", "prefix": "Please confirm the details for traveler Matt Bradley. His birth date is", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_183-W12"]}
+{"item_id": "N122", "prefix": "Draft a refund approval message but the refund is denied, so explain the denial and do not promise", "opportunity_ids": ["CP1-SP1-S-SX1-F021-R-W18"]}
+{"item_id": "N123", "prefix": "Calculate a 7 percent downside scenario for a 100-credit index but use", "opportunity_ids": ["CP1-SP1-S-SX1-F027-R-W12"]}
+{"item_id": "N124", "prefix": "Draft a reply thanking Morgan for the introduction but do not thank Morgan or mention the introduction; only", "opportunity_ids": ["CP1-SP1-S-SX1-F018-R-W18"]}
+{"item_id": "N125", "prefix": "Gearing up for some exciting travel adventures! I wish to put a", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_196-W12"]}
+{"item_id": "N126", "prefix": "Search for test result of Apollo Project which is supposed to be in the project directory. It's likely", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_30-W18"]}
+{"item_id": "N127", "prefix": "It's a lazy Sunday morning and I'm getting ready for a drive. Before setting off, I want to", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_98-W18"]}
+{"item_id": "N128", "prefix": "Hello, I've just come upon a remarkable opportunity to explore some new", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_191-W12"]}
+{"item_id": "N129", "prefix": "Find a 30-minute meeting for Sam and me on Tuesday and use either of the two listed Tuesday", "opportunity_ids": ["CP1-SP1-S-SX1-F014-K-W18"]}
+{"item_id": "N130", "prefix": "My vehicle's fuel tank is low; please refuel it with 30 gallons. Following that, initiate the engine using", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_84-W18"]}
+{"item_id": "N131", "prefix": "I require assistance with my car. Can you kindly ensure that the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_74-W12"]}
+{"item_id": "N132", "prefix": "Hey there! Since I'm currently residing in Rivermist but planning a grand", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_167-W12"]}
+{"item_id": "N133", "prefix": "As I'm in the process of planning an upcoming journey, I have", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_182-W12"]}
+{"item_id": "N134", "prefix": "Calculate breakeven for my debit spread using the supplied values and use the supplied 5-credit debit and 100-credit", "opportunity_ids": ["CP1-SP1-S-SX1-F030-K-W18"]}
+{"item_id": "N135", "prefix": "In research directory, there is a file called 'research_notes.txt'. Please make a", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_16-W12"]}
+{"item_id": "N136", "prefix": "I just graduated and plan on traveling for alumni meetups. I'm really", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_192-W12"]}
+{"item_id": "N137", "prefix": "Prioritize today's tasks with the client deadline first but put the server incident first and move the client", "opportunity_ids": ["CP1-SP1-S-SX1-F050-R-W18"]}
+{"item_id": "N138", "prefix": "I have a fabulous universal travel credit card that I want to register. The number is 1432-7890-6543-9876 with", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_197-W18"]}
+{"item_id": "N139", "prefix": "Find brown faux-suede jackets with stand collars but use black cotton jackets with lapels instead and discard the", "opportunity_ids": ["CP1-SP1-S-SX1-F011-R-W18"]}
+{"item_id": "N140", "prefix": "I've just secured all doors and engaged the parking brake in my", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_95-W12"]}
+{"item_id": "N141", "prefix": "Lock all doors and engage the parking brake, then start the vehicle's engine in preparation for a trip.", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_86-W18"]}
+{"item_id": "N142", "prefix": "I need to fill 150 liters of gasoline into my vehicle for today's trip and then start the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_90-W18"]}
+{"item_id": "N143", "prefix": "Compare Acme's revenue in its two annual releases and report company-stated actual", "opportunity_ids": ["CP1-SP1-S-SX1-F024-K-W12"]}
+{"item_id": "N144", "prefix": "It's getting late here, and I'm wrapping up my notes for the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_6-W12"]}
+{"item_id": "N145", "prefix": "Draft a proposal from these notes and leave pricing undecided but quote the supplied fixed price of 500", "opportunity_ids": ["CP1-SP1-S-SX1-F037-R-W18"]}
+{"item_id": "N146", "prefix": "I've been thinking of visiting Autumnville for a while now, but I'm", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_57-W12"]}
+{"item_id": "N147", "prefix": "I plan to book a flight from Crescent Hollow to New York, aimed at a business endeavor. Utilize", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_179-W18"]}
+{"item_id": "N148", "prefix": "I've recently compiled an extensive log of outcomes from my latest scientific experiment into a file titled 'experiment_log.txt'.", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_8-W18"]}
+{"item_id": "N149", "prefix": "I am planning a road trip from Rivermist to San Francisco, and I need to know how far", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_58-W18"]}
+{"item_id": "N150", "prefix": "In attempting to log into my travel account using both my established client id 'client_520', secret 'rise_to_sky' and", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_161-W18"]}
+{"item_id": "N151", "prefix": "Find team meeting slots this week after 10 AM but only consider", "opportunity_ids": ["CP1-SP1-S-SX1-F016-R-W12"]}
+{"item_id": "N152", "prefix": "Could you map out the precise mileage from San Francisco to Rivermist for me, along with an assessment", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_61-W18"]}
+{"item_id": "N153", "prefix": "I have to arrange a flight from San Francisco to Los Angeles", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_163-W12"]}
+{"item_id": "N154", "prefix": "Wanderlust is calling, and I'm mapping out my travel from Rivermist to", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_150-W12"]}
+{"item_id": "N155", "prefix": "I'm planning ahead for our big trip and realized our car's fuel tank is running low. It would", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_75-W18"]}
+{"item_id": "N156", "prefix": "Inspect the client timeout path without changing the code but modify the", "opportunity_ids": ["CP1-SP1-S-SX1-F032-R-W12"]}
+{"item_id": "N157", "prefix": "I noticed some promising trends and want to proceed with a 'Buy'", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_122-W12"]}
+{"item_id": "N158", "prefix": "Could you peruse my stock watchlist and share what's on my radar", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_116-W12"]}
+{"item_id": "N159", "prefix": "I’m planning a trip from Rivermist to San Francisco, and I need to see if my current fuel", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_85-W18"]}
+{"item_id": "N160", "prefix": "For your investment portfolio, could you inform me of the current price", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_114-W12"]}
+{"item_id": "N161", "prefix": "I have to arrange a flight from San Francisco to Los Angeles for my journey next month November", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_163-W18"]}
+{"item_id": "N162", "prefix": "Hey, can you set up a new directory named 'Projects' right in", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_10-W12"]}
+{"item_id": "N163", "prefix": "Find peer-reviewed papers about hidden-state probing but use only non-peer-reviewed technical reports", "opportunity_ids": ["CP1-SP1-S-SX1-F022-R-W12"]}
+{"item_id": "N164", "prefix": "I'm keen to gather comprehensive insights regarding a company trading under 'Quasar Ltd.'. Specifically, I'm looking for its", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_134-W18"]}
+{"item_id": "N165", "prefix": "Hello! I'm laying out a detailed plan for an extended road trip", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_94-W12"]}
+{"item_id": "N166", "prefix": "It'd be great if you could pop Zeta Corp's stock onto my watchlist. I've come across some fascinating", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_139-W18"]}
+{"item_id": "N167", "prefix": "Hi, I am Kelly. I'm sweating. What's the temp outside right now? Would you be able to update", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_91-W18"]}
+{"item_id": "N168", "prefix": "Having assessed the market status, I've resolved to initiate a purchase of 100 shares of Tesla at $700", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_102-W18"]}
+{"item_id": "N169", "prefix": "Could you provide me with a rough distance from Rivermist (zip 83214)", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_92-W12"]}
+{"item_id": "N170", "prefix": "Oh man, I've just logged into my trading account and I'm super", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_126-W12"]}
+{"item_id": "N171", "prefix": "Rewrite this note for executives while preserving its numbers but make it a technical note for engineers and", "opportunity_ids": ["CP1-SP1-S-SX1-F035-R-W18"]}
+{"item_id": "N172", "prefix": "Explore 'ResearchDocs' to find second files or subdirectories that contain the keyword", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_45-W12"]}
+{"item_id": "N173", "prefix": "Rewrite this note for executives while preserving its numbers and keep both", "opportunity_ids": ["CP1-SP1-S-SX1-F035-K-W12"]}
+{"item_id": "N174", "prefix": "I would like to peek the content of 'Spring2023Draft' for review, and could you also provide a comprehensive", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_32-W18"]}
+{"item_id": "N175", "prefix": "I'm contemplating whether adding Zeta Corp's stock to my watchlist is the right move. It sounds like it's", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_140-W18"]}
+{"item_id": "N176", "prefix": "I've noticed my car is nearing empty, and I could really use", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_73-W12"]}
+{"item_id": "N177", "prefix": "Search for test result of Apollo Project which is supposed to be", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_30-W12"]}
+{"item_id": "N178", "prefix": "I'm looking into investing in technology stocks and I'm drawn to the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_106-W12"]}
+{"item_id": "N179", "prefix": "I'm planning a road trip to the Grand Canyon and need to drive a distance of 380 miles.", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_99-W18"]}
+{"item_id": "N180", "prefix": "Compare robotics synthetic-data tools that support Engine R but only consider tools", "opportunity_ids": ["CP1-SP1-S-SX1-F012-R-W12"]}
+{"item_id": "N181", "prefix": "I reckon it's about time to track Zeta Corp's stock performance closely,", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_137-W12"]}
+{"item_id": "N182", "prefix": "Compare flights from Harborview to Eastport and show the two listed morning", "opportunity_ids": ["CP1-SP1-S-SX1-F001-K-W12"]}
+{"item_id": "N183", "prefix": "I'm planning a journey from Los Angeles to New York on the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_199-W12"]}
+{"item_id": "N184", "prefix": "Could you kindly show me the list of files in tmp directory in my file system including the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_4-W18"]}
+{"item_id": "N185", "prefix": "I heard that the technology sector is booming these days. Get me a list of potential tech stocks", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_109-W18"]}
+{"item_id": "N186", "prefix": "In the realm of investment opportunities, I'm intrigued by the Technology sector at the moment. Would you be", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_121-W18"]}
+{"item_id": "N187", "prefix": "Hi there! I've noticed Zeta Corp's stocks have been slipping more than", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_149-W12"]}
+{"item_id": "N188", "prefix": "Draft a team update saying the build is delayed but the build is on schedule, so report that", "opportunity_ids": ["CP1-SP1-S-SX1-F019-R-W18"]}
+{"item_id": "N189", "prefix": "Build a shopping list for vegetarian tacos but make beef tacos instead", "opportunity_ids": ["CP1-SP1-S-SX1-F049-R-W12"]}
+{"item_id": "N190", "prefix": "I need to schedule a flight soon on booking id 1234 and", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_194-W12"]}
+{"item_id": "N191", "prefix": "As I gear up for another delightful journey exploring the captivating waterways,", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_87-W12"]}
+{"item_id": "N192", "prefix": "I'd like some assistance today with my investment portfolio. If Zeta Corp", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_117-W12"]}
+{"item_id": "N193", "prefix": "I'm interested in keeping up with Lulu Qian and her impressive achievements in the tech world, even if", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_104-W18"]}
+{"item_id": "N194", "prefix": "Go to documents folder in CWD. Next, from the first document in current folder. What does the last", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_20-W18"]}
+{"item_id": "N195", "prefix": "Find a file named 'config.py' somewhere deep in the file system and once you have located it, display", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_35-W18"]}
+{"item_id": "N196", "prefix": "Could you provide me with an inventory of files that are currently", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_17-W12"]}
+{"item_id": "N197", "prefix": "I am planning a road trip from Rivermist to San Francisco, and", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_58-W12"]}
+{"item_id": "N198", "prefix": "In research directory, there is a file called 'research_notes.txt'. Please make a prioritized backup by moving a copy", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_16-W18"]}
+{"item_id": "N199", "prefix": "Hey, I was wondering if you could look at my stock watchlist", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_118-W12"]}
+{"item_id": "N200", "prefix": "Arrange a complete listing of all files and directories presently located here, making sure you don't overlook the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_40-W18", "CP1-SP1-P-multi_turn_base_43-W18"]}
+{"item_id": "N201", "prefix": "Having kept a keen eye on the advancements in the tech industry, I recently caught wind of some", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_145-W18"]}
+{"item_id": "N202", "prefix": "I'm setting sail on an adventure from Crescent Hollow to Rivermist and", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_166-W12"]}
+{"item_id": "N203", "prefix": "I remember I should have a document called 'FinalReport.txt' in the 'Documentation'", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_9-W12"]}
+{"item_id": "N204", "prefix": "I want to keep track of Zeta Corp's stock activities, so it", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_111-W12"]}
+{"item_id": "N205", "prefix": "Find technical podcast interviews about AI agents but use only news roundups", "opportunity_ids": ["CP1-SP1-S-SX1-F046-R-W12"]}
+{"item_id": "N206", "prefix": "I need you to draft a comprehensive guide for our new initiative, and let's name it 'Project_Guide_1.md'. Put", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_23-W18"]}
+{"item_id": "N207", "prefix": "Stage a 70 F thermostat setting for tonight but stage 68 F", "opportunity_ids": ["CP1-SP1-S-SX1-F040-R-W12"]}
+{"item_id": "N208", "prefix": "Could you kindly integrate Apple's stock into my current watchlist and subsequently", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_133-W12"]}
+{"item_id": "N209", "prefix": "Planning an incredible journey from NYC to Tokyo on December 24th 2026", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_189-W12"]}
+{"item_id": "N210", "prefix": "Let's get Zeta Corp on my watchlist, alright? I'd like to keep", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_142-W12"]}
+{"item_id": "N211", "prefix": "I have secured my car by locking all doors and applying the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_52-W12"]}
+{"item_id": "N212", "prefix": "Prepare to lock the back door after I leave but prepare to", "opportunity_ids": ["CP1-SP1-S-SX1-F041-R-W12"]}
+{"item_id": "N213", "prefix": "After determining the current market status, I require the stock details for", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_144-W12"]}
+{"item_id": "N214", "prefix": "Would you be able to increase my current fuel reserve to twice", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_72-W12"]}
+{"item_id": "N215", "prefix": "It'd be great if you could pop Zeta Corp's stock onto my", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_139-W12"]}
+{"item_id": "N216", "prefix": "Hi, I am Kelly. I'm sweating. What's the temp outside right now?", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_91-W12"]}
+{"item_id": "N217", "prefix": "Find brown faux-suede jackets with stand collars but use black cotton jackets", "opportunity_ids": ["CP1-SP1-S-SX1-F011-R-W12"]}
+{"item_id": "N218", "prefix": "I need you to verify my travel documents before I embark on", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_154-W12"]}
+{"item_id": "N219", "prefix": "I've just put together a file named 'ProjectOverview.txt' into my working directory where I've laid out an initial", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_21-W18"]}
+{"item_id": "N220", "prefix": "First, you need to know how much gasoline you added to your", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_53-W12"]}
+{"item_id": "N221", "prefix": "Before I start packing my bags for the upcoming trip, I need", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_153-W12"]}
+{"item_id": "N222", "prefix": "It's a lazy Sunday morning and I'm getting ready for a drive.", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_98-W12"]}
+{"item_id": "N223", "prefix": "I wish to place an order to purchase 120 shares of the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_129-W12"]}
+{"item_id": "N224", "prefix": "Find gyms in Riverton that sell day passes but only consider members-only gyms that do not sell day", "opportunity_ids": ["CP1-SP1-S-SX1-F007-R-W18"]}
+{"item_id": "N225", "prefix": "Could you ascertain the current time? It seems vital for aligning my", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_128-W12"]}
+{"item_id": "N226", "prefix": "My vehicle's fuel tank is low; please refuel it with 30 gallons.", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_84-W12"]}
+{"item_id": "N227", "prefix": "I recently obtained a credit card and want to assess its suitability", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_184-W12"]}
+{"item_id": "N228", "prefix": "Choose a non-horror movie under two hours for tonight but choose a horror movie longer than two hours", "opportunity_ids": ["CP1-SP1-S-SX1-F045-R-W18"]}
+{"item_id": "N229", "prefix": "I just graduated and plan on traveling for alumni meetups. I'm really curious which airports are around cities", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_192-W18"]}
+{"item_id": "N230", "prefix": "I really really want to travel from Rivermist to Los Angeles on", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_195-W12"]}
+{"item_id": "N231", "prefix": "Inspect the client timeout path without changing the code and identify where", "opportunity_ids": ["CP1-SP1-S-SX1-F032-K-W12"]}
+{"item_id": "N232", "prefix": "Calculate breakeven for my debit spread using the supplied values and use", "opportunity_ids": ["CP1-SP1-S-SX1-F030-K-W12"]}
+{"item_id": "N233", "prefix": "Could you provide me with the latest stock information for Zeta Corp, including its current price and the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_119-W18"]}
+{"item_id": "N234", "prefix": "Prepare a report reminder for tomorrow morning but change it to tomorrow", "opportunity_ids": ["CP1-SP1-S-SX1-F017-R-W12"]}
+{"item_id": "N235", "prefix": "Estimate the distance between San Francisco and Rivermist. Afterwards, fill the tank", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_69-W12"]}
+{"item_id": "N236", "prefix": "I'd love a comprehensive list of all available departure airports to commence", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_162-W12"]}
+{"item_id": "N237", "prefix": "Draft a reply thanking Morgan for the introduction and offer to provide", "opportunity_ids": ["CP1-SP1-S-SX1-F018-K-W12"]}
+{"item_id": "N238", "prefix": "Summarize the main report without using the appendix and use only the", "opportunity_ids": ["CP1-SP1-S-SX1-F036-K-W12"]}
+{"item_id": "N239", "prefix": "A complex decision awaits me. I'm planning an upcoming trip with limited", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_151-W12"]}
+{"item_id": "N240", "prefix": "I'm planning to jet off and stumbled upon a nifty flight from", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_170-W12"]}
+{"item_id": "N241", "prefix": "Look for draft and final report in my current directory. Compare the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_24-W12"]}
+{"item_id": "N242", "prefix": "I'm planning an expedition to Beijing and I want to ensure my", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_171-W12"]}
+{"item_id": "N243", "prefix": "I'm gearing up for a quick business getaway and need my ride", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_78-W12"]}
+{"item_id": "N244", "prefix": "I am alex. Check if the current directory is under my name and list all the visible and", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_1-W18"]}
+{"item_id": "N245", "prefix": "I'm looking into investing in technology stocks and I'm drawn to the company with the ticker AAPL. Could", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_106-W18"]}
+{"item_id": "N246", "prefix": "Could you kindly navigate to the temporary directory and list all the files available there right in the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_26-W18"]}
+{"item_id": "N247", "prefix": "Stage a kitchen-only vacuum run and keep all other rooms excluded; do", "opportunity_ids": ["CP1-SP1-S-SX1-F042-K-W12"]}
+{"item_id": "N248", "prefix": "Go into document folder and Could you draft up a create a document titled 'TeamNotes.txt' for keeping track", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_2-W18"]}
+{"item_id": "N249", "prefix": "I'm cruising down a country road in my brand-new convertible, admiring the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_81-W12"]}
+{"item_id": "N250", "prefix": "I'm setting off on a road trip and my departure point is", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_56-W12"]}
+{"item_id": "N251", "prefix": "Choose a non-horror movie under two hours for tonight and compare the", "opportunity_ids": ["CP1-SP1-S-SX1-F045-K-W12"]}
+{"item_id": "N252", "prefix": "Alright, I've been thinking about a road trip and I want to use my own car for the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_66-W18"]}
+{"item_id": "N253", "prefix": "Find analysis_report.csv and upon locating it, ensure you move it to the 'archive' directory in the same directory", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_5-W18"]}
+{"item_id": "N254", "prefix": "I'm planning ahead for our big trip and realized our car's fuel", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_75-W12"]}
+{"item_id": "N255", "prefix": "Hey there! So I'm thinking about shaking up my investment game a bit and could really use some", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_108-W18"]}
+{"item_id": "N256", "prefix": "Could you go to temp directory, and for each file in there,", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_37-W12"]}
+{"item_id": "N257", "prefix": "Find pharmacies in Brookfield that are open now but only list hospital", "opportunity_ids": ["CP1-SP1-S-SX1-F008-R-W12"]}
+{"item_id": "N258", "prefix": "Go to documents folder in CWD. Next, from the first document in", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_20-W12"]}
+{"item_id": "N259", "prefix": "There's a file I cooked up earlier named 'project_analysis.txt' in workspace folder,", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_22-W12"]}
+{"item_id": "N260", "prefix": "I'm interested in keeping up with Lulu Qian and her impressive achievements", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_104-W12"]}
+{"item_id": "N261", "prefix": "Hey, I'm in the mood for a last-minute getaway! I need some help figuring out how much it's", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_188-W18"]}
+{"item_id": "N262", "prefix": "I am alex. Check if the current directory is under my name", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_1-W12"]}
+{"item_id": "N263", "prefix": "In the realm of investment opportunities, I'm intrigued by the Technology sector", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_121-W12"]}
+{"item_id": "N264", "prefix": "You're planning an extended expedition from Rivermist to San Francisco. Could you determine the travel distance between these", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_80-W18"]}
+{"item_id": "N265", "prefix": "Stage a kitchen-only vacuum run but stage a bedroom-only run instead and", "opportunity_ids": ["CP1-SP1-S-SX1-F042-R-W12"]}
+{"item_id": "N266", "prefix": "Calculate breakeven for my debit spread using the supplied values but correct the debit to 8 credits while", "opportunity_ids": ["CP1-SP1-S-SX1-F030-R-W18"]}
+{"item_id": "N267", "prefix": "Hey there! Since I'm currently residing in Rivermist but planning a grand getaway to Los Angeles, I'm curious", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_167-W18"]}
+{"item_id": "N268", "prefix": "Could you provide me with the latest stock information for Zeta Corp,", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_119-W12"]}
+{"item_id": "N269", "prefix": "Could you kindly integrate Apple's stock into my current watchlist and subsequently provide me with a detailed breakdown", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_133-W18"]}
+{"item_id": "N270", "prefix": "I'm planning a road trip from Rivermist to Stonebrook and would love an estimate on how far this", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_89-W18"]}
+{"item_id": "N271", "prefix": "I'm embarking on a new data analysis project that's as thrilling as", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_15-W12"]}
+{"item_id": "N272", "prefix": "Having established the market scenario, imagine you're poised to place an order", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_130-W12"]}
+{"item_id": "N273", "prefix": "Please confirm the details for traveler Matt Bradley. His birth date is April 23, 1995, and his passport", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_183-W18"]}
+{"item_id": "N274", "prefix": "A complex decision awaits me. I'm planning an upcoming trip with limited resources and reevaluating my options. Could", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_151-W18"]}
+{"item_id": "N275", "prefix": "I'm currently exploring the StockView platform and wish to take a peek", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_110-W12"]}
+{"item_id": "N276", "prefix": "Go into document folder and Could you draft up a create a", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_2-W12"]}
+{"item_id": "N277", "prefix": "I just relocated to Rivermist and I'm looking to book a flight", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_169-W12"]}
+{"item_id": "N278", "prefix": "I have secured my car by locking all doors and applying the parking brake. Would it be possible", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_52-W18"]}
+{"item_id": "N279", "prefix": "Hey there, I need to set up a directory titled 'Reports' in", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_31-W12"]}
+{"item_id": "N280", "prefix": "I need to cap my travel expenses at 20,000 RMB. Sort out", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_180-W12"]}
+{"item_id": "N281", "prefix": "I'm contemplating enhancing my investment portfolio with some tech industry assets, and I've got my eye on Nvidia.", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_100-W18"]}
+{"item_id": "N282", "prefix": "I've been keeping a keen eye on the stock under the symbol 'XTC'. It'd be tremendously helpful to", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_101-W18"]}
+{"item_id": "N283", "prefix": "I'm planning to fly from San Francisco to Los Angeles on October 15, 2026. Could you assist in", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_156-W18"]}
+{"item_id": "N284", "prefix": "Find gyms in Riverton that sell day passes and prioritize day-pass gyms", "opportunity_ids": ["CP1-SP1-S-SX1-F007-K-W12"]}
+{"item_id": "N285", "prefix": "Hey, I've just filled my car up with 13.2 gallons of fuel.", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_88-W12"]}
+{"item_id": "N286", "prefix": "Find bakeries around Birch Park but I meant pharmacies around Birch Park,", "opportunity_ids": ["CP1-SP1-S-SX1-F006-R-W12"]}
+{"item_id": "N287", "prefix": "It's been quite an adventure today! Before embarking on a long trip,", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_60-W12"]}
+{"item_id": "N288", "prefix": "I've just secured all doors and engaged the parking brake in my vehicle, please start the engine with", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_95-W18"]}
+{"item_id": "N289", "prefix": "Compare Friday car rentals at North Terminal but pickup must be at South Terminal instead, with no North", "opportunity_ids": ["CP1-SP1-S-SX1-F003-R-W18"]}
+{"item_id": "N290", "prefix": "Before purchasing shares in Zeta Corp, I am curious about their recent", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_107-W12"]}
+{"item_id": "N291", "prefix": "As a high-ranking government official residing in Rivermist, I require assistance in determining the cost of first-class travel", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_186-W18"]}
+{"item_id": "N292", "prefix": "I’m planning a trip from Rivermist to San Francisco, and I need", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_85-W12"]}
+{"item_id": "N293", "prefix": "For trip id flight_001, it seems that I booked my flight from Rome to New York without considering", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_178-W18"]}
+{"item_id": "N294", "prefix": "Having assessed the market status, I've resolved to initiate a purchase of", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_102-W12"]}
+{"item_id": "N295", "prefix": "Hey there, I constructed a file titled 'project_plan.md' that resides happily in my workspace directory. Could you be", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_27-W18"]}
+{"item_id": "N296", "prefix": "Find a 30-minute meeting for Sam and me on Tuesday and use", "opportunity_ids": ["CP1-SP1-S-SX1-F014-K-W12"]}
+{"item_id": "N297", "prefix": "I'd love a comprehensive list of all available departure airports to commence my travel planning, please share what's", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_162-W18"]}
+{"item_id": "N298", "prefix": "I'm planning to fly from San Francisco to Los Angeles on October", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_156-W12"]}
+{"item_id": "N299", "prefix": "I'm planning a business class trip from JFK in New York to LAX in Los Angeles on December", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_176-W18"]}
+{"item_id": "N300", "prefix": "Could you ascertain the current time? It seems vital for aligning my stock market ventures seamlessly. Additionally, could", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_128-W18"]}
+{"item_id": "N301", "prefix": "Within the temp directory, could you list all the current files directly", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_49-W12"]}
+{"item_id": "N302", "prefix": "Lock all doors and engage the parking brake, then start the vehicle's", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_86-W12"]}
+{"item_id": "N303", "prefix": "I've been issued a new credit card with id 'card_4893', and it's set to expire sometime the next", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_187-W18"]}
+{"item_id": "N304", "prefix": "I recently moved to San Francisco and I’m planning a trip to Rivermist. How far apart are these", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_59-W18"]}
+{"item_id": "N305", "prefix": "Calculate a 7 percent downside scenario for a 100-credit index and show", "opportunity_ids": ["CP1-SP1-S-SX1-F027-K-W12"]}
+{"item_id": "N306", "prefix": "Having kept a keen eye on the advancements in the tech industry,", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_145-W12"]}
+{"item_id": "N307", "prefix": "I'm about to embark on a road trip adventure and I want", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_68-W12"]}
+{"item_id": "N308", "prefix": "Choose a non-horror movie under two hours for tonight but choose a", "opportunity_ids": ["CP1-SP1-S-SX1-F045-R-W12"]}
+{"item_id": "N309", "prefix": "Today feels like the right day to make a strategic move since", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_124-W12"]}
+{"item_id": "N310", "prefix": "Integrate Zeta Corp’s stock into my watchlist and subsequently display the current", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_135-W12"]}
+{"item_id": "N311", "prefix": "Alright, I've been thinking about a road trip and I want to", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_66-W12"]}
+{"item_id": "N312", "prefix": "My tires need to be in top-notch condition before embarking on my journey. Could you ensure they have", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_82-W18"]}
+{"item_id": "N313", "prefix": "In attempting to log into my travel account using both my established", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_161-W12"]}
+{"item_id": "N314", "prefix": "I have a fabulous universal travel credit card that I want to", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_197-W12"]}
+{"item_id": "N315", "prefix": "Hello, I'm Josephine, an academic specializing in cognitive science, but today I'm interested in monitoring some financial movements.", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_125-W18"]}
+{"item_id": "N316", "prefix": "Would you be able to convert 20 liters of gasoline into gallons", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_54-W12"]}
+{"item_id": "N317", "prefix": "As I'm mapping out the logistics for my forthcoming business class journey, I require an estimate for airfare", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_185-W18"]}
+{"item_id": "N318", "prefix": "Find pharmacies in Brookfield that are open now but only list hospital pharmacies that are closed now and", "opportunity_ids": ["CP1-SP1-S-SX1-F008-R-W18"]}
+{"item_id": "N319", "prefix": "Imagine I just embarked on a lovely road trip and had to", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_65-W12"]}
+{"item_id": "N320", "prefix": "I just tracked down an intriguing company named Synex Solutions, and I'm", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_138-W12"]}
+{"item_id": "N321", "prefix": "Hey, I was wondering if you could look at my stock watchlist for me? I want to make", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_118-W18"]}
+{"item_id": "N322", "prefix": "Check whether my dentist can see me on Friday but check Monday", "opportunity_ids": ["CP1-SP1-S-SX1-F015-R-W12"]}
+{"item_id": "N323", "prefix": "You're planning an extended expedition from Rivermist to San Francisco. Could you", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_80-W12"]}
+{"item_id": "N324", "prefix": "Find team meeting slots this week after 10 AM and show the", "opportunity_ids": ["CP1-SP1-S-SX1-F016-K-W12"]}
+{"item_id": "N325", "prefix": "Stage the living-room lights at 30 percent brightness but stage bedroom lights", "opportunity_ids": ["CP1-SP1-S-SX1-F039-R-W12"]}
+{"item_id": "N326", "prefix": "Compare small open-weight reasoning models but include only independently reproduced scores and", "opportunity_ids": ["CP1-SP1-S-SX1-F026-R-W12"]}
+{"item_id": "N327", "prefix": "Write a Python function that counts ERROR lines in the supplied log", "opportunity_ids": ["CP1-SP1-S-SX1-F031-K-W12", "CP1-SP1-S-SX1-F031-R-W12"]}
+{"item_id": "N328", "prefix": "Oh man, I've just logged into my trading account and I'm super keen to take a look at", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_126-W18"]}
+{"item_id": "N329", "prefix": "I'm planning to jet off and stumbled upon a nifty flight from San Francisco to Los Angeles. Lowkey,", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_170-W18"]}
+{"item_id": "N330", "prefix": "Could you kindly show me the list of files in tmp directory", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_4-W12"]}
+{"item_id": "N331", "prefix": "Wanderlust is calling, and I'm mapping out my travel from Rivermist to Stonebrook in the month of October—the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_150-W18"]}
+{"item_id": "N332", "prefix": "Compare 15-litre shoulder bags but compare 30-litre backpacks instead and do not", "opportunity_ids": ["CP1-SP1-S-SX1-F010-R-W12"]}
+{"item_id": "N333", "prefix": "I require assistance in determining the quantity of gasoline necessary for an extensive journey across California. I currently", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_63-W18"]}
+{"item_id": "N334", "prefix": "Write a Python function that counts ERROR lines in the supplied log but count WARN lines instead and", "opportunity_ids": ["CP1-SP1-S-SX1-F031-R-W18"]}
+{"item_id": "N335", "prefix": "I'm considering flying from Los Angeles Internationa (LAX) to John F. Kennedy", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_173-W12"]}
+{"item_id": "N336", "prefix": "Arrange a complete listing of all files and directories presently located here,", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_40-W12", "CP1-SP1-P-multi_turn_base_43-W12"]}
+{"item_id": "N337", "prefix": "Okay, so here's the plan: I'll soon be heading to Rivermist and straight after, I want to jet", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_164-W18"]}
+{"item_id": "N338", "prefix": "Prioritize today's tasks with the client deadline first but put the server", "opportunity_ids": ["CP1-SP1-S-SX1-F050-R-W12"]}
+{"item_id": "N339", "prefix": "I reckon it's about time to track Zeta Corp's stock performance closely, so it'd be great if you", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_137-W18"]}
+{"item_id": "N340", "prefix": "I'm on a quest to escape my quaint hometown of Oakendale for the dynamic allure of Los Angeles!", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_190-W18"]}
+{"item_id": "N341", "prefix": "Calculate breakeven for my debit spread using the supplied values but correct", "opportunity_ids": ["CP1-SP1-S-SX1-F030-R-W12"]}
+{"item_id": "N342", "prefix": "Wonderful, in light of the prevailing market landscape, could we dive into the Technology sector for a bit?", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_112-W18"]}
+{"item_id": "N343", "prefix": "I'm currently in Rivermist planning a trip to Stonebrook. Could you provide an estimate of the distance and", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_62-W18"]}
+{"item_id": "N344", "prefix": "Hi there! I've noticed Zeta Corp's stocks have been slipping more than I'd like. Would you be able", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_149-W18"]}
+{"item_id": "N345", "prefix": "I need to fill 150 liters of gasoline into my vehicle for", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_90-W12"]}
+{"item_id": "N346", "prefix": "Draft a proposal from these notes and leave pricing undecided but quote", "opportunity_ids": ["CP1-SP1-S-SX1-F037-R-W12"]}
+{"item_id": "N347", "prefix": "Hey there! So I'm thinking about shaking up my investment game a", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_108-W12"]}
+{"item_id": "N348", "prefix": "I'm contemplating whether adding Zeta Corp's stock to my watchlist is the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_140-W12"]}
+{"item_id": "N349", "prefix": "I'm in the process of scheduling a journey from San Francisco to", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_152-W12"]}
+{"item_id": "N350", "prefix": "Draft a proposal from these notes and leave pricing undecided and mark", "opportunity_ids": ["CP1-SP1-S-SX1-F037-K-W12"]}
+{"item_id": "N351", "prefix": "Hey, I'm in the mood for a last-minute getaway! I need some", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_188-W12"]}
+{"item_id": "N352", "prefix": "I'd like to take a look at the finance_report.txt. Would you send me the content of the last", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_34-W18"]}
+{"item_id": "N353", "prefix": "Compare these two resumes without recommending a candidate but recommend a candidate", "opportunity_ids": ["CP1-SP1-S-SX1-F038-R-W12"]}
+{"item_id": "N354", "prefix": "I'm organizing a trip from San Francisco to Rome on October 10th 2026 and considering to fly business", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_174-W18"]}
+{"item_id": "N355", "prefix": "Could you populate 'annual_report.txt' with data on quarterly revenue: 'Q1: $5000, Q2: $7000, Q3: $6000, Q4: $8000'? I", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_44-W18"]}
+{"item_id": "N356", "prefix": "Draft a reply thanking Morgan for the introduction but do not thank", "opportunity_ids": ["CP1-SP1-S-SX1-F018-R-W12"]}
+{"item_id": "N357", "prefix": "Write a Python function that counts ERROR lines in the supplied log and return the count without changing", "opportunity_ids": ["CP1-SP1-S-SX1-F031-K-W18"]}
+{"item_id": "N358", "prefix": "Move 'final_report.pdf' within document directory to 'temp' directory in document. Make sure", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_0-W12"]}
+{"item_id": "N359", "prefix": "Compare Friday car rentals at North Terminal but pickup must be at", "opportunity_ids": ["CP1-SP1-S-SX1-F003-R-W12"]}
+{"item_id": "N360", "prefix": "Prepare a report reminder for tomorrow morning and set its time to", "opportunity_ids": ["CP1-SP1-S-SX1-F017-K-W12"]}
+{"item_id": "N361", "prefix": "I'm planning an expedition to Beijing and I want to ensure my financial strategy is well-prepared for the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_171-W18"]}
+{"item_id": "N362", "prefix": "I'd appreciate if you could initiate an order, purchasing 100 shares of", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_148-W12"]}
+{"item_id": "N363", "prefix": "I've heard a friend of mine in Rivermist recently visited Stonebrook, and", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_97-W12"]}
+{"item_id": "N364", "prefix": "I recently obtained a credit card and want to assess its suitability for my travel plans. Schedule a", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_184-W18"]}
+{"item_id": "N365", "prefix": "I really really want to travel from Rivermist to Los Angeles on a specific date, ensuring preferred seating", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_195-W18"]}
+{"item_id": "N366", "prefix": "Find gyms in Riverton that sell day passes but only consider members-only", "opportunity_ids": ["CP1-SP1-S-SX1-F007-R-W12"]}
+{"item_id": "N367", "prefix": "Calculate the exchange rate for 1500 USD to EUR for me, I", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_168-W12"]}
+{"item_id": "N368", "prefix": "Check whether my dentist can see me on Friday and keep my existing appointment if Friday has no", "opportunity_ids": ["CP1-SP1-S-SX1-F015-K-W18"]}
+{"item_id": "N369", "prefix": "OMG, a first-class ticket on Christmas from SFO to LAX would be an absolute dream! I wonder how", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_198-W18"]}
+{"item_id": "N370", "prefix": "I'm planning to fly from LAX to JFK on November 15th 2026", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_155-W12"]}
+{"item_id": "N371", "prefix": "Pop on over to the 'Documents' directory and craft a new file", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_12-W12"]}
+{"item_id": "N372", "prefix": "Find a file named 'config.py' somewhere deep in the file system and", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_35-W12"]}
+{"item_id": "N373", "prefix": "Could you provide me with a rough distance from Rivermist (zip 83214) to Greenway (zip 74532)? I'm eager", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_92-W18"]}
+{"item_id": "N374", "prefix": "If the fuel level is lower than 10, then go ahead and", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_55-W12"]}
+{"item_id": "N375", "prefix": "I'd like to take a look at the finance_report.txt. Would you send", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_34-W12"]}
+{"item_id": "N376", "prefix": "Imagine you've meticulously planned a surprise getaway to the Maldives, brimming with excitement to ensure each detail unfolds", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_193-W18"]}
+{"item_id": "N377", "prefix": "Gearing up for some exciting travel adventures! I wish to put a firm budget in place, setting a", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_196-W18"]}
+{"item_id": "N378", "prefix": "Prepare to lock the back door after I leave but prepare to lock the front door instead and", "opportunity_ids": ["CP1-SP1-S-SX1-F041-R-W18"]}
+{"item_id": "N379", "prefix": "Build an upbeat instrumental jazz playlist but include only vocal jazz tracks", "opportunity_ids": ["CP1-SP1-S-SX1-F044-R-W12"]}
+{"item_id": "N380", "prefix": "I need to schedule a flight soon on booking id 1234 and want to examine different alternatives. Calculate", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_194-W18"]}
+{"item_id": "N381", "prefix": "I've recently joined this travel application which promises premium access to some", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_172-W12"]}
+{"item_id": "N382", "prefix": "Before attempting to start the engine, kindly verify that every car door", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_64-W12"]}
+{"item_id": "N383", "prefix": "First, you need to know how much gasoline you added to your car, expressed in liters. You've just", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_53-W18"]}
+{"item_id": "N384", "prefix": "How much would a flight from SF to LA even cost? It's probably cheap. That's it, let me", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_175-W18"]}
+{"item_id": "N385", "prefix": "In documents directory, there's a file that piques my curiosity regarding its", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_13-W12"]}
+{"item_id": "N386", "prefix": "Hello, I've just come upon a remarkable opportunity to explore some new places, and it's crucial that my", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_191-W18"]}
+{"item_id": "N387", "prefix": "Find technical podcast interviews about AI agents and favor interviews over news", "opportunity_ids": ["CP1-SP1-S-SX1-F046-K-W12"]}
+{"item_id": "N388", "prefix": "As part of my latest photography project, I need to gather files that have 'test' in their name", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_3-W18"]}
+{"item_id": "N389", "prefix": "In my existing folder called 'Lectures', I'd like to set up a", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_42-W12"]}
+{"item_id": "N390", "prefix": "I plan to book a flight from Crescent Hollow to New York,", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_179-W12"]}
+{"item_id": "N391", "prefix": "I just tracked down an intriguing company named Synex Solutions, and I'm eager to delve into its financial", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_138-W18"]}
+{"item_id": "N392", "prefix": "I've been keeping a keen eye on the stock under the symbol", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_101-W12"]}
+{"item_id": "N393", "prefix": "Directly open the academic_venture folder and employ precise commands to generate a new directory for our upcoming academic", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_7-W18"]}
+{"item_id": "N394", "prefix": "Would you be able to convert 20 liters of gasoline into gallons for me? Afterwards, starting the engine", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_54-W18"]}
+{"item_id": "N395", "prefix": "Compare Acme's revenue in its two annual releases but compare Beacon's releases", "opportunity_ids": ["CP1-SP1-S-SX1-F024-R-W12"]}
+{"item_id": "N396", "prefix": "I'm currently in Rivermist planning a trip to Stonebrook. Could you provide", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_62-W12"]}
+{"item_id": "N397", "prefix": "Hi there! I noticed Omega Industries is trading at high price, and they're quite a rising star in", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_147-W18"]}
+{"item_id": "N398", "prefix": "I require a comprehensive analysis of the stock with Amazon, as it", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_115-W12"]}
+{"item_id": "N399", "prefix": "Pop on over to the 'Documents' directory and craft a new file dubbed 'summary.txt', would you? If it", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_12-W18"]}
+{"item_id": "N400", "prefix": "As a seasoned real estate agent, my expertise is all about ensuring", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_160-W12"]}
+{"item_id": "N401", "prefix": "If the fuel level is lower than 10, then go ahead and add double that amount. Let's assume", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_55-W18"]}
+{"item_id": "N402", "prefix": "I would like to peek the content of 'Spring2023Draft' for review, and", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_32-W12"]}
+{"item_id": "N403", "prefix": "Compare robotics synthetic-data tools that support Engine R but only consider tools for Engine S that do not", "opportunity_ids": ["CP1-SP1-S-SX1-F012-R-W18"]}
+{"item_id": "N404", "prefix": "Consider this: A patient, a traveler in this context, wants to book", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_177-W12"]}
+{"item_id": "N405", "prefix": "There's a file I cooked up earlier named 'project_analysis.txt' in workspace folder, and I've just realized it desperately", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_22-W18"]}
+{"item_id": "N406", "prefix": "I've completed the maintenance on my car and ensured the doors are", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_76-W12"]}
+{"item_id": "N407", "prefix": "Where is my notes? Forward it exactly to Bob please. I am", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_41-W12"]}
+{"item_id": "N408", "prefix": "Hi there! I noticed Omega Industries is trading at high price, and", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_147-W12"]}
+{"item_id": "N409", "prefix": "Compare flights from Harborview to Eastport but change the destination to Westhaven", "opportunity_ids": ["CP1-SP1-S-SX1-F001-R-W12"]}
+{"item_id": "N410", "prefix": "I want to keep track of Zeta Corp's stock activities, so it would be helpful to have its", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_111-W18"]}
+{"item_id": "N411", "prefix": "Just acquired a stunning electric vehicle, and it's like a canvas waiting to be explored. Let's lock all", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_96-W18"]}
+{"item_id": "N412", "prefix": "Build a shopping list for vegetarian tacos and include beans instead of", "opportunity_ids": ["CP1-SP1-S-SX1-F049-K-W12"]}
+{"item_id": "N413", "prefix": "Compare robotics synthetic-data tools that support Engine R and keep Engine R", "opportunity_ids": ["CP1-SP1-S-SX1-F012-K-W12"]}
+{"item_id": "N414", "prefix": "Stage a 70 F thermostat setting for tonight only if the current", "opportunity_ids": ["CP1-SP1-S-SX1-F040-K-W12"]}
+{"item_id": "N415", "prefix": "I've misplaced a vital document inclusive of extensive research. Assist in locating", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_38-W12"]}
+{"item_id": "N416", "prefix": "Check the verification of Eleanor Smith's personal details, including her date of birth, March 15, 1985, and her", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_165-W18"]}
+{"item_id": "N417", "prefix": "I just returned to my vehicle, and it dawned on me that I may not have unlocked the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_79-W18"]}
+{"item_id": "N418", "prefix": "Check whether my dentist can see me on Friday and keep my", "opportunity_ids": ["CP1-SP1-S-SX1-F015-K-W12"]}
+{"item_id": "N419", "prefix": "Add malformed-JSON tests to the parser and keep this work limited to", "opportunity_ids": ["CP1-SP1-S-SX1-F034-K-W12"]}
+{"item_id": "N420", "prefix": "Research local robotic actuator manufacturers and retain the manufacturers while adding distributors", "opportunity_ids": ["CP1-SP1-S-SX1-F009-K-W12"]}
+{"item_id": "N421", "prefix": "I'm considering flying from Los Angeles Internationa (LAX) to John F. Kennedy (JFK) in business class on November", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_173-W18"]}
+{"item_id": "N422", "prefix": "Compare Friday car rentals at North Terminal and keep pickup at North", "opportunity_ids": ["CP1-SP1-S-SX1-F003-K-W12"]}
+{"item_id": "N423", "prefix": "Imagine planning a trip and you're curious about the flight costs between", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_159-W12"]}
+{"item_id": "N424", "prefix": "I've recently joined this travel application which promises premium access to some fantastic deals. To get started, I", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_172-W18"]}
+{"item_id": "N425", "prefix": "Draft a team update saying the build is delayed but the build", "opportunity_ids": ["CP1-SP1-S-SX1-F019-R-W12"]}
+{"item_id": "N426", "prefix": "Compare small open-weight reasoning models and flag vendor-only scores as unverified rather", "opportunity_ids": ["CP1-SP1-S-SX1-F026-K-W12"]}
+{"item_id": "N427", "prefix": "Display all the available files located within the '/temp' directory including hidden", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_11-W12"]}
+{"item_id": "N428", "prefix": "Draft a team update saying the build is delayed and keep the cause neutral because it is not", "opportunity_ids": ["CP1-SP1-S-SX1-F019-K-W18"]}
+{"item_id": "N429", "prefix": "Find version 3 documentation for Library L and use only the official", "opportunity_ids": ["CP1-SP1-S-SX1-F023-K-W12"]}
+{"item_id": "N430", "prefix": "I'm embarking on a new data analysis project that's as thrilling as scripting the next great story. Let's", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_15-W18"]}
+{"item_id": "N431", "prefix": "I've noticed that some of my car doors are slightly ajar while others seem to be securely locked.", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_51-W18"]}
+{"item_id": "N432", "prefix": "Compare 15-litre shoulder bags and rank the two listed bags by lower", "opportunity_ids": ["CP1-SP1-S-SX1-F010-K-W12"]}
+{"item_id": "N433", "prefix": "How much would a flight from SF to LA even cost? It's", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_175-W12"]}
+{"item_id": "N434", "prefix": "Find analysis_report.csv and upon locating it, ensure you move it to the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_5-W12"]}
+{"item_id": "N435", "prefix": "Open up 'VisionX' folder. What's the human readible disk usage of that", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_29-W12"]}
+{"item_id": "N436", "prefix": "Could you map out the precise mileage from San Francisco to Rivermist", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_61-W12"]}
+{"item_id": "N437", "prefix": "I am at the gas station and ready to fill up my", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_83-W12"]}
+{"item_id": "N438", "prefix": "Before I set off for Stonebrook to uncover family history, I need to determine the road distance between", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_77-W18"]}
+{"item_id": "N439", "prefix": "I've completed the maintenance on my car and ensured the doors are unlocked. Everything, especially the tires, seems", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_76-W18"]}
+{"item_id": "N440", "prefix": "Hey there, I constructed a file titled 'project_plan.md' that resides happily in", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_27-W12"]}
+{"item_id": "N441", "prefix": "Could you kindly navigate to the temporary directory and list all the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_26-W12"]}
+{"item_id": "N442", "prefix": "Inspect the client timeout path without changing the code but modify the default timeout to ten seconds instead", "opportunity_ids": ["CP1-SP1-S-SX1-F032-R-W18"]}
+{"item_id": "N443", "prefix": "First cd within the 'ResearchDocs' directory and then locate any files titled", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_14-W12"]}
+{"item_id": "N444", "prefix": "Compare nonstop flights to Eastport but I now want only one-stop itineraries", "opportunity_ids": ["CP1-SP1-S-SX1-F004-R-W12"]}
+{"item_id": "N445", "prefix": "Directly open the academic_venture folder and employ precise commands to generate a", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_7-W12"]}
+{"item_id": "N446", "prefix": "I'm in the process of scheduling a journey from San Francisco to Chicago on the 15th of the", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_152-W18"]}
+{"item_id": "N447", "prefix": "Imagine planning a trip and you're curious about the flight costs between various airports. Opt to fly from", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_159-W18"]}
+{"item_id": "N448", "prefix": "Rewrite this note for executives while preserving its numbers but make it", "opportunity_ids": ["CP1-SP1-S-SX1-F035-R-W12"]}
+{"item_id": "N449", "prefix": "I have recently come across Zeta Corp and I'm intrigued by their operations. Kindly include their stock in", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_143-W18"]}
+{"item_id": "N450", "prefix": "For trip id flight_001, it seems that I booked my flight from", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_178-W12"]}
+{"item_id": "N451", "prefix": "Okay, so here's the plan: I'll soon be heading to Rivermist and", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_164-W12"]}
+{"item_id": "N452", "prefix": "I need details on the performance of a particular stock, 'SYNX', can", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_132-W12"]}
+{"item_id": "N453", "prefix": "I need you to draft a comprehensive guide for our new initiative,", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_23-W12"]}
+{"item_id": "N454", "prefix": "Before attempting to start the engine, kindly verify that every car door is meticulously secured—acknowledge once confirmed. Should", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_64-W18"]}
+{"item_id": "N455", "prefix": "Before purchasing shares in Zeta Corp, I am curious about their recent stock performance. Could you provide their", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_107-W18"]}
+{"item_id": "N456", "prefix": "I recently moved to San Francisco and I’m planning a trip to", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_59-W12"]}
+{"item_id": "N457", "prefix": "I've misplaced a vital document inclusive of extensive research. Assist in locating a file named 'findings_report' within this", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_38-W18"]}
+{"item_id": "N458", "prefix": "Give me an update on where Zeta Corp's stock stands right now", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_136-W12"]}
+{"item_id": "N459", "prefix": "In documents directory, there's a file that piques my curiosity regarding its contents. It's alphabetically first file in", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_13-W18"]}
+{"item_id": "N460", "prefix": "I'd like some help managing my stock watchlist. There's one particular stock I'd rather not monitor anymore, namely", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_141-W18"]}
+{"item_id": "N461", "prefix": "Prepare to lock the back door after I leave and check the", "opportunity_ids": ["CP1-SP1-S-SX1-F041-K-W12"]}
+{"item_id": "N462", "prefix": "Find brown faux-suede jackets with stand collars and compare the listed options", "opportunity_ids": ["CP1-SP1-S-SX1-F011-K-W12"]}
+{"item_id": "N463", "prefix": "OMG, a first-class ticket on Christmas from SFO to LAX would be", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_198-W12"]}
+{"item_id": "N464", "prefix": "I just returned to my vehicle, and it dawned on me that", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_79-W12"]}
+{"item_id": "N465", "prefix": "I’m re-evaluating my current investment portfolio and need to make informed decisions. Could you display the current stocks", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_127-W18"]}
+{"item_id": "N466", "prefix": "Hey there, I noticed that all of my car doors seem to", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_50-W12"]}
+{"item_id": "N467", "prefix": "I'm on a quest to escape my quaint hometown of Oakendale for", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_190-W12"]}
+{"item_id": "N468", "prefix": "I'm currently exploring the StockView platform and wish to take a peek at the assortment in my stock", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_110-W18"]}
+{"item_id": "N469", "prefix": "Kindly draft a document titled 'project_summary.txt' right here in documents directory. Yield", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_36-W12"]}
+{"item_id": "N470", "prefix": "Stage the living-room lights at 30 percent brightness while preserving their current", "opportunity_ids": ["CP1-SP1-S-SX1-F039-K-W12"]}
+{"item_id": "N471", "prefix": "Stage a 70 F thermostat setting for tonight but stage 68 F instead, only if the current setting", "opportunity_ids": ["CP1-SP1-S-SX1-F040-R-W18"]}
+{"item_id": "N472", "prefix": "Find primary rules for Region A consumer AI systems but use Region", "opportunity_ids": ["CP1-SP1-S-SX1-F025-R-W12"]}
+{"item_id": "N473", "prefix": "After determining the current market status, I require the stock details for a specific company. Retrieve the information", "opportunity_ids": ["CP1-SP1-P-multi_turn_base_144-W18"]}

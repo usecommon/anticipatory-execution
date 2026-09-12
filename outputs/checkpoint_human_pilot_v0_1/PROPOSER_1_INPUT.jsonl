@@ -1,0 +1,237 @@
+{"item_id": "N001", "prefix": "Find primary rules for Region A consumer AI systems but use Region B rules only and exclude Region"}
+{"item_id": "N003", "prefix": "Find a 30-minute meeting for Sam and me on Tuesday but switch the meeting to Wednesday and ignore"}
+{"item_id": "N005", "prefix": "Compare these two resumes without recommending a candidate but recommend a candidate using the same resumes and explain"}
+{"item_id": "N007", "prefix": "I'm setting sail on an adventure from Crescent Hollow to Rivermist and need the scoop on flight costs"}
+{"item_id": "N009", "prefix": "I'm contemplating enhancing my investment portfolio with some tech industry assets, and"}
+{"item_id": "N011", "prefix": "I need to cap my travel expenses at 20,000 RMB. Sort out everything to make sure this limit"}
+{"item_id": "N013", "prefix": "I've recently retired after spending years poring over electrical blueprints and energy"}
+{"item_id": "N015", "prefix": "I'm gearing up for a quick business getaway and need my ride all set. Would you be able"}
+{"item_id": "N017", "prefix": "Summarize the main report without using the appendix but summarize the appendix"}
+{"item_id": "N019", "prefix": "Before I set off for Stonebrook to uncover family history, I need"}
+{"item_id": "N021", "prefix": "Find hotels near Maple Station but use Pine Station instead and omit"}
+{"item_id": "N023", "prefix": "As part of my latest photography project, I need to gather files"}
+{"item_id": "N025", "prefix": "I'm reviewing my account, and I'd like you to confirm the current"}
+{"item_id": "N027", "prefix": "I'm embarking on an adventure to spend some time with my family."}
+{"item_id": "N029", "prefix": "It's been quite an adventure today! Before embarking on a long trip, I filled up my cars fuel"}
+{"item_id": "N031", "prefix": "I'm planning a business class trip from JFK in New York to"}
+{"item_id": "N033", "prefix": "Could you provide me with an inventory of files that are currently visible and hidden in the directory"}
+{"item_id": "N035", "prefix": "I noticed some promising trends and want to proceed with a 'Buy' order for 100 shares of AAPL"}
+{"item_id": "N037", "prefix": "Refactor the add function while preserving its public name and behavior but"}
+{"item_id": "N039", "prefix": "Copy all the text files of the 'Quarter1_Reports' directory and place it in a new directory naming it"}
+{"item_id": "N041", "prefix": "Check whether my dentist can see me on Friday but check Monday instead and ignore Friday openings, keeping"}
+{"item_id": "N043", "prefix": "Compare current holdings with the start-of-month snapshot but compare current holdings with"}
+{"item_id": "N045", "prefix": "I'm reviewing my account, and I'd like you to confirm the current balance and provide the account details."}
+{"item_id": "N047", "prefix": "What's the name of the python file my current directory? There should"}
+{"item_id": "N049", "prefix": "Copy all the text files of the 'Quarter1_Reports' directory and place it"}
+{"item_id": "N051", "prefix": "Today feels like the right day to make a strategic move since the market is showing signs of"}
+{"item_id": "N053", "prefix": "I'm organizing a trip from San Francisco to Rome on October 10th"}
+{"item_id": "N055", "prefix": "I heard that the technology sector is booming these days. Get me"}
+{"item_id": "N057", "prefix": "I'm cruising down a country road in my brand-new convertible, admiring the scenic lavender fields when I notice"}
+{"item_id": "N059", "prefix": "Find freestanding desk converters under 250 credits but only show permanently mounted"}
+{"item_id": "N061", "prefix": "Prioritize today's tasks with the client deadline first and keep the client"}
+{"item_id": "N063", "prefix": "Find bakeries around Birch Park that serve coffee, including the two listed"}
+{"item_id": "N065", "prefix": "Hello, I'm Josephine, an academic specializing in cognitive science, but today I'm"}
+{"item_id": "N067", "prefix": "Consider this: A patient, a traveler in this context, wants to book a flight using the card with"}
+{"item_id": "N069", "prefix": "Add malformed-JSON tests to the parser but benchmark parsing speed only and"}
+{"item_id": "N071", "prefix": "I just relocated to Rivermist and I'm looking to book a flight to Los Angeles for a crucial"}
+{"item_id": "N073", "prefix": "As a seasoned real estate agent, my expertise is all about ensuring your bakery finds the perfect spot"}
+{"item_id": "N075", "prefix": "Hey there, I need to set up a directory titled 'Reports' in my current workspace. Once that's in"}
+{"item_id": "N077", "prefix": "As I gear up for another delightful journey exploring the captivating waterways, I'm looking to convert 60 gallons"}
+{"item_id": "N079", "prefix": "Refactor the add function while preserving its public name and behavior and"}
+{"item_id": "N081", "prefix": "I'm embarking on an adventure to spend some time with my family. Could you confirm my travel details"}
+{"item_id": "N083", "prefix": "I'm planning a road trip to the Grand Canyon and need to"}
+{"item_id": "N085", "prefix": "As I'm in the process of planning an upcoming journey, I have specific departure and arrival cities in"}
+{"item_id": "N087", "prefix": "Compare current holdings with the start-of-month snapshot and report concentration changes for"}
+{"item_id": "N089", "prefix": "I need details on the performance of a particular stock, 'SYNX', can you provide me with the critical"}
+{"item_id": "N091", "prefix": "I require assistance in determining the quantity of gasoline necessary for an"}
+{"item_id": "N093", "prefix": "I need you to set up a fresh folder named 'WebDevProjects' wherever"}
+{"item_id": "N095", "prefix": "I've recently compiled an extensive log of outcomes from my latest scientific"}
+{"item_id": "N097", "prefix": "I'm planning to fly from LAX to JFK on November 15th 2026 and aim to travel in business"}
+{"item_id": "N099", "prefix": "Calculate a 7 percent downside scenario for a 100-credit index and show the hypothetical level without making a"}
+{"item_id": "N101", "prefix": "I'm planning a road trip from Rivermist to Stonebrook and would love"}
+{"item_id": "N103", "prefix": "Plan my morning around a 9 AM appointment and reserve 30 minutes"}
+{"item_id": "N105", "prefix": "Make a three-day business-trip packing checklist but make it a three-day camping"}
+{"item_id": "N107", "prefix": "Give me an update on where Zeta Corp's stock stands right now and proceed with purchasing 50 shares"}
+{"item_id": "N109", "prefix": "I'd appreciate if you could initiate an order, purchasing 100 shares of the company under the symbol AAPL"}
+{"item_id": "N111", "prefix": "Planning an incredible journey from NYC to Tokyo on December 24th 2026 in first class! I have my"}
+{"item_id": "N113", "prefix": "Compare current holdings with the start-of-month snapshot but compare current holdings with the start-of-year snapshot instead and ignore"}
+{"item_id": "N115", "prefix": "Estimate the distance between San Francisco and Rivermist. Afterwards, fill the tank with 40 additional liters of gasoline"}
+{"item_id": "N117", "prefix": "It would mean a lot if you could include Quasar Ltd.'s stock in my watchlist. After that's completed,"}
+{"item_id": "N119", "prefix": "It would mean a lot if you could include Quasar Ltd.'s stock"}
+{"item_id": "N121", "prefix": "Please confirm the details for traveler Matt Bradley. His birth date is"}
+{"item_id": "N123", "prefix": "Calculate a 7 percent downside scenario for a 100-credit index but use"}
+{"item_id": "N125", "prefix": "Gearing up for some exciting travel adventures! I wish to put a"}
+{"item_id": "N127", "prefix": "It's a lazy Sunday morning and I'm getting ready for a drive. Before setting off, I want to"}
+{"item_id": "N129", "prefix": "Find a 30-minute meeting for Sam and me on Tuesday and use either of the two listed Tuesday"}
+{"item_id": "N131", "prefix": "I require assistance with my car. Can you kindly ensure that the"}
+{"item_id": "N133", "prefix": "As I'm in the process of planning an upcoming journey, I have"}
+{"item_id": "N135", "prefix": "In research directory, there is a file called 'research_notes.txt'. Please make a"}
+{"item_id": "N137", "prefix": "Prioritize today's tasks with the client deadline first but put the server incident first and move the client"}
+{"item_id": "N139", "prefix": "Find brown faux-suede jackets with stand collars but use black cotton jackets with lapels instead and discard the"}
+{"item_id": "N141", "prefix": "Lock all doors and engage the parking brake, then start the vehicle's engine in preparation for a trip."}
+{"item_id": "N143", "prefix": "Compare Acme's revenue in its two annual releases and report company-stated actual"}
+{"item_id": "N145", "prefix": "Draft a proposal from these notes and leave pricing undecided but quote the supplied fixed price of 500"}
+{"item_id": "N147", "prefix": "I plan to book a flight from Crescent Hollow to New York, aimed at a business endeavor. Utilize"}
+{"item_id": "N149", "prefix": "I am planning a road trip from Rivermist to San Francisco, and I need to know how far"}
+{"item_id": "N151", "prefix": "Find team meeting slots this week after 10 AM but only consider"}
+{"item_id": "N153", "prefix": "I have to arrange a flight from San Francisco to Los Angeles"}
+{"item_id": "N155", "prefix": "I'm planning ahead for our big trip and realized our car's fuel tank is running low. It would"}
+{"item_id": "N157", "prefix": "I noticed some promising trends and want to proceed with a 'Buy'"}
+{"item_id": "N159", "prefix": "I’m planning a trip from Rivermist to San Francisco, and I need to see if my current fuel"}
+{"item_id": "N161", "prefix": "I have to arrange a flight from San Francisco to Los Angeles for my journey next month November"}
+{"item_id": "N163", "prefix": "Find peer-reviewed papers about hidden-state probing but use only non-peer-reviewed technical reports"}
+{"item_id": "N165", "prefix": "Hello! I'm laying out a detailed plan for an extended road trip"}
+{"item_id": "N167", "prefix": "Hi, I am Kelly. I'm sweating. What's the temp outside right now? Would you be able to update"}
+{"item_id": "N169", "prefix": "Could you provide me with a rough distance from Rivermist (zip 83214)"}
+{"item_id": "N171", "prefix": "Rewrite this note for executives while preserving its numbers but make it a technical note for engineers and"}
+{"item_id": "N173", "prefix": "Rewrite this note for executives while preserving its numbers and keep both"}
+{"item_id": "N175", "prefix": "I'm contemplating whether adding Zeta Corp's stock to my watchlist is the right move. It sounds like it's"}
+{"item_id": "N177", "prefix": "Search for test result of Apollo Project which is supposed to be"}
+{"item_id": "N179", "prefix": "I'm planning a road trip to the Grand Canyon and need to drive a distance of 380 miles."}
+{"item_id": "N181", "prefix": "I reckon it's about time to track Zeta Corp's stock performance closely,"}
+{"item_id": "N183", "prefix": "I'm planning a journey from Los Angeles to New York on the"}
+{"item_id": "N185", "prefix": "I heard that the technology sector is booming these days. Get me a list of potential tech stocks"}
+{"item_id": "N187", "prefix": "Hi there! I've noticed Zeta Corp's stocks have been slipping more than"}
+{"item_id": "N189", "prefix": "Build a shopping list for vegetarian tacos but make beef tacos instead"}
+{"item_id": "N191", "prefix": "As I gear up for another delightful journey exploring the captivating waterways,"}
+{"item_id": "N193", "prefix": "I'm interested in keeping up with Lulu Qian and her impressive achievements in the tech world, even if"}
+{"item_id": "N195", "prefix": "Find a file named 'config.py' somewhere deep in the file system and once you have located it, display"}
+{"item_id": "N197", "prefix": "I am planning a road trip from Rivermist to San Francisco, and"}
+{"item_id": "N199", "prefix": "Hey, I was wondering if you could look at my stock watchlist"}
+{"item_id": "N201", "prefix": "Having kept a keen eye on the advancements in the tech industry, I recently caught wind of some"}
+{"item_id": "N203", "prefix": "I remember I should have a document called 'FinalReport.txt' in the 'Documentation'"}
+{"item_id": "N205", "prefix": "Find technical podcast interviews about AI agents but use only news roundups"}
+{"item_id": "N207", "prefix": "Stage a 70 F thermostat setting for tonight but stage 68 F"}
+{"item_id": "N209", "prefix": "Planning an incredible journey from NYC to Tokyo on December 24th 2026"}
+{"item_id": "N211", "prefix": "I have secured my car by locking all doors and applying the"}
+{"item_id": "N213", "prefix": "After determining the current market status, I require the stock details for"}
+{"item_id": "N215", "prefix": "It'd be great if you could pop Zeta Corp's stock onto my"}
+{"item_id": "N217", "prefix": "Find brown faux-suede jackets with stand collars but use black cotton jackets"}
+{"item_id": "N219", "prefix": "I've just put together a file named 'ProjectOverview.txt' into my working directory where I've laid out an initial"}
+{"item_id": "N221", "prefix": "Before I start packing my bags for the upcoming trip, I need"}
+{"item_id": "N223", "prefix": "I wish to place an order to purchase 120 shares of the"}
+{"item_id": "N225", "prefix": "Could you ascertain the current time? It seems vital for aligning my"}
+{"item_id": "N227", "prefix": "I recently obtained a credit card and want to assess its suitability"}
+{"item_id": "N229", "prefix": "I just graduated and plan on traveling for alumni meetups. I'm really curious which airports are around cities"}
+{"item_id": "N231", "prefix": "Inspect the client timeout path without changing the code and identify where"}
+{"item_id": "N233", "prefix": "Could you provide me with the latest stock information for Zeta Corp, including its current price and the"}
+{"item_id": "N235", "prefix": "Estimate the distance between San Francisco and Rivermist. Afterwards, fill the tank"}
+{"item_id": "N237", "prefix": "Draft a reply thanking Morgan for the introduction and offer to provide"}
+{"item_id": "N239", "prefix": "A complex decision awaits me. I'm planning an upcoming trip with limited"}
+{"item_id": "N241", "prefix": "Look for draft and final report in my current directory. Compare the"}
+{"item_id": "N243", "prefix": "I'm gearing up for a quick business getaway and need my ride"}
+{"item_id": "N245", "prefix": "I'm looking into investing in technology stocks and I'm drawn to the company with the ticker AAPL. Could"}
+{"item_id": "N247", "prefix": "Stage a kitchen-only vacuum run and keep all other rooms excluded; do"}
+{"item_id": "N249", "prefix": "I'm cruising down a country road in my brand-new convertible, admiring the"}
+{"item_id": "N251", "prefix": "Choose a non-horror movie under two hours for tonight and compare the"}
+{"item_id": "N253", "prefix": "Find analysis_report.csv and upon locating it, ensure you move it to the 'archive' directory in the same directory"}
+{"item_id": "N255", "prefix": "Hey there! So I'm thinking about shaking up my investment game a bit and could really use some"}
+{"item_id": "N257", "prefix": "Find pharmacies in Brookfield that are open now but only list hospital"}
+{"item_id": "N259", "prefix": "There's a file I cooked up earlier named 'project_analysis.txt' in workspace folder,"}
+{"item_id": "N261", "prefix": "Hey, I'm in the mood for a last-minute getaway! I need some help figuring out how much it's"}
+{"item_id": "N263", "prefix": "In the realm of investment opportunities, I'm intrigued by the Technology sector"}
+{"item_id": "N265", "prefix": "Stage a kitchen-only vacuum run but stage a bedroom-only run instead and"}
+{"item_id": "N267", "prefix": "Hey there! Since I'm currently residing in Rivermist but planning a grand getaway to Los Angeles, I'm curious"}
+{"item_id": "N269", "prefix": "Could you kindly integrate Apple's stock into my current watchlist and subsequently provide me with a detailed breakdown"}
+{"item_id": "N271", "prefix": "I'm embarking on a new data analysis project that's as thrilling as"}
+{"item_id": "N273", "prefix": "Please confirm the details for traveler Matt Bradley. His birth date is April 23, 1995, and his passport"}
+{"item_id": "N275", "prefix": "I'm currently exploring the StockView platform and wish to take a peek"}
+{"item_id": "N277", "prefix": "I just relocated to Rivermist and I'm looking to book a flight"}
+{"item_id": "N279", "prefix": "Hey there, I need to set up a directory titled 'Reports' in"}
+{"item_id": "N281", "prefix": "I'm contemplating enhancing my investment portfolio with some tech industry assets, and I've got my eye on Nvidia."}
+{"item_id": "N283", "prefix": "I'm planning to fly from San Francisco to Los Angeles on October 15, 2026. Could you assist in"}
+{"item_id": "N285", "prefix": "Hey, I've just filled my car up with 13.2 gallons of fuel."}
+{"item_id": "N287", "prefix": "It's been quite an adventure today! Before embarking on a long trip,"}
+{"item_id": "N289", "prefix": "Compare Friday car rentals at North Terminal but pickup must be at South Terminal instead, with no North"}
+{"item_id": "N291", "prefix": "As a high-ranking government official residing in Rivermist, I require assistance in determining the cost of first-class travel"}
+{"item_id": "N293", "prefix": "For trip id flight_001, it seems that I booked my flight from Rome to New York without considering"}
+{"item_id": "N295", "prefix": "Hey there, I constructed a file titled 'project_plan.md' that resides happily in my workspace directory. Could you be"}
+{"item_id": "N297", "prefix": "I'd love a comprehensive list of all available departure airports to commence my travel planning, please share what's"}
+{"item_id": "N299", "prefix": "I'm planning a business class trip from JFK in New York to LAX in Los Angeles on December"}
+{"item_id": "N301", "prefix": "Within the temp directory, could you list all the current files directly"}
+{"item_id": "N303", "prefix": "I've been issued a new credit card with id 'card_4893', and it's set to expire sometime the next"}
+{"item_id": "N305", "prefix": "Calculate a 7 percent downside scenario for a 100-credit index and show"}
+{"item_id": "N307", "prefix": "I'm about to embark on a road trip adventure and I want"}
+{"item_id": "N309", "prefix": "Today feels like the right day to make a strategic move since"}
+{"item_id": "N311", "prefix": "Alright, I've been thinking about a road trip and I want to"}
+{"item_id": "N313", "prefix": "In attempting to log into my travel account using both my established"}
+{"item_id": "N315", "prefix": "Hello, I'm Josephine, an academic specializing in cognitive science, but today I'm interested in monitoring some financial movements."}
+{"item_id": "N317", "prefix": "As I'm mapping out the logistics for my forthcoming business class journey, I require an estimate for airfare"}
+{"item_id": "N319", "prefix": "Imagine I just embarked on a lovely road trip and had to"}
+{"item_id": "N321", "prefix": "Hey, I was wondering if you could look at my stock watchlist for me? I want to make"}
+{"item_id": "N323", "prefix": "You're planning an extended expedition from Rivermist to San Francisco. Could you"}
+{"item_id": "N325", "prefix": "Stage the living-room lights at 30 percent brightness but stage bedroom lights"}
+{"item_id": "N327", "prefix": "Write a Python function that counts ERROR lines in the supplied log"}
+{"item_id": "N329", "prefix": "I'm planning to jet off and stumbled upon a nifty flight from San Francisco to Los Angeles. Lowkey,"}
+{"item_id": "N331", "prefix": "Wanderlust is calling, and I'm mapping out my travel from Rivermist to Stonebrook in the month of October—the"}
+{"item_id": "N333", "prefix": "I require assistance in determining the quantity of gasoline necessary for an extensive journey across California. I currently"}
+{"item_id": "N335", "prefix": "I'm considering flying from Los Angeles Internationa (LAX) to John F. Kennedy"}
+{"item_id": "N337", "prefix": "Okay, so here's the plan: I'll soon be heading to Rivermist and straight after, I want to jet"}
+{"item_id": "N339", "prefix": "I reckon it's about time to track Zeta Corp's stock performance closely, so it'd be great if you"}
+{"item_id": "N341", "prefix": "Calculate breakeven for my debit spread using the supplied values but correct"}
+{"item_id": "N343", "prefix": "I'm currently in Rivermist planning a trip to Stonebrook. Could you provide an estimate of the distance and"}
+{"item_id": "N345", "prefix": "I need to fill 150 liters of gasoline into my vehicle for"}
+{"item_id": "N347", "prefix": "Hey there! So I'm thinking about shaking up my investment game a"}
+{"item_id": "N349", "prefix": "I'm in the process of scheduling a journey from San Francisco to"}
+{"item_id": "N351", "prefix": "Hey, I'm in the mood for a last-minute getaway! I need some"}
+{"item_id": "N353", "prefix": "Compare these two resumes without recommending a candidate but recommend a candidate"}
+{"item_id": "N355", "prefix": "Could you populate 'annual_report.txt' with data on quarterly revenue: 'Q1: $5000, Q2: $7000, Q3: $6000, Q4: $8000'? I"}
+{"item_id": "N357", "prefix": "Write a Python function that counts ERROR lines in the supplied log and return the count without changing"}
+{"item_id": "N359", "prefix": "Compare Friday car rentals at North Terminal but pickup must be at"}
+{"item_id": "N361", "prefix": "I'm planning an expedition to Beijing and I want to ensure my financial strategy is well-prepared for the"}
+{"item_id": "N363", "prefix": "I've heard a friend of mine in Rivermist recently visited Stonebrook, and"}
+{"item_id": "N365", "prefix": "I really really want to travel from Rivermist to Los Angeles on a specific date, ensuring preferred seating"}
+{"item_id": "N367", "prefix": "Calculate the exchange rate for 1500 USD to EUR for me, I"}
+{"item_id": "N369", "prefix": "OMG, a first-class ticket on Christmas from SFO to LAX would be an absolute dream! I wonder how"}
+{"item_id": "N371", "prefix": "Pop on over to the 'Documents' directory and craft a new file"}
+{"item_id": "N373", "prefix": "Could you provide me with a rough distance from Rivermist (zip 83214) to Greenway (zip 74532)? I'm eager"}
+{"item_id": "N375", "prefix": "I'd like to take a look at the finance_report.txt. Would you send"}
+{"item_id": "N377", "prefix": "Gearing up for some exciting travel adventures! I wish to put a firm budget in place, setting a"}
+{"item_id": "N379", "prefix": "Build an upbeat instrumental jazz playlist but include only vocal jazz tracks"}
+{"item_id": "N381", "prefix": "I've recently joined this travel application which promises premium access to some"}
+{"item_id": "N383", "prefix": "First, you need to know how much gasoline you added to your car, expressed in liters. You've just"}
+{"item_id": "N385", "prefix": "In documents directory, there's a file that piques my curiosity regarding its"}
+{"item_id": "N387", "prefix": "Find technical podcast interviews about AI agents and favor interviews over news"}
+{"item_id": "N389", "prefix": "In my existing folder called 'Lectures', I'd like to set up a"}
+{"item_id": "N391", "prefix": "I just tracked down an intriguing company named Synex Solutions, and I'm eager to delve into its financial"}
+{"item_id": "N393", "prefix": "Directly open the academic_venture folder and employ precise commands to generate a new directory for our upcoming academic"}
+{"item_id": "N395", "prefix": "Compare Acme's revenue in its two annual releases but compare Beacon's releases"}
+{"item_id": "N397", "prefix": "Hi there! I noticed Omega Industries is trading at high price, and they're quite a rising star in"}
+{"item_id": "N399", "prefix": "Pop on over to the 'Documents' directory and craft a new file dubbed 'summary.txt', would you? If it"}
+{"item_id": "N401", "prefix": "If the fuel level is lower than 10, then go ahead and add double that amount. Let's assume"}
+{"item_id": "N403", "prefix": "Compare robotics synthetic-data tools that support Engine R but only consider tools for Engine S that do not"}
+{"item_id": "N405", "prefix": "There's a file I cooked up earlier named 'project_analysis.txt' in workspace folder, and I've just realized it desperately"}
+{"item_id": "N407", "prefix": "Where is my notes? Forward it exactly to Bob please. I am"}
+{"item_id": "N409", "prefix": "Compare flights from Harborview to Eastport but change the destination to Westhaven"}
+{"item_id": "N411", "prefix": "Just acquired a stunning electric vehicle, and it's like a canvas waiting to be explored. Let's lock all"}
+{"item_id": "N413", "prefix": "Compare robotics synthetic-data tools that support Engine R and keep Engine R"}
+{"item_id": "N415", "prefix": "I've misplaced a vital document inclusive of extensive research. Assist in locating"}
+{"item_id": "N417", "prefix": "I just returned to my vehicle, and it dawned on me that I may not have unlocked the"}
+{"item_id": "N419", "prefix": "Add malformed-JSON tests to the parser and keep this work limited to"}
+{"item_id": "N421", "prefix": "I'm considering flying from Los Angeles Internationa (LAX) to John F. Kennedy (JFK) in business class on November"}
+{"item_id": "N423", "prefix": "Imagine planning a trip and you're curious about the flight costs between"}
+{"item_id": "N425", "prefix": "Draft a team update saying the build is delayed but the build"}
+{"item_id": "N427", "prefix": "Display all the available files located within the '/temp' directory including hidden"}
+{"item_id": "N429", "prefix": "Find version 3 documentation for Library L and use only the official"}
+{"item_id": "N431", "prefix": "I've noticed that some of my car doors are slightly ajar while others seem to be securely locked."}
+{"item_id": "N433", "prefix": "How much would a flight from SF to LA even cost? It's"}
+{"item_id": "N435", "prefix": "Open up 'VisionX' folder. What's the human readible disk usage of that"}
+{"item_id": "N437", "prefix": "I am at the gas station and ready to fill up my"}
+{"item_id": "N439", "prefix": "I've completed the maintenance on my car and ensured the doors are unlocked. Everything, especially the tires, seems"}
+{"item_id": "N441", "prefix": "Could you kindly navigate to the temporary directory and list all the"}
+{"item_id": "N443", "prefix": "First cd within the 'ResearchDocs' directory and then locate any files titled"}
+{"item_id": "N445", "prefix": "Directly open the academic_venture folder and employ precise commands to generate a"}
+{"item_id": "N447", "prefix": "Imagine planning a trip and you're curious about the flight costs between various airports. Opt to fly from"}
+{"item_id": "N449", "prefix": "I have recently come across Zeta Corp and I'm intrigued by their operations. Kindly include their stock in"}
+{"item_id": "N451", "prefix": "Okay, so here's the plan: I'll soon be heading to Rivermist and"}
+{"item_id": "N453", "prefix": "I need you to draft a comprehensive guide for our new initiative,"}
+{"item_id": "N455", "prefix": "Before purchasing shares in Zeta Corp, I am curious about their recent stock performance. Could you provide their"}
+{"item_id": "N457", "prefix": "I've misplaced a vital document inclusive of extensive research. Assist in locating a file named 'findings_report' within this"}
+{"item_id": "N459", "prefix": "In documents directory, there's a file that piques my curiosity regarding its contents. It's alphabetically first file in"}
+{"item_id": "N461", "prefix": "Prepare to lock the back door after I leave and check the"}
+{"item_id": "N463", "prefix": "OMG, a first-class ticket on Christmas from SFO to LAX would be"}
+{"item_id": "N465", "prefix": "I’m re-evaluating my current investment portfolio and need to make informed decisions. Could you display the current stocks"}
+{"item_id": "N467", "prefix": "I'm on a quest to escape my quaint hometown of Oakendale for"}
+{"item_id": "N469", "prefix": "Kindly draft a document titled 'project_summary.txt' right here in documents directory. Yield"}
+{"item_id": "N471", "prefix": "Stage a 70 F thermostat setting for tonight but stage 68 F instead, only if the current setting"}
+{"item_id": "N473", "prefix": "After determining the current market status, I require the stock details for a specific company. Retrieve the information"}

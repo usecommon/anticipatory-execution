@@ -1,0 +1,26 @@
+{
+  "platform": "Codex Desktop inherited-model agent sessions",
+  "exact_model_snapshot_and_sampling_parameters": "Not exposed; no exact stochastic reproduction claim",
+  "proposers": [
+    "checkpoint_proposer_1",
+    "checkpoint_proposer_2"
+  ],
+  "proposer_batch_sizes": [
+    237,
+    236
+  ],
+  "proposal_instructions": "PROPOSER_INSTRUCTIONS.txt, same substantive preparation rule with six-word phrase generalized to observed instruction prefix",
+  "proposer_access": "Fresh fork_turns=none sessions, assigned opaque-prefix file only; no future, source IDs, reference tools, old labels or outputs authorized",
+  "assignment_seed": 260913120,
+  "human_order_seeds": {
+    "A": 260913201,
+    "B": 260913202
+  },
+  "selection": "Deterministic SHA256 salts human-main-v1, human-fill-v1, human-boundary-v1; no outcome labels used",
+  "boundary_controls": "Script-authored minimal artifacts, not naturally proposed items or labeled gold",
+  "auditor": "Reused bfcl_adjudicator with prior diagnostic exposure, restricted to structural/software review",
+  "new_AI_reuse_ratings": 0,
+  "actual_human_submissions": 0,
+  "software_QA": "Synthetic fixtures only; never human or scientific evidence",
+  "public_source_provenance": "Inherited pinned BFCL source/admission from bfcl_public_pilot_v0_1; private adaptation not publicly released; no source eligibility upgrade"
+}

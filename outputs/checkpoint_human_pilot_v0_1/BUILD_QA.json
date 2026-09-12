@@ -1,0 +1,27 @@
+{
+  "scheduled": 600,
+  "unique_eligible_prefixes": 473,
+  "by_source_checkpoint": {
+    "public_bfcl:12": {
+      "eligible": 191,
+      "complete_at_checkpoint": 2,
+      "checkpoint_not_reached": 7
+    },
+    "public_bfcl:18": {
+      "checkpoint_not_reached": 30,
+      "eligible": 166,
+      "complete_at_checkpoint": 4
+    },
+    "synthetic:12": {
+      "eligible": 86,
+      "checkpoint_not_reached": 7,
+      "complete_at_checkpoint": 7
+    },
+    "synthetic:18": {
+      "checkpoint_not_reached": 61,
+      "eligible": 33,
+      "complete_at_checkpoint": 6
+    }
+  },
+  "six_word_baseline": "Frozen and unchanged; later joined without old labels"
+}

@@ -1,0 +1,7 @@
+{
+  "issue": "Parsed list/null submission was stored before object check; later same-identity validation crashed without a COLLECTION_REPORT. Raw originals were preserved.",
+  "fix": "Reject non-object top-level JSON before storing parsed submission; preserve readable validation report.",
+  "pre_fix_sha256": "0f6ac5960e322a60fa0b527502f75e4f47d525b4133ca39327242057e0e307d8",
+  "post_fix_sha256": "25adc5bc86fb3e1693bf5c65a8a732ff5a13854c1c37b87226c9f0c2463f5fde",
+  "human_inputs_changed": false
+}

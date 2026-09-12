@@ -30,6 +30,8 @@ The [BFCL public-source pilot and synthetic comparison](outputs/bfcl_public_pilo
 
 The [shared-policy public/synthetic pilot](outputs/shared_policy_pilot_v0_1/README.md) now uses the same six-word checkpoint and proposal/rating policy on 200 public and 100 synthetic tasks: 87 proposed products, 58 reusable, 25 non-reusable, 4 unresolved and 213 abstentions. Source/domain differences and dependent variants remain; human G1 and model efficacy testing are still pending.
 
+The [later-checkpoint and human-review package](outputs/checkpoint_human_pilot_v0_1/README.md) adds 12/18-word proposals and prepares two blind 220-case review packages (200 main + 20 boundary diagnostics). The combined pool has 260 work products across 900 scheduled opportunities; no new reuse labels or genuine human submissions exist yet.
+
 ## Current state
 
 - **G0 PASS, scoped:** canonical-v0.5, frozen Qwen2.5-7B-Instruct, NVIDIA A100-SXM4-40GB, FP32 eager, physical shape [1,128], active length 1..128, serial prefixes, explicit positions/masks, cache off. Two fresh Modal containers passed 8,427 checks each; 155 cross-container cases matched bitwise.

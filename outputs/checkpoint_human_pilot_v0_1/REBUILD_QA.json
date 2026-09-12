@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "adapter_byte_identical_files": [
+    "BUILD_QA.json",
+    "PREFIX_GROUPS.jsonl",
+    "PROPOSER_1_INPUT.jsonl",
+    "SOURCE_HASHES.json",
+    "SCHEDULED_OPPORTUNITIES.jsonl",
+    "PROPOSER_2_INPUT.jsonl"
+  ],
+  "human_package_byte_identical_files": [
+    "ANNOTATOR_A_MAPPING.jsonl",
+    "ANNOTATOR_B_MAPPING.jsonl",
+    "PACKAGE_MANIFEST.json",
+    "REVIEW_INPUT_FREEZE.json",
+    "human_packages/Annotator_A.zip",
+    "human_packages/Annotator_A/ITEMS.json",
+    "human_packages/Annotator_A/ORIGINAL_RUBRIC.txt",
+    "human_packages/Annotator_A/REVIEW.html",
+    "human_packages/Annotator_A/START_HERE.md",
+    "human_packages/Annotator_B.zip",
+    "human_packages/Annotator_B/ITEMS.json",
+    "human_packages/Annotator_B/ORIGINAL_RUBRIC.txt",
+    "human_packages/Annotator_B/REVIEW.html",
+    "human_packages/Annotator_B/START_HERE.md"
+  ],
+  "method": "Fresh temporary directories, no model/fixture execution or real human labels"
+}

@@ -1,0 +1,61 @@
+{
+  "scheduled_opportunities": 900,
+  "later_scheduled": 600,
+  "later_unique_prefixes": 473,
+  "later_unique_proposals": 170,
+  "review_pool": 260,
+  "main_selected": 200,
+  "main_shortfall": 0,
+  "boundary_controls": 20,
+  "source_checkpoint_counts": {
+    "public_bfcl:6": {
+      "proposed": 21,
+      "abstain": 179
+    },
+    "public_bfcl:12": {
+      "proposed": 37,
+      "abstain": 154,
+      "complete_at_checkpoint": 2,
+      "checkpoint_not_reached": 7
+    },
+    "public_bfcl:18": {
+      "checkpoint_not_reached": 30,
+      "proposed": 66,
+      "abstain": 100,
+      "complete_at_checkpoint": 4
+    },
+    "synthetic:6": {
+      "proposed": 66,
+      "abstain": 34
+    },
+    "synthetic:12": {
+      "abstain": 41,
+      "proposed": 45,
+      "checkpoint_not_reached": 7,
+      "complete_at_checkpoint": 7
+    },
+    "synthetic:18": {
+      "checkpoint_not_reached": 61,
+      "proposed": 25,
+      "abstain": 8,
+      "complete_at_checkpoint": 6
+    }
+  },
+  "selection_source_counts": {
+    "public_bfcl": 100,
+    "synthetic": 100
+  },
+  "selection_checkpoint_counts": {
+    "18": 80,
+    "12": 55,
+    "6": 65
+  },
+  "selection_distinct_tasks": 169,
+  "selection_distinct_template_groups": 131,
+  "human_submissions_received": 0,
+  "G1": "PENDING",
+  "new_reuse_labels": 0,
+  "confirmatory_extraction": false,
+  "research_model_inference": false,
+  "fixture_execution": false
+}
