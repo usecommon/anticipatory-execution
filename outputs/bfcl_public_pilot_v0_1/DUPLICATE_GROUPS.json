@@ -1,0 +1,10 @@
+{
+  "distinct_full_instructions": 199,
+  "duplicates": [
+    [
+      "BP1-multi_turn_base_40",
+      "BP1-multi_turn_base_43"
+    ]
+  ],
+  "policy": "Preserve source records; group exact duplicates together in any future split. Source-ID grouping alone is insufficient; broader template audit still pending."
+}

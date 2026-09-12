@@ -1,0 +1,18 @@
+{
+  "status": "ADMITTED_FOR_PRIVATE_ADAPTER_DIAGNOSTIC_ONLY",
+  "public_snapshot_access": "Verified anonymously, exact pin hash matches",
+  "repository_license_declaration": "Apache-2.0, full notice preserved",
+  "pinned_tree_sha": "6ea57973c7a6097fd7c5915698c54c17c5b1b6c8",
+  "pinned_tree_truncated": false,
+  "tree_cache_sha256": "0f8d437a2199dfa3b428447b2ce4bcf9ac38575f0f062a4ddae8cfb9fdb74c16",
+  "license_notice_paths_in_tree": [
+    "LICENSE",
+    "gorilla/eval/eval-scripts/codebleu/parser/tree-sitter-python/LICENSE"
+  ],
+  "dataset_specific_rights": "No separate BFCL license/notice found in pinned tree; repository declaration recorded, independently imported content rights not established by absence of separate notice. Complete dataset redistribution eligibility remains pending.",
+  "adapted_artifacts_public_release": false,
+  "source_authorship": "Public benchmark source, not established naturally collected user input",
+  "contamination": "Public-source exposure in model pretraining unknown. Procedural prefix-only file access does not establish absence of memorization.",
+  "minimum_grouping": "MINIMUM_SPLIT_GROUPS.jsonl merges exact full-instruction duplicates; wider template dependence remains unaudited.",
+  "research_eligibility": false
+}

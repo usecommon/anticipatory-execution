@@ -1,0 +1,14 @@
+[
+  {
+    "kind": "source",
+    "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v4_multi_turn_base.json",
+    "retrieved_utc": "2026-09-12T17:47:10.746972+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+  },
+  {
+    "kind": "license",
+    "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/LICENSE",
+    "retrieved_utc": "2026-09-12T17:47:10.813163+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "reason": "Evaluator context pending candidate-origin placeholder was inherited into joined outputs. Corrected provenance status only before final artifact freeze. Raw submissions, all content, IDs, reviewer inputs and labels untouched; generator corrected. Original evaluator context remains frozen with pre-proposal pending status.",
+  "old_value": "pending_prefix_only_AI",
+  "new_value": "prefix_only_AI_authored_policy",
+  "files": [
+    {
+      "file": "ALL_OPPORTUNITIES.jsonl",
+      "before_sha256": "4d08d1b81b61ed29d18bf16a8fac55258dfe94a4ecbaff803a01e69d160310e1",
+      "after_sha256": "7c9e8fcfba4ff457ad0147de97a2cb57e2c8d46d2085bce5b1f82ec2d82b24e3"
+    },
+    {
+      "file": "PROPOSED_ITEMS.jsonl",
+      "before_sha256": "a0dd3b5639fbda59e888cceacd0b9f4675ebda23846230aa938f097beecb5215",
+      "after_sha256": "6934a9664530a6296b33bb5506f23caf5324e3c3b0209a7070456f1f69b224ae"
+    },
+    {
+      "file": "ABSTENTIONS.jsonl",
+      "before_sha256": "fdc0e38aca818c13beb1735a790bda1bccb68ba586ad3582a66dd1f8afba526f",
+      "after_sha256": "e48bdf0ddc02338b1d2e55ea92c0fe83e156d49376dccddeeb774cec2511f156"
+    }
+  ]
+}

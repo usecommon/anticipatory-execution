@@ -1,0 +1,119 @@
+{
+  "source_records": 200,
+  "distinct_full_instructions": 199,
+  "proposal_opportunities": 200,
+  "proposed_items": 59,
+  "abstentions": 141,
+  "proposal_coverage": 0.295,
+  "checkpoint_words": 6,
+  "rater_A": {
+    "reusable": 32,
+    "non_reusable": 7,
+    "unresolved": 20,
+    "ambiguity_flags": 29
+  },
+  "rater_B": {
+    "reusable": 32,
+    "non_reusable": 7,
+    "unresolved": 20,
+    "ambiguity_flags": 33
+  },
+  "adjudication": {
+    "reusable": 24,
+    "non_reusable": 7,
+    "unresolved": 28,
+    "ambiguity_flags": 39
+  },
+  "rater_agreement": {
+    "total_proposed": 59,
+    "complete_binary_pairs": 37,
+    "pairs_with_unresolved": 22,
+    "binary_agreements": 37,
+    "binary_disagreements": 0,
+    "observed_agreement": 1.0,
+    "kappa": 1.0,
+    "degenerate_or_no_pairs": false,
+    "denominator_policy": "Only paired resolved labels; all unresolved and abstentions reported separately. AI agreement is not human G1."
+  },
+  "reusable_per_opportunity": 0.12,
+  "reusable_per_proposed": 0.4067796610169492,
+  "reusable_per_resolved": 0.7741935483870968,
+  "public_domains_opportunities": {
+    "Document Work": 25,
+    "Information Retrieval": 18,
+    "General Productivity": 11,
+    "Communication": 3,
+    "Device/Home Control": 30,
+    "Travel": 63,
+    "Finance-like Read-only Analysis": 24,
+    "Other/Unclear": 26
+  },
+  "public_domains_proposed": {
+    "Document Work": 11,
+    "General Productivity": 4,
+    "Information Retrieval": 6,
+    "Communication": 1,
+    "Device/Home Control": 8,
+    "Travel": 18,
+    "Finance-like Read-only Analysis": 7,
+    "Other/Unclear": 4
+  },
+  "public_action_classes": {
+    "1": 58,
+    "2": 1
+  },
+  "survival_mechanisms": {
+    "preparation_materiality": 23,
+    "argument_change": 2,
+    "insufficient_evidence": 5,
+    "reusable_unchanged": 10,
+    "action_change": 5,
+    "reusable_narrowing": 14
+  },
+  "synthetic_comparator": {
+    "review_items": 200,
+    "tasks": 100,
+    "families": 50,
+    "adjudication": {
+      "reusable": 136,
+      "non_reusable": 59,
+      "unresolved": 5,
+      "ambiguity_flags": 19
+    },
+    "domains_review_items": {
+      "Travel": 16,
+      "Local Search": 16,
+      "Shopping/Research": 20,
+      "Scheduling": 16,
+      "Communication": 16,
+      "Information Retrieval": 20,
+      "Finance-like Read-only Analysis": 16,
+      "Coding": 16,
+      "Document Work": 16,
+      "Device/Home Control": 16,
+      "Media": 16,
+      "General Productivity": 16
+    },
+    "action_classes": {
+      "2": 92,
+      "3": 68,
+      "1": 40
+    },
+    "checkpoint_words_min_median_max": [
+      3,
+      7.5,
+      12
+    ],
+    "candidate_coverage": "Not measured under a prefix-only proposer; hand-authored work at selected anchors."
+  },
+  "G1": "PENDING",
+  "G0": "PASS_SCOPED_UNCHANGED",
+  "public_source_retrieval_verified": true,
+  "adaptation_publicly_released": false,
+  "research_model_inference": false,
+  "development_extraction": false,
+  "confirmatory_extraction": false,
+  "matched_source_effect_estimate": false,
+  "latency_measured": false,
+  "judge_raw_sha256": "abacba5a0a95839688928f520faf2e24463ec6ce1f4bb0a94d4202b70a38c8bc"
+}

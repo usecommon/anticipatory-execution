@@ -1,0 +1,46 @@
+{
+  "result": "PASS",
+  "generated_files": [
+    {
+      "file": "ALL_WORD_PREFIXES.jsonl",
+      "sha256": "fdc838a2e30ff93be3bc3261d4554fe115194d2e74f50aa91733bee0eaeb4a60",
+      "byte_identical": true
+    },
+    {
+      "file": "EVALUATOR_CONTEXT.jsonl",
+      "sha256": "d32ef83bf87e623fef932cd734a58d0cfb397ecb67a251da8570aa9ed5f7d4e8",
+      "byte_identical": true
+    },
+    {
+      "file": "PROPOSER_1_INPUT.jsonl",
+      "sha256": "c97a1e3ec3fe0647d971fcb5bbcbc5c0c643e9fdba9f26afd7792e2c08773bac",
+      "byte_identical": true
+    },
+    {
+      "file": "PROPOSER_1_MAPPING.jsonl",
+      "sha256": "d5b3467fd6ff3a7d4d446bc77d0961d5d1a73dfc85f669e29c0912350120612f",
+      "byte_identical": true
+    },
+    {
+      "file": "PROPOSER_2_INPUT.jsonl",
+      "sha256": "2d86233cffbd7da343ec79fbf66634301d1ad31ee68d6f6928e9f3d2163d736e",
+      "byte_identical": true
+    },
+    {
+      "file": "PROPOSER_2_MAPPING.jsonl",
+      "sha256": "f5fb08e96a62975e2c79a2fd649b744f978d5197bb025d8ea59c23779f9fd02a",
+      "byte_identical": true
+    },
+    {
+      "file": "SOURCE_LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "byte_identical": true
+    },
+    {
+      "file": "SOURCE_MANIFEST.json",
+      "sha256": "80b02fb0709228163efceaafee84b863d74c6b7ab686d6d0dcf0c5329adb38e2",
+      "byte_identical": true
+    }
+  ],
+  "method": "Fresh temporary directory; current anonymously fetched pinned source/license; no labels, inference or fixture execution."
+}

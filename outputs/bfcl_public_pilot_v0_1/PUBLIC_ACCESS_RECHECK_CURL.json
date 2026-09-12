@@ -1,0 +1,20 @@
+[
+  {
+    "kind": "source",
+    "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v4_multi_turn_base.json",
+    "sha256": "1a21a995d06fd6f20ba55de7bced30ef953ec35e998f502ec2ecf4d66ef1c43a",
+    "bytes": 390425,
+    "matches_pin": true,
+    "method": "curl --fail --location with normal TLS validation",
+    "verified_utc": "2026-09-12T17:48:00.523655+00:00"
+  },
+  {
+    "kind": "license",
+    "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357,
+    "matches_pin": true,
+    "method": "curl --fail --location with normal TLS validation",
+    "verified_utc": "2026-09-12T17:48:00.524209+00:00"
+  }
+]

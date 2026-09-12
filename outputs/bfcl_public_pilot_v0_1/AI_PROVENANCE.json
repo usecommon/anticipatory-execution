@@ -1,0 +1,45 @@
+{
+  "platform": "Codex Desktop agent sessions",
+  "model_selection": "Inherited session model; no override requested",
+  "exact_model_snapshot": "Not exposed in artifact metadata",
+  "sampling_seed_temperature": "Not controlled or exposed; assignment random seeds are not model sampling seeds",
+  "instruction_isolation": "Fresh proposer/rater/adjudicator sessions with fork_turns=none; explicit allowlisted input files. Audit session had a separate evaluator role. Shared filesystem access controlled by instructions, not a technical security boundary.",
+  "sessions": [
+    {
+      "role": "proposer1",
+      "agent": "bfcl_proposer_1",
+      "input": "PROPOSER_1_INPUT.jsonl",
+      "raw_output": "bfcl_proposer_1.jsonl"
+    },
+    {
+      "role": "proposer2",
+      "agent": "bfcl_proposer_2",
+      "input": "PROPOSER_2_INPUT.jsonl",
+      "raw_output": "bfcl_proposer_2.jsonl"
+    },
+    {
+      "role": "raterA",
+      "agent": "bfcl_rater_a",
+      "input": "RATER_A_INPUT.jsonl",
+      "raw_output": "bfcl_rater_A.jsonl"
+    },
+    {
+      "role": "raterB",
+      "agent": "bfcl_rater_b",
+      "input": "RATER_B_INPUT.jsonl",
+      "raw_output": "bfcl_rater_B.jsonl"
+    },
+    {
+      "role": "adjudicator",
+      "agent": "bfcl_adjudicator",
+      "input": "JUDGE_INPUT.jsonl",
+      "raw_output": "results/JUDGE_RAW.jsonl"
+    },
+    {
+      "role": "domain_and_arithmetic_auditor",
+      "agent": "bfcl_adapter_audit",
+      "output": "DOMAIN_TAGS.jsonl and audit markdown"
+    }
+  ],
+  "regeneration_claim": "Only source transformation and saved-output scoring deterministic; exact AI judgment regeneration not established. Not complete reproducibility of a model experiment."
+}

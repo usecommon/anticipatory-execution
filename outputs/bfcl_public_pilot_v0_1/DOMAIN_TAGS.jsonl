@@ -1,0 +1,200 @@
+{"item_id": "BP1-multi_turn_base_0", "domain": "Document Work", "secondary_domains": ["General Productivity"], "rationale": "Moves a report document and creates its destination directory."}
+{"item_id": "BP1-multi_turn_base_1", "domain": "Information Retrieval", "secondary_domains": [], "rationale": "Requests a local directory inventory, including hidden entries."}
+{"item_id": "BP1-multi_turn_base_2", "domain": "Document Work", "secondary_domains": [], "rationale": "Creates a named document or data file."}
+{"item_id": "BP1-multi_turn_base_3", "domain": "Information Retrieval", "secondary_domains": [], "rationale": "Locates a file or directory by its name or stated description."}
+{"item_id": "BP1-multi_turn_base_4", "domain": "Information Retrieval", "secondary_domains": [], "rationale": "Requests a local directory inventory, including hidden entries."}
+{"item_id": "BP1-multi_turn_base_5", "domain": "Document Work", "secondary_domains": ["Information Retrieval"], "rationale": "Locates and archives a report file."}
+{"item_id": "BP1-multi_turn_base_6", "domain": "Document Work", "secondary_domains": [], "rationale": "Creates a named document or data file."}
+{"item_id": "BP1-multi_turn_base_7", "domain": "General Productivity", "secondary_domains": [], "rationale": "Creates a directory; no source-code implementation is requested."}
+{"item_id": "BP1-multi_turn_base_8", "domain": "Document Work", "secondary_domains": [], "rationale": "Extracts lines containing a specified term from an experiment log."}
+{"item_id": "BP1-multi_turn_base_9", "domain": "Information Retrieval", "secondary_domains": [], "rationale": "Locates a file or directory by its name or stated description."}
+{"item_id": "BP1-multi_turn_base_10", "domain": "General Productivity", "secondary_domains": [], "rationale": "Creates a directory; no source-code implementation is requested."}
+{"item_id": "BP1-multi_turn_base_11", "domain": "Information Retrieval", "secondary_domains": [], "rationale": "Requests a local directory inventory, including hidden entries."}
+{"item_id": "BP1-multi_turn_base_12", "domain": "Document Work", "secondary_domains": [], "rationale": "Creates a named document or data file."}
+{"item_id": "BP1-multi_turn_base_13", "domain": "Document Work", "secondary_domains": [], "rationale": "Reads the last line of a document."}
+{"item_id": "BP1-multi_turn_base_14", "domain": "Information Retrieval", "secondary_domains": [], "rationale": "Locates a file or directory by its name or stated description."}
+{"item_id": "BP1-multi_turn_base_15", "domain": "Document Work", "secondary_domains": [], "rationale": "Creates a named document or data file."}
+{"item_id": "BP1-multi_turn_base_16", "domain": "Document Work", "secondary_domains": [], "rationale": "Copies document files into an archive or backup location."}
+{"item_id": "BP1-multi_turn_base_17", "domain": "Information Retrieval", "secondary_domains": [], "rationale": "Requests a local directory inventory, including hidden entries."}
+{"item_id": "BP1-multi_turn_base_18", "domain": "Document Work", "secondary_domains": [], "rationale": "Copies document files into an archive or backup location."}
+{"item_id": "BP1-multi_turn_base_19", "domain": "Information Retrieval", "secondary_domains": [], "rationale": "Locates a file or directory by its name or stated description."}
+{"item_id": "BP1-multi_turn_base_20", "domain": "Document Work", "secondary_domains": [], "rationale": "Reads the last line of a document."}
+{"item_id": "BP1-multi_turn_base_21", "domain": "Document Work", "secondary_domains": [], "rationale": "Writes specified text into a named document; content subject matter does not turn storage into analysis."}
+{"item_id": "BP1-multi_turn_base_22", "domain": "Document Work", "secondary_domains": ["Information Retrieval"], "rationale": "Finds or opens a document and displays its contents."}
+{"item_id": "BP1-multi_turn_base_23", "domain": "Document Work", "secondary_domains": [], "rationale": "Writes specified text into a named document; content subject matter does not turn storage into analysis."}
+{"item_id": "BP1-multi_turn_base_24", "domain": "Document Work", "secondary_domains": [], "rationale": "Compares the contents of two report documents."}
+{"item_id": "BP1-multi_turn_base_25", "domain": "Document Work", "secondary_domains": ["Information Retrieval"], "rationale": "Finds or opens a document and displays its contents."}
+{"item_id": "BP1-multi_turn_base_26", "domain": "Information Retrieval", "secondary_domains": [], "rationale": "Requests a local directory inventory, including hidden entries."}
+{"item_id": "BP1-multi_turn_base_27", "domain": "Document Work", "secondary_domains": [], "rationale": "Renames a project document."}
+{"item_id": "BP1-multi_turn_base_28", "domain": "Information Retrieval", "secondary_domains": [], "rationale": "Locates a file or directory by its name or stated description."}
+{"item_id": "BP1-multi_turn_base_29", "domain": "General Productivity", "secondary_domains": [], "rationale": "Inspects disk usage of a directory."}
+{"item_id": "BP1-multi_turn_base_30", "domain": "Document Work", "secondary_domains": ["Information Retrieval"], "rationale": "Finds or opens a document and displays its contents."}
+{"item_id": "BP1-multi_turn_base_31", "domain": "Document Work", "secondary_domains": ["General Productivity", "Information Retrieval"], "rationale": "Organizes documents and extracts or counts content in a text file."}
+{"item_id": "BP1-multi_turn_base_32", "domain": "Document Work", "secondary_domains": [], "rationale": "Reads a draft and counts its characters."}
+{"item_id": "BP1-multi_turn_base_33", "domain": "Information Retrieval", "secondary_domains": [], "rationale": "Locates a Python filename; does not request code editing or execution."}
+{"item_id": "BP1-multi_turn_base_34", "domain": "Document Work", "secondary_domains": [], "rationale": "Reads the last line of a document."}
+{"item_id": "BP1-multi_turn_base_35", "domain": "Information Retrieval", "secondary_domains": ["Document Work"], "rationale": "Finds a configuration filename and reads its last line; no coding change requested."}
+{"item_id": "BP1-multi_turn_base_36", "domain": "Document Work", "secondary_domains": [], "rationale": "Creates a named document or data file."}
+{"item_id": "BP1-multi_turn_base_37", "domain": "Document Work", "secondary_domains": [], "rationale": "Counts lines in the files of a directory."}
+{"item_id": "BP1-multi_turn_base_38", "domain": "General Productivity", "secondary_domains": ["Information Retrieval", "Document Work"], "rationale": "Locates and deletes a research file and its directory."}
+{"item_id": "BP1-multi_turn_base_39", "domain": "General Productivity", "secondary_domains": [], "rationale": "Creates a directory; no source-code implementation is requested."}
+{"item_id": "BP1-multi_turn_base_40", "domain": "Information Retrieval", "secondary_domains": [], "rationale": "Requests a local directory inventory, including hidden entries."}
+{"item_id": "BP1-multi_turn_base_41", "domain": "Communication", "secondary_domains": ["Information Retrieval"], "rationale": "Forwards existing notes to a named recipient after locating them."}
+{"item_id": "BP1-multi_turn_base_42", "domain": "Document Work", "secondary_domains": [], "rationale": "Creates a named document or data file."}
+{"item_id": "BP1-multi_turn_base_43", "domain": "Information Retrieval", "secondary_domains": [], "rationale": "Requests a local directory inventory, including hidden entries."}
+{"item_id": "BP1-multi_turn_base_44", "domain": "Document Work", "secondary_domains": [], "rationale": "Writes specified text into a named document; content subject matter does not turn storage into analysis."}
+{"item_id": "BP1-multi_turn_base_45", "domain": "Information Retrieval", "secondary_domains": [], "rationale": "Locates a file or directory by its name or stated description."}
+{"item_id": "BP1-multi_turn_base_46", "domain": "General Productivity", "secondary_domains": [], "rationale": "Deletes directory contents and the directory itself."}
+{"item_id": "BP1-multi_turn_base_47", "domain": "Information Retrieval", "secondary_domains": [], "rationale": "Locates a file or directory by its name or stated description."}
+{"item_id": "BP1-multi_turn_base_48", "domain": "Information Retrieval", "secondary_domains": [], "rationale": "Lists local files and conditionally searches a named subdirectory."}
+{"item_id": "BP1-multi_turn_base_49", "domain": "Information Retrieval", "secondary_domains": [], "rationale": "Requests a local directory inventory, including hidden entries."}
+{"item_id": "BP1-multi_turn_base_50", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Unlocks vehicle doors and switches on headlights."}
+{"item_id": "BP1-multi_turn_base_51", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Inspects or changes vehicle door locks."}
+{"item_id": "BP1-multi_turn_base_52", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Starts a vehicle engine with stated conditions or related vehicle checks."}
+{"item_id": "BP1-multi_turn_base_53", "domain": "General Productivity", "secondary_domains": [], "rationale": "Converts fuel volume units; does not request vehicle control."}
+{"item_id": "BP1-multi_turn_base_54", "domain": "Device/Home Control", "secondary_domains": ["General Productivity"], "rationale": "Converts fuel units and starts the engine."}
+{"item_id": "BP1-multi_turn_base_55", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Requests refueling, sometimes with conversion, rounding, or engine startup."}
+{"item_id": "BP1-multi_turn_base_56", "domain": "Travel", "secondary_domains": [], "rationale": "Requests travel distance or route-related fuel sufficiency."}
+{"item_id": "BP1-multi_turn_base_57", "domain": "Travel", "secondary_domains": [], "rationale": "Requests travel distance or route-related fuel sufficiency."}
+{"item_id": "BP1-multi_turn_base_58", "domain": "Travel", "secondary_domains": [], "rationale": "Requests travel distance or route-related fuel sufficiency."}
+{"item_id": "BP1-multi_turn_base_59", "domain": "Travel", "secondary_domains": [], "rationale": "Requests travel distance or route-related fuel sufficiency."}
+{"item_id": "BP1-multi_turn_base_60", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Starts a vehicle engine with stated conditions or related vehicle checks."}
+{"item_id": "BP1-multi_turn_base_61", "domain": "Travel", "secondary_domains": [], "rationale": "Requests travel distance or route-related fuel sufficiency."}
+{"item_id": "BP1-multi_turn_base_62", "domain": "Travel", "secondary_domains": ["Communication"], "rationale": "Computes travel distance and sends it to a relative."}
+{"item_id": "BP1-multi_turn_base_63", "domain": "General Productivity", "secondary_domains": [], "rationale": "Converts fuel volume units; does not request vehicle control."}
+{"item_id": "BP1-multi_turn_base_64", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Starts a vehicle engine with stated conditions or related vehicle checks."}
+{"item_id": "BP1-multi_turn_base_65", "domain": "Device/Home Control", "secondary_domains": ["Communication"], "rationale": "Refuels and checks or starts the vehicle, and posts a maintenance update."}
+{"item_id": "BP1-multi_turn_base_66", "domain": "Travel", "secondary_domains": ["Device/Home Control"], "rationale": "Assesses range for a journey and conditionally sets navigation."}
+{"item_id": "BP1-multi_turn_base_67", "domain": "Travel", "secondary_domains": [], "rationale": "Requests travel distance or route-related fuel sufficiency."}
+{"item_id": "BP1-multi_turn_base_68", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Requests refueling, sometimes with conversion, rounding, or engine startup."}
+{"item_id": "BP1-multi_turn_base_69", "domain": "Device/Home Control", "secondary_domains": ["Travel"], "rationale": "Requests vehicle refueling in addition to a travel-distance estimate."}
+{"item_id": "BP1-multi_turn_base_70", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Refuels or starts the vehicle while securing doors, brakes, or checking tires."}
+{"item_id": "BP1-multi_turn_base_71", "domain": "Travel", "secondary_domains": [], "rationale": "Requests travel distance or route-related fuel sufficiency."}
+{"item_id": "BP1-multi_turn_base_72", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Requests refueling, sometimes with conversion, rounding, or engine startup."}
+{"item_id": "BP1-multi_turn_base_73", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Requests refueling, sometimes with conversion, rounding, or engine startup."}
+{"item_id": "BP1-multi_turn_base_74", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Requests refueling, sometimes with conversion, rounding, or engine startup."}
+{"item_id": "BP1-multi_turn_base_75", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Requests refueling, sometimes with conversion, rounding, or engine startup."}
+{"item_id": "BP1-multi_turn_base_76", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Starts a vehicle engine with stated conditions or related vehicle checks."}
+{"item_id": "BP1-multi_turn_base_77", "domain": "Travel", "secondary_domains": [], "rationale": "Requests travel distance or route-related fuel sufficiency."}
+{"item_id": "BP1-multi_turn_base_78", "domain": "Device/Home Control", "secondary_domains": ["Local Search"], "rationale": "Checks tire condition and conditionally seeks a nearby repair location."}
+{"item_id": "BP1-multi_turn_base_79", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Inspects or changes vehicle door locks."}
+{"item_id": "BP1-multi_turn_base_80", "domain": "Travel", "secondary_domains": [], "rationale": "Requests travel distance or route-related fuel sufficiency."}
+{"item_id": "BP1-multi_turn_base_81", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Requests refueling, sometimes with conversion, rounding, or engine startup."}
+{"item_id": "BP1-multi_turn_base_82", "domain": "Device/Home Control", "secondary_domains": ["Local Search"], "rationale": "Checks tire condition and conditionally seeks a nearby repair location."}
+{"item_id": "BP1-multi_turn_base_83", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Requests refueling, sometimes with conversion, rounding, or engine startup."}
+{"item_id": "BP1-multi_turn_base_84", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Requests refueling, sometimes with conversion, rounding, or engine startup."}
+{"item_id": "BP1-multi_turn_base_85", "domain": "Travel", "secondary_domains": [], "rationale": "Requests travel distance or route-related fuel sufficiency."}
+{"item_id": "BP1-multi_turn_base_86", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Refuels or starts the vehicle while securing doors, brakes, or checking tires."}
+{"item_id": "BP1-multi_turn_base_87", "domain": "General Productivity", "secondary_domains": [], "rationale": "Converts fuel volume units; does not request vehicle control."}
+{"item_id": "BP1-multi_turn_base_88", "domain": "General Productivity", "secondary_domains": [], "rationale": "Converts fuel volume units; does not request vehicle control."}
+{"item_id": "BP1-multi_turn_base_89", "domain": "Travel", "secondary_domains": [], "rationale": "Requests travel distance or route-related fuel sufficiency."}
+{"item_id": "BP1-multi_turn_base_90", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Requests refueling, sometimes with conversion, rounding, or engine startup."}
+{"item_id": "BP1-multi_turn_base_91", "domain": "Communication", "secondary_domains": ["Information Retrieval"], "rationale": "Requests weather information and a message to a named recipient."}
+{"item_id": "BP1-multi_turn_base_92", "domain": "Travel", "secondary_domains": [], "rationale": "Requests travel distance or route-related fuel sufficiency."}
+{"item_id": "BP1-multi_turn_base_93", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Reads current vehicle fuel state."}
+{"item_id": "BP1-multi_turn_base_94", "domain": "Device/Home Control", "secondary_domains": ["Travel"], "rationale": "Checks vehicle range and conditionally refuels for a journey."}
+{"item_id": "BP1-multi_turn_base_95", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Starts a vehicle engine with stated conditions or related vehicle checks."}
+{"item_id": "BP1-multi_turn_base_96", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Starts a vehicle engine with stated conditions or related vehicle checks."}
+{"item_id": "BP1-multi_turn_base_97", "domain": "Travel", "secondary_domains": [], "rationale": "Requests travel distance or route-related fuel sufficiency."}
+{"item_id": "BP1-multi_turn_base_98", "domain": "Device/Home Control", "secondary_domains": [], "rationale": "Inspects or changes vehicle door locks."}
+{"item_id": "BP1-multi_turn_base_99", "domain": "Device/Home Control", "secondary_domains": ["Travel"], "rationale": "Checks vehicle range and conditionally refuels for a journey."}
+{"item_id": "BP1-multi_turn_base_100", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Requests current stock information, performance, or analysis without an explicit write."}
+{"item_id": "BP1-multi_turn_base_101", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Requests current stock information, performance, or analysis without an explicit write."}
+{"item_id": "BP1-multi_turn_base_102", "domain": "Other/Unclear", "secondary_domains": [], "rationale": "Requests a stock purchase order, outside the existing explicitly read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_103", "domain": "Other/Unclear", "secondary_domains": [], "rationale": "Changes a stock watchlist, outside the existing explicitly read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_104", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Requests current stock information, performance, or analysis without an explicit write."}
+{"item_id": "BP1-multi_turn_base_105", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Requests current stock information, performance, or analysis without an explicit write."}
+{"item_id": "BP1-multi_turn_base_106", "domain": "Other/Unclear", "secondary_domains": ["Finance-like Read-only Analysis"], "rationale": "Requests financial information followed by a stock purchase; the primary order action is outside the read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_107", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Requests current stock information, performance, or analysis without an explicit write."}
+{"item_id": "BP1-multi_turn_base_108", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Reads the contents of a stock watchlist without changing it."}
+{"item_id": "BP1-multi_turn_base_109", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Retrieves stocks or symbols in a market sector."}
+{"item_id": "BP1-multi_turn_base_110", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Reads the contents of a stock watchlist without changing it."}
+{"item_id": "BP1-multi_turn_base_111", "domain": "Other/Unclear", "secondary_domains": [], "rationale": "Changes a stock watchlist, outside the existing explicitly read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_112", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Retrieves stocks or symbols in a market sector."}
+{"item_id": "BP1-multi_turn_base_113", "domain": "Other/Unclear", "secondary_domains": ["Finance-like Read-only Analysis"], "rationale": "Changes a stock watchlist and reads financial information; primary write is outside the read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_114", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Requests current stock information, performance, or analysis without an explicit write."}
+{"item_id": "BP1-multi_turn_base_115", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Requests current stock information, performance, or analysis without an explicit write."}
+{"item_id": "BP1-multi_turn_base_116", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Reads the contents of a stock watchlist without changing it."}
+{"item_id": "BP1-multi_turn_base_117", "domain": "Other/Unclear", "secondary_domains": [], "rationale": "Changes a stock watchlist, outside the existing explicitly read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_118", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Reads the contents of a stock watchlist without changing it."}
+{"item_id": "BP1-multi_turn_base_119", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Requests current stock information, performance, or analysis without an explicit write."}
+{"item_id": "BP1-multi_turn_base_120", "domain": "Other/Unclear", "secondary_domains": [], "rationale": "Requests a stock purchase order, outside the existing explicitly read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_121", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Retrieves stocks or symbols in a market sector."}
+{"item_id": "BP1-multi_turn_base_122", "domain": "Other/Unclear", "secondary_domains": [], "rationale": "Requests a stock purchase order, outside the existing explicitly read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_123", "domain": "Other/Unclear", "secondary_domains": ["Finance-like Read-only Analysis"], "rationale": "Requests financial information followed by a stock purchase; the primary order action is outside the read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_124", "domain": "Other/Unclear", "secondary_domains": [], "rationale": "Requests a stock purchase order, outside the existing explicitly read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_125", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Reads the contents of a stock watchlist without changing it."}
+{"item_id": "BP1-multi_turn_base_126", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Reads the contents of a stock watchlist without changing it."}
+{"item_id": "BP1-multi_turn_base_127", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Reads the contents of a stock watchlist without changing it."}
+{"item_id": "BP1-multi_turn_base_128", "domain": "Finance-like Read-only Analysis", "secondary_domains": ["General Productivity"], "rationale": "Retrieves sector stocks and the current time."}
+{"item_id": "BP1-multi_turn_base_129", "domain": "Other/Unclear", "secondary_domains": [], "rationale": "Requests a stock purchase order, outside the existing explicitly read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_130", "domain": "Other/Unclear", "secondary_domains": [], "rationale": "Requests a stock purchase order, outside the existing explicitly read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_131", "domain": "General Productivity", "secondary_domains": [], "rationale": "Asks only for current time; mentions a trading motivation but requests no financial analysis."}
+{"item_id": "BP1-multi_turn_base_132", "domain": "Other/Unclear", "secondary_domains": ["Finance-like Read-only Analysis"], "rationale": "Changes a stock watchlist and reads financial information; primary write is outside the read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_133", "domain": "Other/Unclear", "secondary_domains": ["Finance-like Read-only Analysis"], "rationale": "Changes a stock watchlist and reads financial information; primary write is outside the read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_134", "domain": "Other/Unclear", "secondary_domains": ["Finance-like Read-only Analysis"], "rationale": "Changes a stock watchlist and reads financial information; primary write is outside the read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_135", "domain": "Other/Unclear", "secondary_domains": ["Finance-like Read-only Analysis"], "rationale": "Changes a stock watchlist and reads financial information; primary write is outside the read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_136", "domain": "Other/Unclear", "secondary_domains": ["Finance-like Read-only Analysis"], "rationale": "Requests financial information followed by a stock purchase; the primary order action is outside the read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_137", "domain": "Other/Unclear", "secondary_domains": [], "rationale": "Changes a stock watchlist, outside the existing explicitly read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_138", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Requests current stock information, performance, or analysis without an explicit write."}
+{"item_id": "BP1-multi_turn_base_139", "domain": "Other/Unclear", "secondary_domains": [], "rationale": "Changes a stock watchlist, outside the existing explicitly read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_140", "domain": "Other/Unclear", "secondary_domains": [], "rationale": "Changes a stock watchlist, outside the existing explicitly read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_141", "domain": "Other/Unclear", "secondary_domains": [], "rationale": "Changes a stock watchlist, outside the existing explicitly read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_142", "domain": "Other/Unclear", "secondary_domains": [], "rationale": "Changes a stock watchlist, outside the existing explicitly read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_143", "domain": "Other/Unclear", "secondary_domains": [], "rationale": "Changes a stock watchlist, outside the existing explicitly read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_144", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Requests current stock information, performance, or analysis without an explicit write."}
+{"item_id": "BP1-multi_turn_base_145", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Requests current stock information, performance, or analysis without an explicit write."}
+{"item_id": "BP1-multi_turn_base_146", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Reads the contents of a stock watchlist without changing it."}
+{"item_id": "BP1-multi_turn_base_147", "domain": "Communication", "secondary_domains": ["Finance-like Read-only Analysis"], "rationale": "Publishes a stock-price message with hashtag and mention."}
+{"item_id": "BP1-multi_turn_base_148", "domain": "Other/Unclear", "secondary_domains": [], "rationale": "Requests a stock purchase order, outside the existing explicitly read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_149", "domain": "Other/Unclear", "secondary_domains": ["Finance-like Read-only Analysis"], "rationale": "Changes a stock watchlist and reads financial information; primary write is outside the read-only finance domain."}
+{"item_id": "BP1-multi_turn_base_150", "domain": "Travel", "secondary_domains": [], "rationale": "Requests airfare for a specified route, date, or travel class."}
+{"item_id": "BP1-multi_turn_base_151", "domain": "Travel", "secondary_domains": ["Finance-like Read-only Analysis"], "rationale": "Estimates or books a flight with an explicit currency-conversion step."}
+{"item_id": "BP1-multi_turn_base_152", "domain": "Travel", "secondary_domains": [], "rationale": "Requests flight booking, often with a fare or payment constraint."}
+{"item_id": "BP1-multi_turn_base_153", "domain": "Travel", "secondary_domains": [], "rationale": "Verifies traveler identity or passport information for travel."}
+{"item_id": "BP1-multi_turn_base_154", "domain": "Travel", "secondary_domains": [], "rationale": "Verifies traveler identity or passport information for travel."}
+{"item_id": "BP1-multi_turn_base_155", "domain": "Travel", "secondary_domains": [], "rationale": "Requests flight booking, often with a fare or payment constraint."}
+{"item_id": "BP1-multi_turn_base_156", "domain": "Travel", "secondary_domains": [], "rationale": "Requests flight booking, often with a fare or payment constraint."}
+{"item_id": "BP1-multi_turn_base_157", "domain": "Travel", "secondary_domains": [], "rationale": "Retrieves airports for travel planning."}
+{"item_id": "BP1-multi_turn_base_158", "domain": "Travel", "secondary_domains": [], "rationale": "Verifies traveler identity or passport information for travel."}
+{"item_id": "BP1-multi_turn_base_159", "domain": "Travel", "secondary_domains": [], "rationale": "Requests airfare for a specified route, date, or travel class."}
+{"item_id": "BP1-multi_turn_base_160", "domain": "Other/Unclear", "secondary_domains": [], "rationale": "Changes an account budget without a clear travel request; neither read-only finance nor another specific ontology domain fits."}
+{"item_id": "BP1-multi_turn_base_161", "domain": "Travel", "secondary_domains": [], "rationale": "Authenticates explicitly to a travel account or application."}
+{"item_id": "BP1-multi_turn_base_162", "domain": "Travel", "secondary_domains": [], "rationale": "Retrieves airports for travel planning."}
+{"item_id": "BP1-multi_turn_base_163", "domain": "Travel", "secondary_domains": [], "rationale": "Requests flight booking, often with a fare or payment constraint."}
+{"item_id": "BP1-multi_turn_base_164", "domain": "Travel", "secondary_domains": [], "rationale": "Requests airfare for a specified route, date, or travel class."}
+{"item_id": "BP1-multi_turn_base_165", "domain": "Travel", "secondary_domains": [], "rationale": "Verifies traveler identity or passport information for travel."}
+{"item_id": "BP1-multi_turn_base_166", "domain": "Travel", "secondary_domains": [], "rationale": "Requests airfare for a specified route, date, or travel class."}
+{"item_id": "BP1-multi_turn_base_167", "domain": "Travel", "secondary_domains": [], "rationale": "Requests airfare for a specified route, date, or travel class."}
+{"item_id": "BP1-multi_turn_base_168", "domain": "Finance-like Read-only Analysis", "secondary_domains": [], "rationale": "Calculates a currency conversion; no transaction execution is requested."}
+{"item_id": "BP1-multi_turn_base_169", "domain": "Travel", "secondary_domains": ["Document Work"], "rationale": "Books a flight and requests its invoice."}
+{"item_id": "BP1-multi_turn_base_170", "domain": "Travel", "secondary_domains": [], "rationale": "Requests flight booking, often with a fare or payment constraint."}
+{"item_id": "BP1-multi_turn_base_171", "domain": "Travel", "secondary_domains": [], "rationale": "Sets a travel budget and arranges a flight."}
+{"item_id": "BP1-multi_turn_base_172", "domain": "Travel", "secondary_domains": [], "rationale": "Authenticates explicitly to a travel account or application."}
+{"item_id": "BP1-multi_turn_base_173", "domain": "Travel", "secondary_domains": [], "rationale": "Requests airfare for a specified route, date, or travel class."}
+{"item_id": "BP1-multi_turn_base_174", "domain": "Travel", "secondary_domains": ["Finance-like Read-only Analysis"], "rationale": "Estimates or books a flight with an explicit currency-conversion step."}
+{"item_id": "BP1-multi_turn_base_175", "domain": "Travel", "secondary_domains": ["Document Work"], "rationale": "Books a flight and requests its invoice."}
+{"item_id": "BP1-multi_turn_base_176", "domain": "Travel", "secondary_domains": [], "rationale": "Requests flight booking, often with a fare or payment constraint."}
+{"item_id": "BP1-multi_turn_base_177", "domain": "Travel", "secondary_domains": [], "rationale": "Requests flight booking, often with a fare or payment constraint."}
+{"item_id": "BP1-multi_turn_base_178", "domain": "Travel", "secondary_domains": [], "rationale": "Purchases travel insurance, sometimes with payment-card registration."}
+{"item_id": "BP1-multi_turn_base_179", "domain": "Travel", "secondary_domains": [], "rationale": "Requests flight booking, often with a fare or payment constraint."}
+{"item_id": "BP1-multi_turn_base_180", "domain": "Travel", "secondary_domains": [], "rationale": "Sets an explicit travel-expense budget or allowance."}
+{"item_id": "BP1-multi_turn_base_181", "domain": "Travel", "secondary_domains": [], "rationale": "Verifies traveler identity or passport information for travel."}
+{"item_id": "BP1-multi_turn_base_182", "domain": "Travel", "secondary_domains": [], "rationale": "Requests airfare for a specified route, date, or travel class."}
+{"item_id": "BP1-multi_turn_base_183", "domain": "Travel", "secondary_domains": [], "rationale": "Verifies traveler identity or passport information for travel."}
+{"item_id": "BP1-multi_turn_base_184", "domain": "Travel", "secondary_domains": [], "rationale": "Requests flight booking, often with a fare or payment constraint."}
+{"item_id": "BP1-multi_turn_base_185", "domain": "Travel", "secondary_domains": [], "rationale": "Requests airfare for a specified route, date, or travel class."}
+{"item_id": "BP1-multi_turn_base_186", "domain": "Travel", "secondary_domains": [], "rationale": "Requests airfare for a specified route, date, or travel class."}
+{"item_id": "BP1-multi_turn_base_187", "domain": "Travel", "secondary_domains": [], "rationale": "Purchases travel insurance, sometimes with payment-card registration."}
+{"item_id": "BP1-multi_turn_base_188", "domain": "Travel", "secondary_domains": [], "rationale": "Requests airfare for a specified route, date, or travel class."}
+{"item_id": "BP1-multi_turn_base_189", "domain": "Travel", "secondary_domains": [], "rationale": "Requests flight booking, often with a fare or payment constraint."}
+{"item_id": "BP1-multi_turn_base_190", "domain": "Travel", "secondary_domains": [], "rationale": "Requests flight booking, often with a fare or payment constraint."}
+{"item_id": "BP1-multi_turn_base_191", "domain": "Travel", "secondary_domains": [], "rationale": "Verifies traveler identity or passport information for travel."}
+{"item_id": "BP1-multi_turn_base_192", "domain": "Travel", "secondary_domains": [], "rationale": "Retrieves airports for travel planning."}
+{"item_id": "BP1-multi_turn_base_193", "domain": "Travel", "secondary_domains": [], "rationale": "Authenticates explicitly to a travel account or application."}
+{"item_id": "BP1-multi_turn_base_194", "domain": "Travel", "secondary_domains": [], "rationale": "Requests airfare for a specified route, date, or travel class."}
+{"item_id": "BP1-multi_turn_base_195", "domain": "Travel", "secondary_domains": [], "rationale": "Requests flight booking, often with a fare or payment constraint."}
+{"item_id": "BP1-multi_turn_base_196", "domain": "Travel", "secondary_domains": [], "rationale": "Sets an explicit travel-expense budget or allowance."}
+{"item_id": "BP1-multi_turn_base_197", "domain": "Travel", "secondary_domains": [], "rationale": "Purchases travel insurance, sometimes with payment-card registration."}
+{"item_id": "BP1-multi_turn_base_198", "domain": "Travel", "secondary_domains": ["Communication"], "rationale": "Requests a flight booking, subsequently cancellation, and a social post about the canceled trip."}
+{"item_id": "BP1-multi_turn_base_199", "domain": "Travel", "secondary_domains": [], "rationale": "Requests flight booking, often with a fare or payment constraint."}

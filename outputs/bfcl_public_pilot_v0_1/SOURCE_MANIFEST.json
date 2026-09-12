@@ -1,0 +1,10 @@
+{
+  "source_url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v4_multi_turn_base.json",
+  "source_sha256": "1a21a995d06fd6f20ba55de7bced30ef953ec35e998f502ec2ecf4d66ef1c43a",
+  "source_rows": 200,
+  "license_url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/LICENSE",
+  "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+  "license_record": "Pinned repository Apache-2.0 declaration; preserved notice, no new blanket license.",
+  "changes": "Only first user turn retained, literal six-word prefix derived; later dialogue, initial states, credentials in initial states, tool paths and references omitted. Prefix-only proposals and reuse labels are new AI annotations, not official BFCL labels.",
+  "copyright_notice": "Source: ShishirPatil/gorilla, Berkeley Function Calling Leaderboard; see preserved license and source URL."
+}

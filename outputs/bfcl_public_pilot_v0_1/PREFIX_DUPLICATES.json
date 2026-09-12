@@ -1,0 +1,19 @@
+{
+  "unique_prefixes": 199,
+  "repeated_prefix_groups": [
+    {
+      "prefix": "Arrange a complete listing of all",
+      "items": [
+        "BP1-multi_turn_base_40",
+        "BP1-multi_turn_base_43"
+      ],
+      "statuses": [
+        "abstain",
+        "abstain"
+      ],
+      "distinct_proposed_artifacts": 0,
+      "same_completed_instruction": true
+    }
+  ],
+  "interpretation": "AI session generation is not demonstrated deterministic. Same-prefix proposal variations and template dependence are preserved; no majority recoding or deduplication."
+}
