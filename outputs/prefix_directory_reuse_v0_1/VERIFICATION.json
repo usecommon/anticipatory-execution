@@ -1,0 +1,12 @@
+{
+  "status": "PASS_STORED_EVIDENCE",
+  "scheduled_verified": 27,
+  "payload_fields_and_literal_prefixes_verified": true,
+  "receipt_trace_links_verified": true,
+  "positive_execution_witnesses": 8,
+  "witness_source_records": 4,
+  "witness_instruction_groups": 3,
+  "unsupported_early_proposals": 4,
+  "research_usefulness_labels_created": 0,
+  "scope": "Stored evidence/provenance verification; not validation of rubric labels or deployment utility"
+}

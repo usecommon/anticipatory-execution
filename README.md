@@ -50,6 +50,8 @@ The [accepted council recommendations](outputs/evaluation_contract_v0_1/README.m
 
 The [original-context directory adapter](outputs/public_directory_adapter_v0_1/README.md) restores all nine selected filesystem contexts. Four first-turn final-task replays passed; five unsupported cases remain. None of the four targets contains hidden entries, so flag variants are observationally equivalent. This creates no usefulness labels or thesis result; isolated prefix-only candidate construction is next.
 
+The [prefix-only directory reuse run](outputs/prefix_directory_reuse_v0_1/README.md) produced 12 proposals and 15 abstentions across 27 checkpoints. Eight early listings supported correct final tasks without another listing, across four records/three instruction groups. Four early actions lack a final checker. These are authored-rule, static-oracle execution witnesses, not new usefulness labels or model evidence.
+
 ## Current state
 
 - **G0 PASS, scoped:** canonical-v0.5, frozen Qwen2.5-7B-Instruct, NVIDIA A100-SXM4-40GB, FP32 eager, physical shape [1,128], active length 1..128, serial prefixes, explicit positions/masks, cache off. Two fresh Modal containers passed 8,427 checks each; 155 cross-container cases matched bitwise.

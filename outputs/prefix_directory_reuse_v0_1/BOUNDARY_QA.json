@@ -1,0 +1,52 @@
+{
+  "status": "PASS_SOFTWARE_ONLY",
+  "checks": [
+    {
+      "name": "listing_trigger",
+      "status": "PASS"
+    },
+    {
+      "name": "early_no_trigger",
+      "status": "PASS"
+    },
+    {
+      "name": "explicit_hidden_exclusion",
+      "status": "PASS"
+    },
+    {
+      "name": "target_mismatch_abstains",
+      "status": "PASS"
+    },
+    {
+      "name": "visible_context_change_matters",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_extra_future_result_id_fields",
+      "status": "PASS"
+    },
+    {
+      "name": "evaluator_suffix_changes_do_not_change_proposal",
+      "status": "PASS"
+    },
+    {
+      "name": "input_and_result_not_shared_mutable_state",
+      "status": "PASS"
+    },
+    {
+      "name": "audited_pure_worker_imports_and_no_file_eval_calls",
+      "status": "PASS"
+    },
+    {
+      "name": "recovery_unchanged_PAYLOADS.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "recovery_unchanged_OPPORTUNITIES.jsonl",
+      "status": "PASS"
+    }
+  ],
+  "passed": 11,
+  "policy_sha256": "b17cdd10a562f5aa41f9b61d8043311628ce5901ce0e64df8070d8ee0f7554ac",
+  "research_labels_created": 0
+}

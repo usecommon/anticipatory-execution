@@ -1,0 +1,12 @@
+{
+  "scheduled": 27,
+  "eligible": 27,
+  "source_records": 9,
+  "metadata_setup_pwd_calls": 9,
+  "payload_fields": [
+    "prefix",
+    "cwd",
+    "tool_schema"
+  ],
+  "outcomes_consulted": false
+}

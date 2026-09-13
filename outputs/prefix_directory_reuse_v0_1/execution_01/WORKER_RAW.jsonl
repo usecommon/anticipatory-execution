@@ -1,0 +1,27 @@
+{"status": "abstain", "reason": "no_supported_listing_trigger", "candidate": null}
+{"status": "abstain", "reason": "no_supported_listing_trigger", "candidate": null}
+{"status": "proposed", "reason": "observed_listing_trigger", "candidate": {"operation": "ls", "directory": "/alex", "a": true}}
+{"status": "abstain", "reason": "no_supported_listing_trigger", "candidate": null}
+{"status": "abstain", "reason": "recognized_target_requires_unsupported_navigation", "candidate": null}
+{"status": "abstain", "reason": "recognized_target_requires_unsupported_navigation", "candidate": null}
+{"status": "abstain", "reason": "no_supported_listing_trigger", "candidate": null}
+{"status": "abstain", "reason": "no_supported_listing_trigger", "candidate": null}
+{"status": "abstain", "reason": "no_supported_listing_trigger", "candidate": null}
+{"status": "abstain", "reason": "no_supported_listing_trigger", "candidate": null}
+{"status": "proposed", "reason": "observed_listing_trigger", "candidate": {"operation": "ls", "directory": "/tmp", "a": true}}
+{"status": "proposed", "reason": "observed_listing_trigger", "candidate": {"operation": "ls", "directory": "/tmp", "a": true}}
+{"status": "abstain", "reason": "no_supported_listing_trigger", "candidate": null}
+{"status": "proposed", "reason": "observed_listing_trigger", "candidate": {"operation": "ls", "directory": "/alex", "a": true}}
+{"status": "proposed", "reason": "observed_listing_trigger", "candidate": {"operation": "ls", "directory": "/alex", "a": true}}
+{"status": "abstain", "reason": "no_supported_listing_trigger", "candidate": null}
+{"status": "proposed", "reason": "observed_listing_trigger", "candidate": {"operation": "ls", "directory": "/alex", "a": true}}
+{"status": "proposed", "reason": "observed_listing_trigger", "candidate": {"operation": "ls", "directory": "/alex", "a": true}}
+{"status": "abstain", "reason": "no_supported_listing_trigger", "candidate": null}
+{"status": "proposed", "reason": "observed_listing_trigger", "candidate": {"operation": "ls", "directory": "/project_directory", "a": true}}
+{"status": "proposed", "reason": "observed_listing_trigger", "candidate": {"operation": "ls", "directory": "/project_directory", "a": true}}
+{"status": "abstain", "reason": "no_supported_listing_trigger", "candidate": null}
+{"status": "abstain", "reason": "no_supported_listing_trigger", "candidate": null}
+{"status": "proposed", "reason": "observed_listing_trigger", "candidate": {"operation": "ls", "directory": "/workspace", "a": true}}
+{"status": "abstain", "reason": "no_supported_listing_trigger", "candidate": null}
+{"status": "proposed", "reason": "observed_listing_trigger", "candidate": {"operation": "ls", "directory": "/temp", "a": true}}
+{"status": "proposed", "reason": "observed_listing_trigger", "candidate": {"operation": "ls", "directory": "/temp", "a": true}}

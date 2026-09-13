@@ -1,0 +1,19 @@
+{
+  "status": "PASS_SCOPED_PREFIX_EXECUTION_WITNESSES",
+  "scheduled": 27,
+  "proposed": 12,
+  "abstained": 15,
+  "positive_execution_witnesses": 8,
+  "witness_source_records": 4,
+  "witness_instruction_groups": 3,
+  "unsupported_early_actions": 4,
+  "research_labels_created": 0,
+  "model_forwards": 0,
+  "preserved_preparation_failures": 1,
+  "execution_failures": 0,
+  "freshness": "PRIVILEGED_STATIC_ENVIRONMENT_ORACLE",
+  "H2_H3_S1_tested": false,
+  "human_G1": "PENDING_DEFERRED_EXPLORATORY_ONLY",
+  "confirmatory_extraction": "PROHIBITED",
+  "next_step": "Separate authored discriminating challenge cases and deployable freshness/completeness contract before further probes"
+}

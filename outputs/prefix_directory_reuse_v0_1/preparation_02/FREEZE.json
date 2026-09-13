@@ -1,0 +1,16 @@
+{
+  "public_directory_adapter_v0_1/restoration_attempt_01/SOURCE_PROJECTION.jsonl": "4c3f4d1278a17d6d8e552d4c97a0a81b0fc78c1e221448d1798c9196882f6fef",
+  "public_directory_adapter_v0_1/restoration_attempt_01/TASK_SPECS.jsonl": "1ab3942125893ce0ac8b53b694c92d553bf327afd7fdda4c49084382b626922b",
+  "prefix_directory_reuse_v0_1/policy.py": "b17cdd10a562f5aa41f9b61d8043311628ce5901ce0e64df8070d8ee0f7554ac",
+  "prefix_directory_reuse_v0_1/PLAN.md": "6760333774db872265767dd19b040cae6e1294801f5f95b055b4bbeb653bd147",
+  "prefix_directory_reuse_v0_1/run.py": "d213b42a2337e696b548ac110d881832cb640c6953a4a8e9cf39ce216135df61",
+  "public_directory_adapter_v0_1/PLAN.md": "20b49ac940a9a6a2a44ba757d7d646e2be3becfc4f1049340b13ba0a277b4bc5",
+  "public_directory_adapter_v0_1/SOURCE_MANIFEST.json": "4623c6b5aa36406f54b4d6d1ec40f94aa395f41d2c278ff9f1f81108fd97ad56",
+  "public_directory_adapter_v0_1/restore.py": "79a721c120d6dbeaba8b7940bd0e2a1da8b48b3fe58aa59f02df6b62be1a45c2",
+  "public_directory_adapter_v0_1/replay.py": "318a8a9f91322e4448e98298505e36c1fc4e44a69d4f2aad13867c3d1babe93c",
+  "public_directory_adapter_v0_1/CODE_INSPECTION.json": "91d36f2950ee6c91aa931bcc8505e4c394c11aedf0ecb25f515607abd0ca3e4b",
+  "public_directory_adapter_v0_1/vendor/bfcl_eval/eval_checker/multi_turn_eval/func_source_code/gorilla_file_system.py": "84173750930b09aaa31b90547c9bd79ce75714682608b35e78a9c1ea259faf2b",
+  "public_directory_adapter_v0_1/vendor/bfcl_eval/eval_checker/multi_turn_eval/func_source_code/long_context.py": "5c9a5710115609c779e5b2ccb43f6ad58271ed96f2ea7a797edb0d65c385aa38",
+  "prefix_directory_reuse_v0_1/preparation_02/OPPORTUNITIES.jsonl": "4121694e083e1e800d7cc1fdc106c072e6d3f965cc509137a9fd0db64d5a5d0b",
+  "prefix_directory_reuse_v0_1/preparation_02/PAYLOADS.jsonl": "ba62f94e8865f5b41e626cb95427151d2a93b4e8077362113d1a58daf9c05862"
+}

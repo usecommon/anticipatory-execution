@@ -1,0 +1,22 @@
+{
+  "scheduled": 27,
+  "eligible": 27,
+  "proposed": 12,
+  "abstained": 15,
+  "supported_final_checks": 12,
+  "unsupported_final_checks": 15,
+  "positive_execution_witnesses": 8,
+  "failed": 0,
+  "operation_counts": {
+    "early_ls": 12,
+    "final_fresh_ls": 4,
+    "reference_ls": 12,
+    "execution_setup_pwd": 27
+  },
+  "count_scope": "symbolic operation counts; excludes simulator construction/checker overhead, not latency or compute",
+  "metadata_setup_pwd_calls": 9,
+  "research_binary_labels_created": 0,
+  "model_forwards": 0,
+  "human_G1": "PENDING",
+  "interpretation": "Authored prefix-rule and privileged static-environment reuse witnesses on selected exposed tasks; no H2/H3/S1 inference"
+}

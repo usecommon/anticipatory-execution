@@ -1,0 +1,6 @@
+{
+  "reverse_order_equal": true,
+  "duplicate_payloads_equal": true,
+  "worker_uses_only_stdin": true,
+  "not_an_OS_sandbox": true
+}

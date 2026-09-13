@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "current_phase": "public_directory_adapter_final_task_validation",
+  "current_phase": "prefix_directory_reuse_witnesses",
   "frozen_thesis": "Do not predict what the user will type next. Predict what work will not need to be undone.",
   "G0": {
     "status": "PASS_SCOPED",
@@ -38,7 +38,7 @@
     "authorized": false,
     "performed": false
   },
-  "current_priority": "Freeze decision-visible context and prefix-only typed candidate interface for fixed directory cases; full-B1 preparation",
+  "current_priority": "Discriminating authored challenge cases kept separate from public tasks; deployable freshness/completeness definition; full-B1 preparation",
   "historical_status_policy": "Historical phase files retain their original state; this file consolidates later authorized exploratory progress",
   "numerical_neutrality_claim": false,
   "public_directory_adapter": {
@@ -48,5 +48,15 @@
     "unsupported_retained": 5,
     "new_usefulness_labels": 0,
     "source_release_admission": "PENDING"
+  },
+  "prefix_directory_reuse": {
+    "report": "outputs/prefix_directory_reuse_v0_1/README.md",
+    "scheduled": 27,
+    "proposed": 12,
+    "positive_execution_witnesses": 8,
+    "source_records_with_witnesses": 4,
+    "instruction_groups_with_witnesses": 3,
+    "new_usefulness_labels": 0,
+    "freshness": "offline privileged static-environment verification"
   }
 }
