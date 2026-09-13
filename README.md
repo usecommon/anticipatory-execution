@@ -34,6 +34,8 @@ The [later-checkpoint and human-review package](outputs/checkpoint_human_pilot_v
 
 The [fresh AI judge of the 220 review cases](outputs/checkpoint_ai_judge_v0_1/README.md) rated the main 200 as 171 reusable, 21 non-reusable and 8 unresolved, with 53 ambiguity flags. The 20 boundary cases were separately judged insufficient work. Six of 65 unchanged six-word cases changed disposition versus prior AI adjudication; human packages remain blank and unchanged.
 
+The [exploratory manifest and Modal tokenizer preflight](outputs/exploratory_preflight_v0_1/README.md) preserves all 900 scheduled opportunities across 300 tasks. All 4,013 distinct prefix inputs fit the validated width (maximum 52/128 tokens). Splits are outcome-independent; only two negative labels land in the exploratory check split. No model extraction ran; versioned entrypoint validation and public dataset admission remain pending.
+
 ## Current state
 
 - **G0 PASS, scoped:** canonical-v0.5, frozen Qwen2.5-7B-Instruct, NVIDIA A100-SXM4-40GB, FP32 eager, physical shape [1,128], active length 1..128, serial prefixes, explicit positions/masks, cache off. Two fresh Modal containers passed 8,427 checks each; 155 cross-container cases matched bitwise.

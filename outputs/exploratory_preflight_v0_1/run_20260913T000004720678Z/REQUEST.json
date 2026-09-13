@@ -1,0 +1,12 @@
+{
+  "input_sha256": "a2b4cb69d993433603e06cb6536b2579f994acbde7bdda8a92734cdfdc0709ba",
+  "launcher_sha256": "5855f93d04e888e5898a852d5e24d352461fe56b9d922b7ebb0412562bd8e946",
+  "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+  "resource_limits": {
+    "cpu": 1,
+    "memory_mib": 2048,
+    "timeout_seconds": 300,
+    "gpu": 0,
+    "retries": 0
+  }
+}

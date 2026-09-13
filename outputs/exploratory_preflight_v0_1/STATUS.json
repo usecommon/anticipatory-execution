@@ -1,0 +1,12 @@
+{
+  "gate": "exploratory_input_length_preflight",
+  "status": "PASS_SCOPED",
+  "unique_prefixes": 4013,
+  "maximum_tokens": 52,
+  "overlength": 0,
+  "G1": "PENDING_DEFERRED",
+  "exploratory_extraction": "NOT_RUN_ENTRYPOINT_VALIDATION_PENDING",
+  "public_dataset_release_eligibility": "PENDING",
+  "confirmatory_extraction": false,
+  "next": "Versioned exploratory entrypoint and regression validation"
+}

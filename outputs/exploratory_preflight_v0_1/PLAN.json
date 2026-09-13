@@ -1,0 +1,23 @@
+{
+  "confirmatory_extraction": false,
+  "grouping": [
+    "source-qualified template",
+    "normalized identical full instruction",
+    "normalized identical eligible checkpoint prefix"
+  ],
+  "human_G1": "PENDING_DEFERRED",
+  "inputs": "EXTRACTION_INPUT.jsonl only; no suffix, label, source, split or candidate artifact in tokenizer payload",
+  "label_use": "joined after fixed split; no label balancing or rerolls",
+  "resource_limit": {
+    "cpu": 1,
+    "gpu": 0,
+    "max_containers": 1,
+    "memory_mib": 2048,
+    "retries": 0,
+    "timeout_seconds": 300
+  },
+  "scope": "private AI-labeled exploratory diagnostic only; not confirmatory; source/adaptation release eligibility pending",
+  "seed": "aeb-exploratory-v0.1-20260912",
+  "split_rule": "SHA256(seed + component hash) modulo100: fit<70,tune<85,check otherwise",
+  "tokenization": "exact observed prefix, add_special_tokens=True, no chat template; dense word history through last eligible 6/12/18 checkpoint"
+}

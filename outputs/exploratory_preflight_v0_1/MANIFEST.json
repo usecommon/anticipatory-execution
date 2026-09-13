@@ -1,0 +1,41 @@
+{
+  "boundary_controls": "20 retained in original judge bundle; not prediction targets",
+  "components": 249,
+  "eligible_opportunities": 776,
+  "largest_component_tasks": 2,
+  "limitations": [
+    "Group mapping catches declared templates/exact normalized duplicates, not all semantic near-duplicates.",
+    "Shared early histories are label-free prefix states; report overlap and never fit transformations on tune/check labels.",
+    "All cases have prior development exposure; exploratory_check is not untouched confirmatory data.",
+    "Single AI labels, few negatives and selected proposal pool do not establish false-speculation risk or causal public/synthetic effects."
+  ],
+  "main_judgments": 200,
+  "scheduled_checkpoint_overlap_across_splits": 0,
+  "scheduled_opportunities": 900,
+  "shared_early_history_inputs_across_splits": 63,
+  "split_label_counts": {
+    "exploratory_check": {
+      "non_reusable": 2,
+      "reusable": 30
+    },
+    "exploratory_fit": {
+      "non_reusable": 15,
+      "reusable": 105,
+      "unresolved_reuse": 7
+    },
+    "exploratory_tune": {
+      "non_reusable": 4,
+      "reusable": 36,
+      "unresolved_reuse": 1
+    }
+  },
+  "split_task_counts": {
+    "exploratory_check": 53,
+    "exploratory_fit": 194,
+    "exploratory_tune": 53
+  },
+  "task_word_prefixes": 4656,
+  "tasks": 300,
+  "unique_dense_prefixes": 4013,
+  "unjudged_proposed": 60
+}
