@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "current_phase": "authored_directory_measurement_challenges",
+  "current_phase": "observable_interfaces_bridge_preparation",
   "frozen_thesis": "Do not predict what the user will type next. Predict what work will not need to be undone.",
   "G0": {
     "status": "PASS_SCOPED",
@@ -38,7 +38,7 @@
     "authorized": false,
     "performed": false
   },
-  "current_priority": "Resolve actual freshness/provider scope; implement missing observable-baseline capture and action-feature interfaces before further probes",
+  "current_priority": "Bounded canonical surprisal-capture QA bridge; then frozen response-code prompt/tokenizer preflight",
   "historical_status_policy": "Historical phase files retain their original state; this file consolidates later authorized exploratory progress",
   "numerical_neutrality_claim": false,
   "public_directory_adapter": {
@@ -67,5 +67,13 @@
     "unresolved_final_tasks": 1,
     "new_labels": 0,
     "real_freshness_provider": false
-  }
+  },
+  "observable_interfaces": {
+    "report": "outputs/observable_interfaces_v0_1/README.md",
+    "software_checks_passed": 15,
+    "capture_proxy_implemented": true,
+    "real_model_bridge_passed": false,
+    "full_B1": false
+  },
+  "provider_scope": "BFCL offline static-snapshot fixture, not a deployable revision metadata provider"
 }

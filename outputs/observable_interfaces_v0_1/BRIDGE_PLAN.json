@@ -1,0 +1,28 @@
+{
+  "status": "PREPARED_NOT_RUN",
+  "purpose": "Canonical capture regression QA only",
+  "input": "outputs/exploratory_entrypoint_v0_1/VALIDATION_INPUT.jsonl",
+  "input_sha256": "da1aec4b17a771adc1d2554d17fbca7b5e8c7f476370819da8e3d457aec3caa2",
+  "cases": 12,
+  "maximum_expected_model_forwards": 24,
+  "hardware": "A100-SXM4-40GB",
+  "precision": "FP32",
+  "attention": "eager",
+  "physical_shape": [
+    1,
+    128
+  ],
+  "cache": false,
+  "legacy_fields_comparison": "bitwise equality",
+  "derived_NLL_formula_atol": 1e-10,
+  "tolerance_scope": "New binary64 formula comparison only; existing G0 tolerances unchanged",
+  "resource_plan": {
+    "gpu_containers": 1,
+    "timeout_seconds": 900,
+    "retries": 0,
+    "cpus": 2,
+    "memory_mib": 49152
+  },
+  "launcher_status": "Requires versioned Modal launcher and source freeze; no launch performed",
+  "expected_scope": "Instrumentation validation; no new research input hashes, calibration or probes"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "SOFTWARE_INTERFACES_READY_BRIDGE_PENDING",
+  "provider_scope": "BFCL offline static snapshots only; no revision/incarnation operation",
+  "software_checks_passed": 15,
+  "surprisal_capture_proxy_implemented": true,
+  "real_tensor_integration_tested": false,
+  "real_model_bridge_passed": false,
+  "action_probability_interface": "Single-token response-code probabilities with raw support mass; prompt/token mapping not frozen",
+  "typed_action_persistence_implemented": true,
+  "semantic_argument_completeness_implemented": false,
+  "full_B1_complete": false,
+  "model_forwards": 0,
+  "research_labels_created": 0,
+  "human_G1": "PENDING_DEFERRED_EXPLORATORY_ONLY",
+  "confirmatory_extraction": "PROHIBITED",
+  "next_step": "Versioned Modal launcher/source freeze and bounded canonical capture bridge, then response prompt/tokenizer preflight"
+}

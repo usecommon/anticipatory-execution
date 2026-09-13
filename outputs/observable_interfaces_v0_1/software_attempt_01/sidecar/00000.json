@@ -1,0 +1,16 @@
+{
+  "ordinal": 0,
+  "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+  "token_ids_sha256": "463f2998327eb3a694145e6014444480b2235be84aa6cfd57871cc64f1cd816c",
+  "measurement_version": "prefix-nll-sidecar-v1",
+  "measurement": {
+    "scored_tokens": 1,
+    "sum_nll": 11.932056763842207,
+    "mean_nll": 11.932056763842207,
+    "per_token_nll": [
+      11.932056763842207
+    ],
+    "first_token_scored": false,
+    "arithmetic": "CPU Python binary64; fsum reduction"
+  }
+}

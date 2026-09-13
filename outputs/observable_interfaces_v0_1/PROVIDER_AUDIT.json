@@ -1,0 +1,81 @@
+{
+  "source": "outputs/public_directory_adapter_v0_1/vendor/bfcl_eval/eval_checker/multi_turn_eval/func_source_code/gorilla_file_system.py",
+  "sha256": "84173750930b09aaa31b90547c9bd79ce75714682608b35e78a9c1ea259faf2b",
+  "public_methods": [
+    {
+      "method": "pwd",
+      "line": 255
+    },
+    {
+      "method": "ls",
+      "line": 271
+    },
+    {
+      "method": "cd",
+      "line": 286
+    },
+    {
+      "method": "mkdir",
+      "line": 329
+    },
+    {
+      "method": "touch",
+      "line": 346
+    },
+    {
+      "method": "echo",
+      "line": 362
+    },
+    {
+      "method": "cat",
+      "line": 388
+    },
+    {
+      "method": "find",
+      "line": 410
+    },
+    {
+      "method": "wc",
+      "line": 449
+    },
+    {
+      "method": "sort",
+      "line": 483
+    },
+    {
+      "method": "grep",
+      "line": 504
+    },
+    {
+      "method": "du",
+      "line": 526
+    },
+    {
+      "method": "tail",
+      "line": 563
+    },
+    {
+      "method": "diff",
+      "line": 587
+    },
+    {
+      "method": "mv",
+      "line": 619
+    },
+    {
+      "method": "rm",
+      "line": 675
+    },
+    {
+      "method": "rmdir",
+      "line": 697
+    },
+    {
+      "method": "cp",
+      "line": 724
+    }
+  ],
+  "revision_incarnation_query_available": false,
+  "scope_decision": "Offline static snapshot fixture only; no real freshness metadata gate or S1 guarantee",
+  "basis": "Public methods and previously inspected implementation; no provider-issued listing dependency revision/incarnation returned by pwd/ls"
+}

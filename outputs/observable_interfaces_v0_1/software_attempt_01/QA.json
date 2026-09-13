@@ -1,0 +1,74 @@
+{
+  "status": "PASS_SOFTWARE_ONLY",
+  "checks": [
+    {
+      "name": "causal_token_shift",
+      "status": "PASS"
+    },
+    {
+      "name": "unused_final_row",
+      "status": "PASS"
+    },
+    {
+      "name": "singleton_unscored",
+      "status": "PASS"
+    },
+    {
+      "name": "active_row_mismatch_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "nonfinite_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "vocabulary_id_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "raw_and_conditional_probability_distinction",
+      "status": "PASS"
+    },
+    {
+      "name": "tiny_support_mass_not_hidden_by_normalization",
+      "status": "PASS"
+    },
+    {
+      "name": "ambiguous_code_tokens_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "missing_action_support_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "typed_identity_independent_of_dict_order",
+      "status": "PASS"
+    },
+    {
+      "name": "argument_change_and_missing_history",
+      "status": "PASS"
+    },
+    {
+      "name": "other_target_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "capture_proxy_same_state_and_ID_objects",
+      "status": "PASS"
+    },
+    {
+      "name": "capture_rejects_wrong_canonical_vocab",
+      "status": "PASS"
+    }
+  ],
+  "passed": 15,
+  "real_torch_or_model_used": false,
+  "real_model_bridge_passed": false,
+  "full_B1_complete": false,
+  "source_sha256": {
+    "observable.py": "cc7d55c53637da8f1ccb12a2fb3c995f98298bd4db6bd84add1bb3434085ba12",
+    "capture.py": "e741bbabba2cfe3e2760bfd21f5fbd0cf71ca84914feb7d02dfbd5a72df8940f",
+    "test_interfaces.py": "38206d04a7743a31057945514ed64fd08f8e3ff9151792ae6526f6694655097d"
+  }
+}

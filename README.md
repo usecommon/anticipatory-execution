@@ -54,6 +54,8 @@ The [prefix-only directory reuse run](outputs/prefix_directory_reuse_v0_1/README
 
 The [separate authored directory challenges](outputs/directory_challenges_v0_1/README.md) matched all 14 mechanical expectations: 12 correct tasks, one exposed stale-result failure, one unresolved environment. The mocked metadata guard distinguishes refusal, consumption and offline reuse witnesses. No public cases or labels changed; actual provider freshness and full B1 remain open.
 
+The [observable-interface package](outputs/observable_interfaces_v0_1/README.md) implements a full-prefix NLL capture proxy, response-code probability accounting and typed action persistence; 15 software checks passed. Real tensor/model bridging, action prompts and semantic completeness remain pending. BFCL is explicitly scoped to offline static snapshots because it lacks revision metadata.
+
 ## Current state
 
 - **G0 PASS, scoped:** canonical-v0.5, frozen Qwen2.5-7B-Instruct, NVIDIA A100-SXM4-40GB, FP32 eager, physical shape [1,128], active length 1..128, serial prefixes, explicit positions/masks, cache off. Two fresh Modal containers passed 8,427 checks each; 155 cross-container cases matched bitwise.

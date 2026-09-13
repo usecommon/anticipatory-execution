@@ -1,0 +1,7 @@
+{
+  "README.md": "96c4486f33fcd2b8732f6682cf8b8ae47aa6e3ffa29c9a9643efd21a713dda6a",
+  "PROVIDER_AUDIT.json": "1af83f9f2a178db34b9ed29773841d10b928a9b50027eb8de9da5803b9d7e183",
+  "observable.py": "cc7d55c53637da8f1ccb12a2fb3c995f98298bd4db6bd84add1bb3434085ba12",
+  "capture.py": "e741bbabba2cfe3e2760bfd21f5fbd0cf71ca84914feb7d02dfbd5a72df8940f",
+  "test_interfaces.py": "38206d04a7743a31057945514ed64fd08f8e3ff9151792ae6526f6694655097d"
+}

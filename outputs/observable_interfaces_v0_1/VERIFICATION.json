@@ -1,0 +1,9 @@
+{
+  "status": "PASS_SOURCE_AND_SOFTWARE_EVIDENCE",
+  "frozen_test_inputs_unchanged": true,
+  "passed_checks": 15,
+  "provider_source_hash_verified": true,
+  "bridge_syntax_checked": true,
+  "bridge_executed": false,
+  "full_B1_complete": false
+}
