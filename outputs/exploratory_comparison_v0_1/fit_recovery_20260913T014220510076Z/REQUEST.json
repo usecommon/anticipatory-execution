@@ -1,0 +1,7 @@
+{
+  "feature_sha256": "75b743e8e2bd5b80c11e23c347159ee7e504d58b47b93c34c0bbaba23a1cc507",
+  "fit_source_sha256": "2f3d97718de70bd4fda0e231742d0d6bae75eba1afa882f84919edc3f78478ab",
+  "launcher_sha256": "61307c43c0f33c2374e048b7995a4a968ef63677d3c763519c0ece9580327dd9",
+  "source_run": "run_20260913T013948081119Z",
+  "change": "JSON scalar serialization only"
+}

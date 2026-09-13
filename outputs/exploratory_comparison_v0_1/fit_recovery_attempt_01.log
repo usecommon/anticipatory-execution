@@ -1,0 +1,16 @@
+✓ Initialized. View run at 
+https://modal.com/apps/jeff-34667/main/ap-FTpJJM4R3zjkOTbZsmTlbB
+✓ Created objects.
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/outputs/anticipatory-execution/outputs/exploratory_comparison_v0_1/modal
+│   _fit_recovery.py
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/outputs/anticipatory-execution/outputs/exploratory_comparison_v0_1/fit.p
+│   y
+└── 🔨 Created function fit_diagnostic.
+PASS_DIAGNOSTIC
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/jeff-34667/main/ap-FTpJJM4R3zjkOTbZsmTlbB

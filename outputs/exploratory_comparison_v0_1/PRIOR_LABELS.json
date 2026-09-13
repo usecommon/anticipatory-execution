@@ -1,0 +1,1952 @@
+[
+  {
+    "item_id": "CP1-SP1-S-SX1-F004-K-W6",
+    "prior_item_id": "SP1-S-SX1-F004-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F004-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The procedure specifies destination/nonstop filtering, fare normalization, and like-for-like flight comparisons.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The prepared destination and nonstop filters match the completed comparison task.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The prepared destination and nonstop filters match the completed comparison task.",
+      "blind_id": "J040"
+    },
+    "new_judgment": {
+      "item_id": "J001",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare nonstop-flight comparison algorithm: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The nonstop Eastport filter and fare comparison remain applicable.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_0-W6",
+    "prior_item_id": "SP1-P-multi_turn_base_0",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-P-multi_turn_base_0",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The draft specifies source validation, destination collision rejection, exclusive movement, and verification.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Source validation and no-overwrite move staging survive insertion of the temp destination and its directory-creation prerequisite.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: Source validation and no-overwrite move staging survive insertion of the temp destination and its directory-creation prerequisite.",
+      "blind_id": "J015"
+    },
+    "new_judgment": {
+      "item_id": "J004",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft a guarded move plan for final_report.pdf: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 0.9,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Source checks and exclusive move staging survive destination binding and adding directory creation.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F010-K-W6",
+    "prior_item_id": "SP1-S-SX1-F010-K",
+    "prior_disposition": "non_reusable",
+    "new_disposition": "non_reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F010-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The draft defines a specific three-attribute dominance relation and Pareto-layer ranking.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.3,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The capacity filter survives but Pareto layers over three attributes must be replaced by the requested weight-only ranking.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The capacity filter survives but Pareto layers over three attributes must be replaced by the requested weight-only ranking.",
+      "blind_id": "J077"
+    },
+    "new_judgment": {
+      "item_id": "J005",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare 15-litre bag ranking method: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.3,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "Pareto ranking across price, opening and weight must become a weight-only ordering; capacity filtering survives.",
+      "decision_reason": "Substantive preparation requires material replacement or has no established role in the final task."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F005-K-W6",
+    "prior_item_id": "SP1-S-SX1-F005-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F005-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The query constructs Italian restaurant alternatives around Cedar Square with irrelevant-result exclusions.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Italian-restaurant discovery remains useful before applying the outdoor-seating filter.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: Italian-restaurant discovery remains useful before applying the outdoor-seating filter.",
+      "blind_id": "J044"
+    },
+    "new_judgment": {
+      "item_id": "J012",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare restaurant discovery query: concrete query construction establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Italian restaurant discovery can be narrowed to outdoor seating.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F013-K-W6",
+    "prior_item_id": "SP1-S-SX1-F013-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F013-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The query expands desk-converter terms and explicitly filters mounting types.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Freestanding-converter discovery is compatible with the final exclusion and later price filtering.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: Freestanding-converter discovery is compatible with the final exclusion and later price filtering.",
+      "blind_id": "J078"
+    },
+    "new_judgment": {
+      "item_id": "J020",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare desk-converter discovery query: concrete query construction establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The query already seeks freestanding converters and can be price-filtered.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F044-R-W6",
+    "prior_item_id": "SP1-S-SX1-F044-R",
+    "prior_disposition": "non_reusable",
+    "new_disposition": "non_reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F044-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The artifact selects five named artist/tune candidates and gives instrumental-recording selection guidance.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.2,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The instrumental sequence must be replaced with verified vocal recordings, even if some compositions also have vocal versions.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The instrumental sequence must be replaced with verified vocal recordings, even if some compositions also have vocal versions.",
+      "blind_id": "J074"
+    },
+    "new_judgment": {
+      "item_id": "J026",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft upbeat instrumental jazz playlist: concrete draft content establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "An instrumental recording playlist must be replaced with vocal tracks.",
+      "decision_reason": "Substantive preparation requires material replacement or has no established role in the final task."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F024-R-W6",
+    "prior_item_id": "SP1-S-SX1-F024-R",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F024-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The revenue algorithm specifies comparable-unit checks, scale normalization, signed change, and zero-baseline handling.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The equations and comparability checks contain no Acme-specific input or retrieval filter and accept Beacon revenue observations unchanged.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The equations and comparability checks contain no Acme-specific input or retrieval filter and accept Beacon revenue observations unchanged.",
+      "blind_id": "J028"
+    },
+    "new_judgment": {
+      "item_id": "J027",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare a two-observation revenue comparison algorithm: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The company-independent two-value comparison accepts Beacon observations without rewriting its arithmetic.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F040-K-W6",
+    "prior_item_id": "SP1-S-SX1-F040-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F040-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The artifact computes a specific Fahrenheit-to-Celsius result and defines unit/rounding-aware unsent staging.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The 70 F conversion and unsent staging rule remain reusable when the current-setting comparison is added.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The 70 F conversion and unsent staging rule remain reusable when the current-setting comparison is added.",
+      "blind_id": "J030"
+    },
+    "new_judgment": {
+      "item_id": "J028",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare a thermostat temperature conversion and unsent staging rule: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 0.9,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The temperature conversion and unsent staging logic survive adding the current-setting condition.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_19-W6",
+    "prior_item_id": "SP1-P-multi_turn_base_19",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-P-multi_turn_base_19",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The find command defines a real exact-name regular-file operation despite parameterized root and filename.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The exact-name file-search operation accepts the completed filename and current-directory scope as arguments.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The exact-name file-search operation accepts the completed filename and current-directory scope as arguments.",
+      "blind_id": "J031"
+    },
+    "new_judgment": {
+      "item_id": "J034",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft exact-name file search skeleton: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The parameterized exact-name find command needs only supplied argument binding.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_116-W6",
+    "prior_item_id": "SP1-P-multi_turn_base_116",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-P-multi_turn_base_116",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The draft specifies watchlist deduplication keys, price-change calculations, and timestamp handling.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 0.4,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "Exchange/ticker deduplication and display names support the requested watchlist listing; price-change computation and time-series ordering are extra work.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: Exchange/ticker deduplication and display names support the requested watchlist listing; price-change computation and time-series ordering are extra work.",
+      "blind_id": "J079"
+    },
+    "new_judgment": {
+      "item_id": "J042",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare stock-watchlist descriptive analysis: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 0.4,
+      "confidence_1_to_5": 3,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "Watchlist identity deduplication survives, while performance calculations exceed a contents listing.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F038-R-W6",
+    "prior_item_id": "SP1-S-SX1-F038-R",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F038-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The procedure specifies paired resume evidence extraction, date-duration handling, and differences-only presentation.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 0.9,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "Evidence extraction and paired resume differences remain reusable inputs to the recommendation; the no-selection presentation instruction must be relaxed.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: Evidence extraction and paired resume differences remain reusable inputs to the recommendation; the no-selection presentation instruction must be relaxed.",
+      "blind_id": "J061"
+    },
+    "new_judgment": {
+      "item_id": "J044",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft evidence-based resume comparison algorithm: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 0.85,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "Evidence extraction and comparison survive adding a recommendation; the no-selection presentation rule changes.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F006-R-W6",
+    "prior_item_id": "SP1-S-SX1-F006-R",
+    "prior_disposition": "non_reusable",
+    "new_disposition": "non_reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F006-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The query combines Birch Park with bakery synonyms and irrelevant-result exclusions.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.2,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The bakery-specific query must be replaced with pharmacy discovery.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The bakery-specific query must be replaced with pharmacy discovery.",
+      "blind_id": "J072"
+    },
+    "new_judgment": {
+      "item_id": "J053",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare bakery discovery query: concrete query construction establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Bakery discovery is superseded by pharmacy discovery.",
+      "decision_reason": "Substantive preparation requires material replacement or has no established role in the final task."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F043-K-W6",
+    "prior_item_id": "SP1-S-SX1-F043-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F043-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The query expands robotics/documentary terminology and excludes fiction and trailers.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Robotics documentary discovery remains reusable before filtering runtime.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: Robotics documentary discovery remains reusable before filtering runtime.",
+      "blind_id": "J051"
+    },
+    "new_judgment": {
+      "item_id": "J054",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare robotics documentary query: concrete query construction establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Robotics documentary discovery can be filtered by runtime.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F016-R-W6",
+    "prior_item_id": "SP1-S-SX1-F016-R",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F016-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The algorithm intersects working hours and subtracts merged busy intervals to derive available slots.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The but-only clause supersedes the earlier after-10 condition, and the artifact has no time-of-day binding; its weekly free-interval computation accepts the before-10 filter unchanged.",
+      "decision_reason": "Resolved the frozen-rating disagreement from the artifact itself: The but-only clause supersedes the earlier after-10 condition, and the artifact has no time-of-day binding; its weekly free-interval computation accepts the before-10 filter unchanged.",
+      "blind_id": "J080"
+    },
+    "new_judgment": {
+      "item_id": "J056",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft free-slot intersection algorithm: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The free-interval algorithm has no after-10 restriction and supports filtering to before 10.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F038-K-W6",
+    "prior_item_id": "SP1-S-SX1-F038-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F038-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The procedure specifies paired resume evidence extraction, date-duration handling, and differences-only presentation.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The evidence-based difference procedure already avoids recommending a candidate.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The evidence-based difference procedure already avoids recommending a candidate.",
+      "blind_id": "J050"
+    },
+    "new_judgment": {
+      "item_id": "J058",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft evidence-based resume comparison algorithm: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Evidence-only resume comparison matches the differences-only request.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F022-K-W6",
+    "prior_item_id": "SP1-S-SX1-F022-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F022-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The artifact expands hidden-state probing terminology into two literature queries and specifies publication verification.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The literature expressions and publication-record verification implement the final peer-reviewed requirement.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The literature expressions and publication-record verification implement the final peer-reviewed requirement.",
+      "blind_id": "J086"
+    },
+    "new_judgment": {
+      "item_id": "J063",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare literature queries and a publication-status filter: concrete query construction establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Literature queries and publication verification implement the peer-review requirement.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F006-K-W6",
+    "prior_item_id": "SP1-S-SX1-F006-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F006-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The query constructs bakery synonyms and location terms around Birch Park with recipe exclusions.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The geographic bakery query remains a usable discovery step before checking coffee service and the listed options.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The geographic bakery query remains a usable discovery step before checking coffee service and the listed options.",
+      "blind_id": "J062"
+    },
+    "new_judgment": {
+      "item_id": "J064",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare a bakery discovery query for Birch Park: concrete query construction establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Bakery location discovery survives adding the coffee filter and listed candidates.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F009-K-W6",
+    "prior_item_id": "SP1-S-SX1-F009-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F009-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The query specifies manufacturer discovery with actuator synonyms and manufacturing-address verification.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Manufacturer discovery remains needed as its own retained branch alongside the added distributor work.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: Manufacturer discovery remains needed as its own retained branch alongside the added distributor work.",
+      "blind_id": "J084"
+    },
+    "new_judgment": {
+      "item_id": "J067",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare an actuator-manufacturer research query: concrete query construction establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "Manufacturer discovery survives because manufacturers remain required; distributors can be researched separately.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F011-R-W6",
+    "prior_item_id": "SP1-S-SX1-F011-R",
+    "prior_disposition": "non_reusable",
+    "new_disposition": "non_reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F011-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The query constructs material and collar synonyms and a genuine-suede exclusion.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The query binds fabric, color, and collar to discarded options and must be rebuilt for black cotton lapel jackets.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The query binds fabric, color, and collar to discarded options and must be rebuilt for black cotton lapel jackets.",
+      "blind_id": "J011"
+    },
+    "new_judgment": {
+      "item_id": "J068",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare apparel query: concrete query construction establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The brown faux-suede stand-collar target is expressly discarded.",
+      "decision_reason": "Substantive preparation requires material replacement or has no established role in the final task."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F013-R-W6",
+    "prior_item_id": "SP1-S-SX1-F013-R",
+    "prior_disposition": "non_reusable",
+    "new_disposition": "non_reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F013-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The query expands desk-converter terms and explicitly filters mounting types.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.2,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The freestanding search terms and wall-mounted exclusion conflict with the final mounted-only requirement.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The freestanding search terms and wall-mounted exclusion conflict with the final mounted-only requirement.",
+      "blind_id": "J013"
+    },
+    "new_judgment": {
+      "item_id": "J069",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare desk-converter discovery query: concrete query construction establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Freestanding-only discovery conflicts with permanently mounted-only results.",
+      "decision_reason": "Substantive preparation requires material replacement or has no established role in the final task."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F001-R-W6",
+    "prior_item_id": "SP1-S-SX1-F001-R",
+    "prior_disposition": "non_reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": true,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F001-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The draft defines route-specific filtering, grouping keys, and fare/duration/baggage comparisons.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.65,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The exact procedure retains Eastport records, which the full request explicitly discards; the route eligibility filter must be retargeted, although grouping and comparison mechanics survive.",
+      "decision_reason": "Resolved the frozen-rating disagreement from the artifact itself: The exact procedure retains Eastport records, which the full request explicitly discards; the route eligibility filter must be retargeted, although grouping and comparison mechanics survive.",
+      "blind_id": "J075"
+    },
+    "new_judgment": {
+      "item_id": "J079",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft flight-comparison procedure: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 0.85,
+      "confidence_1_to_5": 3,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The unexecuted comparison procedure survives a destination-constant substitution; no Eastport results exist to discard.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F029-R-W6",
+    "prior_item_id": "SP1-S-SX1-F029-R",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F029-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The artifact supplies snapshot join keys, quantity/value differences, and a price-effect decomposition.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 0.9,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "Snapshot join and difference formulas retain their meaning when the reference snapshot changes to start-of-year; replacing its descriptive label is limited editing because no monthly values or results are embedded.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: Snapshot join and difference formulas retain their meaning when the reference snapshot changes to start-of-year; replacing its descriptive label is limited editing because no monthly values or results are embedded.",
+      "blind_id": "J045"
+    },
+    "new_judgment": {
+      "item_id": "J080",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft holdings reconciliation algorithm: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 0.9,
+      "confidence_1_to_5": 3,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "Snapshot reconciliation arithmetic survives binding the start-of-year input and relabeling its baseline.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F001-K-W6",
+    "prior_item_id": "SP1-S-SX1-F001-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F001-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The draft defines route-specific filtering, grouping keys, and fare/duration/baggage comparisons.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The flight comparison method can be applied to the two morning options without changing its logic.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The flight comparison method can be applied to the two morning options without changing its logic.",
+      "blind_id": "J081"
+    },
+    "new_judgment": {
+      "item_id": "J086",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft flight-comparison procedure: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The route comparison can be restricted to the listed morning flights.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_90-W6",
+    "prior_item_id": "SP1-P-multi_turn_base_90",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-P-multi_turn_base_90",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The artifact computes metric, US-gallon, and imperial-gallon conversions and a parameterized fuel cost.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 0.8,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "Both gallon conversions survive and can be rounded after resolving the unspecified gallon convention; the extra cost expression is unnecessary.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: Both gallon conversions survive and can be rounded after resolving the unspecified gallon convention; the extra cost expression is unnecessary.",
+      "blind_id": "J047"
+    },
+    "new_judgment": {
+      "item_id": "J089",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare the fuel-volume conversion and cost expression: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 0.85,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "Both gallon conversions survive rounding; the intended gallon convention remains unresolved.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F028-K-W6",
+    "prior_item_id": "SP1-S-SX1-F028-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F028-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The function defines signed budget variance and a guarded percentage calculation.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The variance function remains usable before selecting the largest overspend.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The variance function remains usable before selecting the largest overspend.",
+      "blind_id": "J003"
+    },
+    "new_judgment": {
+      "item_id": "J090",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft a budget-variance calculation function: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The variance function remains useful before selecting the largest overspend.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_7-W6",
+    "prior_item_id": "SP1-P-multi_turn_base_7",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-P-multi_turn_base_7",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The shell command checks and navigates to academic_venture with explicit failure handling.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The explicit folder-opening step survives; the later directory-placement wording is ambiguous but does not invalidate this navigation draft.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The explicit folder-opening step survives; the later directory-placement wording is ambiguous but does not invalidate this navigation draft.",
+      "blind_id": "J046"
+    },
+    "new_judgment": {
+      "item_id": "J091",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft guarded academic folder navigation: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Guarded navigation remains the requested first step before directory creation.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F046-R-W6",
+    "prior_item_id": "SP1-S-SX1-F046-R",
+    "prior_disposition": "non_reusable",
+    "new_disposition": "non_reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F046-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The query combines AI and podcast synonyms with interview and technical-topic criteria.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.45,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The technical AI search core overlaps, but interview targeting must be materially retargeted to news roundups.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The technical AI search core overlaps, but interview targeting must be materially retargeted to news roundups.",
+      "blind_id": "J041"
+    },
+    "new_judgment": {
+      "item_id": "J093",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare technical podcast search query: concrete query construction establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.2,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Interview-specific discovery conflicts with news-only selection.",
+      "decision_reason": "Substantive preparation requires material replacement or has no established role in the final task."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F011-K-W6",
+    "prior_item_id": "SP1-S-SX1-F011-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F011-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The query constructs material and collar synonyms and a genuine-suede exclusion.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The jacket query retains the requested material, color, and collar and can be narrowed by price.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The jacket query retains the requested material, color, and collar and can be narrowed by price.",
+      "blind_id": "J069"
+    },
+    "new_judgment": {
+      "item_id": "J094",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare apparel query: concrete query construction establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The jacket query remains useful under the price cap.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F012-K-W6",
+    "prior_item_id": "SP1-S-SX1-F012-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F012-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The protocol defines robotics-specific sensor, model-import, reproducibility, and export comparisons with capability dispositions.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The robotics-specific comparison protocol accepts the completed Engine R support filter without revision.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The robotics-specific comparison protocol accepts the completed Engine R support filter without revision.",
+      "blind_id": "J027"
+    },
+    "new_judgment": {
+      "item_id": "J095",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft a robotics synthetic-data comparison method: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The parameterized capability protocol accepts Engine R as its hard filter.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F044-K-W6",
+    "prior_item_id": "SP1-S-SX1-F044-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F044-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The artifact selects five named artist/tune candidates and gives instrumental-recording selection guidance.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The concrete instrumental jazz candidate list survives; exact recording identity and upbeat energy still require verification.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The concrete instrumental jazz candidate list survives; exact recording identity and upbeat energy still require verification.",
+      "blind_id": "J058"
+    },
+    "new_judgment": {
+      "item_id": "J096",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft upbeat instrumental jazz playlist: concrete draft content establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The instrumental candidate playlist survives excluding vocal recordings.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F045-R-W6",
+    "prior_item_id": "SP1-S-SX1-F045-R",
+    "prior_disposition": "non_reusable",
+    "new_disposition": "non_reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F045-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The algorithm specifies a Horror-tag exclusion and a separate disposition for untagged movies.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.15,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Removing horror titles directly contradicts the final horror-only selection.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: Removing horror titles directly contradicts the final horror-only selection.",
+      "blind_id": "J018"
+    },
+    "new_judgment": {
+      "item_id": "J100",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare non-horror movie filter: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.3,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The central non-horror exclusion must reverse; metadata handling alone survives.",
+      "decision_reason": "Substantive preparation requires material replacement or has no established role in the final task."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F047-K-W6",
+    "prior_item_id": "SP1-S-SX1-F047-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F047-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The checklist selects quantities and concrete clothing, electronics, documents, and travel essentials for three days.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 0.85,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The packing draft survives by omitting any clothing interpreted as formalwear; business and formal clothing are not fully synonymous.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The packing draft survives by omitting any clothing interpreted as formalwear; business and formal clothing are not fully synonymous.",
+      "blind_id": "J025"
+    },
+    "new_judgment": {
+      "item_id": "J106",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft a three-day business-trip packing checklist: concrete draft content establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 0.8,
+      "confidence_1_to_5": 3,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "Travel essentials survive; business clothing may need trimming depending on the meaning of formalwear.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F034-R-W6",
+    "prior_item_id": "SP1-S-SX1-F034-R",
+    "prior_disposition": "non_reusable",
+    "new_disposition": "non_reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F034-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Six concrete malformed JSON strings, valid controls, and rejection assertions supply test content.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Malformed-input rejection assertions are correctness tests and must be discarded for speed-only benchmarking.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: Malformed-input rejection assertions are correctness tests and must be discarded for speed-only benchmarking.",
+      "blind_id": "J005"
+    },
+    "new_judgment": {
+      "item_id": "J107",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft malformed-JSON test vectors: concrete draft content establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Correctness vectors and assertions are expressly excluded by speed-only benchmarking.",
+      "decision_reason": "Substantive preparation requires material replacement or has no established role in the final task."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_28-W6",
+    "prior_item_id": "SP1-P-multi_turn_base_28",
+    "prior_disposition": "unresolved_reuse",
+    "new_disposition": "unresolved_reuse",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-P-multi_turn_base_28",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The command specifies filename glob discovery for analysis-related names and retains full paths.",
+      "binary_usefulness_0_or_1": null,
+      "fractional_utility_0_to_1": null,
+      "confidence_1_to_5": 3,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The final phrase may mean analysis in the filename or in file contents; the filename-only search has unresolved applicability.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The final phrase may mean analysis in the filename or in file contents; the filename-only search has unresolved applicability.",
+      "blind_id": "J068"
+    },
+    "new_judgment": {
+      "item_id": "J108",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft a local analysis-file discovery command: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": null,
+      "fractional_utility_0_to_1": null,
+      "confidence_1_to_5": 3,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "Filename discovery is concrete, but 'analysis in it' could require content search instead.",
+      "decision_reason": "Substantive preparation; reuse remains unresolved."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F021-K-W6",
+    "prior_item_id": "SP1-S-SX1-F021-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F021-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The artifact contains concrete refund-approval wording that defers amount, method, and timing confirmation.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The approval draft does not promise a payment date and retains its approval-verification condition.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The approval draft does not promise a payment date and retains its approval-verification condition.",
+      "blind_id": "J066"
+    },
+    "new_judgment": {
+      "item_id": "J109",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft uncommitted refund approval wording: concrete draft content establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The approval draft promises no payment date.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F040-R-W6",
+    "prior_item_id": "SP1-S-SX1-F040-R",
+    "prior_disposition": "non_reusable",
+    "new_disposition": "non_reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F040-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The artifact computes a specific Fahrenheit-to-Celsius result and defines unit/rounding-aware unsent staging.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.35,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The concrete 70 F conversion must be recomputed for 68 F, although unit-checking and unsent-staging logic survives.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The concrete 70 F conversion must be recomputed for 68 F, although unit-checking and unsent-staging logic survives.",
+      "blind_id": "J057"
+    },
+    "new_judgment": {
+      "item_id": "J111",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare a thermostat temperature conversion and unsent staging rule: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.4,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The numeric 70-degree conversion must be recalculated for 68 degrees, though staging logic survives.",
+      "decision_reason": "Substantive preparation requires material replacement or has no established role in the final task."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F008-R-W6",
+    "prior_item_id": "SP1-S-SX1-F008-R",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F008-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The query constructs pharmacy synonyms, geographic scope, location/hours terms, and irrelevant-result exclusions.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The query imposes neither open-now nor non-hospital constraints, so the final hospital and hours filters can be added.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The query imposes neither open-now nor non-hospital constraints, so the final hospital and hours filters can be added.",
+      "blind_id": "J029"
+    },
+    "new_judgment": {
+      "item_id": "J115",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare pharmacy location discovery for Brookfield: concrete query construction establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "Broad pharmacy and hours discovery survives hospital, closed-now and tomorrow filtering.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_35-W6",
+    "prior_item_id": "SP1-P-multi_turn_base_35",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-P-multi_turn_base_35",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The find command specifies exact-basename regular-file discovery within a parameterized root.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Exact-basename discovery supplies the locating step needed before reading the first matching file.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: Exact-basename discovery supplies the locating step needed before reading the first matching file.",
+      "blind_id": "J014"
+    },
+    "new_judgment": {
+      "item_id": "J116",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft config.py file search: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Exact config.py discovery remains needed before selecting and reading a match.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F043-R-W6",
+    "prior_item_id": "SP1-S-SX1-F043-R",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F043-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The artifact constructs separate robotics and astronomy documentary queries with topic-specific exclusions.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 0.5,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The separate astronomy query survives unchanged while the independent robotics query is discarded.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The separate astronomy query survives unchanged while the independent robotics query is discarded.",
+      "blind_id": "J071"
+    },
+    "new_judgment": {
+      "item_id": "J118",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare separate documentary search expressions: concrete query construction establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 0.5,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The separate astronomy query survives intact; the robotics query can be discarded.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F012-R-W6",
+    "prior_item_id": "SP1-S-SX1-F012-R",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F012-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The protocol defines robotics-specific sensor, model-import, reproducibility, and export comparisons with capability dispositions.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "No engine was embedded in the protocol, so Engine S support and Engine R exclusion can fill the unresolved filter.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: No engine was embedded in the protocol, so Engine S support and Engine R exclusion can fill the unresolved filter.",
+      "blind_id": "J038"
+    },
+    "new_judgment": {
+      "item_id": "J120",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft a robotics synthetic-data comparison method: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The comparison protocol has no bound engine and can accept Engine S plus the Engine R exclusion.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F049-K-W6",
+    "prior_item_id": "SP1-S-SX1-F049-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "non_reusable",
+    "changed_disposition": true,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F049-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The artifact selects concrete vegetarian ingredients and groups proteins, grains, and produce; it is not an empty shopping-list template.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 0.35,
+      "confidence_1_to_5": 3,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "Concrete tomatoes, onions, and other suitable vegetarian ingredients can be retained while adding beans and taco-specific ingredients; the broad list survives narrowing in part without recreating those selections.",
+      "decision_reason": "Resolved the frozen-rating disagreement from the artifact itself: Concrete tomatoes, onions, and other suitable vegetarian ingredients can be retained while adding beans and taco-specific ingredients; the broad list survives narrowing in part without recreating those selections.",
+      "blind_id": "J060"
+    },
+    "new_judgment": {
+      "item_id": "J126",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft vegetarian shopping-list candidate: concrete draft content establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.3,
+      "confidence_1_to_5": 3,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "A broad staples list needs substantial replacement for bean tacos, with only some produce and grains reusable.",
+      "decision_reason": "Substantive preparation requires material replacement or has no established role in the final task."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_30-W6",
+    "prior_item_id": "SP1-P-multi_turn_base_30",
+    "prior_disposition": "reusable",
+    "new_disposition": "unresolved_reuse",
+    "changed_disposition": true,
+    "prior_judgment": {
+      "item_id": "SP1-P-multi_turn_base_30",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The two-stage command searches Apollo mentions and specified test-evidence markers in candidate files.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The Apollo-content and test-evidence searches are substantive discovery work; whether the target content contains those markers is unverified.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The Apollo-content and test-evidence searches are substantive discovery work; whether the target content contains those markers is unverified.",
+      "blind_id": "J020"
+    },
+    "new_judgment": {
+      "item_id": "J129",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare a local Apollo test-result discovery query: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": null,
+      "fractional_utility_0_to_1": null,
+      "confidence_1_to_5": 3,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The content search omits hidden-file inclusion despite a secret target; the target's visibility and contents are unknown.",
+      "decision_reason": "Substantive preparation; reuse remains unresolved."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F047-R-W6",
+    "prior_item_id": "SP1-S-SX1-F047-R",
+    "prior_disposition": "non_reusable",
+    "new_disposition": "non_reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F047-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The checklist selects quantities and concrete clothing, electronics, documents, and travel essentials for three days.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.4,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "Basic personal items survive, but business clothing and work equipment must yield to camping-specific shelter, sleep, and outdoor supplies.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: Basic personal items survive, but business clothing and work equipment must yield to camping-specific shelter, sleep, and outdoor supplies.",
+      "blind_id": "J049"
+    },
+    "new_judgment": {
+      "item_id": "J132",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft a three-day business-trip packing checklist: concrete draft content establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.4,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Camping requires substantial gear replacement and removal of business clothing, though personal essentials survive.",
+      "decision_reason": "Substantive preparation requires material replacement or has no established role in the final task."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F020-K-W6",
+    "prior_item_id": "SP1-S-SX1-F020-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F020-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The artifact contains usable dinner-decline wording, including thanks and a concrete refusal.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The refusal wording can be retained verbatim before adding a next-weekend invitation.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The refusal wording can be retained verbatim before adding a next-weekend invitation.",
+      "blind_id": "J067"
+    },
+    "new_judgment": {
+      "item_id": "J135",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft dinner-decline message: concrete draft content establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The decline message remains reusable with an added next-weekend suggestion.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_128-W6",
+    "prior_item_id": "SP1-P-multi_turn_base_128",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-P-multi_turn_base_128",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The date command specifies clock retrieval and timezone-bearing output formatting.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The timezone-bearing clock command still serves the requested current-time component alongside the added stock lookup.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The timezone-bearing clock command still serves the requested current-time component alongside the added stock lookup.",
+      "blind_id": "J001"
+    },
+    "new_judgment": {
+      "item_id": "J141",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft timezone-aware clock command: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The timestamp command remains required despite the added stock-list request.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_131-W6",
+    "prior_item_id": "SP1-P-multi_turn_base_131",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-P-multi_turn_base_131",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The date command specifies current clock retrieval and timezone-bearing formatting.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The formatted clock command still directly prepares the current-time request.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The formatted clock command still directly prepares the current-time request.",
+      "blind_id": "J032"
+    },
+    "new_judgment": {
+      "item_id": "J143",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft current-time formatting command: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The current-time command directly supports the final request.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F045-K-W6",
+    "prior_item_id": "SP1-S-SX1-F045-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F045-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The algorithm specifies a Horror-tag exclusion and a separate disposition for untagged movies.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The non-horror filter remains useful when the two-hour duration constraint is completed.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The non-horror filter remains useful when the two-hour duration constraint is completed.",
+      "blind_id": "J063"
+    },
+    "new_judgment": {
+      "item_id": "J160",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare non-horror movie filter: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Non-horror filtering survives adding a two-hour runtime constraint.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F002-K-W6",
+    "prior_item_id": "SP1-S-SX1-F002-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F002-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The query combines the named station with lodging alternatives and walking-related discovery terms.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 0.9,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "Station-specific lodging and walking discovery remains usable for the requested comparison; the two listed hotel identities are unknown, so no successful retrieval is assumed.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: Station-specific lodging and walking discovery remains usable for the requested comparison; the two listed hotel identities are unknown, so no successful retrieval is assumed.",
+      "blind_id": "J019"
+    },
+    "new_judgment": {
+      "item_id": "J162",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare hotel discovery query: concrete query construction establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Hotel discovery near Maple remains reusable for walking-distance comparison.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_127-W6",
+    "prior_item_id": "SP1-P-multi_turn_base_127",
+    "prior_disposition": "non_reusable",
+    "new_disposition": "non_reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-P-multi_turn_base_127",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The artifact supplies position-value, portfolio-weight, sector aggregation, and concentration equations.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.05,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Position valuations and portfolio concentration calculations do not provide the requested list of monitored stocks.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: Position valuations and portfolio concentration calculations do not provide the requested list of monitored stocks.",
+      "blind_id": "J064"
+    },
+    "new_judgment": {
+      "item_id": "J163",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare portfolio exposure calculations: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Held-position exposure calculations do not produce a list of monitored watchlist stocks.",
+      "decision_reason": "Substantive preparation requires material replacement or has no established role in the final task."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F032-K-W6",
+    "prior_item_id": "SP1-S-SX1-F032-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F032-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The timeout-specific search expression and configuration-to-caller trace specify concrete inspection work.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The timeout search and configuration trace directly support locating the five-second setting without edits.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The timeout search and configuration trace directly support locating the five-second setting without edits.",
+      "blind_id": "J010"
+    },
+    "new_judgment": {
+      "item_id": "J167",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft a read-only client-timeout inspection search: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Read-only timeout tracing remains useful to locate the five-second configuration.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_24-W6",
+    "prior_item_id": "SP1-P-multi_turn_base_24",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-P-multi_turn_base_24",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The command constructs a filename pattern matching draft/final and report in either ordering.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The discovery expression remains useful before comparing the draft and final report contents.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The discovery expression remains useful before comparing the draft and final report contents.",
+      "blind_id": "J048"
+    },
+    "new_judgment": {
+      "item_id": "J169",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft report-file discovery command: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Draft/final report discovery remains useful before comparing contents.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F008-K-W6",
+    "prior_item_id": "SP1-S-SX1-F008-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F008-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The query constructs pharmacy synonyms, geographic scope, location/hours terms, and irrelevant-result exclusions.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Broad pharmacy discovery remains reusable before filtering current opening status and hospital affiliation.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: Broad pharmacy discovery remains reusable before filtering current opening status and hospital affiliation.",
+      "blind_id": "J039"
+    },
+    "new_judgment": {
+      "item_id": "J171",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare pharmacy location discovery for Brookfield: concrete query construction establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Broad pharmacy discovery can be filtered for open non-hospital pharmacies.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F005-R-W6",
+    "prior_item_id": "SP1-S-SX1-F005-R",
+    "prior_disposition": "non_reusable",
+    "new_disposition": "non_reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F005-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The query constructs Italian restaurant alternatives around Cedar Square with irrelevant-result exclusions.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.2,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The cuisine-specific restaurant query must be replaced to exclude Italian and find Thai options.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The cuisine-specific restaurant query must be replaced to exclude Italian and find Thai options.",
+      "blind_id": "J070"
+    },
+    "new_judgment": {
+      "item_id": "J179",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare restaurant discovery query: concrete query construction establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Italian-specific discovery is excluded by the Thai-only correction.",
+      "decision_reason": "Substantive preparation requires material replacement or has no established role in the final task."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F010-R-W6",
+    "prior_item_id": "SP1-S-SX1-F010-R",
+    "prior_disposition": "non_reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": true,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F010-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The draft specifies a capacity/category eligibility gate and unit normalization for comparison.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.6,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The exact artifact retains only 15 L shoulder bags, which the completed task excludes; that eligibility rule requires material retargeting, although unit normalization and comparison fields survive.",
+      "decision_reason": "Resolved the frozen-rating disagreement from the artifact itself: The exact artifact retains only 15 L shoulder bags, which the completed task excludes; that eligibility rule requires material retargeting, although unit normalization and comparison fields survive.",
+      "blind_id": "J006"
+    },
+    "new_judgment": {
+      "item_id": "J180",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare bag comparison normalization: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 0.8,
+      "confidence_1_to_5": 3,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The unexecuted normalization and comparison protocol survives substituting backpack capacity and carry type.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F022-R-W6",
+    "prior_item_id": "SP1-S-SX1-F022-R",
+    "prior_disposition": "non_reusable",
+    "new_disposition": "non_reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F022-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The artifact expands hidden-state probing terminology into two literature queries and specifies publication verification.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.3,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Publication-venue targeting and mandatory peer-review verification must be changed for non-peer-reviewed reports only.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: Publication-venue targeting and mandatory peer-review verification must be changed for non-peer-reviewed reports only.",
+      "blind_id": "J037"
+    },
+    "new_judgment": {
+      "item_id": "J182",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare literature queries and a publication-status filter: concrete query construction establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.4,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The required peer-reviewed publication filter conflicts with technical-report-only selection; topic expressions survive.",
+      "decision_reason": "Substantive preparation requires material replacement or has no established role in the final task."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F009-R-W6",
+    "prior_item_id": "SP1-S-SX1-F009-R",
+    "prior_disposition": "non_reusable",
+    "new_disposition": "non_reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F009-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The query expands robotic-actuator manufacturer terminology and excludes distributors and resellers.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Manufacturer targeting and explicit distributor exclusions reverse the final distributors-only target.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: Manufacturer targeting and explicit distributor exclusions reverse the final distributors-only target.",
+      "blind_id": "J036"
+    },
+    "new_judgment": {
+      "item_id": "J183",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare manufacturer discovery query: concrete query construction establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Manufacturer-only discovery explicitly excludes the now-required distributors.",
+      "decision_reason": "Substantive preparation requires material replacement or has no established role in the final task."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F026-R-W6",
+    "prior_item_id": "SP1-S-SX1-F026-R",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F026-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The protocol specifies open-weight eligibility and controlled task evaluation including token and latency costs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The common-task reproduction protocol remains useful for independently reproduced scores; no vendor-only scores were incorporated.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The common-task reproduction protocol remains useful for independently reproduced scores; no vendor-only scores were incorporated.",
+      "blind_id": "J085"
+    },
+    "new_judgment": {
+      "item_id": "J184",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft an open-weight reasoning-model comparison protocol: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The controlled comparison protocol survives requiring independently reproduced scores.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F020-R-W6",
+    "prior_item_id": "SP1-S-SX1-F020-R",
+    "prior_disposition": "non_reusable",
+    "new_disposition": "non_reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F020-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The artifact contains usable dinner-decline wording, including thanks and a concrete refusal.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.15,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The central dinner refusal must be rewritten as an acceptance.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The central dinner refusal must be rewritten as an acceptance.",
+      "blind_id": "J023"
+    },
+    "new_judgment": {
+      "item_id": "J185",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft dinner-decline message: concrete draft content establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.2,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The refusal must be replaced by acceptance, though a thank-you phrase survives.",
+      "decision_reason": "Substantive preparation requires material replacement or has no established role in the final task."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_20-W6",
+    "prior_item_id": "SP1-P-multi_turn_base_20",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-P-multi_turn_base_20",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The guarded shell command checks and navigates to the documents directory.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The guarded documents-directory navigation remains the requested prerequisite to reading a document.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The guarded documents-directory navigation remains the requested prerequisite to reading a document.",
+      "blind_id": "J008"
+    },
+    "new_judgment": {
+      "item_id": "J193",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft guarded directory navigation command: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Guarded documents navigation remains needed before reading the first document.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F049-R-W6",
+    "prior_item_id": "SP1-S-SX1-F049-R",
+    "prior_disposition": "non_reusable",
+    "new_disposition": "non_reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F049-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The artifact selects concrete vegetarian ingredients and groups proteins, grains, and produce; it is not an empty shopping-list template.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.2,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "A few produce items survive, but a vegetarian staple list is materially insufficient for the final beef-taco ingredients.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: A few produce items survive, but a vegetarian staple list is materially insufficient for the final beef-taco ingredients.",
+      "blind_id": "J065"
+    },
+    "new_judgment": {
+      "item_id": "J196",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft vegetarian shopping-list candidate: concrete draft content establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.2,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "Vegetarian staples require substantial replacement for beef tacos, though some produce remains useful.",
+      "decision_reason": "Substantive preparation requires material replacement or has no established role in the final task."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_171-W6",
+    "prior_item_id": "SP1-P-multi_turn_base_171",
+    "prior_disposition": "non_reusable",
+    "new_disposition": "non_reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-P-multi_turn_base_171",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The query expands Beijing into two language forms and combines visitor-guide and tourism terms.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Beijing tourism and visitor-guide query content does not supply flight pricing, budget checking, or the specified booking preparation.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: Beijing tourism and visitor-guide query content does not supply flight pricing, budget checking, or the specified booking preparation.",
+      "blind_id": "J082"
+    },
+    "new_judgment": {
+      "item_id": "J198",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare Beijing trip research query: concrete query construction establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.1,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "Beijing visitor-guide discovery does not establish flight pricing or the specified budget; incidental travel context is marginal.",
+      "decision_reason": "Substantive preparation requires material replacement or has no established role in the final task."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F042-R-W6",
+    "prior_item_id": "SP1-S-SX1-F042-R",
+    "prior_disposition": "non_reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": true,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F042-R",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The draft specifies unique kitchen-ID resolution, single-room plan construction, and rejection of extra rooms.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.15,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Kitchen identity resolution and kitchen-only rejection rules must be replaced for a bedroom-only plan.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: Kitchen identity resolution and kitchen-only rejection rules must be replaced for a bedroom-only plan.",
+      "blind_id": "J026"
+    },
+    "new_judgment": {
+      "item_id": "J203",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft kitchen-only run staging logic: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 0.8,
+      "confidence_1_to_5": 3,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "The unexecuted unique-room and single-room staging logic survives substituting bedroom for kitchen.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_14-W6",
+    "prior_item_id": "SP1-P-multi_turn_base_14",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-P-multi_turn_base_14",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The command checks and navigates to ResearchDocs with a defined missing-directory branch.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The guarded navigation remains the explicitly requested prerequisite to locating report.csv.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The guarded navigation remains the explicitly requested prerequisite to locating report.csv.",
+      "blind_id": "J024"
+    },
+    "new_judgment": {
+      "item_id": "J208",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft guarded ResearchDocs navigation: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "ResearchDocs navigation remains the required first step before report.csv discovery.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F042-K-W6",
+    "prior_item_id": "SP1-S-SX1-F042-K",
+    "prior_disposition": "reusable",
+    "new_disposition": "reusable",
+    "changed_disposition": false,
+    "prior_judgment": {
+      "item_id": "SP1-S-SX1-F042-K",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The staging algorithm requires one verified kitchen room ID and rejects whole-home or additional targets.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "The mapped single-room staging algorithm already excludes other rooms and keeps the run unsent.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: The mapped single-room staging algorithm already excludes other rooms and keeps the run unsent.",
+      "blind_id": "J076"
+    },
+    "new_judgment": {
+      "item_id": "J218",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Draft kitchen-only vacuum staging logic: concrete operational logic establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": 1,
+      "fractional_utility_0_to_1": 1.0,
+      "confidence_1_to_5": 5,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Unique kitchen-room staging already enforces unsent kitchen-only scope.",
+      "decision_reason": "Substantive preparation survives without material re-execution."
+    }
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_106-W6",
+    "prior_item_id": "SP1-P-multi_turn_base_106",
+    "prior_disposition": "non_reusable",
+    "new_disposition": "unresolved_reuse",
+    "changed_disposition": true,
+    "prior_judgment": {
+      "item_id": "SP1-P-multi_turn_base_106",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "The query specifies technology-sector filings and risk/revenue sections while excluding stock-picking content.",
+      "binary_usefulness_0_or_1": 0,
+      "fractional_utility_0_to_1": 0.1,
+      "confidence_1_to_5": 4,
+      "ambiguity_flag_Y_N": "N",
+      "annotator_rationale": "Sector filing and risk research does not supply the requested current AAPL performance or order preparation.",
+      "decision_reason": "Retained the shared disposition after checking substantive content and survival: Sector filing and risk research does not supply the requested current AAPL performance or order preparation.",
+      "blind_id": "J053"
+    },
+    "new_judgment": {
+      "item_id": "J219",
+      "artifact_sufficiency": "substantive",
+      "sufficiency_rationale": "Prepare a technology-investment research query: concrete query construction establishes preparation beyond copied inputs.",
+      "binary_usefulness_0_or_1": null,
+      "fractional_utility_0_to_1": null,
+      "confidence_1_to_5": 3,
+      "ambiguity_flag_Y_N": "Y",
+      "annotator_rationale": "Broad sector filing research might help, but no supplied results establish reuse for current AAPL performance and purchase.",
+      "decision_reason": "Substantive preparation; reuse remains unresolved."
+    }
+  }
+]

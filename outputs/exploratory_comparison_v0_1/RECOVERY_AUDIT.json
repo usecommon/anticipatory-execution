@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "remote_fit_diagnostic_AST_identical": true,
+  "fitting_source_unchanged": true,
+  "features_reused": true,
+  "change": "NumPy scalar to Python scalar JSON serialization only"
+}

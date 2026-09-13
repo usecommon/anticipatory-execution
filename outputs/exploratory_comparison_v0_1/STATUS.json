@@ -1,0 +1,21 @@
+{
+  "gate": "first_AI_labeled_diagnostic_comparison",
+  "status": "COMPLETE_DIAGNOSTIC",
+  "feature_cases": 200,
+  "unique_tensors_read": 548,
+  "label_scenarios": 5,
+  "current_check_cases": 32,
+  "current_check_tasks": 28,
+  "current_check_groups": 22,
+  "current_check_negative_cases": 2,
+  "public_check_negative_cases": 0,
+  "internal_advantage": "NOT_OBSERVED_IN_THIS_DIAGNOSTIC",
+  "H2_H3_tested": false,
+  "full_B1_implemented": false,
+  "human_G1": "PENDING_DEFERRED_REVISIT_CHECKPOINT_REACHED",
+  "public_dataset_admission": "PENDING",
+  "confirmatory_extraction": false,
+  "GPU_runs": 0,
+  "validation": "PASS; source hashes, analytic checks, held-check-label invariance, independent metric replay",
+  "next": "Revisit label validity; complete strong B1 and prospectively address public negative coverage without rerolling this check split"
+}

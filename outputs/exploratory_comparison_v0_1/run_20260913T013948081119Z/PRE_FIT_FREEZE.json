@@ -1,0 +1,12 @@
+{
+  "LABELS.json": "0b6de107ef3bb8af834531e956e7f1236e47886d05a6049d95fd5a11e319820c",
+  "fit.py": "2f3d97718de70bd4fda0e231742d0d6bae75eba1afa882f84919edc3f78478ab",
+  "features.py": "177a55811baae01a1007ff506c870dfcb8d251303cb2d6d1053fc4228d92e7b4",
+  "CASES.json": "8bcc941923a9607ddaa926c8af022763fe00ab06418fec15e2058537f2e82556",
+  "PLAN.md": "5a19ab527a242835077631717abdb4414fcafa7f2582362a1cbcee305293c7ca",
+  "SOURCE_HASHES.json": "fabeba0e5a20cc19a287fa376accb570a54de3f5f18ae191e1c60835499548ba",
+  "PRIOR_LABELS.json": "a0901c5c62ca710279a853762a0d052471ebadb4a72f93c85b848f7521eafe7f",
+  "TENSOR_MANIFEST.json": "43783139ee00aff6a498f08bd2443cff8cb4c54cc4755ffd7e7c2f64fc4a4582",
+  "prepare.py": "1bfad51dc67fda31bd1cfa64b8866057de8a15062e1f510590b2f950ce2d365a",
+  "modal_compare.py": "a37e7dff017cc9f8f9a8a0ab9cac4fabbdb3922ee8748881c82d3d3d048a6135"
+}

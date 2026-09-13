@@ -1,0 +1,2202 @@
+[
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_0-W6",
+    "prefix": "Move 'final_report.pdf' within document directory to",
+    "candidate_text": "Draft a guarded move plan for final_report.pdf.\nUnexecuted algorithm: resolve document-directory/final_report.pdf as the source; require a regular file; resolve the eventual destination; reject a destination equal to the source or an already-existing target; record source and destination in an unsent move plan. If later authorized, use an exclusive no-overwrite move and verify source absence plus destination presence. Destination is absent, so no move is attempted.",
+    "execution_class": 1,
+    "input_ids": [
+      "Xc48068663e68d9e7c9bb9eeb9f9b64ea8270385399df1fb9ad1ad98f7b29da8e",
+      "X28899819227acf46cdf9eaf2d3eab33d052b3b4769a219ce4f1754035debc43f",
+      "X3789e69c0f42f94c720e2e8fbae218917ddadb0c84359337c21723f353bf9b4b"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_1-W12",
+    "prefix": "I am alex. Check if the current directory is under my name",
+    "candidate_text": "Draft current-path name checks\nfrom pathlib import Path\np = Path.cwd()\nprint({'leaf_named_alex': p.name.casefold() == 'alex', 'beneath_alex_component': any(x.name.casefold() == 'alex' for x in p.parents)})\n# A path-name match is not proof of account ownership.",
+    "execution_class": 2,
+    "input_ids": [
+      "X752702b253a00bd2270bda9a25967ef4cc8f096f5e2555ed8fe98ce296ae6d46",
+      "Xbd2b26957bf521f91eae51a7c7560c3ebeae4497f78032610bc0897f37cd924a",
+      "X9d42f0fb7f53c754510638d06890e11f103f097c2a84e8059bc6e4eb97e3cb1d"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_1-W18",
+    "prefix": "I am alex. Check if the current directory is under my name and list all the visible and",
+    "candidate_text": "Draft a directory-name check and inventory\nfrom pathlib import Path\np = Path.cwd()\nprint({'directory': str(p), 'leaf_name_matches_alex': p.name.casefold() == 'alex', 'has_alex_ancestor': any(x.name.casefold() == 'alex' for x in p.parents)})\nfor child in sorted(p.iterdir()): print(child.name)\n# Name checks do not establish filesystem ownership.",
+    "execution_class": 2,
+    "input_ids": [
+      "X60650d7b567256d1cac0a5090cff66b09c218625bc0a87b4ecdd7f75c1297b75",
+      "X6a2c4e574b67d725a72c70ecb447477430005ddec32e463498b039b7010b4b18",
+      "Xc2d66af29b47f626e68ee44d88fd743268cfe010b7e57decc702a8cbd782bb11"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_100-W18",
+    "prefix": "I'm contemplating enhancing my investment portfolio with some tech industry assets, and I've got my eye on Nvidia.",
+    "candidate_text": "Draft Nvidia disclosure discovery query\n\"Nvidia\" (\"annual report\" OR \"quarterly results\" OR \"investor relations\") -rumor -forum",
+    "execution_class": 1,
+    "input_ids": [
+      "X9fefa6cfc4bc315f2ac7e620a65b6683c980ca576d542d851072b3e186ecb190",
+      "X19d4968b6555aef5509f9b172e7f3d7024693ecab7b9f55e09ffb26d0e8b7c8c",
+      "Xe74258188cf42e6b7bee86d3cff3f4da81b68dabee78b9430a754b2abaa3d83d"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_102-W18",
+    "prefix": "Having assessed the market status, I've resolved to initiate a purchase of 100 shares of Tesla at $700",
+    "candidate_text": "Calculate proposed Tesla order notional\n100 shares \u00d7 $700 per share = $70,000 gross notional. This excludes fees and does not establish execution price, buying power or an executed order.",
+    "execution_class": 2,
+    "input_ids": [
+      "X709d43a49ecfc16b65362c48d856db0fbfa71c9318c30e5429052c277bcbccba",
+      "Xc0e1255ef9332b5f01702ffc2da80570ff76dc3445a0868ebf209fa709f5d307",
+      "X89994010991a43040d17ce97e5268e57bb74bf5fa34211348a5841e9ef31c41e"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_104-W18",
+    "prefix": "I'm interested in keeping up with Lulu Qian and her impressive achievements in the tech world, even if",
+    "candidate_text": "Draft person-specific updates query\n\"Lulu Qian\" (research OR publication OR award OR interview) -\"people search\" -address",
+    "execution_class": 1,
+    "input_ids": [
+      "X5f9db5b44b16b1663d3290f5aa3d2bdf422135997faa9ecdd9838da2f443a0ea",
+      "Xdcb6dd62ace585c518ec63c9e8202ef98317a81e8740db871e2d384b3fc07a04",
+      "X9b5729af607da3f4a0518346d2624a139a35da94ec50189a7f07775c0ec8fa1e"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_106-W6",
+    "prefix": "I'm looking into investing in technology",
+    "candidate_text": "Prepare a technology-investment research query.\nUnsubmitted query: (\"technology sector\" OR \"information technology\") (\"annual report\" OR \"10-K\") (\"risk factors\" OR \"segment revenue\") -\"stock picks\" -\"get rich\". Use the resulting filings for exposure and risk research; this supplies no investment recommendation.",
+    "execution_class": 1,
+    "input_ids": [
+      "X3ae75c0141b40ad0a5d800c82424e60c954b20ca14fc6962f4f311554f444ea1",
+      "Xc227dd23b315027ea04ead89d54835c140bba2ea9aef6e9f16193cea30d779bb",
+      "X9b7d4b4bd1d22c0dae78de6e814a037b7bf378c19a459b0ebe2dfb6d83023563"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_107-W18",
+    "prefix": "Before purchasing shares in Zeta Corp, I am curious about their recent stock performance. Could you provide their",
+    "candidate_text": "Draft stock-performance disclosure query\n\"Zeta Corp\" (\"historical stock prices\" OR \"quarterly results\" OR \"investor relations\") -forum -rumor",
+    "execution_class": 1,
+    "input_ids": [
+      "X37e8090011986ae9e32b2d8c66d730a392c7b52da853565828b79adc6bd464ab",
+      "X6c8e6f63d496fdd220c6b30612899075a0bd34da04fdff1adfa0f415358336cc",
+      "X2ec7579cfcf525ab408ee78ffe19928cc1c9bd9b049b76f718ebdd92c18beb13"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_109-W18",
+    "prefix": "I heard that the technology sector is booming these days. Get me a list of potential tech stocks",
+    "candidate_text": "Draft technology equity screening rule\nWithin a verified listed-equity universe, filter sector=Technology; exclude delisted instruments and missing recent filings. Rank candidates separately by revenue growth, operating cash flow margin and debt burden; report valuation alongside each, without collapsing unlike measures into an unexplained score. Record source dates and treat missing data as unknown.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xbcd66c8e77a7261a39523894978bda575ab9bd0b17b5ac1974ad746105b4218e",
+      "X69e2a459d61c6180b5ff5ede9e9901f4e81339b7d052adfc1df3430fb6728c1b",
+      "X52c43ac8657a4b86ab1417f7bf630b88d7a25a49a5172e94b9840c04385aa352"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_11-W12",
+    "prefix": "Display all the available files located within the '/temp' directory including hidden",
+    "candidate_text": "Draft hidden-inclusive file listing\nfind /temp -mindepth 1 -maxdepth 1 -type f -print\n# Includes hidden regular files and does not recurse or modify entries.",
+    "execution_class": 1,
+    "input_ids": [
+      "X7bad81dea68293232798d3769a09199c16c2a8d275f4ff4056e955ba185aa3cf",
+      "Xa48d17396fb3d908e603412a45a96abe0bd43aa72b71eb6575fd98295d5d1eba",
+      "X65cdf0080b52e5263db7e3e8dd9f7521662f8a3b2950a9763024a0efff76cd42"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_112-W18",
+    "prefix": "Wonderful, in light of the prevailing market landscape, could we dive into the Technology sector for a bit?",
+    "candidate_text": "Draft a technology-sector research query\n\"technology sector\" (\"sector index\" OR \"sector performance\") (methodology OR constituents)",
+    "execution_class": 1,
+    "input_ids": [
+      "Xbd9f87cd92a0282edc4014399284d38cea505631086bdf3053d455943acf11cb",
+      "X2bb9a62051802c727ba48fc797751acc206040b0dc2b89314cc046df0672e846",
+      "X20c9f871414f8636a346bdc3059c089885fe5a6680311379aab7c3ffee4fad83"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_113-W18",
+    "prefix": "It would mean a lot if you could include Quasar Ltd.'s stock in my watchlist. After that's completed,",
+    "candidate_text": "Draft company identity discovery query\n\"Quasar Ltd\" (\"investor relations\" OR ticker OR exchange) -quasarframework -astronomy",
+    "execution_class": 1,
+    "input_ids": [
+      "Xfe6283b12a63d17820dc6cb59d87f5f246d80f6dc9cb5fe7927ff33d41ec1cdd",
+      "Xc844bd1ca432d2d330585299fd7d1a292967a154b1e1c5c149cde874314aee69",
+      "X5514f6cebf31e13fc058eca2b0e977d57e29488926ce4f784d8a973e69d3e1b5"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_115-W12",
+    "prefix": "I require a comprehensive analysis of the stock with Amazon, as it",
+    "candidate_text": "Draft an Amazon stock-analysis source query\nAmazon (\"investor relations\" OR \"Form 10-K\" OR \"quarterly results\") (revenue OR \"operating income\" OR \"cash flow\")",
+    "execution_class": 1,
+    "input_ids": [
+      "X025a3a06d74581f1132fcd47cded9a705066a6bf2ff0624f363b6bd86ba7c95d",
+      "Xddf2572e9f919ceee6aa75887aa2948c62e67716cc003042d0267575c9b570b0",
+      "Xab0a315496c0ed05f19b350a1a9f22f12a322dec3acd8f673a2dd4dac9d66bf1"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_116-W6",
+    "prefix": "Could you peruse my stock watchlist",
+    "candidate_text": "Prepare stock-watchlist descriptive analysis\nDeduplicate entries by exchange plus ticker, retaining display names. For supplied observations with positive reference price p0, compute change_pct=100*(p1-p0)/p0. Mark stale timestamps and missing reference prices; sort observations by timestamp then ticker, without adding securities or trade advice.",
+    "execution_class": 2,
+    "input_ids": [
+      "X928a9312428d37c584019114c083c4b0026d9b7f17ae187066fbc148e257764d",
+      "X4f747fe40c77694f418002746cd05ff7b98ab493dc40c1efcb8b036b0db07224",
+      "X9aa62d8135d594711c17e745f09f6bbe73f34dd29a22297fa609a9154d4e547e"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_119-W12",
+    "prefix": "Could you provide me with the latest stock information for Zeta Corp,",
+    "candidate_text": "Draft a current-stock source query\n\"Zeta Corp\" (\"stock quote\" OR \"investor relations\") (exchange OR ticker)",
+    "execution_class": 1,
+    "input_ids": [
+      "X47eb0f43bff43cea8227f54e7d0539e4a1a9c22b91b4005b078c2e4d72c53420",
+      "X995a5c9c5eb9a1329d8fd518dff3033c513c82824e9b121f75dccc200dbbdb1c",
+      "X6f2dc687b6ee3a29e168f13c982c9e55673ff57d9430ab331d8d3bc02df0ee27"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_119-W18",
+    "prefix": "Could you provide me with the latest stock information for Zeta Corp, including its current price and the",
+    "candidate_text": "Draft stock-quote source query\n\"Zeta Corp\" (\"stock quote\" OR \"investor relations\") (price OR exchange) -forum -rumor",
+    "execution_class": 1,
+    "input_ids": [
+      "X9978134c37fa0fcccd2a466082cfbdb1d68f9ea43a1aa393c8a4794a0ff3e87a",
+      "Xd995f9f21f7741d1697ab658b416b88b44856b84163905d31f0d8378b3679439",
+      "X0f967bc06b54eabdd3855ccd19cedbfb2607f8baa47b8f9cd37293a172a6282c"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_12-W18",
+    "prefix": "Pop on over to the 'Documents' directory and craft a new file dubbed 'summary.txt', would you? If it",
+    "candidate_text": "Draft non-overwriting file creation command\nif [ -d Documents ]; then\n  (set -C; : > Documents/summary.txt)\nelse\n  printf '%s\\n' 'Documents directory not found' >&2\nfi\n# Noclobber protects any existing summary.txt; draft only.",
+    "execution_class": 1,
+    "input_ids": [
+      "X3116c8368f867163b6c0696280c2ff88bb2842b671132edcb91d5b5e5b63fc97",
+      "X3a57456efb1aec34ffbfdc8e21abff4af39f83ebda73c66fc0b33d106e4b6a59",
+      "X904aea15e04509cc72c67ce6658874c122a0c61db284c845cfd664e67c2b32a0"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_120-W12",
+    "prefix": "After confirming the market's operational status, proceed to purchase 100 Apple shares",
+    "candidate_text": "Draft an Apple share cost estimator\ndef apple_cost(quoted_price):\n    if quoted_price <= 0: raise ValueError(\"Positive quote required\")\n    return 100 * quoted_price\n# Gross estimate for 100 shares; fees omitted; no order submission.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xd00f9736042643597b68bf08764424d9a4f3067bb55816afaf9e2a15ac57c78e",
+      "X59b3cfb48c445a33616b36c8faa09e258e044a56dcf38ee0336ffe29169bda3d",
+      "X730445591f1d2323f3d00926fa2e68e22d1ece8a06cc4e452e618ba98e0f6f66"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_122-W18",
+    "prefix": "I noticed some promising trends and want to proceed with a 'Buy' order for 100 shares of AAPL",
+    "candidate_text": "Draft uncommitted order guard\nDraft intent: BUY 100 AAPL shares. Before any submission, resolve venue/currency and order type, then require a current quote. At proposed price p and fees f, estimated debit = 100*p+f. Reject fractional/nonpositive quantity or insufficient available funds; keep status DRAFT with submission disabled.",
+    "execution_class": 3,
+    "input_ids": [
+      "X7a5004b36e3cb4df9511d305d570e5ff8f9d477b9fbfdb9b38984308fb2f7ffa",
+      "X6002091f751ecbc9f76b96c6d48a438f4d78650b8cc3607fb9f029470a884bde",
+      "X3cdf2441dc400b3770cb6f69a28064cb931db7f3e17658f8d64629943a4a897c"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_127-W6",
+    "prefix": "I\u2019m re-evaluating my current investment portfolio",
+    "candidate_text": "Prepare portfolio exposure calculations\nFor positions with quantity q_i and same-currency price p_i, compute v_i=q_i*p_i, total V=sum(v_i), and weight w_i=v_i/V if V>0. Sum weights by sector and asset class; compute concentration H=sum(w_i**2) and effective holding count 1/H. Report missing prices separately and do not calculate weights from an incomplete total.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xfe61f38e62165fe9ea1f829aaaf27c6bf6f2ba3c1926a20f9c580a9328805741",
+      "Xf8821cb9c932d0c74a5f0666b2e0bdb592863d0818d1d7a8aaf89315b55526a2",
+      "X531db8f7ea7b36d6092ae57757c59ac714907f55bbe32a5eb0a3e1812f7bcaa7"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_128-W18",
+    "prefix": "Could you ascertain the current time? It seems vital for aligning my stock market ventures seamlessly. Additionally, could",
+    "candidate_text": "Draft a timestamp command for market-time checks\npython3 -c 'from datetime import datetime, timezone; print(datetime.now(timezone.utc).isoformat()); print(datetime.now().astimezone().isoformat())'",
+    "execution_class": 1,
+    "input_ids": [
+      "X432604999e97374d7440f654129f71ac0e87b1465e1366261a00f9bad7fa7641",
+      "Xfce1e6c6620b864ee90474cdf242bac97b677400fa13996a6e24ca7b00178592",
+      "X32067e948ff94ab3f8ae250f7afb8dc5868c80932df9168e042a182ed3374642"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_128-W6",
+    "prefix": "Could you ascertain the current time?",
+    "candidate_text": "Draft timezone-aware clock command\ndate \"+%Y-%m-%d %H:%M:%S %Z (%z)\"",
+    "execution_class": 1,
+    "input_ids": [
+      "X1661ed669c5e50a27534444d51968e65e9007001e68aa9f19abc89d30e1ac8a8",
+      "X5f79397375fc46f41c372f70f7fe402d8b59ad6fb570478dc583c714b78ea558",
+      "X1734c4c5c500592cc95bc3a674ce84f0def81b4c22e8554d4f0ec1c22e9ea869"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_13-W18",
+    "prefix": "In documents directory, there's a file that piques my curiosity regarding its contents. It's alphabetically first file in",
+    "candidate_text": "Draft alphabetical-first file read algorithm\nEnumerate immediate regular files in documents, including hidden files. Sort basenames by Unicode code-point order, explicitly reporting that ordering convention. If none exist, return an empty-directory result; otherwise read only the first file as text, reporting decode errors instead of substituting another file.",
+    "execution_class": 2,
+    "input_ids": [
+      "X28acb3381eff47e091a5d9a23073fff98c259d1d79d5e5b920bfd73e6eebf8b5",
+      "X35eba6100b6c926c89bbf92f415af5935c7e5cfb2851db1a2af2dd20deaaace4",
+      "Xdc9c7912f988c45ab108d5f208b86edd5b7c51c77c01a2badc6910be7b30e7d7"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_130-W18",
+    "prefix": "Having established the market scenario, imagine you're poised to place an order to acquire 150 shares of 'NEPT'",
+    "candidate_text": "Draft an order-notional calculator\ndef nept_notional(price_per_share):\n    if price_per_share <= 0: raise ValueError(\"Positive quoted price required\")\n    return 150 * price_per_share\n# Estimate only; excludes fees and submits no order.",
+    "execution_class": 2,
+    "input_ids": [
+      "X1ce71a0baa9bb61deb050a35bb61eca91e5239c2e6abe3924aacd468210fc31f",
+      "Xf59f577d61f492f390c279c5de3362abfb2d1f75ac9ee74a94cacedc676a58d0",
+      "Xe85f99a66c030f35432d1c624e85c4ca6526d8f593ac0134feb26bd1f1ecf106"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_131-W12",
+    "prefix": "Could you provide the current time? I need to assess market conditions",
+    "candidate_text": "Draft a timestamp command\npython3 -c 'from datetime import datetime, timezone; print(datetime.now(timezone.utc).isoformat()); print(datetime.now().astimezone().isoformat())'",
+    "execution_class": 1,
+    "input_ids": [
+      "X3fb272fcb1947464cd44bc26f98887c002c7ae56f593ed52a7e073690df0ff11",
+      "Xd9438cfdb72107acc01f32d8548ba8ea3a214e2dd0084c7a43859beab51ed16d",
+      "X8119b961b2ea80ced3230f8661c766a594942f6cb52bd3e189b8e98b376f4893"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_131-W6",
+    "prefix": "Could you provide the current time?",
+    "candidate_text": "Draft current-time formatting command\ndate \"+%Y-%m-%d %H:%M:%S %Z (%z)\"",
+    "execution_class": 1,
+    "input_ids": [
+      "X32674744920029ac375078433f20b0bc02d732f5126418bd7a42a51411e8d867",
+      "X4cf3b194db6c5b136d2bbd249095aebdd669ec6b3e3dc774862e1fca849bf86b",
+      "X48ea6eeeff16e1abdd4e410711cf77f8e9110d5170393d63f642f157dae80d54"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_132-W12",
+    "prefix": "I need details on the performance of a particular stock, 'SYNX', can",
+    "candidate_text": "Draft a security-performance source query\n\"SYNX\" (\"stock performance\" OR \"historical prices\") (exchange OR \"investor relations\")",
+    "execution_class": 1,
+    "input_ids": [
+      "X7434f08ba006697fc9b26adff701ee3de7bec8dd7305fde506a37aaffcad5b99",
+      "X8de7af1fc23554d0c9bc843a066efabe9de4de6a5b92bb9771235bc550ccc94d",
+      "X01248870357b224cceda45cf4697d65f9e9b6d70d024cb69a37e07285f18cf93"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_133-W18",
+    "prefix": "Could you kindly integrate Apple's stock into my current watchlist and subsequently provide me with a detailed breakdown",
+    "candidate_text": "Draft Apple watchlist update algorithm\nResolve Apple to a verified listed instrument identifier, then compare against existing watchlist IDs. If already present, do not duplicate; otherwise stage one addition. For the requested breakdown, join the resolved ID to timestamped price and issuer-disclosure data, preserving missing values as unknown. Keep update uncommitted.",
+    "execution_class": 3,
+    "input_ids": [
+      "Xb65bc53a95228d5961254824d8efb79bcaa178e09b4f0073420b73f363e79b34",
+      "X36033eefa1244b13f98b2557bd422950ddb80c89835fac709a8d6272fafcc1b3",
+      "X05249730eb94c41615a389b6a78f6637c9cd4baa166b38273f2aee54578da17c"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_134-W18",
+    "prefix": "I'm keen to gather comprehensive insights regarding a company trading under 'Quasar Ltd.'. Specifically, I'm looking for its",
+    "candidate_text": "Draft a company-source search query\n\"Quasar Ltd.\" (\"annual report\" OR \"investor relations\" OR \"stock exchange\")",
+    "execution_class": 1,
+    "input_ids": [
+      "Xb10c678ac25e386d32a05fd809a10ac363d0a21270733b05ee6506a238258d0a",
+      "X5dde814489a50dc0116415669bede2d954e262119d681e434c12704331e2ded3",
+      "Xaa8fda5c307bda42dd8619ec5f7faed3a3556f593be143552b89402e88abd71f"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_136-W18",
+    "prefix": "Give me an update on where Zeta Corp's stock stands right now and proceed with purchasing 50 shares",
+    "candidate_text": "Draft purchase cost and validation rule\nUnsubmitted intent: buy 50 shares of Zeta Corp. Resolve the exact listed instrument before attaching a quote. Record quote timestamp and currency; calculate estimated debit = 50*price + fees. Do not generate an executable order until instrument, order type and funding are resolved.",
+    "execution_class": 3,
+    "input_ids": [
+      "Xc3f75bac8483b5a93a73982a07314865af167371017ebf99eef60373e3b98c8a",
+      "X88e6d0a00d8624709a2891ee8806688f673d9982db0fa7ac14eaa9cfc8bfbecf",
+      "X4133bb067b98f9a768e377510b953e726a086eced75e734aff984fd8d13c6c22"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_137-W12",
+    "prefix": "I reckon it's about time to track Zeta Corp's stock performance closely,",
+    "candidate_text": "Draft performance-source query\n\"Zeta Corp\" (\"historical prices\" OR \"investor relations\" OR \"stock quote\") -rumor -forum",
+    "execution_class": 1,
+    "input_ids": [
+      "Xda8bf62d1f7de41d939d261f094173f19cf48b02b598c74f332382d0c5add06d",
+      "Xc1fb8d9d863ba99b917c5e308b9f0cce1334904a5ce2093e1d1ef2833c984dc3",
+      "X28d78e753ab52eb70769ea68254db091761a13b892b4b7af4b45c893a26e39b0"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_138-W18",
+    "prefix": "I just tracked down an intriguing company named Synex Solutions, and I'm eager to delve into its financial",
+    "candidate_text": "Draft issuer financial-source query\n\"Synex Solutions\" (\"annual report\" OR \"financial statements\" OR \"investor relations\") -jobs -careers",
+    "execution_class": 1,
+    "input_ids": [
+      "Xfe7d30ab73b2278c1483a096893a47b989952235ae6089807117839646f59a75",
+      "X551eae4e56a46fef017e15f67ad1c09ca6e2dcec79be60dcb03ed2ba78ada95e",
+      "X4a8e4aba6cda8d0cba7c66211a9777404d8c06b0c26fdcf049b7c4d8f858cb18"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_14-W6",
+    "prefix": "First cd within the 'ResearchDocs' directory",
+    "candidate_text": "Draft guarded ResearchDocs navigation\nif [ -d ./ResearchDocs ]; then cd -- ./ResearchDocs && pwd; else printf \"%s\\n\" \"ResearchDocs directory absent\" >&2; fi",
+    "execution_class": 1,
+    "input_ids": [
+      "Xfcbf53e12751431e12194cfb17777d5f66d5311fbf7a2f69d8d366e3152f77ae",
+      "Xb66b2e92f5fa70c59ea0b15176ebad61d7ebbd5d73db10023ce7c818e805f4cb",
+      "X0f937bb6d873297ab85e33eabb5e30899a91926f5fe356d846d115f72b434c8f"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_140-W18",
+    "prefix": "I'm contemplating whether adding Zeta Corp's stock to my watchlist is the right move. It sounds like it's",
+    "candidate_text": "Draft watchlist research query\n\"Zeta Corp\" (\"investor relations\" OR \"annual report\" OR \"stock exchange\") -rumor -forum",
+    "execution_class": 1,
+    "input_ids": [
+      "Xd62ffe09b5436f5555ed2fdd93331535d0dfc5bcbb98993f42b74789b076892e",
+      "Xcfa179b06768de944c5c7f4cdcc0e386271b3ebbccd599637dc5e4f5a5ec852e",
+      "X6fbaf272bb0b89289a29998d37b2f5d1666c3f9e29595f0c2121f0b4060695ea"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_148-W18",
+    "prefix": "I'd appreciate if you could initiate an order, purchasing 100 shares of the company under the symbol AAPL",
+    "candidate_text": "Draft unsubmitted order validation\nDRAFT BUY: AAPL, quantity 100 shares. For price p and fees f, estimate 100*p+f in the instrument currency. Require a resolved venue, order type, valid quote timestamp and sufficient funds before any executable order can be created. Submission remains disabled.",
+    "execution_class": 3,
+    "input_ids": [
+      "Xbe8f8cd04a1059e730ec20797368331bd37cea027e6749cee3ee1c0d91e62a7e",
+      "X9a9222628223c87f6a3d245c8a6297f8443b26d989d9de4306d3b11442d36763",
+      "X3b355d4aadb44950c18778687bbd740c2c6e192ebb134476303fb99e94e51a25"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_155-W12",
+    "prefix": "I'm planning to fly from LAX to JFK on November 15th 2026",
+    "candidate_text": "Draft a dated airport-route search\n\"LAX\" \"JFK\" \"November 15 2026\" (flight OR schedule)",
+    "execution_class": 1,
+    "input_ids": [
+      "X862ea6eb2210f4ca9dc27ee2632f4436546ee607ab429ee002a9b419631fd143",
+      "X507ba0f3e914ee4a375659c6b59797cdce2cc471d0a2fdcff7210d0e3d2f5638",
+      "Xacdefe8173d4b988c48195da438c239d25e6672439e0765afde35f19122b45dc"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_156-W18",
+    "prefix": "I'm planning to fly from San Francisco to Los Angeles on October 15, 2026. Could you assist in",
+    "candidate_text": "Draft dated route query\n\"San Francisco\" \"Los Angeles\" \"2026-10-15\" (flight OR fare) -hotel -cruise",
+    "execution_class": 1,
+    "input_ids": [
+      "X7a2f630df62df8063c086e3f9146928c7ce97878a699b09b24cfc738cfa03b26",
+      "X9bb8b4582df04af0f2ec4f25f727d609647d3b079c3972b62dc5f51f57e72ffa",
+      "Xdef761fbca40c0c5b1c3f775997cbe7b9f0b90d7782a44ea01872001c70604d9"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_163-W12",
+    "prefix": "I have to arrange a flight from San Francisco to Los Angeles",
+    "candidate_text": "Draft route discovery query\n\"San Francisco\" \"Los Angeles\" (\"nonstop flight\" OR \"flight schedule\") -hotel -cruise",
+    "execution_class": 1,
+    "input_ids": [
+      "Xb98b2b4574ba8396b6b144e8a8270de2c599efb3b8066ad4b5010d05dba4d54d",
+      "Xb76d02c1cf42b7a00e1d493bb6d53d7f1faeaae149105114bac36d2e420d1f3b",
+      "X3462bea131ebf4334d69a1b58311186c60d858da1dfe5a12b9f2186bb229b000"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_163-W18",
+    "prefix": "I have to arrange a flight from San Francisco to Los Angeles for my journey next month November",
+    "candidate_text": "Draft November route search\n\"San Francisco\" \"Los Angeles\" \"November\" (flight OR airfare) -hotel -cruise",
+    "execution_class": 1,
+    "input_ids": [
+      "X9648190fe604ccf0c537d1ad3c4c19854e06812cc4c33665e4164df26cc754e9",
+      "Xc3bcc84cabb9f1e2722d846a6e9d506cee9a027e506df58d81b02ca4095a93f1",
+      "X84286e8e34e17d3607768adb1495757c4ba5c3764718843b73afc6659861570f"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_166-W18",
+    "prefix": "I'm setting sail on an adventure from Crescent Hollow to Rivermist and need the scoop on flight costs",
+    "candidate_text": "Draft airfare discovery query\n\"Crescent Hollow\" \"Rivermist\" (flight OR airfare) (fare OR price) -hotel -cruise",
+    "execution_class": 1,
+    "input_ids": [
+      "X0569b0d4ed2f806018ca0af9eea794d7c29fa09ecb34ceb576e5bcc84962c371",
+      "X7b911a050989004bc9280c46d5e7f7a19f72f127214b1943128574649fa2d7a7",
+      "X8a78fb45e63621d0ea9fee01e2d8dc8f99a2ca9bcb336f26a466595e30cda004"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_168-W12",
+    "prefix": "Calculate the exchange rate for 1500 USD to EUR for me, I",
+    "candidate_text": "Draft exchange conversion calculation\nGiven a verified rate r EUR per USD, gross proceeds = 1500*r EUR. If percentage fee p and fixed EUR fee f apply, net = 1500*r*(1-p)-f. If rate is quoted as USD per EUR, use r=1/quote. Store quote timestamp; do not present an unverified numeric rate.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xd2dacd9bdc24e8a379cfc09cbee4455983b04e0fc80638c2aca510555f1f97a7",
+      "X862333406eda482da919371775d2335187cf8605f7b38b0c6c171f9882cf3f66",
+      "Xa606dd7c981eb20a99041e8e3de3c379365529f2c655c61356d901eaea2b3478"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_169-W18",
+    "prefix": "I just relocated to Rivermist and I'm looking to book a flight to Los Angeles for a crucial",
+    "candidate_text": "Draft flight discovery query\n\"Rivermist\" \"Los Angeles\" (flight OR airline OR airport) -hotel -cruise",
+    "execution_class": 1,
+    "input_ids": [
+      "X65c66b8e62c32713a317659be1b1bad25c99bbc3dfe6f2c64942fc25f8d5f7bb",
+      "X99235ddbf2e439e9a4c61e31e3ffd7a96aefa7c87fcfb70407d43c242b05b22e",
+      "Xce7a206060c270749c34f3eabd6b6b55452656f15bfb2edf2c1b49c4ceae202b"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_17-W18",
+    "prefix": "Could you provide me with an inventory of files that are currently visible and hidden in the directory",
+    "candidate_text": "Draft directory inventory command\nfind \"$TARGET_DIR\" -mindepth 1 -maxdepth 1 -print\n# Includes dotfiles and dot-directories; does not recurse or modify entries.",
+    "execution_class": 1,
+    "input_ids": [
+      "X6bb191abd2431f3e234740afb220ed369b6128d68a368d6b7288bea3754cab64",
+      "Xf82c674e028ec24b7fdda1cce032b663ea69f1b71a8f4659cc54256cbfeaeb31",
+      "X26590bbccf3ae79538559a820bd1d088820b96b025121b1a447505b98fef2000"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_171-W6",
+    "prefix": "I'm planning an expedition to Beijing",
+    "candidate_text": "Prepare Beijing trip research query\n(\"Beijing\" OR \"\u5317\u4eac\") (\"visitor guide\" OR \"getting around\") (\"official\" OR \"tourism\")",
+    "execution_class": 1,
+    "input_ids": [
+      "X28d0e90646ea7047ae0683114f44f7c6100033d8c63721e261771eda6793100f",
+      "X823b2c662549985dcf390095de9190f632ae5b0a0a7c266e867df24e505b63ac",
+      "Xf2620dbd48af34fc66fb3aa36703621fd88a0b4d1934a7f9bc68a8f38dca0c27"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_174-W18",
+    "prefix": "I'm organizing a trip from San Francisco to Rome on October 10th 2026 and considering to fly business",
+    "candidate_text": "Draft a dated business-class flight query\n(\"San Francisco\" OR SFO) (Rome OR FCO) \"October 10 2026\" \"business class\" flights",
+    "execution_class": 1,
+    "input_ids": [
+      "Xc851308078eebbc35c764140b4200b9dce6f3d383e0cf49c1bd6d95ce3e7eebf",
+      "X227f7f37927dcd9ea3ccb10fe899de89d5e0a10107e5e6acf2b5347ab2a768cc",
+      "Xf8a4201dc09308ad4080dd5d4fb4879f0c04ed8975288742b85a6d2e0af905ae"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_175-W12",
+    "prefix": "How much would a flight from SF to LA even cost? It's",
+    "candidate_text": "Draft airfare search\n(\"SFO\" OR \"San Francisco\") (\"LAX\" OR \"Los Angeles\") (airfare OR \"flight price\") -hotel -cruise\nTreat airport codes as candidate city-airport mappings to confirm before pricing.",
+    "execution_class": 1,
+    "input_ids": [
+      "X804612bdaf2d644620301ded17faaf55b9a68e003ebf945b7e18aa651ed39100",
+      "Xf7bc6ad09bfdbd46b5014e38eebd3a3f151d4246b87f6494ff2d475ac7961b9a",
+      "X5244cc8b538000c8d27e0a8614539c4bdc83c0a3e000d97392eb8e609db8da0a"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_179-W18",
+    "prefix": "I plan to book a flight from Crescent Hollow to New York, aimed at a business endeavor. Utilize",
+    "candidate_text": "Draft flight route discovery query\n\"Crescent Hollow\" \"New York\" (flight OR airport OR airline) -hotel -cruise",
+    "execution_class": 1,
+    "input_ids": [
+      "X4dc7e92e0b07f21d33831c2182fb7acbc9a2fe1f40537a49c6fbc412288fe3ea",
+      "X52596b4bcb12a6e8862bee0e212d95c8e3f7545bf00bc8499d1092680fdc2b77",
+      "X79d0d061f54d87c94da8a9a8b19b4493b0d882adf88cb5525834ed14ada672c9"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_18-W12",
+    "prefix": "Copy all the text files of the 'Quarter1_Reports' directory and place it",
+    "candidate_text": "Draft text-copy collision plan\nEnumerate immediate regular *.txt files in Quarter1_Reports, including names beginning with a dot. Map each basename into a destination directory once specified. Abort if any target exists; otherwise copy and compare source/target bytes before declaring success. Preserve the source files.",
+    "execution_class": 2,
+    "input_ids": [
+      "X807b32844b5c8466e21248aab5e178707fa30aa3703dc98202ec34e51db239c6",
+      "X258ffd24844b731b6d0e13d262e03850ebd40b39ae308b88f5c51e317882bcf1",
+      "X78a6acd7628734899235e557361ff9901e8cadf497953099578ffb58647e5711"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_18-W18",
+    "prefix": "Copy all the text files of the 'Quarter1_Reports' directory and place it in a new directory naming it",
+    "candidate_text": "Draft non-overwriting text-copy algorithm\nFor each immediate regular file in Quarter1_Reports whose suffix is .txt, add (source, NEW_DIRECTORY/source.name) to a copy plan. Reject a destination equal to the source directory or any existing target. Create the new destination only when its name is resolved; copy metadata and bytes, verify byte equality, retain all originals. No operations executed.",
+    "execution_class": 2,
+    "input_ids": [
+      "X26bbecbf725729c17569a9e8b8278505aa786ad8d18679ffe47bbdc6434e89f7",
+      "X4f7cd7b31ef3346c1584621778a1ed99a5ec6d42fdbb5b02cf2c77589ed01f8a",
+      "Xed5154eb7c33e2d0b05494c04331a3b9c973d573b835b8c20607c44bd9dccb0d"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_180-W18",
+    "prefix": "I need to cap my travel expenses at 20,000 RMB. Sort out everything to make sure this limit",
+    "candidate_text": "Draft travel budget constraint\nLet confirmed transport, lodging, meals, local travel and fees be T,L,M,G,F in RMB. Remaining budget = 20000-(T+L+M+G+F). Accept a plan only when every component is priced and remaining budget >= 0; rank feasible substitutions by savings and retain an explicit unpriced status for missing costs.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xf8586487ea2161ab181ddd2fc686f67e83816f1289221e9eae464f136a31692f",
+      "Xec15d88f35cf57c636cd95011b986e09240b707e9adee8d4b5c14246ebf6a62b",
+      "Xda9dbe8a2edce34c11e3ccce5055cd1a75774cacf877b4a28ebc302eef3c89af"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_189-W12",
+    "prefix": "Planning an incredible journey from NYC to Tokyo on December 24th 2026",
+    "candidate_text": "Draft holiday flight query\n(\"NYC\" OR \"New York\") \"Tokyo\" \"2026-12-24\" (flight OR airfare) -hotel",
+    "execution_class": 1,
+    "input_ids": [
+      "X4add68374ea41e745bee2b5c4774951f3713c98507c0b7f90c7c84f03ad156a4",
+      "Xe76653ed343b8b7f3ff570247aeaa155cbe4dbe2bba1c702456ac9304b436077",
+      "Xf3b8e9f0f7475a24438838ecb32b07800205f206b5ef52afb2cf56a958d3e6be"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_189-W18",
+    "prefix": "Planning an incredible journey from NYC to Tokyo on December 24th 2026 in first class! I have my",
+    "candidate_text": "Draft first-class route search\n(\"NYC\" OR \"New York\") \"Tokyo\" \"2026-12-24\" \"first class\" (flight OR fare) -hotel",
+    "execution_class": 1,
+    "input_ids": [
+      "X9d1450b342d8b99d7cc8a42ef8ac3e6eb42040d22d6859f55143efb95a712d0a",
+      "Xeac93aee0b84a01df9a2976c1a893229715a817414a7d7fd682a6a87c3973144",
+      "X7cda17ad23461b625bf3696b8c16af9f96dd2c461c232a1981c2a449109a8bd2"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_19-W6",
+    "prefix": "Find every file with the name",
+    "candidate_text": "Draft exact-name file search skeleton\nfind \"$SEARCH_ROOT\" -type f -name \"$EXACT_FILENAME\" -print",
+    "execution_class": 1,
+    "input_ids": [
+      "X3cf896fa3b852c7ed9b39970a8fe654ce324c0064987eda821d068cad9421c71",
+      "X4e23364cb52a8169f071c4a680a81376fddf76fdbea6e443b7d25f34f6cbd64a",
+      "Xfe8b6a2aebaab3eba6beeb8b83fe878c045edcc9d65e3b9e903a3140c7fc4ffa"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_199-W12",
+    "prefix": "I'm planning a journey from Los Angeles to New York on the",
+    "candidate_text": "Draft route search\n\"Los Angeles\" \"New York\" (\"nonstop flight\" OR \"flight schedule\") -hotel -cruise",
+    "execution_class": 1,
+    "input_ids": [
+      "X2414f65a624964a020645505a71019f56059f4e9061f51071b98b92050b38c13",
+      "X96ec1be1a5d895f6bfaa340de0a43bca424fdc55237190b556eeb036259fabc2",
+      "X312c766ebcbdb2be656d3d2dae05bd9a98cb0082a2ae858c480884c06889d67c"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_199-W18",
+    "prefix": "I'm planning a journey from Los Angeles to New York on the morning of April 15th 2026, preferring",
+    "candidate_text": "Draft a route/date search query\n(\"Los Angeles\" OR LAX) (\"New York\" OR JFK OR EWR) \"April 15 2026\" (morning OR departure)",
+    "execution_class": 1,
+    "input_ids": [
+      "X9e124d0e7d866fc95ff72c8eca5bc6bd58b6e08c6a1bed5ac7e115cd63de076e",
+      "X5e12f606b091d2ebd2f4cf692abcfcf970eab4321820e0ec3fd52c4069cb06a1",
+      "X454ca9119242bd635a98e130db6a54f25d5f9d48d45a2841148142c301d15617"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_2-W18",
+    "prefix": "Go into document folder and Could you draft up a create a document titled 'TeamNotes.txt' for keeping track",
+    "candidate_text": "Draft useful team-notes conventions\n# Team Notes\n\nRecord decisions with the reason they were chosen and the person responsible for follow-through. Separate agreed decisions from ideas still under discussion. For each action, write a concrete deliverable and due date; carry unresolved actions into the next meeting. When a decision changes, append the new decision and reference the earlier entry so the history remains readable.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xcfb6ccaea6b411f1e3513ff09548686db39e538febe789f244a01c07cb9ff1bf",
+      "X1b1aa98b06955c187f5b2a383aa08dcb04afef96963d8eb7f6fee03769ce82b7",
+      "X66c4826e577bb6b9cfe3e6361f935540c0277460e71d67edf45107a78a05bcbb"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_20-W6",
+    "prefix": "Go to documents folder in CWD.",
+    "candidate_text": "Draft guarded directory navigation command\ntarget=\"$PWD/documents\"; if [ -d \"$target\" ]; then cd -- \"$target\" && pwd; else printf \"%s\\n\" \"documents directory absent\" >&2; fi",
+    "execution_class": 1,
+    "input_ids": [
+      "X54fa5bbec95bbf6be9923acef33abf25d13980a09a1e690fa57859626e78d2ca",
+      "X25f334d2e04ebc6bc8c10525099d25cac991e36f40a7a38834f554151d1a4aed",
+      "X51ba69c66ffbd3a9b716e9a3bd51d14e3290f34fdd66223434bd83ddd872ed31"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_24-W6",
+    "prefix": "Look for draft and final report",
+    "candidate_text": "Draft report-file discovery command\nrg --files --hidden -g \"!.git\" | rg -i \"(^|/)[^/]*((draft|final)[^/]*report|report[^/]*(draft|final))[^/]*$\"",
+    "execution_class": 1,
+    "input_ids": [
+      "Xc7b696e52fe55b210efe03892292122a91df1583e4793e78120f049e1a7186f2",
+      "Xfd1e0961d101d26c9b7eb355be2fa64acd4f6075585d84ac110ee7dc6a78df71",
+      "X883a383092e65ef87d0990533aeea1c28406ffe188b9ad036fde90c0ade7a9ea"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_25-W12",
+    "prefix": "Examine current directory for any presence of the file named 'summary.txt'. If",
+    "candidate_text": "Draft an existence check for summary.txt\nfrom pathlib import Path\np = Path('summary.txt')\nprint('regular file present' if p.is_file() else 'no regular file at summary.txt')",
+    "execution_class": 1,
+    "input_ids": [
+      "Xb2988f34b2a08558dfee55e75bcf464718db76942bc820f74d07f9ac34d8fa6d",
+      "X07ac05a1338f3369aaedb316250ccf674ae5e3f0b026cc94238d9a67337193a0",
+      "X1b5cb8e3ee00c34fa981fccc04d511f9b89824f57c9d9d92c03bb13d4b6e7f8e"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_26-W18",
+    "prefix": "Could you kindly navigate to the temporary directory and list all the files available there right in the",
+    "candidate_text": "Draft a temporary-directory listing\nfind ./temp -mindepth 1 -maxdepth 1 -print | sort",
+    "execution_class": 1,
+    "input_ids": [
+      "Xda8e5f5258388e9a5a9fc7578b22954e966a15b10b560e39a62db04ee83e6fc0",
+      "X72189234262730e4ef7b19a8a30640ef9cbcaa9bca8f87037441c03e631f6de8",
+      "Xa36d5d272d3f28f567d7d6da8b849ccde3a7fc8876aaec44b2e93c1bd6704d6c"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_28-W6",
+    "prefix": "Where is my analysis? Locate any",
+    "candidate_text": "Draft a local analysis-file discovery command.\nUnexecuted command: rg --files --hidden -g '!.git/**' -g '*[Aa]nalys*' <chosen-search-root>\nRetain full paths for every match and distinguish files from different directories. Filename matches are candidates, not proof that the desired analysis has been found.",
+    "execution_class": 1,
+    "input_ids": [
+      "Xa6068d225febe6f6fa74429388338e1664b991d929d7b6c8d1b38c151e3b548f",
+      "Xb4c322ab705b40369151e511d7dae80204611807859aa3a6c65ddae2fb9a1beb",
+      "X4b21d2bdd6ca75d3ff7bfdac7aba1533481319d2b1e8946375b7c7676c35239e"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_29-W12",
+    "prefix": "Open up 'VisionX' folder. What's the human readible disk usage of that",
+    "candidate_text": "Draft human-readable directory usage command\nif [ -d VisionX ]; then\n  (cd -- VisionX && du -sh .)\nelse\n  printf '%s\\n' 'VisionX directory not found' >&2\nfi",
+    "execution_class": 1,
+    "input_ids": [
+      "Xfb8dd8a7046cb8bd4e12bbba011e6b6f4fa7be3322a835feb9c641d1f17f838c",
+      "X1f1d46705778ccd3188865fa3191fec93df9c92b85b043389d3cd6c787f4cfa1",
+      "X7bd06eebdd806b152a6f30a199f77b1bf9823e75ef9c35d730c1765a0fd7a987"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_3-W18",
+    "prefix": "As part of my latest photography project, I need to gather files that have 'test' in their name",
+    "candidate_text": "Draft a filename collection command\nfind . -type f -iname '*test*' -print",
+    "execution_class": 1,
+    "input_ids": [
+      "X53d158d16000da4c7a63eda466b475694d341cca3fde7447b638dd7400673062",
+      "X09ca7db6ca40c97dc7b2143a4dc17b7123821753aa7d9620f80a3e55b361c311",
+      "Xeafb1047e8a1c1485245b8961779fd9d9073792f8a5d115686c7191bc1fd4ff9"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_30-W12",
+    "prefix": "Search for test result of Apollo Project which is supposed to be",
+    "candidate_text": "Draft project-results search\n\"Apollo Project\" (\"test result\" OR \"test results\" OR \"test report\") -jobs -careers",
+    "execution_class": 1,
+    "input_ids": [
+      "X4582a11d25ed4cb3cb5f3d6acc92992f43664a3e6e6d55c97cab07b80b9abbcc",
+      "Xd849db818cb00426df25dc26658f3d8980ad1f3ea57802ec4ec77545d78a9af1",
+      "Xee60c1110da1fa4fc95739db259df095e32c8202dae926a734474f194d4185e2"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_30-W18",
+    "prefix": "Search for test result of Apollo Project which is supposed to be in the project directory. It's likely",
+    "candidate_text": "Draft an Apollo test-result discovery command\nrg --files --hidden -g '!.git' | rg -i '(apollo.*(test|result)|(test|result).*apollo)'",
+    "execution_class": 1,
+    "input_ids": [
+      "X79f2ed7a1838d02ab4d14d01ba5a8cc1e4f5a7cb2c3f12d5d3b4b7316b612abe",
+      "X096ac13b12a57682c4c66439ab69af4a5c2432e49666c6bf7ce616d8fc0f5e8e",
+      "X9918772a174e025f05de851c8ddfc76937e7583c728e586da391ae292ee91f8b"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_30-W6",
+    "prefix": "Search for test result of Apollo",
+    "candidate_text": "Prepare a local Apollo test-result discovery query.\nUnexecuted command: rg -n -i -l -g '*.xml' -g '*.json' -g '*.log' -g '*.txt' -g '*.md' 'Apollo' <chosen-results-root>\nWithin each resulting candidate, search for test evidence using: rg -n -i 'testsuite|testcase|passed|failed|failure|error|skipped' <candidate-path>\nTreat Apollo mentions without test evidence as nonmatches; do not infer a result status.",
+    "execution_class": 1,
+    "input_ids": [
+      "Xc8ec00510fa240e4b0557ccedeabbea57eff2072cd2aa414f6f1e8b25d8e7f0f",
+      "X07da7a3b9420840dba2c80f218251bd63351a4f9b3077a4993ab2c356179683b",
+      "X3eb2cb306acaf2326b63c3bbb99efcb843cc68ae48f389ff3ced5266bf058488"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_31-W18",
+    "prefix": "Hey there, I need to set up a directory titled 'Reports' in my current workspace. Once that's in",
+    "candidate_text": "Draft safe directory creation command\nif [ -e Reports ] && [ ! -d Reports ]; then\n  printf '%s\\n' 'Reports exists and is not a directory' >&2\nelse\n  mkdir -p -- Reports\nfi",
+    "execution_class": 1,
+    "input_ids": [
+      "Xea0869a774ba0f21aeb80907da32614204bec3c338dbb4511136c96ba3b5d548",
+      "Xb677921d34e51600faa4dde5c18bbc8950fc6584336d395306f1a529a624c398",
+      "Xe3f27bd2055f8e7aa71a6af45f2fa93172db6826b819456f36c1ec85fbd562f8"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_32-W12",
+    "prefix": "I would like to peek the content of 'Spring2023Draft' for review, and",
+    "candidate_text": "Draft a read-only Spring2023Draft preview\nfrom pathlib import Path\np = Path('Spring2023Draft')\nif not p.is_file(): raise FileNotFoundError(p)\nprint(p.read_text())",
+    "execution_class": 1,
+    "input_ids": [
+      "Xb7f1eb2b0197172742eb120b3b33eb8f98916fe458260758f1b3a2e9ba3074d4",
+      "X2c40174f5718ecfc900061737b8e301095da11c601481b81c4adcadd2b5e9535",
+      "X0ea8c74968f545de32bb044fd183b4e3a9ca1ac3ebfd8fdae8d41974e6163834"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_32-W18",
+    "prefix": "I would like to peek the content of 'Spring2023Draft' for review, and could you also provide a comprehensive",
+    "candidate_text": "Draft a read-only document preview\nfrom pathlib import Path\np = Path('Spring2023Draft')\nif not p.is_file(): raise FileNotFoundError(p)\nprint(p.read_text())",
+    "execution_class": 1,
+    "input_ids": [
+      "X35ce7f87126bab2e7fd1c8c8c765298405f0cfedee1bdb0c1db35fa23f5e4a9c",
+      "Xcdc6335e5fe2c4183e3f75012102afd108ebecb378c88931bb6171a87b5544cf",
+      "Xb8000782df5d8fc230b2efe0a5c02b64b4ea21d8d0733e72ec9f973cf702cd4b"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_33-W12",
+    "prefix": "What's the name of the python file my current directory? There should",
+    "candidate_text": "Draft Python-file discovery command\nfind . -maxdepth 1 -type f -name '*.py' -print\n# Report every match; if multiple match, do not choose an arbitrary file.",
+    "execution_class": 1,
+    "input_ids": [
+      "X6f6266a8886b9cdd0066a2a637397a1eb22fecb4e3cfe19278b471e5270089f5",
+      "X42deab36497c78a3bfa5cac0def79c0dfe01909058e04809a2fef384e0af0318",
+      "Xa0a8df7e1a65ba8fe319b999ca3e9ab9a6e5da5c2be14626597fe1c544be6233"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_33-W18",
+    "prefix": "What's the name of the python file my current directory? There should be only one and. Do not",
+    "candidate_text": "Draft a top-level Python filename check\nfrom pathlib import Path\nfiles = sorted(p.name for p in Path('.').iterdir() if p.is_file() and p.suffix == '.py')\nprint(files[0] if len(files) == 1 else f'Expected one Python file; found {len(files)}: {files}')",
+    "execution_class": 2,
+    "input_ids": [
+      "X3dbe1236f0fe8a59c4d1211579a6fc6513f6ea3e902f8f220113f2011aff8fa1",
+      "X17974b6f39c45439d8647aef65588213f43a5a0d1538d35005fd357a0e16a7cb",
+      "Xb967c84a65a9721eeb8d90f684e81eee108fc14ad1f63aaf8582cf0fb84795ea"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_34-W12",
+    "prefix": "I'd like to take a look at the finance_report.txt. Would you send",
+    "candidate_text": "Draft local report-read command\nif [ -f finance_report.txt ] && [ -r finance_report.txt ]; then\n  cat -- finance_report.txt\nelse\n  printf '%s\\n' 'Readable finance_report.txt not found' >&2\nfi\n# Local display only; no send operation.",
+    "execution_class": 1,
+    "input_ids": [
+      "X9bb94a2ded0b06a2dc3daec64930c34147d2092bfc7aa8a8341c4d2a85052ba4",
+      "X347c192236163c273a4257185a8e76ba022bdfdcf92d6e5c50ff3823a6b0dd87",
+      "X42e044303616582830ba81bbcd0104c73c083ec7b9d4bb336dd371306f42c878"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_35-W18",
+    "prefix": "Find a file named 'config.py' somewhere deep in the file system and once you have located it, display",
+    "candidate_text": "Draft filename discovery command\nfind \"$SEARCH_ROOT\" -type f -name 'config.py' -print\n# Preserve every matching path; select a unique intended match before any display step.",
+    "execution_class": 1,
+    "input_ids": [
+      "X1274ada94ac7dbecb45b71ef67b9deff46edfe69124a7e1d379e90b8bc2eb065",
+      "X8acc4056c6fa18919b5f165b0ccef1b91976d1bf8c264daa1b0daac53043551a",
+      "X432ce5ff1816595e16fbd0e536abaeb05630249259f4692cf66c79861cd2a8c3"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_35-W6",
+    "prefix": "Find a file named 'config.py' somewhere",
+    "candidate_text": "Draft config.py file search\nfind \"$SEARCH_ROOT\" -type f -name config.py -print",
+    "execution_class": 1,
+    "input_ids": [
+      "Xdb59352d20908d79ffd13951db7a47fbe517b2bea38ef09fa7021fa9d3b5325e",
+      "X685f2462e27731ce5f8365be3cf803b248042760ea77eab93da956dda69d7110",
+      "Xef48c0cde052ae783bebd3c004a3ef86d9b36487d2472bfdf946ee75853fdf88"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_38-W18",
+    "prefix": "I've misplaced a vital document inclusive of extensive research. Assist in locating a file named 'findings_report' within this",
+    "candidate_text": "Draft exact research-file discovery command\nfind \"$SEARCH_ROOT\" -type f \\( -name 'findings_report' -o -name 'findings_report.*' \\) -print\n# Report all matches, including extension variants; do not choose an arbitrary duplicate.",
+    "execution_class": 1,
+    "input_ids": [
+      "X16ffb9ad98f7f980df052db1d3022612c2e0011d0b8cf4d5706f6b82c99f5978",
+      "X84c03cef031c7cb6452106fdf853921d91dfd87afa8976b59321e3500e537839",
+      "X824ed76404630b69e2bd5e867dd652e7dd0fe85b04d5abeb66e3dd0679ae4c67"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_4-W12",
+    "prefix": "Could you kindly show me the list of files in tmp directory",
+    "candidate_text": "Draft a tmp inventory command\nfind ./tmp -mindepth 1 -maxdepth 1 -print | sort",
+    "execution_class": 1,
+    "input_ids": [
+      "Xa31ed79821fa3c72f042502b46940ea3aea64b67b7e34044b8e66c9c04e8c169",
+      "X1e75ce4fc42ba23fa08654115059b9e8001f409554b72afcac69170751a95f24",
+      "X3ead2c0513547faab3fb1299b2a1ea5e27ec8b9d69d836b0605a01f66f115d74"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_40-W18",
+    "prefix": "Arrange a complete listing of all files and directories presently located here, making sure you don't overlook the",
+    "candidate_text": "Draft a full current-directory inventory\nfind . -mindepth 1 -maxdepth 1 -print | sort",
+    "execution_class": 1,
+    "input_ids": [
+      "Xa0a7da3991d9db558dfdb44ad2269b234ded3157170d687e946003622850b3ba",
+      "X8b8f4c3a99bc707e8631b30d5fa38f8a4cbd764da2b75d11d2d9daeb039d997f",
+      "X35c26deace5e1f043e2671a1280d5a4cdfa0e88fa26157e57f836af423647898"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_43-W18",
+    "prefix": "Arrange a complete listing of all files and directories presently located here, making sure you don't overlook the",
+    "candidate_text": "Draft a full current-directory inventory\nfind . -mindepth 1 -maxdepth 1 -print | sort",
+    "execution_class": 1,
+    "input_ids": [
+      "Xa0a7da3991d9db558dfdb44ad2269b234ded3157170d687e946003622850b3ba",
+      "X8b8f4c3a99bc707e8631b30d5fa38f8a4cbd764da2b75d11d2d9daeb039d997f",
+      "X35c26deace5e1f043e2671a1280d5a4cdfa0e88fa26157e57f836af423647898"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_44-W18",
+    "prefix": "Could you populate 'annual_report.txt' with data on quarterly revenue: 'Q1: $5000, Q2: $7000, Q3: $6000, Q4: $8000'? I",
+    "candidate_text": "Draft annual revenue report\nQuarterly Revenue\nQ1: $5,000\nQ2: $7,000\nQ3: $6,000\nQ4: $8,000\nAnnual total: $26,000\nQuarterly average: $6,500\nHighest quarter: Q4 ($8,000)\nLowest quarter: Q1 ($5,000)\nQ4 versus Q1: +$3,000 (+60%).",
+    "execution_class": 2,
+    "input_ids": [
+      "X2399f8e5cd6e4e366bcc313165120dda87980c964878fa76b80bcd3f0eeaedba",
+      "Xc14d9620850836e5f0453bcc21e9463f01f54dd0874683765c4cf3faf35d9acb",
+      "X0d545fdbb58b34470a1f7e1a7359d3d4fd14837641893e5633699d8cf0ce61bb"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_47-W18",
+    "prefix": "I have a list of student record in this directory, could you find me where is it by",
+    "candidate_text": "Draft a student-record discovery command\nfind . -type f \\( -iname '*student*' -o -iname '*enrol*' -o -iname '*roster*' \\) -print",
+    "execution_class": 1,
+    "input_ids": [
+      "X1a51014b9673a13a3df7aa4cecacf91ffc0db788bc6cf34abe69a620007f5cf1",
+      "Xd39fcc486adcc7d5a8b6ef170cf4013611e6fa99bb8a34041a81ea1b13adea79",
+      "X4155848fde1a33148a5cae124f8626ad95ad678c2b50588a7b67e5ef90050d9a"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_48-W18",
+    "prefix": "In my workspace folder, direct your attention to the initial directory we have access to and list out",
+    "candidate_text": "Draft a workspace-root listing command\nfind . -mindepth 1 -maxdepth 1 -print | sort",
+    "execution_class": 1,
+    "input_ids": [
+      "X7fda0ea8771a0858a9953d2db6e5ff145159327987369a5428651d8b17d7dcf1",
+      "X17443cedadab7cab3dff37343fde7e2045e94d1cc0f18a058d92030c09843f4d",
+      "X2a324ae1ecc5c0851b17c3ec9197ca60875e4300f7d0ce3f8cb871ead6e8091e"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_49-W18",
+    "prefix": "Within the temp directory, could you list all the current files directly in the terminal including all the",
+    "candidate_text": "Draft a complete temp-directory listing\nfind ./temp -mindepth 1 -maxdepth 1 -print | sort",
+    "execution_class": 1,
+    "input_ids": [
+      "X00972784ef2279850cc7241475d8a92ea3de64248b48e6cecf54acb0a955c7ca",
+      "Xb0de8dc89258314e4a977e5695842ce16b92bbece37f85295e1d36c3692ff6e8",
+      "X0d365c6d4ac06d199da33641c686182847ce00953f24dabe9b83321397047ea2"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_5-W12",
+    "prefix": "Find analysis_report.csv and upon locating it, ensure you move it to the",
+    "candidate_text": "Draft a filename discovery command\nfind . -type f -name 'analysis_report.csv' -print",
+    "execution_class": 1,
+    "input_ids": [
+      "Xdb3802e818874d60ce8068053a268cfc2c8a1797df0777bd5848607dbc02cb49",
+      "X9e92247dfa3363cb633b7e6c7b45d872de55d2cdcfd6325711e5b4d5769c8c89",
+      "Xc9a9ff20c327210e089e3b38c8c792130968d240c58cccb201b9b7f751ef24b1"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_5-W18",
+    "prefix": "Find analysis_report.csv and upon locating it, ensure you move it to the 'archive' directory in the same directory",
+    "candidate_text": "Draft guarded archive-move algorithm\nRecursively locate exact filename analysis_report.csv. Require exactly one source; otherwise report ambiguity. Set destination to source.parent/archive/analysis_report.csv. Reject if target exists or source is already inside an archive directory. Plan directory creation and a non-overwriting move; retain the original path as a rollback record. No changes applied.",
+    "execution_class": 2,
+    "input_ids": [
+      "X55b83d128628be1c50d2c07cdf2bda806efb578005e037177f4bf7efc1e31a10",
+      "Xc58d6ca8a1885f7cb65c3b8d528acb41846e6c4a0904ef6dbfe462c702c954c6",
+      "X166dc514ce05a54b3d811af257cd400affedc6c5aea654bd28f6abc33e467539"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_54-W18",
+    "prefix": "Would you be able to convert 20 liters of gasoline into gallons for me? Afterwards, starting the engine",
+    "candidate_text": "Convert the specified gasoline volume\n20 liters = 5.28344 US gallons (20 \u00f7 3.785411784), or 4.39938 Imperial gallons (20 \u00f7 4.54609).",
+    "execution_class": 2,
+    "input_ids": [
+      "Xdca83d9ffaad1586bea2e5f5e198f07b2c9f481e0e72e9e5406f4986129cbd0e",
+      "Xf691648525f4f965aac5f159c9f6ae23c294a62adbf62c7a14c2103c84eebe5f",
+      "Xed919234156be73e6eba2b18395ba50b2816dbb052c03a16ad8cf26465bdccfd"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_55-W18",
+    "prefix": "If the fuel level is lower than 10, then go ahead and add double that amount. Let's assume",
+    "candidate_text": "Draft conditional refueling calculation\ndef planned_addition(level):\n    if level < 0: raise ValueError(\"fuel level must be nonnegative\")\n    return 2*level if level < 10 else 0\n# Predicted final amount is level + planned_addition(level). Units must match the threshold; this calculates only and operates no vehicle.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xbad775718fc9ee33e747d7f44179e06713889b4d0aaa7d313bd097bdcb0e377b",
+      "X07fa1460da970b164508471391cc5b2870c616610862b829c9820b5a89f78b54",
+      "X736b86b4111114b0932d93767c1959c9dc24571c73f444e7e4a32d9a77dd6f44"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_58-W18",
+    "prefix": "I am planning a road trip from Rivermist to San Francisco, and I need to know how far",
+    "candidate_text": "Draft road-distance discovery query\n\"Rivermist\" \"San Francisco\" (\"driving distance\" OR \"road distance\") -flight -airfare",
+    "execution_class": 1,
+    "input_ids": [
+      "X222bfbf1a9ea6b50e1b792f4385de56e5b24e1ee9495e0e20189fd21cf2c8c6b",
+      "Xc10646574cc38eb65199ff5449b4fb1de3445d3c92983abe2497e753a1fe486c",
+      "X3032e24e4e95e08b802edf787e4f7febbfd6bb57aa6fe36d8ad8d00525ede613"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_59-W18",
+    "prefix": "I recently moved to San Francisco and I\u2019m planning a trip to Rivermist. How far apart are these",
+    "candidate_text": "Draft a route-distance search\n\"San Francisco\" \"Rivermist\" (\"road distance\" OR \"driving distance\" OR \"straight line distance\")",
+    "execution_class": 1,
+    "input_ids": [
+      "X68d6c5c0e15349e6f4fe185e75b67f6c7ef5cbae07ec2b7164d926fdf23e055f",
+      "X25590da7a8370c58e8577e13ad9c828665d8ed514a5d7fb172844a1f5a36690e",
+      "Xbf8afbbaaccde4af0685a66a949fe5a97a89eddc080a88c156581df22f9fb3e9"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_61-W18",
+    "prefix": "Could you map out the precise mileage from San Francisco to Rivermist for me, along with an assessment",
+    "candidate_text": "Draft a driving-mileage query\n\"San Francisco\" \"Rivermist\" (\"driving distance\" OR \"road distance\") (miles OR mileage)",
+    "execution_class": 1,
+    "input_ids": [
+      "X1895b63a919b2c8a8582a862e8555f13b0db1d9fca76191c8bd2cebe3881c229",
+      "Xa6bee40860eb31601b513bbf5e700c24509031f41c27b06f5103fa0384ffdbeb",
+      "X0b6c113c881bdae40244b710c4c2b239fee54132f4d957f957cc1380cc513c90"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_62-W18",
+    "prefix": "I'm currently in Rivermist planning a trip to Stonebrook. Could you provide an estimate of the distance and",
+    "candidate_text": "Draft road-distance discovery query\n\"Rivermist\" \"Stonebrook\" (\"driving distance\" OR \"road distance\") -flight -airfare",
+    "execution_class": 1,
+    "input_ids": [
+      "X731df26b5f94d6f038c5c4cc89f90a29522f5d8cafd518ba9341d367ba9a9f5a",
+      "X153eaa8a55f0bc8b9797391616c9355a3c0d4e414dfd05ba68f3578dab8bd068",
+      "X33b851cc2a0d12e0f52f698a752399e52ab89f6b1fafb7a89564523047f59396"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_69-W12",
+    "prefix": "Estimate the distance between San Francisco and Rivermist. Afterwards, fill the tank",
+    "candidate_text": "Draft driving-distance query\n\"San Francisco\" \"Rivermist\" (\"driving distance\" OR \"road distance\") -airfare -flight",
+    "execution_class": 1,
+    "input_ids": [
+      "X6bfb29d37cff68c71a930bacd71bf65d36addcf480c94e2d4b1e8462224304fb",
+      "X675abdf3b1d4e5caaa703eb7930134329f4bb0603a4b75e6d419ac9eb7716dd8",
+      "Xae587a199f45bce14a77e98cc44dc97b036d9d3d019aaa76d1f5dd17c39b3982"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_7-W6",
+    "prefix": "Directly open the academic_venture folder and",
+    "candidate_text": "Draft guarded academic folder navigation\nif [ -d ./academic_venture ]; then cd -- ./academic_venture && pwd; else printf \"%s\\n\" \"academic_venture directory absent\" >&2; fi",
+    "execution_class": 1,
+    "input_ids": [
+      "Xbc527b6a9a7b4f84cf8245d03eda2d394051a1033e26c5f2e17d031bb0452709",
+      "X4fdb58fedafd198ab32bfa4a4c878c778441662abc2d86874bb4a6f5c5d6ca53",
+      "Xc8f452208013d9f91b0b84a86837488b8892f15b32a26ede1c75a2b7194b8152"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_80-W18",
+    "prefix": "You're planning an extended expedition from Rivermist to San Francisco. Could you determine the travel distance between these",
+    "candidate_text": "Draft a route-distance query\n\"Rivermist\" \"San Francisco\" (\"driving distance\" OR \"road distance\") (miles OR kilometers)",
+    "execution_class": 1,
+    "input_ids": [
+      "Xf27721f942d6900132b3284d79c3e7e19f7939860ba17e4a6d254aeda4a53f11",
+      "X697cfe3a478b2b2bd580fb420bca50f59786146baa6927a64b7b545e3e40e536",
+      "X9dda5ce2d675ee82ef82fa366eb075b21379b0731a53af5cb368753a9d07c548"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_85-W18",
+    "prefix": "I\u2019m planning a trip from Rivermist to San Francisco, and I need to see if my current fuel",
+    "candidate_text": "Draft fuel sufficiency calculation\nGiven road distance d, current fuel f and economy e in distance per fuel unit: usable range = f*e; trip fuel = d/e; shortfall = max(0,d/e-f). Require e>0, d>=0, f>=0 and consistent units; mark sufficiency unknown until route distance and readings are supplied.",
+    "execution_class": 2,
+    "input_ids": [
+      "X53e237b0e3cc8d38427f0cd767c463e713ba033a8665936ebbc8b25c61e0dd86",
+      "X08a008bdc1bb32e5d9951192cce4fc9cc801bf85a083e610d7ddbd80fc0d92fa",
+      "X0cea1c30e95d4fbc9dd93021370db4e0ccdb308364cbb3cdd840bfcf296fe232"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_87-W18",
+    "prefix": "As I gear up for another delightful journey exploring the captivating waterways, I'm looking to convert 60 gallons",
+    "candidate_text": "Calculate both gallon conventions\n60 US liquid gallons \u00d7 3.785411784 = 227.12470704 liters.\n60 imperial gallons \u00d7 4.54609 = 272.7654 liters.\nSelect the convention before using the result.",
+    "execution_class": 2,
+    "input_ids": [
+      "X7b7d91ae702567469addaf501ea00bfb31779e9dbbda465b54b82a79616de859",
+      "X0355a02bc814951d0e231ec5e72a276820c8a18f0e95951f7aa6c3e793732264",
+      "Xb634b40ec2da0a0e8d4ee42b875b03ac6da6bcdb98cc04c36be91a210781787a"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_89-W18",
+    "prefix": "I'm planning a road trip from Rivermist to Stonebrook and would love an estimate on how far this",
+    "candidate_text": "Draft a road-distance query\n\"Rivermist\" \"Stonebrook\" (\"driving distance\" OR \"road distance\") (miles OR kilometers)",
+    "execution_class": 1,
+    "input_ids": [
+      "Xba48096c73ec23f294f50c9f42e3ed21ba7dccbc73a70e2531f570cf2c848d17",
+      "Xd8b5cac35b3ba0d680eee56270b3bfa54a6a658f71d98c5a9244cf8d2350383c",
+      "Xb778b3b5700902fc8f2bf0b8907da3ce619abc7b6585e3e2278f520d419d0a63"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_9-W12",
+    "prefix": "I remember I should have a document called 'FinalReport.txt' in the 'Documentation'",
+    "candidate_text": "Draft document-location command\nfind Documentation -type f -name 'FinalReport.txt' -print\n# Report all exact-name matches; do not silently pick one.",
+    "execution_class": 1,
+    "input_ids": [
+      "X76719810c987566cc690789f45ba212ba5c1f3ed22f17e2c5374886bfdb5e229",
+      "Xac5227b3c5ccabff250e49c0d940b472734dbc4ca4c8c5e3be0d1d94ddad0212",
+      "X6e708f0546088ee5664f15b2991843bcedbe199b499ae7fc996000c8f1ae42a4"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_90-W6",
+    "prefix": "I need to fill 150 liters",
+    "candidate_text": "Prepare the fuel-volume conversion and cost expression.\n150 liters = 0.150 cubic meters. Using 1 US liquid gallon = 3.785411784 liters, 150 liters \u2248 39.6258 US gallons. Using 1 imperial gallon = 4.54609 liters, 150 liters \u2248 32.9954 imperial gallons. At a quoted price p per liter, total cost is 150p; no price, tank capacity, or purchase is inferred.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xcae197003650bf876d13e892b1e0767883bbf19745bbb897d9dcb30119c41953",
+      "Xbde8b5d5da7326bc9a6f1a05ba0b5fb5b6b1a724e31d5d504fff56bd977196e8",
+      "Xe7d7f510b80b4ce4d167b0c9d64caeb7d07df3de06f9a601e35f8d289e91c586"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_92-W18",
+    "prefix": "Could you provide me with a rough distance from Rivermist (zip 83214) to Greenway (zip 74532)? I'm eager",
+    "candidate_text": "Draft zip-constrained route query\n\"Rivermist\" \"83214\" \"Greenway\" \"74532\" (\"driving distance\" OR route)",
+    "execution_class": 1,
+    "input_ids": [
+      "X8d3e53260d0d458f856352a639b93d6c8de3260183187cd68a5cf17ba30a57d6",
+      "Xc215c3bd245f01c8bb9543af5464d821c765f01e92bd095de6d78e16a86bea52",
+      "Xbd656aa2a49c40ec5ee59749663c6c08f2b4f4dd770d545508a00725f71653de"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-P-multi_turn_base_99-W18",
+    "prefix": "I'm planning a road trip to the Grand Canyon and need to drive a distance of 380 miles.",
+    "candidate_text": "Draft fuel calculation for stated distance\nFor 380 miles and economy e miles/gallon, required fuel = 380/e gallons (e>0). With current fuel f gallons, additional fuel = max(0,380/e-f). No numeric fuel quantity can be concluded until economy and current fuel are supplied.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xb173a550f85701b0b1baa391cfbc4b764d9a9fbb9ea60c2a358b4d4f18513bba",
+      "X18ffeef5f54e1f5debc1de689a5a3442432befaa2d623a929368a3c6a7052276",
+      "X445dd3a0fa32bd14b4d7d0ec404c8119d309bb86873bb2bc902443f90186bcbd"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F001-K-W6",
+    "prefix": "Compare flights from Harborview to Eastport",
+    "candidate_text": "Draft flight-comparison procedure\nKeep flight records whose origin is Harborview and destination Eastport. Group by travel date, passenger count, and fare cabin. Within each group compare total fare including known mandatory fees, stop count, elapsed duration, and baggage allowance; retain missing fees as unknown and flag differing airport identifiers for review.",
+    "execution_class": 2,
+    "input_ids": [
+      "X5d9a475027ac14a3b87466072a2a1d43f6f6d1bb12f450b487a55818f6d447eb",
+      "X504f1131eeddd61956499fea0909a8829731911d41ae65e834d416abb725b42f",
+      "X633a0fd09779992bccfb1b97a06777be25b32bf90b8bc96fc05b2d72740dd265"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F001-R-W12",
+    "prefix": "Compare flights from Harborview to Eastport but change the destination to Westhaven",
+    "candidate_text": "Draft revised flight query\n\"Harborview\" \"Westhaven\" (flight OR airfare) -\"Eastport\"",
+    "execution_class": 1,
+    "input_ids": [
+      "X0a483129119875e61976eccb0f1ea96db7db3d701db1be97f2b5c3e7c46efa28",
+      "X061fa5fe66a71544a06f5c9cd6241371d438008db9eaff6c2180700fce061ee5",
+      "X773be7c9fe99725762263f791276bd6750881d20a712ca70db553b4cff281399"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F001-R-W6",
+    "prefix": "Compare flights from Harborview to Eastport",
+    "candidate_text": "Draft flight-comparison procedure\nKeep flight records whose origin is Harborview and destination Eastport. Group by travel date, passenger count, and fare cabin. Within each group compare total fare including known mandatory fees, stop count, elapsed duration, and baggage allowance; retain missing fees as unknown and flag differing airport identifiers for review.",
+    "execution_class": 2,
+    "input_ids": [
+      "X5d9a475027ac14a3b87466072a2a1d43f6f6d1bb12f450b487a55818f6d447eb",
+      "X504f1131eeddd61956499fea0909a8829731911d41ae65e834d416abb725b42f",
+      "X633a0fd09779992bccfb1b97a06777be25b32bf90b8bc96fc05b2d72740dd265"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F002-K-W6",
+    "prefix": "Find hotels near Maple Station and",
+    "candidate_text": "Prepare hotel discovery query\n\"Maple Station\" (hotel OR accommodation) (near OR walking) -jobs -careers",
+    "execution_class": 1,
+    "input_ids": [
+      "X18cf24e2042e219654fdaf418e346044fb16988666979ec16ef018df28d3f93d",
+      "X8be1d31cfbdbc31e83c098eac88439e2b38568fe328b7b38333045012548ae98",
+      "X35e396b0e1396d766fdb0af8e8127d8cf680c30b9e0809a6cf4ee8cbfc466bf8"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F002-R-W12",
+    "prefix": "Find hotels near Maple Station but use Pine Station instead and omit",
+    "candidate_text": "Draft revised hotel query\n\"Pine Station\" (hotel OR lodging) (near OR walking) -\"Maple Station\"",
+    "execution_class": 1,
+    "input_ids": [
+      "Xe546fad67e7d0d63361c17682187342a97a2afdbe2ad53e369235a909b83f695",
+      "X75aa36b916c726fea06c54bd639670ecb875d5a17f6f67e86ffb41d3cd1b3113",
+      "X3c762c1501afb6914efc6dd446ee92fbd810298e156e0b5e6e236abf2ea5ca00"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F003-R-W18",
+    "prefix": "Compare Friday car rentals at North Terminal but pickup must be at South Terminal instead, with no North",
+    "candidate_text": "Draft revised rental query\n\"South Terminal\" \"Friday\" (\"car rental\" OR \"rental car\") -\"North Terminal\"",
+    "execution_class": 1,
+    "input_ids": [
+      "Xacf6ef61e5476517b8213de3c4b83525b4f05c660f6e44e73792eee180d01ac9",
+      "X83af2cd659a27da15badbe733904ca949a08d1ceefa573e143f055c8249d835d",
+      "X1503926e5fe4e12d0cac786175267ab7e284eeba203f35ccd9691c0b0147eb33"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F004-K-W6",
+    "prefix": "Compare nonstop flights to Eastport and",
+    "candidate_text": "Prepare nonstop-flight comparison algorithm\nGiven candidate flight records, retain destination Eastport and stops==0; normalize fare components into one currency and keep baggage fees separately when unknown. Group equivalent departure dates, origins, and passenger counts; compare total known cost, departure/arrival times, and elapsed duration. Mark missing costs unknown rather than zero.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xd091faa691de8c4429fab368a27f9a6d3117be3e385a3d6ec292c19fda6cbb4a",
+      "X6c5ede07df0bf6b955f245fe2d45a5cb27e9db7d10d81a89a77fc8158b739496",
+      "X6fd5269a21ec09fc196b595f9620bf85edb3110975780c0fd28daece1dbf5a30"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F004-R-W12",
+    "prefix": "Compare nonstop flights to Eastport but I now want only one-stop itineraries",
+    "candidate_text": "Draft a one-stop itinerary filter\ndef one_stop_to_eastport(itineraries):\n    return [i for i in itineraries if i[\"destination\"] == \"Eastport\" and len(i[\"segments\"]) == 2 and i[\"segments\"][0][\"arrival_airport\"] == i[\"segments\"][1][\"departure_airport\"]]\n# Two connected flight segments encode one stop; origin/date remain unspecified.",
+    "execution_class": 2,
+    "input_ids": [
+      "X5961435cbbc0cb11c291bb80bec18a4f1784c080dd615df8c5ce8c58e3745cf0",
+      "X466ee29461254db9f6059ddd8526704a833dd20b7fa852f24e32d4ce30d8e4b6",
+      "Xf80eadea8606c64642639c27d0df1c6bf29e09ee00ad0e5fa84326a1276809de"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F005-K-W6",
+    "prefix": "Find Italian restaurants around Cedar Square",
+    "candidate_text": "Prepare restaurant discovery query\n\"Cedar Square\" (\"Italian restaurant\" OR trattoria OR osteria) -jobs -careers",
+    "execution_class": 1,
+    "input_ids": [
+      "X18ccc2952a7e7b83d681973f2b1084b03f92adec219df3c8de930d6d9f0f33b3",
+      "Xf7935ef13c1b62b26d066b22c00814ceae9868808a0ebd8200c1ef2bfa1aa847",
+      "Xd137d776228cd9554f7fad9e013793f17d2d6d53cd2771d05f1103fc227e5aaf"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F005-R-W12",
+    "prefix": "Find Italian restaurants around Cedar Square but change the cuisine to Thai",
+    "candidate_text": "Draft the corrected cuisine search\n\"Cedar Square\" (\"Thai restaurant\" OR \"Thai food\") (menu OR location) -\"Italian restaurant\"",
+    "execution_class": 1,
+    "input_ids": [
+      "X91bbd52f86e9a5346eff9b834dcb078df11f599d266e3f94e1c7d086b37277fe",
+      "Xff1267ec84823d6dd5e07ced8afc3950586518d58ae7b14beb4ff435d00544dd",
+      "X879eb7bc2dc8cc5912337fb9d412263281968ffe647055a6f76da0faeb2d0776"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F005-R-W6",
+    "prefix": "Find Italian restaurants around Cedar Square",
+    "candidate_text": "Prepare restaurant discovery query\n\"Cedar Square\" (\"Italian restaurant\" OR trattoria OR osteria) -jobs -careers",
+    "execution_class": 1,
+    "input_ids": [
+      "X18ccc2952a7e7b83d681973f2b1084b03f92adec219df3c8de930d6d9f0f33b3",
+      "Xf7935ef13c1b62b26d066b22c00814ceae9868808a0ebd8200c1ef2bfa1aa847",
+      "Xd137d776228cd9554f7fad9e013793f17d2d6d53cd2771d05f1103fc227e5aaf"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F006-K-W12",
+    "prefix": "Find bakeries around Birch Park that serve coffee, including the two listed",
+    "candidate_text": "Draft bakery search\n\"Birch Park\" (bakery OR bakeries) (coffee OR espresso) -jobs -careers",
+    "execution_class": 1,
+    "input_ids": [
+      "Xf8a7e8e59e5ca67d8285b41b25f33401aa4a7ab1c6ca1da64963135dc1cec00e",
+      "X9e5a2dbf4aa6513b17752f4150be46b206dff6463ae6c4b52c1aa9630836f7c5",
+      "Xfd00ac2815e6d49128f4639578619f26ba00d70e6d58deba7787ccf8b95194a4"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F006-K-W6",
+    "prefix": "Find bakeries around Birch Park that",
+    "candidate_text": "Prepare a bakery discovery query for Birch Park.\nUnsubmitted query: (bakery OR bakeries OR patisserie) \"Birch Park\" (address OR location OR directions) -recipe -recipes. Geographic identity and the unfinished qualifying condition remain unverified.",
+    "execution_class": 1,
+    "input_ids": [
+      "X3efccdc6bfe91d4e68d4022739c481d36a57e20bf3ee0c5d1cdcd37594a1f033",
+      "Xd0ec5898891d1738cbe5dfc3a285affdfecfacc60b08837d39e830a5c310ecc1",
+      "X2ae347a10a03fef84c71bdf2f073b0da311ed752c3e6ba3487ebec7d1f3b8881"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F006-R-W12",
+    "prefix": "Find bakeries around Birch Park but I meant pharmacies around Birch Park,",
+    "candidate_text": "Draft the corrected pharmacy search\n\"Birch Park\" (pharmacy OR chemist) (address OR hours) -bakery -bakeries",
+    "execution_class": 1,
+    "input_ids": [
+      "X4286d6372c1f622d9a946602d59b7c433d577d99825610ea83ba5ecfa6f1dce4",
+      "X2eafed32c0c138e145f24a06eab4c54947d1bdd632697c451cc97d5f6a55e972",
+      "X5eff61a2ee7525d95bb42553df438ddf742570ced35e0e38e09c0390c1fca309"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F006-R-W6",
+    "prefix": "Find bakeries around Birch Park but",
+    "candidate_text": "Prepare bakery discovery query\n\"Birch Park\" (bakery OR bakeries OR patisserie) -jobs -careers",
+    "execution_class": 1,
+    "input_ids": [
+      "X3efccdc6bfe91d4e68d4022739c481d36a57e20bf3ee0c5d1cdcd37594a1f033",
+      "Xd0ec5898891d1738cbe5dfc3a285affdfecfacc60b08837d39e830a5c310ecc1",
+      "X3f85d25651467bb62674d0ee0c8d50dbf5fdb98e99565e5739ae442951708978"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F007-K-W12",
+    "prefix": "Find gyms in Riverton that sell day passes and prioritize day-pass gyms",
+    "candidate_text": "Draft a day-pass gym search\n\"Riverton\" (gym OR \"fitness center\") (\"day pass\" OR \"single visit\") (price OR access)",
+    "execution_class": 1,
+    "input_ids": [
+      "Xf0e1dc027584bdabee2b147684dbe0a858cccb24bf035b4de11042d17018a761",
+      "Xb4810b7237d9d6f6697d68b275e763519031a4f38cf8ef7f1da39e7df1863a67",
+      "X195c93964afc9811b2f5e45f8619b151757af61d3a30a38237d3b7583447551d"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F007-R-W18",
+    "prefix": "Find gyms in Riverton that sell day passes but only consider members-only gyms that do not sell day",
+    "candidate_text": "Draft the corrected gym search\n\"Riverton\" gym (\"members only\" OR \"membership required\") (\"no day passes\" OR \"day passes not available\")",
+    "execution_class": 1,
+    "input_ids": [
+      "X0c7a8c137655b81916941869e40b2473f5a7f0a234d762c2b2eedbe7202d4439",
+      "X38a94a44d22c50ac563f0c0ad567a072c93c3071ea29d3ba9793d1bc91484af7",
+      "X1fde7cedffbd727c03ddc10740af0f8395e2e96b68cae5a3531e6b825b9290df"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F008-K-W6",
+    "prefix": "Find pharmacies in Brookfield that are",
+    "candidate_text": "Prepare pharmacy location discovery for Brookfield.\nUnsubmitted query: (pharmacy OR pharmacies) \"Brookfield\" (address OR location OR hours) -jobs -careers. Confirm which Brookfield and the unfinished qualifying condition before filtering candidates or making a recommendation.",
+    "execution_class": 1,
+    "input_ids": [
+      "X037ed572f3312ff2271e03ea880d0e62968f2dbb5adea853fbef3683f1144d6e",
+      "Xb134d4f19bc76fa699d51cf1f751502f2878ddb3f19f1e0f6aa848a62184ee80",
+      "Xe6f634f10b85eebe5a5ed1449e300bef8344745698dfd67c8461a3ff3058ee31"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F008-R-W12",
+    "prefix": "Find pharmacies in Brookfield that are open now but only list hospital",
+    "candidate_text": "Draft hospital-pharmacy discovery query\n\"Brookfield\" \"hospital pharmacy\" (hours OR \"open now\") -jobs -careers",
+    "execution_class": 1,
+    "input_ids": [
+      "X5791e91a8ef89d5f0cb930e6c1728b9c8f9657eec4450eec0132f1003aa87c9a",
+      "X297afdd989c2f271c818dd9c1ee25da5459a7213eb076392e2bf806ff1741d55",
+      "X77f75e00daac90e3ceaa06e330c2d043d08de0db382e0b075abdab70fa615b17"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F008-R-W18",
+    "prefix": "Find pharmacies in Brookfield that are open now but only list hospital pharmacies that are closed now and",
+    "candidate_text": "Draft the corrected pharmacy query and filter\nSearch: \"Brookfield\" \"hospital pharmacy\" (hours OR schedule). Retain only hospital pharmacies whose published schedule excludes the relevant local current time; exclude open pharmacies and pharmacies without verifiable hours.",
+    "execution_class": 1,
+    "input_ids": [
+      "X8e8709c2c99acdf1094b23a41ce863780d0f77ae2de2ff0f15c23405f23485ee",
+      "Xd6e079b42e7e3a7d95a02f4955be482cee33fb09c0e377ed684be23f7796ae14",
+      "Xf122a29f526bd9848ad3f1ebdcd7660ccf419fa16ed885a4bd91db699a512cb2"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F008-R-W6",
+    "prefix": "Find pharmacies in Brookfield that are",
+    "candidate_text": "Prepare pharmacy location discovery for Brookfield.\nUnsubmitted query: (pharmacy OR pharmacies) \"Brookfield\" (address OR location OR hours) -jobs -careers. Confirm which Brookfield and the unfinished qualifying condition before filtering candidates or making a recommendation.",
+    "execution_class": 1,
+    "input_ids": [
+      "X037ed572f3312ff2271e03ea880d0e62968f2dbb5adea853fbef3683f1144d6e",
+      "Xb134d4f19bc76fa699d51cf1f751502f2878ddb3f19f1e0f6aa848a62184ee80",
+      "Xe6f634f10b85eebe5a5ed1449e300bef8344745698dfd67c8461a3ff3058ee31"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F009-K-W6",
+    "prefix": "Research local robotic actuator manufacturers and",
+    "candidate_text": "Prepare an actuator-manufacturer research query.\nUnsubmitted query: (\"robotic actuator\" OR \"robotics actuators\" OR \"servo actuator\") (manufacturer OR manufacturing) (factory OR \"contact us\") -distributor -reseller. When locality is specified, add its quoted city or region and verify the manufacturing address rather than relying on a sales-office address.",
+    "execution_class": 1,
+    "input_ids": [
+      "Xe8183d362deb65c99013854da6e47fe22661758ffa8dce4d9442f57129a29665",
+      "Xdbebc45479623eb45aeca700ac1a099c2e86d1eb9240558094ac98613b36d93a",
+      "X82188e2915417cc0d1ac51bf5505dabbd814a112012933b1473841ab52fe9c96"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F009-R-W6",
+    "prefix": "Research local robotic actuator manufacturers but",
+    "candidate_text": "Prepare manufacturer discovery query\n(\"robotic actuator\" OR \"robotics actuator\") (manufacturer OR factory) -distributor -reseller",
+    "execution_class": 1,
+    "input_ids": [
+      "Xe8183d362deb65c99013854da6e47fe22661758ffa8dce4d9442f57129a29665",
+      "Xdbebc45479623eb45aeca700ac1a099c2e86d1eb9240558094ac98613b36d93a",
+      "X55c35f6bfdf315ea4c6da7bee4f75da4206f4d33ccd5045c3668816c5a4bc273"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F010-K-W6",
+    "prefix": "Compare 15-litre shoulder bags and rank",
+    "candidate_text": "Prepare 15-litre bag ranking method\nFilter candidates to shoulder-carry bags with documented 15 L capacity. For candidates with known comparable attributes, define dominance as no higher price or empty weight and no smaller opening width, with one strict advantage. Return Pareto layers; flag incomparable or missing-attribute candidates rather than inventing weighted rankings.",
+    "execution_class": 2,
+    "input_ids": [
+      "X46f5b7463ec08df98cbebba054b7ea4374c56dd13701fca106fdc654119eb87f",
+      "X14e405ea5b01a3e87e088dd97fa69aeaa950a9fd0caff4593d5d7d8893b5b4e1",
+      "X749285303d7ab9b5bf4df6725b7e1a5a77f3452b080a9d7f0b3bfdd4a846851d"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F010-R-W12",
+    "prefix": "Compare 15-litre shoulder bags but compare 30-litre backpacks instead and do not",
+    "candidate_text": "Draft a corrected backpack search\n\"30 litre\" backpack (dimensions OR weight OR review) -\"15 litre\" -\"shoulder bag\"",
+    "execution_class": 1,
+    "input_ids": [
+      "X1ca3dc6b091ceca4806b40c0f1c2a552f195b5e37bc9275d9988244baeddc1f2",
+      "X9bec787da6823807edffc15283d2560d512b64b78f6071a1b553cc24bcc832fb",
+      "X539530a9bd700f6eab9f9bff2e7f48474fa74bd321163a12dbe31629072c07e5"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F010-R-W6",
+    "prefix": "Compare 15-litre shoulder bags but compare",
+    "candidate_text": "Prepare bag comparison normalization\nRetain documented 15 L shoulder bags. Normalize dimensions to cm and empty weight to g; preserve source currency for prices. Compare capacity, closure, strap adjustability, empty weight, and price only where values are documented; distinguish unavailable values from zero and refrain from aggregate ranking until comparison constraints arrive.",
+    "execution_class": 2,
+    "input_ids": [
+      "X46f5b7463ec08df98cbebba054b7ea4374c56dd13701fca106fdc654119eb87f",
+      "X2ffeee6b81a2f6ba1e9d939debf4d075de9bb6c064a1d9abcad1b6ac377cf122",
+      "X11c08ba38ffd2be514663f658453f21c68788d8d0d77fb158de8df268f504f43"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F011-K-W6",
+    "prefix": "Find brown faux-suede jackets with stand",
+    "candidate_text": "Prepare apparel query\n(\"faux suede\" OR \"faux-suede\") brown jacket (\"stand collar\" OR \"stand-up collar\") -\"genuine suede\"",
+    "execution_class": 1,
+    "input_ids": [
+      "Xee135f00982e05fa1753f5739336372475f5fb0cd8a6d3b98dd440ae32536501",
+      "Xf30dc3e765651a0f01326b6954738748cc8c082f7d149d50a59947eb730865d6",
+      "X1d8475bd55c19572928876ab108d5953ca050c0d27bc06ba85b15de745773066"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F011-R-W12",
+    "prefix": "Find brown faux-suede jackets with stand collars but use black cotton jackets",
+    "candidate_text": "Draft revised jacket search\n\"black\" \"cotton\" jacket -brown -\"faux suede\"",
+    "execution_class": 1,
+    "input_ids": [
+      "X59738b7abd9a135c4152660ad76842f3f809c8b61318db76aadf8ee441ec0292",
+      "Xfaf76b68d182b1d5cf16c11aa5d76da72badc768ac7cc85cf2ad638a788d5d47",
+      "X239e478b1000027b14141f04d19e390ac291c0ec4bf58b01c8dab567acc9c61d"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F011-R-W6",
+    "prefix": "Find brown faux-suede jackets with stand",
+    "candidate_text": "Prepare apparel query\n(\"faux suede\" OR \"faux-suede\") brown jacket (\"stand collar\" OR \"stand-up collar\") -\"genuine suede\"",
+    "execution_class": 1,
+    "input_ids": [
+      "Xee135f00982e05fa1753f5739336372475f5fb0cd8a6d3b98dd440ae32536501",
+      "Xf30dc3e765651a0f01326b6954738748cc8c082f7d149d50a59947eb730865d6",
+      "X1d8475bd55c19572928876ab108d5953ca050c0d27bc06ba85b15de745773066"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F012-K-W12",
+    "prefix": "Compare robotics synthetic-data tools that support Engine R and keep Engine R",
+    "candidate_text": "Draft Engine R tool-discovery query\n\"Engine R\" (\"synthetic data\" OR \"synthetic-data\") robotics (tool OR integration OR documentation) -jobs",
+    "execution_class": 1,
+    "input_ids": [
+      "X0fed3cab249c71cdf3120256a78149a17998638f4fca6e797831ae827d0182f5",
+      "X462a3d8ebede3ae10327e40818300e95a1910742b8e82d2d4a8726086721ff3f",
+      "X7f2aba2e28c99f916dfd902c20da7c6550f345a407879d57236202e23ec36aeb"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F012-K-W6",
+    "prefix": "Compare robotics synthetic-data tools that support",
+    "candidate_text": "Draft a robotics synthetic-data comparison method.\nFor each eventual candidate, run the same scene specification and compare: sensor outputs and label types; control of geometry, materials, lighting, and random seeds; robot/kinematic model import; reproducibility of a generated sample from its seed; and export schema compatibility. Record whether each capability is native, requires custom code, or is unsupported. Apply the missing must-support condition as a hard filter before scoring remaining tools. This is an unexecuted comparison protocol.",
+    "execution_class": 1,
+    "input_ids": [
+      "Xf3a562d7030af56f91ab2e1acb7ad80be1e6d5bea683f0a582a80315c759d718",
+      "Xd042aaed352e402b8ab547aa01d33516614870914a0755b167c65139f3426782",
+      "Xe98f3fbf2db4caa7f348ecc3ca6f53cdc9c1576ea1f7f7f1bc75dd4e7a42f79b"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F012-R-W6",
+    "prefix": "Compare robotics synthetic-data tools that support",
+    "candidate_text": "Draft a robotics synthetic-data comparison method.\nFor each eventual candidate, run the same scene specification and compare: sensor outputs and label types; control of geometry, materials, lighting, and random seeds; robot/kinematic model import; reproducibility of a generated sample from its seed; and export schema compatibility. Record whether each capability is native, requires custom code, or is unsupported. Apply the missing must-support condition as a hard filter before scoring remaining tools. This is an unexecuted comparison protocol.",
+    "execution_class": 1,
+    "input_ids": [
+      "Xf3a562d7030af56f91ab2e1acb7ad80be1e6d5bea683f0a582a80315c759d718",
+      "Xd042aaed352e402b8ab547aa01d33516614870914a0755b167c65139f3426782",
+      "Xe98f3fbf2db4caa7f348ecc3ca6f53cdc9c1576ea1f7f7f1bc75dd4e7a42f79b"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F013-K-W6",
+    "prefix": "Find freestanding desk converters under 250",
+    "candidate_text": "Prepare desk-converter discovery query\n(\"desk converter\" OR \"desktop riser\") (freestanding OR \"free standing\") -\"wall mounted\" -\"desk frame\"",
+    "execution_class": 1,
+    "input_ids": [
+      "X8f8fde09070485bca8d4c96ab8a7ab8cfac6bcd800bd2b1709a5bb5b53013892",
+      "Xb2a8da7e351947a85a7c7287d58332ae926b9a2f10b773db4d5f716c12d16aa1",
+      "X02a0aca02d6018f0948eccd44358fc540c69f766ec61fe57d92a7d4971083afe"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F013-R-W6",
+    "prefix": "Find freestanding desk converters under 250",
+    "candidate_text": "Prepare desk-converter discovery query\n(\"desk converter\" OR \"desktop riser\") (freestanding OR \"free standing\") -\"wall mounted\" -\"desk frame\"",
+    "execution_class": 1,
+    "input_ids": [
+      "X8f8fde09070485bca8d4c96ab8a7ab8cfac6bcd800bd2b1709a5bb5b53013892",
+      "Xb2a8da7e351947a85a7c7287d58332ae926b9a2f10b773db4d5f716c12d16aa1",
+      "X02a0aca02d6018f0948eccd44358fc540c69f766ec61fe57d92a7d4971083afe"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F014-K-W12",
+    "prefix": "Find a 30-minute meeting for Sam and me on Tuesday and use",
+    "candidate_text": "Draft a Tuesday common-slot algorithm\ndef common_half_hours(sam_free, my_free):\n    from datetime import timedelta\n    slots = []\n    for a,b in sam_free:\n        for c,d in my_free:\n            start,end = max(a,c),min(b,d)\n            if start.weekday() == 1 and end-start >= timedelta(minutes=30):\n                slots.append((start,start+timedelta(minutes=30)))\n    return sorted(set(slots))\n# Supply intervals on the intended Tuesday in one timezone.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xe7ec88bf3d9ceb68d3cba5d856474a4486c8cbd7310dd9a23300af9bf57accdf",
+      "Xf5d97280b2f8479845ec4cef0ce0ed9222843c1ce0ac6f302ab4af330bee94f2",
+      "X42371106dcdbcc3a24b1ccacc3cb68d86ab6193cded0a8ab8f1e04c7689b95ed"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F014-R-W18",
+    "prefix": "Find a 30-minute meeting for Sam and me on Tuesday but switch the meeting to Wednesday and ignore",
+    "candidate_text": "Draft availability intersection algorithm\nFor Wednesday only, intersect Sam\u2019s and my free intervals in a shared timezone. For each overlap [s,e), retain it if e-s >= 30 minutes; propose [s,s+30 minutes). Do not reserve a slot.",
+    "execution_class": 1,
+    "input_ids": [
+      "X443796b70f45b2d4b770d6ae3848093ffb86d7f075d34c53a02c6eb890bd0f8d",
+      "X3ae2212a0d2d5cdbc506039852f119ec8c2e9776b989fcb74698cdb7e91f8586",
+      "X54e867069f9713854bf2b521977fb61556dc6bf5cc3ae3ab5fdcabe827fb75d5"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F015-K-W18",
+    "prefix": "Check whether my dentist can see me on Friday and keep my existing appointment if Friday has no",
+    "candidate_text": "Draft a conditional dentist-appointment plan\ndef friday_plan(friday_slots, existing_appointment):\n    if not friday_slots: return {\"retain\": existing_appointment, \"proposed_change\": None}\n    return {\"retain\": existing_appointment, \"candidate_slots\": friday_slots, \"status\": \"review_before_change\"}",
+    "execution_class": 2,
+    "input_ids": [
+      "Xbb752540b28d37fc957a80e5a42a624510f96b9e3c670b15c6ab91095dd9d5cf",
+      "X7adadeec2692fdecf9493f44bf19ec1939a7dd3c96953506b32223ac9ece2f34",
+      "Xf332faa0ec0ebd6d3b4681348ce9107eb36df8a3e252b1ccbe390a5fd3400f76"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F015-R-W18",
+    "prefix": "Check whether my dentist can see me on Friday but check Monday instead and ignore Friday openings, keeping",
+    "candidate_text": "Draft unsent dentist inquiry\nHello, could you let me know your available appointment times on Monday? Please consider Monday availability only; I no longer need Friday openings. Thank you.",
+    "execution_class": 3,
+    "input_ids": [
+      "X1e5d1a6a3a4d1c8ff73658e19e7d7c7691c4030139d5c71c6158993c2739b704",
+      "Xa3a2afc9f6f0c4b6a40cf6e3c37bd68b78fd6caf8219bab1dfb092ea11e7b42b",
+      "Xfbb83d2f3edb84440b9d0762eb909f9a6f260914462125773f918b709036d1cb"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F016-K-W12",
+    "prefix": "Find team meeting slots this week after 10 AM and show the",
+    "candidate_text": "Draft a team-slot intersection algorithm\ndef intersect_free_windows(team_windows):\n    from datetime import time\n    common = team_windows[0] if team_windows else []\n    for windows in team_windows[1:]:\n        common = [(max(a,c),min(b,d)) for a,b in common for c,d in windows if max(a,c)<min(b,d)]\n    return [(max(a,a.replace(hour=10,minute=0,second=0,microsecond=0)),b) for a,b in common if b.time()>time(10)]\n# Inputs: same-day free intervals already scoped to this week and one timezone.",
+    "execution_class": 2,
+    "input_ids": [
+      "X8fc5e5a25032bf83332b5b23266e51b1d069c3d1efcce8a10df74b5a35daa968",
+      "Xd95e96ee033960bb30e92ae2c8f2f5f1be5650f6e441b3c8c0f9258a374fee5f",
+      "Xc396f98173e58ec19490cfa56eb9a2e4786fb45f47f39416e69ad4057e32589b"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F016-R-W6",
+    "prefix": "Find team meeting slots this week",
+    "candidate_text": "Draft free-slot intersection algorithm\nWithin this week in the team timezone, intersect participant working-hour intervals. Subtract the union of all busy intervals, merging overlaps first. Return each remaining interval with its duration; do not assume meeting duration, attendees, or calendar availability.",
+    "execution_class": 2,
+    "input_ids": [
+      "X4ce198fb7331906279ed3cec9017bb7aa02b3fceb8f3f100f008df2385701713",
+      "X3648e4653c1068314334d89c053d14bd379376d3049791d1b576cf91b46dca1a",
+      "Xa415acb45786704eaa944b177047d170b75b52f80b27bc71e8bb95fb4e998dbf"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F018-K-W12",
+    "prefix": "Draft a reply thanking Morgan for the introduction and offer to provide",
+    "candidate_text": "Draft unsent introduction reply\nHi Morgan, thank you for making the introduction. I appreciate you connecting us and look forward to learning more about their work. I\u2019m happy to share some background on my work to help get the conversation started. Best,",
+    "execution_class": 3,
+    "input_ids": [
+      "Xcf0d033d5bbf59f868926a03269e4d317c9b016683aa3089cddabf1546e88a04",
+      "X8c23c83cb8c629b4866ff00536d4b6ac28d8b4aec2bbd6efeb197b4ae17d8ddd",
+      "X825a4d748a8defcd944d2670f8def3d16b6a3a633737f459f994fb93d53341a6"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F019-K-W18",
+    "prefix": "Draft a team update saying the build is delayed and keep the cause neutral because it is not",
+    "candidate_text": "Draft a neutral build-delay update\nTeam, the build is delayed. The cause has not been established in the information available for this update. No revised completion date is confirmed here.",
+    "execution_class": 2,
+    "input_ids": [
+      "X914459afad96242008c4232c26e57a3e180432fec70b6b370e6910a440296b40",
+      "X716730c49d98d613815f57a862bded1ce07c64a0a4426d1028e1ce67ff1aa94d",
+      "X941649855d822644cc93b2c7e4bacc9a37f58f6e3a086b8a6ce2ba50850fa869"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F019-R-W18",
+    "prefix": "Draft a team update saying the build is delayed but the build is on schedule, so report that",
+    "candidate_text": "Draft the corrected build-status update\nTeam, the build is on schedule. We are continuing against the planned timeline.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xb5e746b0810b30046aa214c92ce261643a914bfaee699edf55bfb9774e6b595d",
+      "X7f82565e2bad87e1451f208417c73e59cdfa398e27b5bfb3c137ac0caed7f49b",
+      "X1760fdfde77ae8d9e1230535e26f4cc681dd9c6818cd8abac8232e19bde231bc"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F020-K-W6",
+    "prefix": "Draft a message declining dinner tonight",
+    "candidate_text": "Draft dinner-decline message\nThanks for inviting me to dinner tonight. I won\u2019t be able to make it, but I appreciate the invitation. I hope you have a lovely evening.",
+    "execution_class": 2,
+    "input_ids": [
+      "X760ec60aecdae7e5373e3afc633816fb2bcaaeacdf2ab323cdc2bb71727b3fa5",
+      "Xe622eecee17b988d0c5ed735f77691c246e66c3d83ce4df09089ddbf86b61335",
+      "X6a0d2b2e93ca045cf05a3b846483fe6669d9584a61dce3d101c31c6fa7ce6a09"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F020-R-W12",
+    "prefix": "Draft a message declining dinner tonight but accept dinner tonight instead and",
+    "candidate_text": "Draft a dinner acceptance\nI'd be happy to join you for dinner tonight. Looking forward to seeing you!",
+    "execution_class": 2,
+    "input_ids": [
+      "X1e6cf984e77eb5c87e3946d02ef2f06555362dfc8240d0fa1d54cd90e91a299f",
+      "Xf444c9682e446cd1db7801c21c78d6022ca1b70d0fe970e8a60dfb5b9b3f0a56",
+      "X74d3ae388fc1410614af3e0af2cb33a07d8f009dfb5a47d3080dee04a16214b0"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F020-R-W6",
+    "prefix": "Draft a message declining dinner tonight",
+    "candidate_text": "Draft dinner-decline message\nThanks for inviting me to dinner tonight. I won\u2019t be able to make it, but I appreciate the invitation. I hope you have a lovely evening.",
+    "execution_class": 2,
+    "input_ids": [
+      "X760ec60aecdae7e5373e3afc633816fb2bcaaeacdf2ab323cdc2bb71727b3fa5",
+      "Xe622eecee17b988d0c5ed735f77691c246e66c3d83ce4df09089ddbf86b61335",
+      "X6a0d2b2e93ca045cf05a3b846483fe6669d9584a61dce3d101c31c6fa7ce6a09"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F021-K-W6",
+    "prefix": "Draft a refund approval message and",
+    "candidate_text": "Draft uncommitted refund approval wording\nYour refund request is approved. We will confirm the refund amount, payment method, and expected processing time separately. Thank you for your patience. [Draft only; verify actual approval before sending.]",
+    "execution_class": 3,
+    "input_ids": [
+      "X20198d8982fb1cc7662ebb579a9efe255b0ec78c812a86e374b939f3e681ba48",
+      "X33ed06495ca8a5dbe2ddda7e65a770ddd8fdbe39dbef3e6e4d811f324678f724",
+      "X7363412d071413c507d01bc47dfe91f44427eb4569e8deb2315ba1cda7134c85"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F021-R-W18",
+    "prefix": "Draft a refund approval message but the refund is denied, so explain the denial and do not promise",
+    "candidate_text": "Draft a denial without promising a refund\nYour refund request has been denied. The information provided here does not specify the reason, so I cannot give a reliable explanation of the decision. Please refer to the decision notice for the applicable grounds.",
+    "execution_class": 2,
+    "input_ids": [
+      "X11a2fb85928dddd8f99d72001bcf6615008503bcc9cc9e7e4985bf7a0fd6843c",
+      "Xa3599e6bccd9550064d6b69d47d54c068161d834aa6ac15ade6d5c1a16f32216",
+      "Xe5dfe413c1f921e70e36af8b21a8f6b2567d83c37b87baaf330480b0a3e349d0"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F022-K-W6",
+    "prefix": "Find peer-reviewed papers about hidden-state probing",
+    "candidate_text": "Prepare literature queries and a publication-status filter.\nUnsubmitted queries: (\"hidden-state probing\" OR \"hidden state probing\" OR \"probing hidden representations\") (\"language model\" OR \"neural network\") (proceedings OR journal); (\"probing classifiers\" OR \"diagnostic classifiers\") (\"hidden states\" OR representations) (ACL OR EMNLP OR ICLR). For each candidate, verify an actual journal or conference publication record; an arXiv listing alone does not establish peer review.",
+    "execution_class": 1,
+    "input_ids": [
+      "Xd0fb04414e029d2f743d14a36d928395150cd6db7a44c006d36963cc1a6fbe86",
+      "X42102fe91d32686d639816c3983e6a48060a0e4862d08f2d15a55b71c6eaa14a",
+      "X51856cffac5125438739c0be05967e225f63a7f2c644cdf903cd405d32822413"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F022-R-W6",
+    "prefix": "Find peer-reviewed papers about hidden-state probing",
+    "candidate_text": "Prepare literature queries and a publication-status filter.\nUnsubmitted queries: (\"hidden-state probing\" OR \"hidden state probing\" OR \"probing hidden representations\") (\"language model\" OR \"neural network\") (proceedings OR journal); (\"probing classifiers\" OR \"diagnostic classifiers\") (\"hidden states\" OR representations) (ACL OR EMNLP OR ICLR). For each candidate, verify an actual journal or conference publication record; an arXiv listing alone does not establish peer review.",
+    "execution_class": 1,
+    "input_ids": [
+      "Xd0fb04414e029d2f743d14a36d928395150cd6db7a44c006d36963cc1a6fbe86",
+      "X42102fe91d32686d639816c3983e6a48060a0e4862d08f2d15a55b71c6eaa14a",
+      "X51856cffac5125438739c0be05967e225f63a7f2c644cdf903cd405d32822413"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F023-K-W12",
+    "prefix": "Find version 3 documentation for Library L and use only the official",
+    "candidate_text": "Draft official version-documentation query\n\"Library L\" (\"version 3\" OR \"v3\") (documentation OR reference) -tutorial -stackoverflow\nAccept a later result only if hosted by the library publisher and explicitly scoped to version 3.",
+    "execution_class": 1,
+    "input_ids": [
+      "X311f3612686772508195d9ab64aeb7a9c01d6434e2866bbf50ddefb2916be7d6",
+      "Xc96d6b2a395fa8cc26a530a5d3fcdca1453696eaaa986d3f9480c94a300afdfc",
+      "Xc3d0dbdb8c1f208e159d3c8d7e5c9c3dc66bab408f024ba8beab5b62446e70ef"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F023-R-W12",
+    "prefix": "Find version 3 documentation for Library L but use version 4 instead",
+    "candidate_text": "Draft a version-filtered documentation query\n\"Library L\" (\"version 4\" OR \"v4\") (documentation OR reference) -\"version 3\" -\"v3\"",
+    "execution_class": 1,
+    "input_ids": [
+      "Xba23313863440452d4488c0dfe70c41e561d0b332a79d971f4ced20c25c774be",
+      "Xc02877b830b1243fb96cede14bc01d0e4c3836b9de305046c6157140f3426c71",
+      "Xfe88554ff9ea9cbfe308e5b27847d5e9d574f9e29e18bf283f42698706212737"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F024-K-W12",
+    "prefix": "Compare Acme's revenue in its two annual releases and report company-stated actual",
+    "candidate_text": "Draft reported-revenue comparison rule\nExtract revenue, period length, currency, units and restatement status from each company annual release. Compare like-for-like company-stated actuals only. Difference = later-earlier; growth_pct = 100*(later-earlier)/earlier when earlier != 0. If periods or currencies differ, report incompatibility rather than silently normalize.",
+    "execution_class": 2,
+    "input_ids": [
+      "X8426bd465bdf9097ad8faac570a4f6a343b5e3ff4b1a387aa98e053d5aa64f2d",
+      "X95a36b496d6ac5123e809317fc51d340c05f9920ab3520b509e8906d575a9086",
+      "X742c37f888f6114a14ac7c2310914ffb2c5049c9067eb5d5add204ebbf504722"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F024-R-W6",
+    "prefix": "Compare Acme's revenue in its two",
+    "candidate_text": "Prepare a two-observation revenue comparison algorithm.\nGiven two supplied revenue observations R1 and R2, first require matching currency, scale, accounting scope, and comparable period lengths. Normalize numeric scale, compute absolute change \u0394 = R2 \u2212 R1, and compute percentage change 100 \u00d7 \u0394/R1 only when R1 \u2260 0; otherwise report the percentage as undefined. Label observations with their supplied periods and avoid calling the result growth until chronological order is confirmed. No Acme figures are assumed.",
+    "execution_class": 1,
+    "input_ids": [
+      "X69921e05c4acc400c23383afff2b98ddae220537d54ec87ddc50166a03e9323b",
+      "Xc67865ed9566ce802c3086aab1cbdc8cc59cacac9680724ae4ed0ebba078f243",
+      "X58d76df432287fa9f1b8f8f0958775527920af90f9995ac148ff4c77e0ebc200"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F025-R-W18",
+    "prefix": "Find primary rules for Region A consumer AI systems but use Region B rules only and exclude Region",
+    "candidate_text": "Draft primary-source search\n\"Region B\" (\"consumer AI\" OR \"consumer artificial intelligence\") (legislation OR regulation OR statute) -commentary -opinion",
+    "execution_class": 1,
+    "input_ids": [
+      "X3ad824dc4dc8428e5da17839fae6a083b10d613fb969539f461b73c972448612",
+      "X33d4c4544b58fcac8cf3b537b296761eb0ab63e8c0a553d99f062a5005050412",
+      "X15de5a7409f42e574b789b72bfe9ac9b123f86b73f6394d09c08b414d0453b24"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F026-K-W12",
+    "prefix": "Compare small open-weight reasoning models and flag vendor-only scores as unverified rather",
+    "candidate_text": "Draft score-provenance annotation logic\ndef annotate_score(row):\n    result = dict(row)\n    result[\"verification\"] = \"independently reproduced\" if row.get(\"independent_reproduction_url\") else \"unverified: vendor-only\" if row.get(\"vendor_score_url\") else \"unverified: no source\"\n    return result\n# Benchmark versions and evaluation settings must match before scores are ranked.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xd041afc35427a33ece0505f334ebbf68e0c1e0d7f315b17779411f00687951bb",
+      "X43e540fc0cdd1b7fa5f33dc7ad58efe6c8812d72d6cd46c8fdd35fc0d21077d1",
+      "Xd5a6c16cd782f05f409a4e79776ceaed88ef71f7e7faef2c8e14a0489a7ec2b8"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F026-R-W6",
+    "prefix": "Compare small open-weight reasoning models but",
+    "candidate_text": "Draft an open-weight reasoning-model comparison protocol.\nFor each eventual small-model candidate, verify downloadable weights and license terms, parameter count and architecture, quantized memory needs, and maximum supported context from its model card. Compare on the same task set with fixed prompt, sampling settings, and output-token budget; report accuracy alongside latency and output length so extra reasoning tokens do not hide compute costs. Treat the missing but clause as unresolved before selecting candidates.",
+    "execution_class": 1,
+    "input_ids": [
+      "X3df09140bfe97a220f0e8522d5b920a1e91d3b6c991ba86c9f45d48d87d6213f",
+      "Xdd263c907403ed33a9ad42f48b51a7be6189cc3166ebe9b2c6835c1234d09f21",
+      "X1fbef2e5f1c7876480975384c04ede645cf269a5b62ba19585128eda75c4bb98"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F027-K-W12",
+    "prefix": "Calculate a 7 percent downside scenario for a 100-credit index and show",
+    "candidate_text": "Compute downside scenario\n100-credit base \u00d7 (1 \u2212 0.07) = 93 credits; hypothetical decline = 7 credits.",
+    "execution_class": 2,
+    "input_ids": [
+      "X0966dd31da5ff53bea144f6516cae8af0116f54b81f9ce2d0112df622a87ed90",
+      "X2ca100e4c9a48031158830d9aa41f843c54ec3465ff8fae10c2df3fc17eb2787",
+      "Xdfaed4a4f00cdaf7cde759a05db97fb883406b329a592ad67c9a4d6aa40a7abf"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F027-R-W18",
+    "prefix": "Calculate a 7 percent downside scenario for a 100-credit index but use a 12 percent decline instead and",
+    "candidate_text": "Calculate the corrected downside scenario\nStarting index: 100 credits. Decline: 100 \u00d7 0.12 = 12 credits. Scenario level: 100 \u2212 12 = 88 credits.",
+    "execution_class": 2,
+    "input_ids": [
+      "X1213abcd4658920ef3f32fa2f074f7bd80e08dd60662f4f27d448ba2015c02d3",
+      "X93bb70881bcb275c72eef54c471f415f429693c73b462456f829a043f5074d75",
+      "X0e629c8eb26992273ac67a5bc801aa13414231633ca2ae6e3d6edf5a5c15a8a6"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F028-K-W6",
+    "prefix": "Calculate budget variance from my supplied",
+    "candidate_text": "Draft a budget-variance calculation function.\nUnexecuted Python draft:\ndef budget_variance(actual, budget):\n    delta = actual - budget\n    percent = None if budget == 0 else 100 * delta / budget\n    return {\"actual_minus_budget\": delta, \"variance_percent\": percent}\n\nApply only to supplied pairs in matching units and periods. Positive delta means actual exceeds budget; whether that is favorable depends on whether the line is revenue or expense. With a zero budget, the percentage is undefined.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xf8aa0ba2f0ba4d71466257ab7bf4969f93d6d1b0fdef98727e0baa5c881902dc",
+      "X70ff70d7d6b2a5273b0f177b9c6fb973d682c4a803d384f8752d957d18cdc8f0",
+      "X2e59f7e1bb730d740177f23f4bd5c6b426b3b326ea51f4a84500f68a953f09ad"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F028-R-W12",
+    "prefix": "Calculate budget variance from my supplied table but show actual category totals",
+    "candidate_text": "Draft actual-category aggregation logic\ndef actual_totals(rows):\n    from decimal import Decimal\n    totals = {}\n    for row in rows:\n        category = row[\"category\"]\n        totals[category] = totals.get(category, Decimal(0)) + Decimal(str(row[\"actual\"]))\n    return totals",
+    "execution_class": 2,
+    "input_ids": [
+      "Xabefef9ddb1bd92177f97b714e1bceefa637719ee395bcc8107d7b1640c4d1aa",
+      "Xcb5874457a5bb187e1fc797bebb01d5ebae9a3051182030bc674c6ea4e6db58a",
+      "Xf1c59ca55d6a25b2bfe294de716d46d373d5217e4d1a0b6edba79d77c7725616"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F029-K-W12",
+    "prefix": "Compare current holdings with the start-of-month snapshot and report concentration changes for",
+    "candidate_text": "Draft concentration-change calculation\nFor each snapshot independently, weight_i = market_value_i / sum(market_value). Align holdings on stable identifiers, filling absent positions with zero weight. Report change_pp = 100*(current_weight_i-start_month_weight_i); also report HHI = sum(weight_i**2) and its change. Reject a zero denominator and disclose unpriced positions.",
+    "execution_class": 2,
+    "input_ids": [
+      "X3305a9d770c90e3ffe664c8044974c0276243a140460b61bd37912e1896c624e",
+      "X8f8499f619275080133de22ed25946a92570d911043692f60ec64f5fb0307641",
+      "Xf2e377ed95e5b185174576ad398d10e89035ad1bb40da9df5fb85bb80673df9f"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F029-R-W18",
+    "prefix": "Compare current holdings with the start-of-month snapshot but compare current holdings with the start-of-year snapshot instead and ignore",
+    "candidate_text": "Draft revised portfolio comparison\nUse start-of-year as baseline. Align instruments by stable ID; mark missing prices instead of treating them as zero. For each complete snapshot calculate weights from market values; report value change and 100*(current_weight-start_year_weight) percentage points. Added/removed instruments have zero weight only when their absence is confirmed.",
+    "execution_class": 2,
+    "input_ids": [
+      "X620d32f992aae4ccdfa9e6ffe5a5e67e80e4b4591ab9e030ada004ac73e08a8e",
+      "X6b466f0984c494234cf352c28c92939e1c4c103472560d6d089289d127b049b7",
+      "Xf948b9b215533a6e1230d8406ae79c9e276ef688fa2a76a7c68da864f0d3af8c"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F029-R-W6",
+    "prefix": "Compare current holdings with the start-of-month",
+    "candidate_text": "Draft holdings reconciliation algorithm\nOuter-join current and start-of-month position snapshots on account plus instrument identifier. Compute quantity_delta=q_now-q_start with absent positions treated as zero only for complete snapshots. Label new, closed, increased, decreased, and unchanged positions. If prices are present in the same currency, compute value_delta=q_now*p_now-q_start*p_start and separate quantity and price effects using (q_now-q_start)*p_start + q_now*(p_now-p_start). Flag corporate actions rather than treating every quantity change as a trade.",
+    "execution_class": 2,
+    "input_ids": [
+      "X2ffb39b866ea909601f22e8bb900ad642cd5ecfc63b60b866831dd1b396c5460",
+      "X4c3229af77b0d7f8528ec38ab97c1af21209968b2930c502cb6c57c399e1cb43",
+      "X298bd6a78d7bea16ed32ed1cb9b0f3be33ff9a9e316ae6596957b65844209949"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F030-K-W12",
+    "prefix": "Calculate breakeven for my debit spread using the supplied values and use",
+    "candidate_text": "Draft a debit-spread breakeven function\ndef debit_breakeven(kind, long_strike, debit):\n    if debit <= 0: raise ValueError(\"Debit must be positive\")\n    if kind == \"call\": return long_strike + debit\n    if kind == \"put\": return long_strike - debit\n    raise ValueError(\"Expected call or put debit spread\")",
+    "execution_class": 2,
+    "input_ids": [
+      "Xee09b83d272dc41bc14afaa388108b48e719cf02eceaa3b06f1502d076b0b01e",
+      "X61a7d185f8aea291c3524047142601c9425e7da7c8245982046f09b0e7cb4d54",
+      "Xa266d5dfc7304b42573d31a8e06123af1a64664e6492d3ff2b12db975a39f300"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F030-K-W18",
+    "prefix": "Calculate breakeven for my debit spread using the supplied values and use the supplied 5-credit debit and 100-credit",
+    "candidate_text": "Draft conditional debit-spread breakeven arithmetic\nWith debit 5 credits and a 100-credit strike: if 100 is the lower long-call strike, call-spread breakeven = 100 + 5 = 105. If 100 is the higher long-put strike, put-spread breakeven = 100 \u2212 5 = 95. The truncated prefix does not identify spread direction or the role of 100.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xfa339bce88feb417fa23ad8c493e4645b4f33ed760bf525869ceb6768093d9cc",
+      "X58323a8725b443b27d2295d14bcfa8391b4458c5eef0ac82e79a6a8cf8a2fced",
+      "X55ab1c0dc0cc0e65e5bd261cf9a2cf119a58cbcc7355baed3e7d78ba4576ab4b"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F030-R-W18",
+    "prefix": "Calculate breakeven for my debit spread using the supplied values but correct the debit to 8 credits while",
+    "candidate_text": "Draft the corrected debit calculation\ndef corrected_breakeven(kind, long_strike):\n    if kind == \"call\": return long_strike + 8\n    if kind == \"put\": return long_strike - 8\n    raise ValueError(\"Specify call or put debit spread\")",
+    "execution_class": 2,
+    "input_ids": [
+      "X629d7c7c960b6a1c4a99fe9c77afcaec3dffe78b14c0a28b713ebc3be3eafd48",
+      "Xcc725cef1cfa0f9d9ad4ed08b6824b8e551d8ec3a649d814b0bd44db671047ae",
+      "X07cbc6396835ac6ff3d97beb7739bcb15d50a42f031d418efc073b4bffe3413c"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F031-K-W12",
+    "prefix": "Write a Python function that counts ERROR lines in the supplied log",
+    "candidate_text": "Draft ERROR-line counting function\ndef count_error_lines(log_text: str) -> int:\n    import re\n    error = re.compile(r\"\\bERROR\\b\")\n    return sum(bool(error.search(line)) for line in log_text.splitlines())\n# Counts each line once, case-sensitively, when ERROR occurs as a word.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xcfd22ca3eb550dc328547944bd1601fadfd137167258bc310a1962644e34de37",
+      "X4bb7a45cee8ca95bc2d7f144c9d049482a6d64c45f9e32a3ac3f90291d9ed0d8",
+      "X1c7c5e8bbb764da98f6becb9b0a8587e65921e7bdf37f815266ec267e1a328e6"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F031-R-W18",
+    "prefix": "Write a Python function that counts ERROR lines in the supplied log but count WARN lines instead and",
+    "candidate_text": "Draft a WARN-line counter\nimport re\ndef count_warn_lines(log_text):\n    return sum(bool(re.search(r\"\\bWARN\\b\", line)) for line in log_text.splitlines())",
+    "execution_class": 2,
+    "input_ids": [
+      "Xa7081e8b1402a08d3d8bd2a7a74d347cbd5c817e2d55f8d4782a5513c89e9be0",
+      "X43163c4466dc0f09edf11960c965a9960c0963448fc899938cf346975ca5f046",
+      "X76c804773d3f76503d427cf8f478d0c802b113ba9c7e678ea7e26e55216635c2"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F032-K-W12",
+    "prefix": "Inspect the client timeout path without changing the code and identify where",
+    "candidate_text": "Draft read-only timeout-path search\nrg -n --glob '*.{py,js,ts,go,rs,java}' 'timeout|deadline|ETIMEDOUT|TimeoutError' .\n# Follow matches from client request creation through exception handling; distinguish connect, read and total deadlines before attributing the timeout.",
+    "execution_class": 1,
+    "input_ids": [
+      "X993495be078763438bf9d0932fa2f0a8cbd3198d40b0e79d940773daba6f6bba",
+      "Xf352e3f1883237f15361118be2f2efbd0fe43a072510b500e6112dfa17ebeed2",
+      "X9d58c6758740491a0c35cdcc802086b9aee4ffe6f5de89a23e2048f93cf79b86"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F032-K-W6",
+    "prefix": "Inspect the client timeout path without",
+    "candidate_text": "Draft a read-only client-timeout inspection search.\nUnexecuted search: rg -n -i 'timeout|timed.?out|deadline|ETIMEDOUT|AbortController' <client-source-root>\nTrace matches from timeout configuration to request creation, cancellation/error conversion, retry handling, and caller-visible propagation. Check whether retries reuse an exhausted overall deadline and whether cancellation releases timers. Preserve the unfinished without constraint before doing any inspection.",
+    "execution_class": 1,
+    "input_ids": [
+      "X53f83f8e22d41638540a8ca2ae36feec59c7d9542198c95ba4d57ab44f985359",
+      "X1804360add224a11a3779a71a0cb9266806af82e74472d04ab067d9d3ae564ec",
+      "X6f173fe8e61fcf1f0af323a0b3ac20fc5194d91e195022907e8448d8d7d2a0a1"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F032-R-W18",
+    "prefix": "Inspect the client timeout path without changing the code but modify the default timeout to ten seconds instead",
+    "candidate_text": "Draft a timeout-change inspection query\nrg -n -i 'timeout|time_out|request_timeout' --glob '*client*' --glob '!*.lock' .",
+    "execution_class": 1,
+    "input_ids": [
+      "Xf13c22412dd6cd8470e3296d66c6457efa39c0caf1752da38cffec467a75c9d8",
+      "X2a54b749d628d181025a83fffea1acaa0387df8effd6ff4ae264c9d86bc30934",
+      "X25bffc673d93a82b0346111cbc854414d3de76eb96a2fbff19350cab213ad74a"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F034-K-W12",
+    "prefix": "Add malformed-JSON tests to the parser and keep this work limited to",
+    "candidate_text": "Draft malformed-JSON test cases\nMalformed inputs: {\"a\":1,} (trailing comma); {\"a\":} (missing value); {\"a\" 1} (missing colon); [1,2 (unclosed array); {\"a\":\"unterminated} (unclosed string). For each, assert parsing raises the parser\u2019s documented parse-error type and never returns a partial successful object. Do not assert implementation-specific error wording.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xb8f3816f53646c3cb12df4f949778a8418687407c1b845e83bbd2768cad57f6c",
+      "X23cc905c47371e9d97620db8178f5716b66a69e2ce48fb909c32734027743ef2",
+      "X779ca822f8c20c25defe7edb62ce4fb93fcbda72d9692ea1200d9e0120d88e6f"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F034-R-W12",
+    "prefix": "Add malformed-JSON tests to the parser but benchmark parsing speed only and",
+    "candidate_text": "Draft parser benchmark skeleton\ndef benchmark(parse, documents, repeats=5):\n    from time import perf_counter\n    if not documents: raise ValueError(\"nonempty corpus required\")\n    samples=[]\n    for _ in range(repeats):\n        start=perf_counter()\n        for text in documents: parse(text)\n        samples.append((perf_counter()-start)/len(documents))\n    return {\"seconds_per_document\": samples}\n# Use a fixed valid-JSON corpus; preparation is outside the timed loop.",
+    "execution_class": 2,
+    "input_ids": [
+      "X78e19e05f3b4b45d3907e3c19a4aa4573642bdcb500a9b96e37ebfd90dea9b9f",
+      "Xa43ba61ea1e5b9ced8fb0df1e928f0ee5453c81eb5aebd610d166a42df7972aa",
+      "Xe1042838ba87ae4ac276f990cfe4c9a1929e4aa0bea2b7a6047d7a5c2256f9d2"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F034-R-W6",
+    "prefix": "Add malformed-JSON tests to the parser",
+    "candidate_text": "Draft malformed-JSON test vectors\nInvalid input cases: {\"a\":1,} (trailing comma); {\"a\" 1} (missing colon); {\"a\":\"unterminated} (unclosed string); [1,,2] (empty element); {\"a\":tru} (invalid literal); {\"a\":1} trailing (extra input). For each, assert parse rejection with the parser\u2019s documented error type, no partially accepted value, and no crash. Include valid controls {} and {\"a\":[1,true,null]} to ensure rejection is not unconditional.",
+    "execution_class": 2,
+    "input_ids": [
+      "X0830a77d6069897620d01558b6f4cb4a87543d2ff54cfc12af7bdb499edf377d",
+      "X8acb910802cf56e635af408db2bf5e3977a0e657e1ce5c7248e2a67125838a55",
+      "Xc1dcb7b4f3de0702689527a0ec4fe8bc6f995197e6ca42561dc31f45651d85ea"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F038-K-W6",
+    "prefix": "Compare these two resumes without recommending",
+    "candidate_text": "Draft evidence-based resume comparison algorithm\nExtract each resume\u2019s explicitly stated roles, dates, skills, education, and accomplishments. Pair claims by category, preserve source excerpts, and mark unstated items as not provided. Calculate durations only for unambiguous dates; present differences without scoring, selecting a candidate, or inferring protected traits.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xe0f3346b4bfdcdfe8085039bbcd3600fd284b56721bf96771bffebb0c22d3177",
+      "X3dec7f067ed4262e728f2dd76a8f27591349136409173666f8f4e991c11fecd1",
+      "Xc62345cec069032418126dcd7f393c6e409e4d61fe202e8abefdec7e9c46137b"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F038-R-W6",
+    "prefix": "Compare these two resumes without recommending",
+    "candidate_text": "Draft evidence-based resume comparison algorithm\nExtract each resume\u2019s explicitly stated roles, dates, skills, education, and accomplishments. Pair claims by category, preserve source excerpts, and mark unstated items as not provided. Calculate durations only for unambiguous dates; present differences without scoring, selecting a candidate, or inferring protected traits.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xe0f3346b4bfdcdfe8085039bbcd3600fd284b56721bf96771bffebb0c22d3177",
+      "X3dec7f067ed4262e728f2dd76a8f27591349136409173666f8f4e991c11fecd1",
+      "Xc62345cec069032418126dcd7f393c6e409e4d61fe202e8abefdec7e9c46137b"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F039-R-W18",
+    "prefix": "Stage the living-room lights at 30 percent brightness but stage bedroom lights at 60 percent instead and discard",
+    "candidate_text": "Draft a replacement lighting plan\ndef replacement_lighting_plan():\n    return {\"pending_actions\": [{\"room\": \"bedroom\", \"brightness_percent\": 60}], \"discard_pending\": [{\"room\": \"living-room\", \"brightness_percent\": 30}]}\n# Returns local data only.",
+    "execution_class": 2,
+    "input_ids": [
+      "X99d9732161f78cb176c1906e1fa23eabee0fc5ee0f4e296581b5ffd6ed478866",
+      "Xa130a1efccbacac7b132284002de99da17be4cd1b326a2eedbfe8b6327f04b34",
+      "X67f7604a322d33837baf1eb928901553451868d8975c6b27cf3240704fd4cdcd"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F040-K-W12",
+    "prefix": "Stage a 70 F thermostat setting for tonight only if the current",
+    "candidate_text": "Draft a thermostat conversion reference\n70 \u00b0F = (70 \u2212 32) \u00d7 5/9 = 21.111\u2026 \u00b0C, approximately 21.1 \u00b0C.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xeba90c3c5eb0cd3232f94cce64c261694b60728abb476a35aee89acf2a3dd9cc",
+      "Xc4701580c8f7bc4863536e9124e61d6435c1b4db8609e3026f6c2ef6b646e79a",
+      "X29554793996a2f0f77d807bec2a669c186bf505b0bb35a6fbf144e5fdd766283"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F040-K-W18",
+    "prefix": "Stage a 70 F thermostat setting for tonight only if the current setting differs from 70 F; do",
+    "candidate_text": "Draft thermostat staging logic\ndef stage_tonight(current_f):\n    if current_f is None: return {\"status\": \"needs_current_setting\"}\n    if current_f == 70: return {\"status\": \"no_change\"}\n    return {\"status\": \"draft\", \"target_f\": 70, \"scope\": \"tonight\", \"restore_f\": current_f}\n# Local plan only; no device calls.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xb08e1f46441f421694bc43e78a6a3ef82fef7720fd33c7d677482dec0c83cd0f",
+      "X8458f26e1bf628e65ce873314d57656839fdddd6f960f79ef23bc2098473ec33",
+      "X6348b67d2ccebfb664373dc0a5ded392630a78c70d489171ede1c63cdcd9fca4"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F040-K-W6",
+    "prefix": "Stage a 70 F thermostat setting",
+    "candidate_text": "Prepare a thermostat temperature conversion and unsent staging rule.\nRequested temperature: 70 \u00b0F. Equivalent Celsius: (70 \u2212 32) \u00d7 5/9 = 190/9 \u00b0C \u2248 21.111 \u00b0C. Unexecuted staging logic: read the target device\u2019s native unit and allowed setpoint increment; represent this temperature in that unit; report any rounding difference; retain as an unsent draft. Device identity and operating mode must come from the completed request.",
+    "execution_class": 1,
+    "input_ids": [
+      "X72e69e214c6d16617f7c589e0c140ddcd239f8cf3fbfa4018e39fe2ef93a13cc",
+      "Xd21d4d607b1e71def1795da36e768273564fc946841e20eb0ea92d686173ed01",
+      "X84406a3802d489b79c7d19c00491e8d4ad4de3594b671ad219ea5ab96e1a15c5"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F040-R-W6",
+    "prefix": "Stage a 70 F thermostat setting",
+    "candidate_text": "Prepare a thermostat temperature conversion and unsent staging rule.\nRequested temperature: 70 \u00b0F. Equivalent Celsius: (70 \u2212 32) \u00d7 5/9 = 190/9 \u00b0C \u2248 21.111 \u00b0C. Unexecuted staging logic: read the target device\u2019s native unit and allowed setpoint increment; represent this temperature in that unit; report any rounding difference; retain as an unsent draft. Device identity and operating mode must come from the completed request.",
+    "execution_class": 1,
+    "input_ids": [
+      "X72e69e214c6d16617f7c589e0c140ddcd239f8cf3fbfa4018e39fe2ef93a13cc",
+      "Xd21d4d607b1e71def1795da36e768273564fc946841e20eb0ea92d686173ed01",
+      "X84406a3802d489b79c7d19c00491e8d4ad4de3594b671ad219ea5ab96e1a15c5"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F041-R-W18",
+    "prefix": "Prepare to lock the back door after I leave but prepare to lock the front door instead and",
+    "candidate_text": "Draft a replacement front-door locking plan\ndef prepare_lock_plan():\n    return {\"pending_actions\": [{\"door\": \"front\", \"action\": \"lock\", \"trigger\": \"after departure\"}], \"discard_pending\": [{\"door\": \"back\", \"action\": \"lock\"}]}\n# Local staging data; no lock operation.",
+    "execution_class": 2,
+    "input_ids": [
+      "X1d98af9c4c780e5cdc15828d4dde8a9a5503f55799de16649889aeee423d2c57",
+      "X0d86abc6f6b745c97aa3d0f436d0917314b4ce520e2aeda6264683d67fbbbfa3",
+      "Xf15b70be98d6a0db4300201bbe2ea4edb5f5fc1a81d311f108ed99ac67c8065c"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F042-K-W12",
+    "prefix": "Stage a kitchen-only vacuum run and keep all other rooms excluded; do",
+    "candidate_text": "Draft vacuum scope-validation rule\nUnsubmitted run configuration: include only kitchen. Resolve kitchen to exactly one saved room ID; reject zero or multiple matches. Compute excluded rooms = all mapped room IDs minus kitchen ID, and reject any plan whose selected-room set differs from {kitchen ID}. Do not dispatch.",
+    "execution_class": 3,
+    "input_ids": [
+      "X640b07d30f3a7e305c5cf6e6e0062b513dedd5d83e78a802487b788b67bbf931",
+      "Xb2b4eaba54691180a23fea1ab0b8bff77a922de59ef38bc3bdc32398c2a6515a",
+      "X0106fe2039588def73d384576b0ebaae3e970d922fa62812923be18593f26c8b"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F042-K-W6",
+    "prefix": "Stage a kitchen-only vacuum run and",
+    "candidate_text": "Draft kitchen-only vacuum staging logic.\nUnexecuted staging algorithm: look up the mapped room whose verified label is kitchen; require exactly one matching room ID; construct a draft cleaning target containing only that ID; reject any whole-home flag or additional room target; keep the run unsent. If mapping is missing or ambiguous, return no staged target. The trailing and may add another constraint.",
+    "execution_class": 1,
+    "input_ids": [
+      "X6a3ae84f4780cad06bba4c0f811c997ec005483af0abc77a11c15f00ce8ada98",
+      "X5e64b2cb82412654607642a1043fd344e91b4f2730da50384760f35b11b8c01d",
+      "X5f1d9255d9e4fbf9baa9f1d5f81f113c4792bc830fdbef5438f58d7ec387df71"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F042-R-W6",
+    "prefix": "Stage a kitchen-only vacuum run but",
+    "candidate_text": "Draft kitchen-only run staging logic\nResolve the exact kitchen room label to one unique map room ID. If missing or ambiguous, return no candidate. Otherwise construct an unsubmitted plan {operation: vacuum, room_ids: [kitchen_id]}; reject any plan that contains additional room IDs or whole-home scope. Preserve this as a preview pending the unfinished constraint.",
+    "execution_class": 2,
+    "input_ids": [
+      "X6a3ae84f4780cad06bba4c0f811c997ec005483af0abc77a11c15f00ce8ada98",
+      "X5e64b2cb82412654607642a1043fd344e91b4f2730da50384760f35b11b8c01d",
+      "Xed0dd31893dd294f6c2d4e2383bf92b8ab1f16eb97f526952866314245d988a7"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F043-K-W6",
+    "prefix": "Find robotics documentaries and include only",
+    "candidate_text": "Prepare robotics documentary query\n(robotics OR \"robot engineering\") (documentary OR \"documentary film\") -fiction -trailer",
+    "execution_class": 1,
+    "input_ids": [
+      "Xcb1e376b4bb01954c258fd8ece1ceedc2025e7ef7c5dd1f133b002d855c5b9d8",
+      "X8c87ccf65ca0ee011628fdaf7ebbdfcd074b0bb52d6647a173087f0f5018e8cd",
+      "X73323f96b75d556d16312236eb53cf4a678ecd2890cfb7837e5a125076593105"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F043-R-W6",
+    "prefix": "Find robotics documentaries but find astronomy",
+    "candidate_text": "Prepare separate documentary search expressions.\nUnsubmitted queries: (robotics OR robots) (documentary OR documentaries) -fiction -\"movie review\"; (astronomy OR astrophysics) (documentary OR documentaries) -astrology. Keep the result sets separate because the conjunction may introduce an additional requirement.",
+    "execution_class": 1,
+    "input_ids": [
+      "X6397eacb768eef4dbf564ebc3832c89c4ccd87b710d189d77473ab9b79628f93",
+      "X508c7fb33ea6cedf1c3fcc556371d87252dc2623ed7888cc4af1da944ef850d1",
+      "X3d71d792d7dfb2af160df6cc445386c056f993d9ab7d252d11d0970f79b47c91"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F044-K-W6",
+    "prefix": "Build an upbeat instrumental jazz playlist",
+    "candidate_text": "Draft upbeat instrumental jazz playlist\nCandidate sequence: Art Blakey & The Jazz Messengers \u2014 Moanin\u2019; Dave Brubeck Quartet \u2014 Take Five; Duke Ellington \u2014 C Jam Blues; Sonny Rollins \u2014 St. Thomas; Cannonball Adderley \u2014 Work Song. Select instrumental recordings of these tunes and audition tempo/energy before finalizing.",
+    "execution_class": 2,
+    "input_ids": [
+      "X3ab298fa3c5f410ac05c958cad228e0720c13a588b21ff3c30c65e1bc3501306",
+      "X897c29e6baf2002741e7e6ebe0e4a59c16e854a653fdc725e404d44eff457ad1",
+      "X0797b9423b432e4be05793924a989f61c55a9a296f5747c2d9c169589b9cc471"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F044-R-W6",
+    "prefix": "Build an upbeat instrumental jazz playlist",
+    "candidate_text": "Draft upbeat instrumental jazz playlist\nCandidate sequence: Art Blakey & The Jazz Messengers \u2014 Moanin\u2019; Dave Brubeck Quartet \u2014 Take Five; Duke Ellington \u2014 C Jam Blues; Sonny Rollins \u2014 St. Thomas; Cannonball Adderley \u2014 Work Song. Select instrumental recordings of these tunes and audition tempo/energy before finalizing.",
+    "execution_class": 2,
+    "input_ids": [
+      "X3ab298fa3c5f410ac05c958cad228e0720c13a588b21ff3c30c65e1bc3501306",
+      "X897c29e6baf2002741e7e6ebe0e4a59c16e854a653fdc725e404d44eff457ad1",
+      "X0797b9423b432e4be05793924a989f61c55a9a296f5747c2d9c169589b9cc471"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F045-K-W6",
+    "prefix": "Choose a non-horror movie under two",
+    "candidate_text": "Prepare non-horror movie filter\nGiven movie metadata, remove entries whose genre tags contain Horror, and hold untagged entries for review. Preserve titles, runtime, and genre evidence for remaining candidates. Do not apply a numeric runtime cutoff until the unit after \"two\" is known.",
+    "execution_class": 2,
+    "input_ids": [
+      "X45a285c49d4d37b20d81213f94d4e2fb70283115494234f82333373fca8c91ac",
+      "X6c9071323c86bc2b41cd6d1ad7744701a922e65bdc462f332f4bf2a6d3ca2796",
+      "Xa74cb61962d59a901c962cc959b7b8c2fe2f5fa9982611512543f980aa5e9a48"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F045-R-W6",
+    "prefix": "Choose a non-horror movie under two",
+    "candidate_text": "Prepare non-horror movie filter\nGiven movie metadata, remove entries whose genre tags contain Horror, and hold untagged entries for review. Preserve titles, runtime, and genre evidence for remaining candidates. Do not apply a numeric runtime cutoff until the unit after \"two\" is known.",
+    "execution_class": 2,
+    "input_ids": [
+      "X45a285c49d4d37b20d81213f94d4e2fb70283115494234f82333373fca8c91ac",
+      "X6c9071323c86bc2b41cd6d1ad7744701a922e65bdc462f332f4bf2a6d3ca2796",
+      "Xa74cb61962d59a901c962cc959b7b8c2fe2f5fa9982611512543f980aa5e9a48"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F046-K-W12",
+    "prefix": "Find technical podcast interviews about AI agents and favor interviews over news",
+    "candidate_text": "Draft interview-focused podcast search\n\"AI agents\" podcast (interview OR \"in conversation\") (technical OR engineering) -\"news roundup\"",
+    "execution_class": 1,
+    "input_ids": [
+      "X61c3b2a15e730815768aae4c7bba74f820f0345be4b8a873ecd66256395e21b8",
+      "X809a5fadf7ef423e58b32330c4535bc5e52c375b2cd204bb012e2b7bed4f4073",
+      "X1bdacbc5f6171048d62cf0eb6f4090daa69cac21d273878177eb299ff269da5c"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F046-R-W6",
+    "prefix": "Find technical podcast interviews about AI",
+    "candidate_text": "Prepare technical podcast search query\n(AI OR \"artificial intelligence\") (podcast OR \"podcast transcript\") (interview OR conversation) (architecture OR training OR inference) -\"AI generated podcast\"",
+    "execution_class": 1,
+    "input_ids": [
+      "Xf7a3c949a9ad9a16b08c60a75ea7670d62d6868c4dba7c5ac60b90828e864c0e",
+      "Xac0bf28f4deb42233970d83879c84f47e214bbe92f381e9dc258a30d5aabd22c",
+      "X722e02291ddfef1521a8795bcbf7af3fa006f7ef43559c70b4883a8ab0709ac1"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F047-K-W6",
+    "prefix": "Make a three-day business-trip packing checklist",
+    "candidate_text": "Draft a three-day business-trip packing checklist.\nThree-day business-trip packing checklist:\n\u2022 Wear one business outfit in transit if suitable; pack two coordinating work tops, one extra pair of trousers or a skirt, and one blazer that works with all outfits.\n\u2022 Pack three sets of underwear and socks, sleepwear, a casual outfit, and comfortable shoes; reuse business shoes to reduce bulk.\n\u2022 Pack laptop, its charger, phone charger, headphones, and any presentation adapter needed by your own equipment. Save offline copies of your presentation and itinerary.\n\u2022 Pack identification, payment card, required work access badge, and travel documents applicable to the itinerary.\n\u2022 Pack toiletries, personal medication for the trip, and a small spare supply if available.\n\u2022 Keep essential documents, medication, and one change of clothes in your carry-on if checking a bag. Adjust outerwear to the forecast once the destination is known.",
+    "execution_class": 2,
+    "input_ids": [
+      "X38c56d40f1e64a60f1f38d2a4e7080d6feff3b9d2692df571ea7662b161016b1",
+      "X1d9085e9ad200a436d3d495e665a8316c9b3a8cb906e39f8bc0fe3ddb82f985e",
+      "X18b1cb22db63f69a8df75aaa9f84edf6f780e5c451d518c33115d0fc444e29b3"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F047-R-W6",
+    "prefix": "Make a three-day business-trip packing checklist",
+    "candidate_text": "Draft a three-day business-trip packing checklist.\nThree-day business-trip packing checklist:\n\u2022 Wear one business outfit in transit if suitable; pack two coordinating work tops, one extra pair of trousers or a skirt, and one blazer that works with all outfits.\n\u2022 Pack three sets of underwear and socks, sleepwear, a casual outfit, and comfortable shoes; reuse business shoes to reduce bulk.\n\u2022 Pack laptop, its charger, phone charger, headphones, and any presentation adapter needed by your own equipment. Save offline copies of your presentation and itinerary.\n\u2022 Pack identification, payment card, required work access badge, and travel documents applicable to the itinerary.\n\u2022 Pack toiletries, personal medication for the trip, and a small spare supply if available.\n\u2022 Keep essential documents, medication, and one change of clothes in your carry-on if checking a bag. Adjust outerwear to the forecast once the destination is known.",
+    "execution_class": 2,
+    "input_ids": [
+      "X38c56d40f1e64a60f1f38d2a4e7080d6feff3b9d2692df571ea7662b161016b1",
+      "X1d9085e9ad200a436d3d495e665a8316c9b3a8cb906e39f8bc0fe3ddb82f985e",
+      "X18b1cb22db63f69a8df75aaa9f84edf6f780e5c451d518c33115d0fc444e29b3"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F048-R-W18",
+    "prefix": "Plan my morning around a 9 AM appointment but move the appointment to 11 AM while retaining the",
+    "candidate_text": "Draft a revised appointment-centered morning\n09:00\u201310:00: Keep available for personal preparation.\n10:00\u201311:00: Reserve as a flexible preparation/travel buffer; actual travel duration is not supplied.\n11:00: Appointment (revised from 09:00).",
+    "execution_class": 2,
+    "input_ids": [
+      "X2e2a143ee6b582470737eb50ead734f435520c564023b0868c051816525dc2fe",
+      "X39d57227547638f46346b64de2443b9754cb561ee55737a36d1a0d301938d889",
+      "X88b47aeb9bb10eb55dd1a1520f790876cc87dae5fd2a9ffae8070498b4cfa54e"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F049-K-W6",
+    "prefix": "Build a shopping list for vegetarian",
+    "candidate_text": "Draft vegetarian shopping-list candidate\nCandidate staples: lentils, chickpeas, tofu, brown rice, oats, whole-grain bread, spinach, broccoli, carrots, tomatoes, onions, fruit, olive oil, and nuts or seeds. Group legumes/tofu together as protein sources, rice/oats/bread as grains, and vegetables/fruit as produce; quantities depend on meals and servings.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xb310559f38408ca2026d94fb4996b5d21f397e7ccab3a5df7a54a773d7ede5dc",
+      "Xb3887e564612f3011917816fd9cf7318b6545351b289a7d1ab9a5d6197f1d17e",
+      "X34ff7428387db1306ce9f845387b8641a416ef47db5ba6239d04f89222e714c1"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F049-R-W6",
+    "prefix": "Build a shopping list for vegetarian",
+    "candidate_text": "Draft vegetarian shopping-list candidate\nCandidate staples: lentils, chickpeas, tofu, brown rice, oats, whole-grain bread, spinach, broccoli, carrots, tomatoes, onions, fruit, olive oil, and nuts or seeds. Group legumes/tofu together as protein sources, rice/oats/bread as grains, and vegetables/fruit as produce; quantities depend on meals and servings.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xb310559f38408ca2026d94fb4996b5d21f397e7ccab3a5df7a54a773d7ede5dc",
+      "Xb3887e564612f3011917816fd9cf7318b6545351b289a7d1ab9a5d6197f1d17e",
+      "X34ff7428387db1306ce9f845387b8641a416ef47db5ba6239d04f89222e714c1"
+    ]
+  },
+  {
+    "item_id": "CP1-SP1-S-SX1-F050-R-W18",
+    "prefix": "Prioritize today's tasks with the client deadline first but put the server incident first and move the client",
+    "candidate_text": "Draft partial task-priority rule\nPlace the server incident first. Order remaining tasks by earliest hard deadline, using dependency prerequisites before blocked work. Put the client deadline task after the incident; do not assign its final rank until the unfinished move instruction is resolved.",
+    "execution_class": 2,
+    "input_ids": [
+      "Xf38ff816a688056afabb3f04c750c4af29c5ee6aa8bd32e3ca42698cd1f0e8eb",
+      "X00d5d9daebc2e431652135cac4b2671c630eda2874537b74c3557c25cd4fef7c",
+      "Xf1697480a99e040b47ee322feeeac02eeca56c58341cff26b3ddd578a191cbd1"
+    ]
+  }
+]

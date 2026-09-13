@@ -1,0 +1,3 @@
+# Preserved failures
+
+Attempt 01 completed all 200 feature rows and reached local serialization of the fitted comparison, but JSON encoding rejected a NumPy int64. The failed launcher, run freeze and traceback/log are retained. No successful result was recorded and no numerical result was inspected before the recovery. The recovery reuses the exact frozen FEATURES.json and unchanged fit.py/fit_diagnostic function; it converts NumPy scalar values to corresponding Python scalars when serializing JSON. Every conversion path/type is recorded. No model grid, feature, label, split or metric rule changed, and features or foundation-model extraction are not rerun.
