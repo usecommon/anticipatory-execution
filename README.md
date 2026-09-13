@@ -44,6 +44,8 @@ The [first exploratory diagnostic comparison](outputs/exploratory_comparison_v0_
 
 The [measurement-first work package](outputs/measurement_quality_v0_1/README.md) is the current priority: 17 software checks passed and 200 case records were structurally audited. No research cases were validated or labels changed. Build executable reuse evidence, complete missing observable measurements and plan prospective source coverage before further comparisons; preserve the first negative result.
 
+The [fresh-eyes evaluation council](outputs/evaluation_council_v0_1/REPORT.md) supports measurement development and recommends defining decision time and the reuse construct before implementing the narrow adapter. Three separate AI reviews found no demonstrated result corruption in inspected material; they identified inference limits, not a passed thesis evaluation or human G1. Recommendations remain prospective.
+
 ## Current state
 
 - **G0 PASS, scoped:** canonical-v0.5, frozen Qwen2.5-7B-Instruct, NVIDIA A100-SXM4-40GB, FP32 eager, physical shape [1,128], active length 1..128, serial prefixes, explicit positions/masks, cache off. Two fresh Modal containers passed 8,427 checks each; 155 cross-container cases matched bitwise.
