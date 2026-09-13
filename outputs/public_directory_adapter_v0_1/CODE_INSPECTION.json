@@ -1,0 +1,85 @@
+{
+  "module_top_level_checked": true,
+  "long_context_values_literal_only": true,
+  "runner_calls": [
+    "constructor",
+    "_load_scenario(long_context=False)",
+    "pwd",
+    "ls"
+  ],
+  "scope": "Only selected read-only replay paths inspected; not blanket approval of upstream mutating/external methods",
+  "selected_method_calls": [
+    {
+      "class": "File",
+      "method": "__init__",
+      "line": 15,
+      "calls": [
+        "datetime.datetime.now"
+      ]
+    },
+    {
+      "class": "Directory",
+      "method": "__init__",
+      "line": 67,
+      "calls": []
+    },
+    {
+      "class": "Directory",
+      "method": "_list_contents",
+      "line": 121,
+      "calls": [
+        "list",
+        "self.contents.keys"
+      ]
+    },
+    {
+      "class": "GorillaFileSystem",
+      "method": "__init__",
+      "line": 144,
+      "calls": []
+    },
+    {
+      "class": "GorillaFileSystem",
+      "method": "_load_scenario",
+      "line": 157,
+      "calls": [
+        "Directory",
+        "deepcopy",
+        "list",
+        "scenario['root'].keys",
+        "self._load_directory"
+      ]
+    },
+    {
+      "class": "GorillaFileSystem",
+      "method": "_load_directory",
+      "line": 207,
+      "calls": [
+        "Directory",
+        "File",
+        "current.items",
+        "self._load_directory",
+        "self._populate_directory"
+      ]
+    },
+    {
+      "class": "GorillaFileSystem",
+      "method": "pwd",
+      "line": 255,
+      "calls": [
+        "'/'.join",
+        "path.append",
+        "reversed"
+      ]
+    },
+    {
+      "class": "GorillaFileSystem",
+      "method": "ls",
+      "line": 271,
+      "calls": [
+        "item.startswith",
+        "self._current_dir._list_contents"
+      ]
+    }
+  ]
+}

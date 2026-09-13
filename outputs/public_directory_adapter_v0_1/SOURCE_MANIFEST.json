@@ -1,0 +1,25 @@
+{
+  "dataset": {
+    "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v4_multi_turn_base.json",
+    "sha256": "1a21a995d06fd6f20ba55de7bced30ef953ec35e998f502ec2ecf4d66ef1c43a",
+    "availability": "cached full source rehashed; retained projection includes selected filesystem states and dialogue only"
+  },
+  "code": {
+    "gorilla_file_system.py": {
+      "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/berkeley-function-call-leaderboard/bfcl_eval/eval_checker/multi_turn_eval/func_source_code/gorilla_file_system.py",
+      "sha256": "84173750930b09aaa31b90547c9bd79ce75714682608b35e78a9c1ea259faf2b",
+      "retrieval": "curl HTTPS succeeded; byte-preserved"
+    },
+    "long_context.py": {
+      "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/berkeley-function-call-leaderboard/bfcl_eval/eval_checker/multi_turn_eval/func_source_code/long_context.py",
+      "sha256": "5c9a5710115609c779e5b2ccb43f6ad58271ed96f2ea7a797edb0d65c385aa38",
+      "retrieval": "curl HTTPS succeeded; byte-preserved"
+    }
+  },
+  "license": {
+    "url": "https://raw.githubusercontent.com/ShishirPatil/gorilla/6ea57973c7a6097fd7c5915698c54c17c5b1b6c8/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "scope": "Pinned repository Apache-2.0 declaration; retain attribution, no blanket research-adaptation admission"
+  },
+  "source_commit": "6ea57973c7a6097fd7c5915698c54c17c5b1b6c8"
+}

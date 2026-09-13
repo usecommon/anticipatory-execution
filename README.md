@@ -48,6 +48,8 @@ The [fresh-eyes evaluation council](outputs/evaluation_council_v0_1/REPORT.md) s
 
 The [accepted council recommendations](outputs/evaluation_contract_v0_1/README.md) now have a decision-time/reuse contract, bounded adapter/comparison specifications and 25 passing software checks. A mutable-payload failure is preserved. All 200 source records were screened; nine selected records remain unadmitted pending original context and semantic checks. No research labels or old results changed.
 
+The [original-context directory adapter](outputs/public_directory_adapter_v0_1/README.md) restores all nine selected filesystem contexts. Four first-turn final-task replays passed; five unsupported cases remain. None of the four targets contains hidden entries, so flag variants are observationally equivalent. This creates no usefulness labels or thesis result; isolated prefix-only candidate construction is next.
+
 ## Current state
 
 - **G0 PASS, scoped:** canonical-v0.5, frozen Qwen2.5-7B-Instruct, NVIDIA A100-SXM4-40GB, FP32 eager, physical shape [1,128], active length 1..128, serial prefixes, explicit positions/masks, cache off. Two fresh Modal containers passed 8,427 checks each; 155 cross-container cases matched bitwise.

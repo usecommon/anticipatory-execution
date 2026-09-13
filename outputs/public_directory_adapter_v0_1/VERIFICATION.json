@@ -1,0 +1,12 @@
+{
+  "status": "PASS_STORED_EVIDENCE",
+  "frozen_inputs_verified": 9,
+  "original_full_source_checked": true,
+  "restored_records": 9,
+  "final_task_replays_passed": 4,
+  "unsupported_retained": 5,
+  "counterchecks_passed": 24,
+  "original_hidden_flag_equivalence_cases": 4,
+  "research_usefulness_labels_created": 0,
+  "scope": "Source projection, stored replay and checker accounting; not semantic-ground-truth or speculative validation"
+}

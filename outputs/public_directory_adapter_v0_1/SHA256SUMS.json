@@ -1,0 +1,22 @@
+{
+  "CODE_INSPECTION.json": "91d36f2950ee6c91aa931bcc8505e4c394c11aedf0ecb25f515607abd0ca3e4b",
+  "NOTICE.md": "8ef1882f11761db781a93c92b9260ca18bb8e56a64c7f54a0d890379072cf3e1",
+  "PLAN.md": "20b49ac940a9a6a2a44ba757d7d646e2be3becfc4f1049340b13ba0a277b4bc5",
+  "PRE_REPLAY_FREEZE.json": "704d0b56984bf15d4c65235093915d74da58197098817bdc2e48f59d8d9c1cc3",
+  "README.md": "b5a272082c4764d20d0e20c6bfb138007e3811ce840c3071bf8e62a30a0ecdf6",
+  "SOURCE_LICENSE.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+  "SOURCE_MANIFEST.json": "4623c6b5aa36406f54b4d6d1ec40f94aa395f41d2c278ff9f1f81108fd97ad56",
+  "STATUS.json": "3355132677c3f0ef6c28223846bfbb0a698902aead1dcf66d3e1e9c1b6700b11",
+  "VERIFICATION.json": "69a10c9dcbf7e2eb8d624459018c84af4cfa190345f146907f7004d4dfea37bd",
+  "replay.py": "318a8a9f91322e4448e98298505e36c1fc4e44a69d4f2aad13867c3d1babe93c",
+  "replay_attempt_01/PARTIAL.jsonl": "fcdc084255b7db36f9b5f7c62fd1383b261346dfeb97dae351259471541d5f7d",
+  "replay_attempt_01/RESULTS.jsonl": "fcdc084255b7db36f9b5f7c62fd1383b261346dfeb97dae351259471541d5f7d",
+  "replay_attempt_01/SUMMARY.json": "c933f783e4d068ecffad341219ac0a4b8d3fa5370af7f8cdd0c5f978f7e2ee69",
+  "restoration_attempt_01/RESTORATION.json": "f88aa0ae046fd51a71c9ba5f5aa729b0e3007fa1788dffc6b32779a17c4985aa",
+  "restoration_attempt_01/SOURCE_PROJECTION.jsonl": "4c3f4d1278a17d6d8e552d4c97a0a81b0fc78c1e221448d1798c9196882f6fef",
+  "restoration_attempt_01/TASK_SPECS.jsonl": "1ab3942125893ce0ac8b53b694c92d553bf327afd7fdda4c49084382b626922b",
+  "restore.py": "79a721c120d6dbeaba8b7940bd0e2a1da8b48b3fe58aa59f02df6b62be1a45c2",
+  "vendor/bfcl_eval/eval_checker/multi_turn_eval/func_source_code/gorilla_file_system.py": "84173750930b09aaa31b90547c9bd79ce75714682608b35e78a9c1ea259faf2b",
+  "vendor/bfcl_eval/eval_checker/multi_turn_eval/func_source_code/long_context.py": "5c9a5710115609c779e5b2ccb43f6ad58271ed96f2ea7a797edb0d65c385aa38",
+  "verify.py": "642077fafc523dc5f77c06e1035b33bca54711f71d7d5fa79bcb3cc0c85ab281"
+}

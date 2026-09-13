@@ -1,0 +1,9 @@
+{
+  "restored_records": 9,
+  "first_turn_specs": 4,
+  "unsupported_retained": 5,
+  "source_sha256": "1a21a995d06fd6f20ba55de7bced30ef953ec35e998f502ec2ecf4d66ef1c43a",
+  "initial_nonfilesystem_states_omitted": true,
+  "full_selected_dialogue_preserved_evaluator_only": true,
+  "research_usefulness_labels_created": 0
+}

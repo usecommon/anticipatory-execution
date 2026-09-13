@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "current_phase": "measurement_contract_development",
+  "current_phase": "public_directory_adapter_final_task_validation",
   "frozen_thesis": "Do not predict what the user will type next. Predict what work will not need to be undone.",
   "G0": {
     "status": "PASS_SCOPED",
@@ -31,13 +31,22 @@
     "report": "outputs/evaluation_contract_v0_1/README.md",
     "software_checks_passed": 25,
     "research_cases_validated": 0,
-    "public_adapter_executed": false
+    "public_adapter_executed": true,
+    "public_adapter_execution_scope": "Four first-turn final-task replays only; no speculative usefulness measurement"
   },
   "confirmatory_extraction": {
     "authorized": false,
     "performed": false
   },
-  "current_priority": "Original source context and independent task-spec mapping for fixed screened adapter cases; full-B1 preparation",
+  "current_priority": "Freeze decision-visible context and prefix-only typed candidate interface for fixed directory cases; full-B1 preparation",
   "historical_status_policy": "Historical phase files retain their original state; this file consolidates later authorized exploratory progress",
-  "numerical_neutrality_claim": false
+  "numerical_neutrality_claim": false,
+  "public_directory_adapter": {
+    "report": "outputs/public_directory_adapter_v0_1/README.md",
+    "restored_original_filesystem_contexts": 9,
+    "final_task_replays_passed": 4,
+    "unsupported_retained": 5,
+    "new_usefulness_labels": 0,
+    "source_release_admission": "PENDING"
+  }
 }

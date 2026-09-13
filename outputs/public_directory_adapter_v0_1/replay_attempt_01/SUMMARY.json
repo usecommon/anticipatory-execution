@@ -1,0 +1,11 @@
+{
+  "status": "PASS_SCOPED_FINAL_TASK_REPLAY",
+  "selected_records_retained": 9,
+  "final_task_replays_passed": 4,
+  "unsupported_not_run": 5,
+  "failed_records": 0,
+  "speculative_reuse_labels_created": 0,
+  "prefix_generated_candidates": 0,
+  "model_forwards": 0,
+  "interpretation": "First-turn directory entry-set correctness with original filesystem context, not official BFCL evaluation or thesis evidence"
+}

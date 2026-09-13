@@ -1,0 +1,18 @@
+{
+  "status": "PASS_SCOPED_FINAL_TASK_ADAPTER",
+  "source_contexts_restored": 9,
+  "first_turn_task_specs": 4,
+  "final_task_replays_passed": 4,
+  "unsupported_retained": 5,
+  "failed_attempts": 0,
+  "hidden_flag_equivalence_cases": 4,
+  "speculative_reuse_measured": false,
+  "usefulness_labels_created": 0,
+  "prefix_only_candidates_generated": 0,
+  "model_forwards": 0,
+  "public_adaptation_release_admission": "PENDING",
+  "human_G1": "PENDING_DEFERRED_EXPLORATORY_ONLY",
+  "full_B1": false,
+  "confirmatory_extraction": "PROHIBITED",
+  "next_step": "Freeze decision-visible context and construct isolated prefix-only typed candidates; measure early-work reuse separately from final-task correctness"
+}
