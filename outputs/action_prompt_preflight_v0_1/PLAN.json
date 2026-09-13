@@ -1,0 +1,23 @@
+{
+  "status": "FROZEN_BEFORE_TOKENIZATION",
+  "template": "Select one action for the partial request.\nA: list cwd, hidden included.\nB: list cwd, hidden excluded.\nC: wait.\nCwd: {cwd}\nPartial request: {prefix}\nChoice:",
+  "source": "outputs/prefix_directory_reuse_v0_1/preparation_02/PAYLOADS.jsonl",
+  "codes": {
+    "list_current_all": " A",
+    "list_current_visible": " B",
+    "abstain": " C"
+  },
+  "event": "next-token response code; conditional support and raw mass both reported",
+  "scope": "27 exposed directory checkpoint contexts, not full general-purpose B1",
+  "no_model_run": true,
+  "requirements": [
+    "all actual prompts fit canonical 128 tokens without truncation",
+    "appending each response code leaves prompt token IDs unchanged and adds exactly one distinct token",
+    "tokenizer bytes/backend match G0"
+  ],
+  "pending": [
+    "semantic argument completeness",
+    "prompted-context model bridge and new allowlisted inputs",
+    "full B1 and fair comparisons"
+  ]
+}

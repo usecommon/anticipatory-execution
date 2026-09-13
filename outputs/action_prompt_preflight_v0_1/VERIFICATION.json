@@ -1,0 +1,14 @@
+{
+  "status": "PASS_STORED_PREFLIGHT",
+  "rows": 27,
+  "max_length": 61,
+  "mapping_consistent_across_all_prompts": true,
+  "code_token_ids": {
+    "list_current_all": 362,
+    "list_current_visible": 425,
+    "abstain": 356
+  },
+  "tokenizer_hash": "f884026e05f6dfffe68b72d580b588006d98b3bc0a128bb1ac425c76f7fc438c",
+  "model_loaded": false,
+  "scope": "Exact frozen prompt/tokenizer inputs only; does not validate semantic completeness or action calibration"
+}

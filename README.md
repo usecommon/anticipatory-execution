@@ -56,6 +56,8 @@ The [separate authored directory challenges](outputs/directory_challenges_v0_1/R
 
 The [observable-interface package](outputs/observable_interfaces_v0_1/README.md) implements a full-prefix NLL capture proxy, response-code probability accounting and typed action persistence; 15 software checks passed. Real tensor/model bridging, action prompts and semantic completeness remain pending. BFCL is explicitly scoped to offline static snapshots because it lacks revision metadata.
 
+The [canonical surprisal bridge](outputs/capture_bridge_v0_1/README.md) passed all 12 paired cases/24 QA forwards with bitwise legacy-output equality. The [action-prompt preflight](outputs/action_prompt_preflight_v0_1/README.md) passed all 27 prompts (maximum 61 tokens) and fixed distinct single-token response codes. New prompted extraction and full B1 remain pending; no research comparison or confirmatory extraction ran.
+
 ## Current state
 
 - **G0 PASS, scoped:** canonical-v0.5, frozen Qwen2.5-7B-Instruct, NVIDIA A100-SXM4-40GB, FP32 eager, physical shape [1,128], active length 1..128, serial prefixes, explicit positions/masks, cache off. Two fresh Modal containers passed 8,427 checks each; 155 cross-container cases matched bitwise.

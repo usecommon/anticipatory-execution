@@ -1,0 +1,12 @@
+{
+  "status": "PASS_RETURNED_EVIDENCE",
+  "cases": 12,
+  "forwards": 24,
+  "all_legacy_fields_bitwise_equal": true,
+  "max_NLL_error": 3.552713678800501e-15,
+  "confirmatory_rejected_zero_forwards": true,
+  "returned_text_hashes_verified": true,
+  "raw_tensors": "Remote Modal volume; comparisons executed in worker, not independently downloaded",
+  "remote_volume": "aeb-surprisal-bridge-v0-1",
+  "remote_path": "run_20260913T104749232872Z"
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "current_phase": "observable_interfaces_bridge_preparation",
+  "current_phase": "canonical_capture_bridge_and_action_prompt_preflight_passed",
   "frozen_thesis": "Do not predict what the user will type next. Predict what work will not need to be undone.",
   "G0": {
     "status": "PASS_SCOPED",
@@ -38,7 +38,7 @@
     "authorized": false,
     "performed": false
   },
-  "current_priority": "Bounded canonical surprisal-capture QA bridge; then frozen response-code prompt/tokenizer preflight",
+  "current_priority": "Versioned prompted-capture allowlist, sidecar joins and response-code summaries; semantic completeness remains open",
   "historical_status_policy": "Historical phase files retain their original state; this file consolidates later authorized exploratory progress",
   "numerical_neutrality_claim": false,
   "public_directory_adapter": {
@@ -72,8 +72,27 @@
     "report": "outputs/observable_interfaces_v0_1/README.md",
     "software_checks_passed": 15,
     "capture_proxy_implemented": true,
-    "real_model_bridge_passed": false,
+    "real_model_bridge_passed": true,
     "full_B1": false
   },
-  "provider_scope": "BFCL offline static-snapshot fixture, not a deployable revision metadata provider"
+  "provider_scope": "BFCL offline static-snapshot fixture, not a deployable revision metadata provider",
+  "canonical_capture_bridge": {
+    "report": "outputs/capture_bridge_v0_1/README.md",
+    "status": "PASS_SCOPED",
+    "cases": 12,
+    "QA_forwards": 24,
+    "max_NLL_error": 3.552713678800501e-15,
+    "legacy_outputs_bitwise_equal": true
+  },
+  "action_prompt_preflight": {
+    "report": "outputs/action_prompt_preflight_v0_1/README.md",
+    "status": "PASS",
+    "prompts": 27,
+    "max_tokens": 61,
+    "model_loaded": false
+  },
+  "autonomy_window": {
+    "deadline_UTC": "2026-09-13T10:53:20Z",
+    "decision_log": "outputs/autonomous_window_v0_1/DECISIONS.md"
+  }
 }
