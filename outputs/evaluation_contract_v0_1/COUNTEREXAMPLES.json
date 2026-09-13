@@ -1,0 +1,33 @@
+{
+  "scope": "Authored software/construct fixtures, not research labels",
+  "cases": [
+    {
+      "id": "useful_ignored",
+      "requirement": "Correct final task after policy discards reusable early data; zero observed consumption must not imply label 0"
+    },
+    {
+      "id": "consumed_unnecessary",
+      "requirement": "Read irrelevant early entry while final task ignores it; read count is not verified contribution"
+    },
+    {
+      "id": "partial_narrowing",
+      "requirement": "Broad listing supports a narrower required subset; fraction does not mechanically determine binary utility"
+    },
+    {
+      "id": "wrong_entity_equal_output",
+      "requirement": "Identical entry names from another directory must not establish target-specific reuse"
+    },
+    {
+      "id": "stale_dependency",
+      "requirement": "Reject freshness claim when dependency identity changes; correctness and reexecution remain distinct"
+    },
+    {
+      "id": "preparation_revision",
+      "requirement": "Distinguish reusable generic preparation from target-specific output requiring revision; unresolved materiality remains judgment"
+    },
+    {
+      "id": "independent_task_errors",
+      "requirement": "Independently specified target/hidden constraint rejects a consistently wrong executor result"
+    }
+  ]
+}

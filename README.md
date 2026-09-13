@@ -46,6 +46,8 @@ The [measurement-first work package](outputs/measurement_quality_v0_1/README.md)
 
 The [fresh-eyes evaluation council](outputs/evaluation_council_v0_1/REPORT.md) supports measurement development and recommends defining decision time and the reuse construct before implementing the narrow adapter. Three separate AI reviews found no demonstrated result corruption in inspected material; they identified inference limits, not a passed thesis evaluation or human G1. Recommendations remain prospective.
 
+The [accepted council recommendations](outputs/evaluation_contract_v0_1/README.md) now have a decision-time/reuse contract, bounded adapter/comparison specifications and 25 passing software checks. A mutable-payload failure is preserved. All 200 source records were screened; nine selected records remain unadmitted pending original context and semantic checks. No research labels or old results changed.
+
 ## Current state
 
 - **G0 PASS, scoped:** canonical-v0.5, frozen Qwen2.5-7B-Instruct, NVIDIA A100-SXM4-40GB, FP32 eager, physical shape [1,128], active length 1..128, serial prefixes, explicit positions/masks, cache off. Two fresh Modal containers passed 8,427 checks each; 155 cross-container cases matched bitwise.
@@ -53,7 +55,7 @@ The [fresh-eyes evaluation council](outputs/evaluation_council_v0_1/REPORT.md) s
 - **AI-only exploratory preparation AUTHORIZED:** see the [temporary gate-timing amendment](docs/AI_ONLY_EXPLORATORY_AMENDMENT_v0_1.md). Human G1 is deferred for this separate track, not passed. Length preflight and the separate versioned entrypoint have passed scoped validation; the preserved executable remains QA-only. The first bounded exploratory extraction and complete stored-output verification have passed; a first diagnostic probe comparison is complete; full strong-baseline testing and public data admission remain pending. Human G1 blocks confirmatory labeling/freeze. **No confirmatory extraction.**
 - Corrections are **not presumed numerically neutral**. Historical failures remain failures. Changes may reduce or eliminate the apparent internal-state advantage.
 
-Start with [closure report](outputs/g0_closure_v0_5/G0_CLOSURE_REPORT.md), [research safeguards](outputs/g0_closure_v0_5/RESEARCH_SAFEGUARDS.md), and [runbook](outputs/g0_closure_v0_5/RUNBOOK.md). Machine-readable current status: [STATUS.json](outputs/g0_closure_v0_5/STATUS.json).
+Start with [closure report](outputs/g0_closure_v0_5/G0_CLOSURE_REPORT.md), [research safeguards](outputs/g0_closure_v0_5/RESEARCH_SAFEGUARDS.md), and [runbook](outputs/g0_closure_v0_5/RUNBOOK.md). Machine-readable current status: [CURRENT_STATUS.json](CURRENT_STATUS.json). The [G0 closure status](outputs/g0_closure_v0_5/STATUS.json) is the preserved historical phase record.
 
 ## Repository contents
 

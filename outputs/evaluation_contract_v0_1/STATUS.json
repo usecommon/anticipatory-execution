@@ -1,0 +1,22 @@
+{
+  "status": "DEVELOPMENT_CONTRACT_AND_SOFTWARE_QA_COMPLETE",
+  "council_recommendations": "Implemented bounded specification, strict envelope, authored checker tests, fixed screening and current-status cleanup; full research execution remains pending",
+  "decision_stage_next_adapter": "before_execution",
+  "software_checks_passed": 25,
+  "preserved_failed_attempts": 1,
+  "screened_records": 200,
+  "selected_records": 9,
+  "selected_instruction_groups": 8,
+  "potentially_supported_records_pending_context": 4,
+  "potentially_supported_instruction_groups_pending_context": 3,
+  "selected_records_outside_current_checker": 5,
+  "admitted_public_cases": 0,
+  "research_cases_executed": 0,
+  "research_labels_created": 0,
+  "GPU_runs": 0,
+  "probe_fits": 0,
+  "full_B1_complete": false,
+  "human_G1": "PENDING_DEFERRED_EXPLORATORY_ONLY",
+  "confirmatory_extraction": "PROHIBITED",
+  "next_step": "Restore original selected source environments/tool semantics and independently specify final task checks; preserve unsupported and unresolved cases"
+}

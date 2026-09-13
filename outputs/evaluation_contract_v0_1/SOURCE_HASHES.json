@@ -1,0 +1,6 @@
+{
+  "outputs/bfcl_public_pilot_v0_1/EVALUATOR_CONTEXT.jsonl": "d32ef83bf87e623fef932cd734a58d0cfb397ecb67a251da8570aa9ed5f7d4e8",
+  "outputs/bfcl_public_pilot_v0_1/SOURCE_MANIFEST.json": "80b02fb0709228163efceaafee84b863d74c6b7ab686d6d0dcf0c5329adb38e2",
+  "outputs/checkpoint_ai_judge_v0_1/ORIGINAL_RUBRIC.txt": "95a21c324668f010475d2d2f550f8b22bd3011173c76b36276d529929321e11e",
+  "outputs/exploratory_comparison_v0_1/run_20260913T013948081119Z/RESULT.json": "f3f965844eb219f2689d5516e319d9fd0f987bd8c9bca2d34070eb267dfb77cc"
+}

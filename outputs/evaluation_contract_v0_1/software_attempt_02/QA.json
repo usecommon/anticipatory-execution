@@ -1,0 +1,120 @@
+{
+  "status": "PASS_SOFTWARE_ONLY",
+  "checks": [
+    {
+      "name": "valid_envelope_is_not_research_admission",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_empty_decision",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_empty_source",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_empty_environment",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_empty_receipt",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_empty_trace",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_empty_task_check",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_pre_action_work_product",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_same_event_execution",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_candidate_digest_mismatch",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_environment_mismatch",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_corrupt_result",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_unlinked_trace",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_unread_contribution",
+      "status": "PASS"
+    },
+    {
+      "name": "reject_nonboolean_correctness",
+      "status": "PASS"
+    },
+    {
+      "name": "evaluator_change_isolated_observable_context_change_visible",
+      "status": "PASS"
+    },
+    {
+      "name": "useful_ignored_does_not_create_negative_label",
+      "status": "PASS"
+    },
+    {
+      "name": "read_unnecessary_is_distinct_from_contribution",
+      "status": "PASS"
+    },
+    {
+      "name": "partial_narrowing_does_not_create_binary_label",
+      "status": "PASS"
+    },
+    {
+      "name": "independent_target_correct",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong_entity_identical_output_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "omitted_hidden_constraint_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "plausible_wrong_fresh_output_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "duplicate_output_rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "screen_replay_full_denominator_and_duplicate_grouping",
+      "status": "PASS"
+    }
+  ],
+  "passed": 25,
+  "failed": 0,
+  "research_cases_validated": 0,
+  "research_labels_created": 0,
+  "semantic_rubric_validated": false,
+  "limitations": [
+    "Envelope checks declared structure, not actual source truth or execution",
+    "Supplied task spec is trusted; no BFCL language-to-task-spec mapper implemented",
+    "Draft/parameter materiality remains an explicit review question"
+  ],
+  "source_sha256": {
+    "contract.py": "19248d80334ab4e605b0622d38d4da93420bd3a5b08a0902311f50a340178129",
+    "test_contract.py": "9081922bab46db6df98f90c91110ac78ebf1dd74c2beed6a29e77e3b2f9361c3",
+    "screen.py": "09b25252d792935217e35e3526b9be01c94e4d700636e2d32d9406ba07d29a05"
+  }
+}

@@ -1,3 +1,5 @@
+> Current implementation: [decision-time and reuse contract](../outputs/evaluation_contract_v0_1/README.md), with 25 passing software checks, a preserved payload-snapshot failure, and fixed 200-record screening. Nine selected records remain unadmitted; original environment/tool semantics and independent task specifications are next. No new research labels, probes or GPU work. [Consolidated status](../CURRENT_STATUS.json) supersedes historical phase snapshots for continuation.
+
 > Latest review: [evaluation council](../outputs/evaluation_council_v0_1/REPORT.md). Three fresh-context AI reviewers recommend an explicit decision-time and construct contract before the public-source adapter. Current models see prepared work products and lack action-by-dynamics interactions; preserve their narrow negative result. Review recommendations are not implemented protocol changes and do not close human G1.
 
 > Current priority: [measurement quality work package](../outputs/measurement_quality_v0_1/README.md). The user agreed to prioritize measurement. Software QA passed 17 checks; the 200 current records lack the proposed structured execution evidence. No research labels changed. Next build one typed public-source development adapter and prepare missing observable measurements. Preserve the negative diagnostic, existing split and human G1 gate.
@@ -25,7 +27,7 @@ Repository: **https://github.com/usecommon/anticipatory-execution**
 - Large raw tensors and compressed archives are outside Git, with checksummed inventories. GitHub is not a complete raw-data backup.
 - Desktop GitHub authentication worked for the push. This does **not** establish GitHub integration, Modal credentials, network access or volume access in Codex Cloud.
 
-**Current state: G0 PASS_SCOPED; G1 PENDING; Stage 1 BLOCKED; no development or confirmatory extraction performed by this continuation.**
+**Historical migration checkpoint (September 11): G0 PASS_SCOPED; G1 PENDING; Stage 1 BLOCKED; no development or confirmatory extraction had occurred at that checkpoint.** For later authorized exploratory progress, use [CURRENT_STATUS.json](../CURRENT_STATUS.json) and the latest updates above.
 
 Do not restart the project from first principles, rewrite the thesis, repeat already resolved novelty discussions, or rerun G0 merely because the environment changed from Desktop to Cloud. First inspect the checked-in evidence. A different GPU execution configuration would require separate validation.
 

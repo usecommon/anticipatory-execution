@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "initial_freeze_verified": true,
+  "failed_attempt_sources_preserved": true,
+  "recovery_only_deep_copy": true,
+  "test_expectations_unchanged": true,
+  "latest_software_checks": 25,
+  "screened_records": 200,
+  "selected_records": 9,
+  "triage_ids_match": true,
+  "report_links_verified": 9,
+  "research_labels_created": 0
+}

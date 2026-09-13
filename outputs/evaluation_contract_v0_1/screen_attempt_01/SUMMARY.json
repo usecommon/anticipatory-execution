@@ -1,0 +1,12 @@
+{
+  "screened_records": 200,
+  "groups": 199,
+  "lexical_candidate_groups": 8,
+  "selected_groups": 8,
+  "selected_records": 9,
+  "executed_records": 0,
+  "research_labels_created": 0,
+  "source_path": "outputs/bfcl_public_pilot_v0_1/EVALUATOR_CONTEXT.jsonl",
+  "source_sha256": "d32ef83bf87e623fef932cd734a58d0cfb397ecb67a251da8570aa9ed5f7d4e8",
+  "interpretation": "Engineering triage of exposed first-turn adaptations, not representative efficacy sampling or public task admission"
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "current_phase": "measurement_contract_development",
+  "frozen_thesis": "Do not predict what the user will type next. Predict what work will not need to be undone.",
+  "G0": {
+    "status": "PASS_SCOPED",
+    "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+    "scope": "canonical-v0.5, Qwen2.5-7B-Instruct, A100-SXM4-40GB, FP32/eager, fixed [1,128], serial/no cache",
+    "historical_status": "outputs/g0_closure_v0_5/STATUS.json"
+  },
+  "G1": {
+    "status": "PENDING_DEFERRED_EXPLORATORY_ONLY",
+    "human_submissions_complete": false,
+    "hard_gate": "Before confirmatory labeling/final freeze and confirmatory work",
+    "amendment": "docs/AI_ONLY_EXPLORATORY_AMENDMENT_v0_1.md"
+  },
+  "exploratory_extraction": {
+    "completed": true,
+    "prefixes": 4013,
+    "stored_outputs_verified": 4013,
+    "report": "outputs/exploratory_extraction_v0_1/README.md"
+  },
+  "diagnostic_comparison": {
+    "completed": true,
+    "result": "Tested internal features did not improve available-output diagnostic",
+    "full_B1": false,
+    "H2_H3_tested": false,
+    "report": "outputs/exploratory_comparison_v0_1/README.md"
+  },
+  "measurement_contract": {
+    "report": "outputs/evaluation_contract_v0_1/README.md",
+    "software_checks_passed": 25,
+    "research_cases_validated": 0,
+    "public_adapter_executed": false
+  },
+  "confirmatory_extraction": {
+    "authorized": false,
+    "performed": false
+  },
+  "current_priority": "Original source context and independent task-spec mapping for fixed screened adapter cases; full-B1 preparation",
+  "historical_status_policy": "Historical phase files retain their original state; this file consolidates later authorized exploratory progress",
+  "numerical_neutrality_claim": false
+}
