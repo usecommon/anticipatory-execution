@@ -1,0 +1,23 @@
+{
+  "purpose": "entrypoint software validation and bitwise regression on existing 12 G0 QA texts only",
+  "research_prefix_forwards": 0,
+  "maximum_GPU_forwards": 24,
+  "CPU": {
+    "timeout_seconds": 300,
+    "memory_mib": 4096,
+    "retries": 0
+  },
+  "GPU": {
+    "requested": "A100-40GB",
+    "required_device": "NVIDIA A100-SXM4-40GB",
+    "timeout_seconds": 900,
+    "memory_mib": 49152,
+    "max_containers": 1,
+    "retries": 0
+  },
+  "human_G1": "PENDING_DEFERRED",
+  "confirmatory_extraction": false,
+  "frozen_weights": true,
+  "partial_failures": "retained on volume and text evidence returned",
+  "pricing": "No dollar estimate asserted; bounded resources, metered billing not queried"
+}

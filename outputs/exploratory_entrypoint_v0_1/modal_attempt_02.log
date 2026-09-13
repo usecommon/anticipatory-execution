@@ -1,0 +1,604 @@
+✓ Initialized. View run at 
+https://modal.com/apps/jeff-34667/main/ap-1LHrYEtNa7MXOXglu63cVE
+✓ Created objects.
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/outputs/anticipatory-execution/outputs/exploratory_entrypoint_v0_1/modal
+│   _validate.py
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/outputs/anticipatory-execution/outputs/exploratory_preflight_v0_1/run_20
+│   260913T000004720678Z/RESULT.json
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/outputs/anticipatory-execution/outputs/exploratory_preflight_v0_1/EXTRAC
+│   TION_INPUT.jsonl
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/outputs/anticipatory-execution/outputs/g0_closure_v0_5/source/extractor.
+│   py
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/outputs/anticipatory-execution/outputs/g0_closure_v0_5/source/pipeline.p
+│   y
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/outputs/anticipatory-execution/outputs/exploratory_entrypoint_v0_1/check
+│   s.py
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/outputs/anticipatory-execution/outputs/exploratory_entrypoint_v0_1/VALID
+│   ATION_INPUT.jsonl
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/outputs/anticipatory-execution/outputs/exploratory_entrypoint_v0_1/entry
+│   point.py
+├── 🔨 Created function cpu_validate.
+└── 🔨 Created function gpu_validate.
+CPU checks PASS: 20
+
+[1ALoading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+[1ALoading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:09,  3.17s/it]
+[1ALoading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.18s/it]
+[1ALoading checkpoint shards:  75%|███████▌  | 3/4 [00:11<00:03,  4.00s/it]
+[1ALoading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.61s/it]
+[1ALoading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.71s/it]
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+{
+  "status": "PASS",
+  "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+  "comparisons": [
+    {
+      "id": "qa00",
+      "all_fields_bitwise_equal": true,
+      "fields": [
+        "contract_id",
+        "input_ids",
+        "attention_mask",
+        "position_ids",
+        "active_length",
+        "hidden_last",
+        "logits_last"
+      ]
+    },
+    {
+      "id": "qa01",
+      "all_fields_bitwise_equal": true,
+      "fields": [
+        "contract_id",
+        "input_ids",
+        "attention_mask",
+        "position_ids",
+        "active_length",
+        "hidden_last",
+        "logits_last"
+      ]
+    },
+    {
+      "id": "qa02",
+      "all_fields_bitwise_equal": true,
+      "fields": [
+        "contract_id",
+        "input_ids",
+        "attention_mask",
+        "position_ids",
+        "active_length",
+        "hidden_last",
+        "logits_last"
+      ]
+    },
+    {
+      "id": "qa03",
+      "all_fields_bitwise_equal": true,
+      "fields": [
+        "contract_id",
+        "input_ids",
+        "attention_mask",
+        "position_ids",
+        "active_length",
+        "hidden_last",
+        "logits_last"
+      ]
+    },
+    {
+      "id": "qa04",
+      "all_fields_bitwise_equal": true,
+      "fields": [
+        "contract_id",
+        "input_ids",
+        "attention_mask",
+        "position_ids",
+        "active_length",
+        "hidden_last",
+        "logits_last"
+      ]
+    },
+    {
+      "id": "qa05",
+      "all_fields_bitwise_equal": true,
+      "fields": [
+        "contract_id",
+        "input_ids",
+        "attention_mask",
+        "position_ids",
+        "active_length",
+        "hidden_last",
+        "logits_last"
+      ]
+    },
+    {
+      "id": "qa06",
+      "all_fields_bitwise_equal": true,
+      "fields": [
+        "contract_id",
+        "input_ids",
+        "attention_mask",
+        "position_ids",
+        "active_length",
+        "hidden_last",
+        "logits_last"
+      ]
+    },
+    {
+      "id": "qa07",
+      "all_fields_bitwise_equal": true,
+      "fields": [
+        "contract_id",
+        "input_ids",
+        "attention_mask",
+        "position_ids",
+        "active_length",
+        "hidden_last",
+        "logits_last"
+      ]
+    },
+    {
+      "id": "qa08",
+      "all_fields_bitwise_equal": true,
+      "fields": [
+        "contract_id",
+        "input_ids",
+        "attention_mask",
+        "position_ids",
+        "active_length",
+        "hidden_last",
+        "logits_last"
+      ]
+    },
+    {
+      "id": "qa09",
+      "all_fields_bitwise_equal": true,
+      "fields": [
+        "contract_id",
+        "input_ids",
+        "attention_mask",
+        "position_ids",
+        "active_length",
+        "hidden_last",
+        "logits_last"
+      ]
+    },
+    {
+      "id": "qa10",
+      "all_fields_bitwise_equal": true,
+      "fields": [
+        "contract_id",
+        "input_ids",
+        "attention_mask",
+        "position_ids",
+        "active_length",
+        "hidden_last",
+        "logits_last"
+      ]
+    },
+    {
+      "id": "qa11",
+      "all_fields_bitwise_equal": true,
+      "fields": [
+        "contract_id",
+        "input_ids",
+        "attention_mask",
+        "position_ids",
+        "active_length",
+        "hidden_last",
+        "logits_last"
+      ]
+    }
+  ],
+  "actual_forward_count": 24,
+  "confirmatory_rejection_zero_forwards": true,
+  "audit": [
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 14,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 15,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 25,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 21,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 15,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 11,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 13,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 11,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 11,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 15,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 14,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 17,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 14,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 15,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 25,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 21,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 15,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 11,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 13,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 11,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 11,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 15,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 14,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    },
+    {
+      "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+      "shape": [
+        1,
+        128
+      ],
+      "mask_shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "active_length": 17,
+      "position_sha": "3e4f0a2fd9498da7c1440a355a22b6292161a5216c63aa0bc59b5a4742fd1e36",
+      "cache": false
+    }
+  ],
+  "seconds": 108.26898097991943,
+  "max_cuda_memory": 30783937024,
+  "research_extraction": false,
+  "human_G1": "PENDING_DEFERRED"
+}
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/jeff-34667/main/ap-1LHrYEtNa7MXOXglu63cVE

@@ -1,0 +1,22 @@
+{
+  "exploratory": {
+    "path": "outputs/exploratory_preflight_v0_1/EXTRACTION_INPUT.jsonl",
+    "sha256": "a2b4cb69d993433603e06cb6536b2579f994acbde7bdda8a92734cdfdc0709ba"
+  },
+  "instrumentation_validation": {
+    "path": "outputs/exploratory_entrypoint_v0_1/VALIDATION_INPUT.jsonl",
+    "sha256": "da1aec4b17a771adc1d2554d17fbca7b5e8c7f476370819da8e3d457aec3caa2"
+  },
+  "preflight_result": {
+    "path": "outputs/exploratory_preflight_v0_1/run_20260913T000004720678Z/RESULT.json",
+    "sha256": "40e522157a51e1d16d0b5aef4501189d8fc4267087e5c6c8ef1fc0fd9d301b22"
+  },
+  "extractor": {
+    "path": "outputs/g0_closure_v0_5/source/extractor.py",
+    "sha256": "f7b871a69dbb7aa165743f2e25f24680cb2d4118844135498cb1fb9a2ac22283"
+  },
+  "original_pipeline": {
+    "path": "outputs/g0_closure_v0_5/source/pipeline.py",
+    "sha256": "a17ad5acc77e26b4b5f40e0b5b2a6b6b3220dcc4bae2059b6345f2a655b5b690"
+  }
+}

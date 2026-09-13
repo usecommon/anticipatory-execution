@@ -36,11 +36,13 @@ The [fresh AI judge of the 220 review cases](outputs/checkpoint_ai_judge_v0_1/RE
 
 The [exploratory manifest and Modal tokenizer preflight](outputs/exploratory_preflight_v0_1/README.md) preserves all 900 scheduled opportunities across 300 tasks. All 4,013 distinct prefix inputs fit the validated width (maximum 52/128 tokens). Splits are outcome-independent; only two negative labels land in the exploratory check split. No model extraction ran; versioned entrypoint validation and public dataset admission remain pending.
 
+The [exploratory entrypoint validation](outputs/exploratory_entrypoint_v0_1/README.md) passed 20 software checks and 12 GPU bitwise comparisons against the original G0 pipeline (24 QA forwards). It pins exact inputs, validates the whole job before inference, preserves partial failures and rejects confirmatory requests. The failed initial launcher attempt is retained. No research feature extraction ran.
+
 ## Current state
 
 - **G0 PASS, scoped:** canonical-v0.5, frozen Qwen2.5-7B-Instruct, NVIDIA A100-SXM4-40GB, FP32 eager, physical shape [1,128], active length 1..128, serial prefixes, explicit positions/masks, cache off. Two fresh Modal containers passed 8,427 checks each; 155 cross-container cases matched bitwise.
 - **G1 PENDING:** two independent annotators and prescribed agreement/adjudication are still required.
-- **AI-only exploratory preparation AUTHORIZED:** see the [temporary gate-timing amendment](docs/AI_ONLY_EXPLORATORY_AMENDMENT_v0_1.md). Human G1 is deferred for this separate track, not passed. Extraction still needs length/data preflight and a validated versioned entrypoint; the preserved executable permits QA only. Human G1 blocks confirmatory labeling/freeze. **No confirmatory extraction.**
+- **AI-only exploratory preparation AUTHORIZED:** see the [temporary gate-timing amendment](docs/AI_ONLY_EXPLORATORY_AMENDMENT_v0_1.md). Human G1 is deferred for this separate track, not passed. Length preflight and the separate versioned entrypoint have passed scoped validation; the preserved executable remains QA-only. A bounded exploratory run and data admission remain separate steps. Human G1 blocks confirmatory labeling/freeze. **No confirmatory extraction.**
 - Corrections are **not presumed numerically neutral**. Historical failures remain failures. Changes may reduce or eliminate the apparent internal-state advantage.
 
 Start with [closure report](outputs/g0_closure_v0_5/G0_CLOSURE_REPORT.md), [research safeguards](outputs/g0_closure_v0_5/RESEARCH_SAFEGUARDS.md), and [runbook](outputs/g0_closure_v0_5/RUNBOOK.md). Machine-readable current status: [STATUS.json](outputs/g0_closure_v0_5/STATUS.json).

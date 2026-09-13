@@ -1,0 +1,158 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "partition_confirmatory",
+      "pass": true,
+      "forward_calls": 0,
+      "token_calls": 0
+    },
+    {
+      "name": "partition_development",
+      "pass": true,
+      "forward_calls": 0,
+      "token_calls": 0
+    },
+    {
+      "name": "partition_qa",
+      "pass": true,
+      "forward_calls": 0,
+      "token_calls": 0
+    },
+    {
+      "name": "partition_test",
+      "pass": true,
+      "forward_calls": 0,
+      "token_calls": 0
+    },
+    {
+      "name": "partition_",
+      "pass": true,
+      "forward_calls": 0,
+      "token_calls": 0
+    },
+    {
+      "name": "partition_None",
+      "pass": true,
+      "forward_calls": 0,
+      "token_calls": 0
+    },
+    {
+      "name": "wrong_contract",
+      "pass": true,
+      "forward_calls": 0,
+      "token_calls": 0
+    },
+    {
+      "name": "suffix_field",
+      "pass": true,
+      "forward_calls": 0,
+      "token_calls": 0
+    },
+    {
+      "name": "reordered",
+      "pass": true,
+      "forward_calls": 0,
+      "token_calls": 0
+    },
+    {
+      "name": "missing_item",
+      "pass": true,
+      "forward_calls": 0,
+      "token_calls": 0
+    },
+    {
+      "name": "duplicate",
+      "pass": true,
+      "forward_calls": 0,
+      "token_calls": 0
+    },
+    {
+      "name": "empty",
+      "pass": true,
+      "forward_calls": 0,
+      "token_calls": 0
+    },
+    {
+      "name": "edited_prefix",
+      "pass": true,
+      "forward_calls": 0,
+      "token_calls": 0
+    },
+    {
+      "name": "late_overlength",
+      "pass": true,
+      "forward_calls": 0,
+      "token_calls": 12
+    },
+    {
+      "name": "research_missing_preflight",
+      "pass": true,
+      "forward_calls": 0,
+      "token_calls": 0
+    },
+    {
+      "name": "research_changed_preflight",
+      "pass": true,
+      "forward_calls": 0,
+      "token_calls": 0
+    },
+    {
+      "name": "research_changed_tokens",
+      "pass": true,
+      "forward_calls": 0,
+      "token_calls": 1
+    },
+    {
+      "name": "full_preflight_before_forward",
+      "pass": true,
+      "forward_calls": 1,
+      "token_calls": 4013
+    },
+    {
+      "name": "partial_failure_preserved",
+      "pass": true,
+      "forward_calls": 2,
+      "token_calls": 12
+    },
+    {
+      "name": "valid_software_roundtrip_and_overwrite_rejection",
+      "pass": true,
+      "forward_calls": 12,
+      "synthetic_tensors_only": true
+    }
+  ],
+  "artifacts": {
+    "tests/suffix_field.jsonl": "{\"id\": \"qa00\", \"full_instruction\":\"future\", \"prefix\": \"Find a caf\\u00e9 in Montr\\u00e9al; actually, make it a bakery.\"}\n{\"id\": \"qa01\", \"prefix\": \"Parse https://example.org/a?q=7 and return only the hostname.\"}\n{\"id\": \"qa02\", \"prefix\": \"Summarize 12.5 percent growth in 2024 versus 2023 without forecasting.\"}\n{\"id\": \"qa03\", \"prefix\": \"Write Python: value = {'key': [1, 2, 3]}; preserve punctuation.\"}\n{\"id\": \"qa04\", \"prefix\": \"Draft a reply to O\\u2019Connor thanking them \\u2014 do not send it.\"}\n{\"id\": \"qa05\", \"prefix\": \"  Compare\\talpha and beta\\nusing the attached figures.\"}\n{\"id\": \"qa06\", \"prefix\": \"Find a restaurant near the station, excluding places without outdoor seating.\"}\n{\"id\": \"qa07\", \"prefix\": \"Research battery suppliers in Europe; include distributors as well.\"}\n{\"id\": \"qa08\", \"prefix\": \"Translate the phrase na\\u00efve fa\\u00e7ade into plain English.\"}\n{\"id\": \"qa09\", \"prefix\": \"Schedule a 15-minute meeting next Thursday; only draft the invitation.\"}\n{\"id\": \"qa10\", \"prefix\": \"Explain the filename report_v2-final.csv, not its contents.\"}\n{\"id\": \"qa11\", \"prefix\": \"Prepare notes about the \\ud83d\\udeb2 route, then switch the destination to the museum.\"}\n",
+    "tests/reordered.jsonl": "{\"id\": \"qa11\", \"prefix\": \"Prepare notes about the \\ud83d\\udeb2 route, then switch the destination to the museum.\"}\n{\"id\": \"qa10\", \"prefix\": \"Explain the filename report_v2-final.csv, not its contents.\"}\n{\"id\": \"qa09\", \"prefix\": \"Schedule a 15-minute meeting next Thursday; only draft the invitation.\"}\n{\"id\": \"qa08\", \"prefix\": \"Translate the phrase na\\u00efve fa\\u00e7ade into plain English.\"}\n{\"id\": \"qa07\", \"prefix\": \"Research battery suppliers in Europe; include distributors as well.\"}\n{\"id\": \"qa06\", \"prefix\": \"Find a restaurant near the station, excluding places without outdoor seating.\"}\n{\"id\": \"qa05\", \"prefix\": \"  Compare\\talpha and beta\\nusing the attached figures.\"}\n{\"id\": \"qa04\", \"prefix\": \"Draft a reply to O\\u2019Connor thanking them \\u2014 do not send it.\"}\n{\"id\": \"qa03\", \"prefix\": \"Write Python: value = {'key': [1, 2, 3]}; preserve punctuation.\"}\n{\"id\": \"qa02\", \"prefix\": \"Summarize 12.5 percent growth in 2024 versus 2023 without forecasting.\"}\n{\"id\": \"qa01\", \"prefix\": \"Parse https://example.org/a?q=7 and return only the hostname.\"}\n{\"id\": \"qa00\", \"prefix\": \"Find a caf\\u00e9 in Montr\\u00e9al; actually, make it a bakery.\"}\n",
+    "tests/missing_item.jsonl": "{\"id\": \"qa01\", \"prefix\": \"Parse https://example.org/a?q=7 and return only the hostname.\"}\n{\"id\": \"qa02\", \"prefix\": \"Summarize 12.5 percent growth in 2024 versus 2023 without forecasting.\"}\n{\"id\": \"qa03\", \"prefix\": \"Write Python: value = {'key': [1, 2, 3]}; preserve punctuation.\"}\n{\"id\": \"qa04\", \"prefix\": \"Draft a reply to O\\u2019Connor thanking them \\u2014 do not send it.\"}\n{\"id\": \"qa05\", \"prefix\": \"  Compare\\talpha and beta\\nusing the attached figures.\"}\n{\"id\": \"qa06\", \"prefix\": \"Find a restaurant near the station, excluding places without outdoor seating.\"}\n{\"id\": \"qa07\", \"prefix\": \"Research battery suppliers in Europe; include distributors as well.\"}\n{\"id\": \"qa08\", \"prefix\": \"Translate the phrase na\\u00efve fa\\u00e7ade into plain English.\"}\n{\"id\": \"qa09\", \"prefix\": \"Schedule a 15-minute meeting next Thursday; only draft the invitation.\"}\n{\"id\": \"qa10\", \"prefix\": \"Explain the filename report_v2-final.csv, not its contents.\"}\n{\"id\": \"qa11\", \"prefix\": \"Prepare notes about the \\ud83d\\udeb2 route, then switch the destination to the museum.\"}\n",
+    "tests/duplicate.jsonl": "{\"id\": \"qa00\", \"prefix\": \"Find a caf\\u00e9 in Montr\\u00e9al; actually, make it a bakery.\"}\n{\"id\": \"qa01\", \"prefix\": \"Parse https://example.org/a?q=7 and return only the hostname.\"}\n{\"id\": \"qa02\", \"prefix\": \"Summarize 12.5 percent growth in 2024 versus 2023 without forecasting.\"}\n{\"id\": \"qa03\", \"prefix\": \"Write Python: value = {'key': [1, 2, 3]}; preserve punctuation.\"}\n{\"id\": \"qa04\", \"prefix\": \"Draft a reply to O\\u2019Connor thanking them \\u2014 do not send it.\"}\n{\"id\": \"qa05\", \"prefix\": \"  Compare\\talpha and beta\\nusing the attached figures.\"}\n{\"id\": \"qa06\", \"prefix\": \"Find a restaurant near the station, excluding places without outdoor seating.\"}\n{\"id\": \"qa07\", \"prefix\": \"Research battery suppliers in Europe; include distributors as well.\"}\n{\"id\": \"qa08\", \"prefix\": \"Translate the phrase na\\u00efve fa\\u00e7ade into plain English.\"}\n{\"id\": \"qa09\", \"prefix\": \"Schedule a 15-minute meeting next Thursday; only draft the invitation.\"}\n{\"id\": \"qa10\", \"prefix\": \"Explain the filename report_v2-final.csv, not its contents.\"}\n{\"id\": \"qa11\", \"prefix\": \"Prepare notes about the \\ud83d\\udeb2 route, then switch the destination to the museum.\"}\n{\"id\": \"qa00\", \"prefix\": \"Find a caf\\u00e9 in Montr\\u00e9al; actually, make it a bakery.\"}\n",
+    "tests/empty.jsonl": "",
+    "tests/edited_prefix.jsonl": "{\"id\": \"qa00\", \"prefix\": \"Seek a caf\\u00e9 in Montr\\u00e9al; actually, make it a bakery.\"}\n{\"id\": \"qa01\", \"prefix\": \"Parse https://example.org/a?q=7 and return only the hostname.\"}\n{\"id\": \"qa02\", \"prefix\": \"Summarize 12.5 percent growth in 2024 versus 2023 without forecasting.\"}\n{\"id\": \"qa03\", \"prefix\": \"Write Python: value = {'key': [1, 2, 3]}; preserve punctuation.\"}\n{\"id\": \"qa04\", \"prefix\": \"Draft a reply to O\\u2019Connor thanking them \\u2014 do not send it.\"}\n{\"id\": \"qa05\", \"prefix\": \"  Compare\\talpha and beta\\nusing the attached figures.\"}\n{\"id\": \"qa06\", \"prefix\": \"Find a restaurant near the station, excluding places without outdoor seating.\"}\n{\"id\": \"qa07\", \"prefix\": \"Research battery suppliers in Europe; include distributors as well.\"}\n{\"id\": \"qa08\", \"prefix\": \"Translate the phrase na\\u00efve fa\\u00e7ade into plain English.\"}\n{\"id\": \"qa09\", \"prefix\": \"Schedule a 15-minute meeting next Thursday; only draft the invitation.\"}\n{\"id\": \"qa10\", \"prefix\": \"Explain the filename report_v2-final.csv, not its contents.\"}\n{\"id\": \"qa11\", \"prefix\": \"Prepare notes about the \\ud83d\\udeb2 route, then switch the destination to the museum.\"}\n",
+    "tests/bad_preflight.json": "{}",
+    "tests/partition_confirmatory/failure.json": "{\n  \"status\": \"BLOCKED\",\n  \"error_type\": \"ContractError\",\n  \"error\": \"Partition not authorized; confirmatory extraction prohibited\",\n  \"completed_items\": 0,\n  \"items\": [],\n  \"successful_manifest\": false\n}\n",
+    "tests/partition_development/failure.json": "{\n  \"status\": \"BLOCKED\",\n  \"error_type\": \"ContractError\",\n  \"error\": \"Partition not authorized; confirmatory extraction prohibited\",\n  \"completed_items\": 0,\n  \"items\": [],\n  \"successful_manifest\": false\n}\n",
+    "tests/partition_qa/failure.json": "{\n  \"status\": \"BLOCKED\",\n  \"error_type\": \"ContractError\",\n  \"error\": \"Partition not authorized; confirmatory extraction prohibited\",\n  \"completed_items\": 0,\n  \"items\": [],\n  \"successful_manifest\": false\n}\n",
+    "tests/partition_test/failure.json": "{\n  \"status\": \"BLOCKED\",\n  \"error_type\": \"ContractError\",\n  \"error\": \"Partition not authorized; confirmatory extraction prohibited\",\n  \"completed_items\": 0,\n  \"items\": [],\n  \"successful_manifest\": false\n}\n",
+    "tests/partition_/failure.json": "{\n  \"status\": \"BLOCKED\",\n  \"error_type\": \"ContractError\",\n  \"error\": \"Partition not authorized; confirmatory extraction prohibited\",\n  \"completed_items\": 0,\n  \"items\": [],\n  \"successful_manifest\": false\n}\n",
+    "tests/partition_None/failure.json": "{\n  \"status\": \"BLOCKED\",\n  \"error_type\": \"ContractError\",\n  \"error\": \"Partition not authorized; confirmatory extraction prohibited\",\n  \"completed_items\": 0,\n  \"items\": [],\n  \"successful_manifest\": false\n}\n",
+    "tests/wrong_contract/failure.json": "{\n  \"status\": \"BLOCKED\",\n  \"error_type\": \"ContractError\",\n  \"error\": \"Wrong numerical contract\",\n  \"completed_items\": 0,\n  \"items\": [],\n  \"successful_manifest\": false\n}\n",
+    "tests/suffix_field/failure.json": "{\n  \"status\": \"BLOCKED\",\n  \"error_type\": \"ContractError\",\n  \"error\": \"Input is not the frozen allowlisted job\",\n  \"completed_items\": 0,\n  \"items\": [],\n  \"successful_manifest\": false\n}\n",
+    "tests/reordered/failure.json": "{\n  \"status\": \"BLOCKED\",\n  \"error_type\": \"ContractError\",\n  \"error\": \"Input is not the frozen allowlisted job\",\n  \"completed_items\": 0,\n  \"items\": [],\n  \"successful_manifest\": false\n}\n",
+    "tests/missing_item/failure.json": "{\n  \"status\": \"BLOCKED\",\n  \"error_type\": \"ContractError\",\n  \"error\": \"Input is not the frozen allowlisted job\",\n  \"completed_items\": 0,\n  \"items\": [],\n  \"successful_manifest\": false\n}\n",
+    "tests/duplicate/failure.json": "{\n  \"status\": \"BLOCKED\",\n  \"error_type\": \"ContractError\",\n  \"error\": \"Input is not the frozen allowlisted job\",\n  \"completed_items\": 0,\n  \"items\": [],\n  \"successful_manifest\": false\n}\n",
+    "tests/empty/failure.json": "{\n  \"status\": \"BLOCKED\",\n  \"error_type\": \"ContractError\",\n  \"error\": \"Input is not the frozen allowlisted job\",\n  \"completed_items\": 0,\n  \"items\": [],\n  \"successful_manifest\": false\n}\n",
+    "tests/edited_prefix/failure.json": "{\n  \"status\": \"BLOCKED\",\n  \"error_type\": \"ContractError\",\n  \"error\": \"Input is not the frozen allowlisted job\",\n  \"completed_items\": 0,\n  \"items\": [],\n  \"successful_manifest\": false\n}\n",
+    "tests/late_overlength/failure.json": "{\n  \"status\": \"BLOCKED\",\n  \"error_type\": \"ContractError\",\n  \"error\": \"outside length\",\n  \"completed_items\": 0,\n  \"items\": [],\n  \"successful_manifest\": false\n}\n",
+    "tests/research_missing_preflight/failure.json": "{\n  \"status\": \"BLOCKED\",\n  \"error_type\": \"ContractError\",\n  \"error\": \"Missing or changed pinned length preflight\",\n  \"completed_items\": 0,\n  \"items\": [],\n  \"successful_manifest\": false\n}\n",
+    "tests/research_changed_preflight/failure.json": "{\n  \"status\": \"BLOCKED\",\n  \"error_type\": \"ContractError\",\n  \"error\": \"Missing or changed pinned length preflight\",\n  \"completed_items\": 0,\n  \"items\": [],\n  \"successful_manifest\": false\n}\n",
+    "tests/research_changed_tokens/failure.json": "{\n  \"status\": \"BLOCKED\",\n  \"error_type\": \"ContractError\",\n  \"error\": \"Tokenization changed since frozen preflight\",\n  \"completed_items\": 0,\n  \"items\": [],\n  \"successful_manifest\": false\n}\n",
+    "tests/full_preflight_before_forward/failure.json": "{\n  \"status\": \"BLOCKED\",\n  \"error_type\": \"RuntimeError\",\n  \"error\": \"injected forward failure\",\n  \"completed_items\": 0,\n  \"items\": [],\n  \"successful_manifest\": false\n}\n",
+    "tests/partial_failure_preserved/progress.jsonl": "{\"id\": \"qa00\", \"prefix_sha256\": \"99c3c81dad6a97a3dc83e376d3db39d9b4474a5b380b7ef5dd8ff2f688e51287\", \"token_ids\": [1, 2], \"active_length\": 2, \"file\": \"00000.pt\", \"sha256\": \"5621e2e5f75f0e966181b1991367f0b15a09fbe103eb91efd95a7a145ab2098a\", \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"}\n",
+    "tests/partial_failure_preserved/failure.json": "{\n  \"status\": \"BLOCKED\",\n  \"error_type\": \"RuntimeError\",\n  \"error\": \"injected forward failure\",\n  \"completed_items\": 1,\n  \"items\": [\n    {\n      \"id\": \"qa00\",\n      \"prefix_sha256\": \"99c3c81dad6a97a3dc83e376d3db39d9b4474a5b380b7ef5dd8ff2f688e51287\",\n      \"token_ids\": [\n        1,\n        2\n      ],\n      \"active_length\": 2,\n      \"file\": \"00000.pt\",\n      \"sha256\": \"5621e2e5f75f0e966181b1991367f0b15a09fbe103eb91efd95a7a145ab2098a\",\n      \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"\n    }\n  ],\n  \"successful_manifest\": false\n}\n",
+    "tests/valid_software_only/progress.jsonl": "{\"id\": \"qa00\", \"prefix_sha256\": \"99c3c81dad6a97a3dc83e376d3db39d9b4474a5b380b7ef5dd8ff2f688e51287\", \"token_ids\": [1, 2], \"active_length\": 2, \"file\": \"00000.pt\", \"sha256\": \"5621e2e5f75f0e966181b1991367f0b15a09fbe103eb91efd95a7a145ab2098a\", \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"}\n{\"id\": \"qa01\", \"prefix_sha256\": \"9a98ba5bb19ba6d294a59f19ca4f88ff4db8133a37a5eeab81f5b9b839a53ae2\", \"token_ids\": [1, 2], \"active_length\": 2, \"file\": \"00001.pt\", \"sha256\": \"13fc66f132ca10e94edf988a2906e61b648cbe6f779a13cc96e5e49b2e787fad\", \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"}\n{\"id\": \"qa02\", \"prefix_sha256\": \"305d44484dd4d7138baa9eac8f02f3cf9e764481b7acc9bc125e8fae562dfaa1\", \"token_ids\": [1, 2], \"active_length\": 2, \"file\": \"00002.pt\", \"sha256\": \"2fb26b19236116ff3304aed240aac7c2e47127d3dd5b85386da94a79ec67e2d0\", \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"}\n{\"id\": \"qa03\", \"prefix_sha256\": \"f882912bab65d915de684d061efa05a2591409512562d311616be10e527078d7\", \"token_ids\": [1, 2], \"active_length\": 2, \"file\": \"00003.pt\", \"sha256\": \"0c4c32c5d795fb4051ad7418a872ff2481db62b87681c4e5eb270b3c2351f892\", \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"}\n{\"id\": \"qa04\", \"prefix_sha256\": \"02be91197b2d8060978d3d01d59b2d1577963eed265b0cd7b883a3826375b36c\", \"token_ids\": [1, 2], \"active_length\": 2, \"file\": \"00004.pt\", \"sha256\": \"8da894603ae03cf94dfd4ac43b7cfab3d99ddb24ea3f572232137fa5088c9055\", \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"}\n{\"id\": \"qa05\", \"prefix_sha256\": \"8c32eb8c47c9a59424be5ae39213fffc794091c1b76318a96dba4f98b812d6ce\", \"token_ids\": [1, 2], \"active_length\": 2, \"file\": \"00005.pt\", \"sha256\": \"0734fb114edaf31537334f7f966803e7a6d30bb5decb5cd132296a2371b6e729\", \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"}\n{\"id\": \"qa06\", \"prefix_sha256\": \"1293fe1beeb9d48c04c63c8cc6d55cfa747a21975abe46c76718b63e9e1d9aa7\", \"token_ids\": [1, 2], \"active_length\": 2, \"file\": \"00006.pt\", \"sha256\": \"209d70a7c1d6f4795618cf93a51b66b1daf8383c8cd973264c4e02225786bc1d\", \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"}\n{\"id\": \"qa07\", \"prefix_sha256\": \"273dcdbe02eb46401e3f1cec4b387b8d83cbffd8da4ce23231702877f81402ee\", \"token_ids\": [1, 2], \"active_length\": 2, \"file\": \"00007.pt\", \"sha256\": \"e969a6a0e3edfd2ab17a730e2a88e7641b889bd02a4432def8091f38995c7635\", \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"}\n{\"id\": \"qa08\", \"prefix_sha256\": \"0e587b31e74b56c82abac18219ec5b4ff41f2f3e7ba0f33be685f14ff119e35f\", \"token_ids\": [1, 2], \"active_length\": 2, \"file\": \"00008.pt\", \"sha256\": \"c7ca506d4aaa781f9db5bbddd4520b89b60c719ce6ab874b0e8c67068d0d9fcc\", \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"}\n{\"id\": \"qa09\", \"prefix_sha256\": \"345671cd93297e9fe23491135b89cdb24cbd20ed5f4ccdcac2591c0040118c34\", \"token_ids\": [1, 2], \"active_length\": 2, \"file\": \"00009.pt\", \"sha256\": \"f1e11e3d0517760578eebc3d18d0b87d120fd9f290a76854e50ec6ec86d46cd4\", \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"}\n{\"id\": \"qa10\", \"prefix_sha256\": \"5098b775092b046cdcdc5efc7a4546720666649704775937a53d9f9a70cba944\", \"token_ids\": [1, 2], \"active_length\": 2, \"file\": \"00010.pt\", \"sha256\": \"4170efa1dd216ad2e62cd686b067c3e72cc7bcd764ce7dfd343b9e3cc30eb27f\", \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"}\n{\"id\": \"qa11\", \"prefix_sha256\": \"02a9be9ed3100b905974482b597272d96fd190a049bab697820f2e8e016b7288\", \"token_ids\": [1, 2], \"active_length\": 2, \"file\": \"00011.pt\", \"sha256\": \"1c8a0598289fe01d276d87a6dd33d1c4ed8ce16fccdddbb60550b31e8d3934ef\", \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"}\n",
+    "tests/valid_software_only/manifest.json": "{\n  \"status\": \"PASS\",\n  \"partition\": \"instrumentation_validation\",\n  \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\",\n  \"input_sha256\": \"da1aec4b17a771adc1d2554d17fbca7b5e8c7f476370819da8e3d457aec3caa2\",\n  \"entrypoint_sha256\": \"865cfd91f88477affdfda2dea6fc3aed68ddabf2c0179fa289605359e242c620\",\n  \"items\": [\n    {\n      \"id\": \"qa00\",\n      \"prefix_sha256\": \"99c3c81dad6a97a3dc83e376d3db39d9b4474a5b380b7ef5dd8ff2f688e51287\",\n      \"token_ids\": [\n        1,\n        2\n      ],\n      \"active_length\": 2,\n      \"file\": \"00000.pt\",\n      \"sha256\": \"5621e2e5f75f0e966181b1991367f0b15a09fbe103eb91efd95a7a145ab2098a\",\n      \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"\n    },\n    {\n      \"id\": \"qa01\",\n      \"prefix_sha256\": \"9a98ba5bb19ba6d294a59f19ca4f88ff4db8133a37a5eeab81f5b9b839a53ae2\",\n      \"token_ids\": [\n        1,\n        2\n      ],\n      \"active_length\": 2,\n      \"file\": \"00001.pt\",\n      \"sha256\": \"13fc66f132ca10e94edf988a2906e61b648cbe6f779a13cc96e5e49b2e787fad\",\n      \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"\n    },\n    {\n      \"id\": \"qa02\",\n      \"prefix_sha256\": \"305d44484dd4d7138baa9eac8f02f3cf9e764481b7acc9bc125e8fae562dfaa1\",\n      \"token_ids\": [\n        1,\n        2\n      ],\n      \"active_length\": 2,\n      \"file\": \"00002.pt\",\n      \"sha256\": \"2fb26b19236116ff3304aed240aac7c2e47127d3dd5b85386da94a79ec67e2d0\",\n      \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"\n    },\n    {\n      \"id\": \"qa03\",\n      \"prefix_sha256\": \"f882912bab65d915de684d061efa05a2591409512562d311616be10e527078d7\",\n      \"token_ids\": [\n        1,\n        2\n      ],\n      \"active_length\": 2,\n      \"file\": \"00003.pt\",\n      \"sha256\": \"0c4c32c5d795fb4051ad7418a872ff2481db62b87681c4e5eb270b3c2351f892\",\n      \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"\n    },\n    {\n      \"id\": \"qa04\",\n      \"prefix_sha256\": \"02be91197b2d8060978d3d01d59b2d1577963eed265b0cd7b883a3826375b36c\",\n      \"token_ids\": [\n        1,\n        2\n      ],\n      \"active_length\": 2,\n      \"file\": \"00004.pt\",\n      \"sha256\": \"8da894603ae03cf94dfd4ac43b7cfab3d99ddb24ea3f572232137fa5088c9055\",\n      \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"\n    },\n    {\n      \"id\": \"qa05\",\n      \"prefix_sha256\": \"8c32eb8c47c9a59424be5ae39213fffc794091c1b76318a96dba4f98b812d6ce\",\n      \"token_ids\": [\n        1,\n        2\n      ],\n      \"active_length\": 2,\n      \"file\": \"00005.pt\",\n      \"sha256\": \"0734fb114edaf31537334f7f966803e7a6d30bb5decb5cd132296a2371b6e729\",\n      \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"\n    },\n    {\n      \"id\": \"qa06\",\n      \"prefix_sha256\": \"1293fe1beeb9d48c04c63c8cc6d55cfa747a21975abe46c76718b63e9e1d9aa7\",\n      \"token_ids\": [\n        1,\n        2\n      ],\n      \"active_length\": 2,\n      \"file\": \"00006.pt\",\n      \"sha256\": \"209d70a7c1d6f4795618cf93a51b66b1daf8383c8cd973264c4e02225786bc1d\",\n      \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"\n    },\n    {\n      \"id\": \"qa07\",\n      \"prefix_sha256\": \"273dcdbe02eb46401e3f1cec4b387b8d83cbffd8da4ce23231702877f81402ee\",\n      \"token_ids\": [\n        1,\n        2\n      ],\n      \"active_length\": 2,\n      \"file\": \"00007.pt\",\n      \"sha256\": \"e969a6a0e3edfd2ab17a730e2a88e7641b889bd02a4432def8091f38995c7635\",\n      \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"\n    },\n    {\n      \"id\": \"qa08\",\n      \"prefix_sha256\": \"0e587b31e74b56c82abac18219ec5b4ff41f2f3e7ba0f33be685f14ff119e35f\",\n      \"token_ids\": [\n        1,\n        2\n      ],\n      \"active_length\": 2,\n      \"file\": \"00008.pt\",\n      \"sha256\": \"c7ca506d4aaa781f9db5bbddd4520b89b60c719ce6ab874b0e8c67068d0d9fcc\",\n      \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"\n    },\n    {\n      \"id\": \"qa09\",\n      \"prefix_sha256\": \"345671cd93297e9fe23491135b89cdb24cbd20ed5f4ccdcac2591c0040118c34\",\n      \"token_ids\": [\n        1,\n        2\n      ],\n      \"active_length\": 2,\n      \"file\": \"00009.pt\",\n      \"sha256\": \"f1e11e3d0517760578eebc3d18d0b87d120fd9f290a76854e50ec6ec86d46cd4\",\n      \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"\n    },\n    {\n      \"id\": \"qa10\",\n      \"prefix_sha256\": \"5098b775092b046cdcdc5efc7a4546720666649704775937a53d9f9a70cba944\",\n      \"token_ids\": [\n        1,\n        2\n      ],\n      \"active_length\": 2,\n      \"file\": \"00010.pt\",\n      \"sha256\": \"4170efa1dd216ad2e62cd686b067c3e72cc7bcd764ce7dfd343b9e3cc30eb27f\",\n      \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"\n    },\n    {\n      \"id\": \"qa11\",\n      \"prefix_sha256\": \"02a9be9ed3100b905974482b597272d96fd190a049bab697820f2e8e016b7288\",\n      \"token_ids\": [\n        1,\n        2\n      ],\n      \"active_length\": 2,\n      \"file\": \"00011.pt\",\n      \"sha256\": \"1c8a0598289fe01d276d87a6dd33d1c4ed8ce16fccdddbb60550b31e8d3934ef\",\n      \"contract_id\": \"95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0\"\n    }\n  ],\n  \"seconds\": 0.01061868667602539,\n  \"human_G1\": \"PENDING_DEFERRED\",\n  \"evidence_kind\": \"instrumentation_only\",\n  \"confirmatory\": false\n}\n"
+  },
+  "synthetic_tensors_only": true,
+  "gpu": false
+}

@@ -1,0 +1,13 @@
+{
+  "gate": "exploratory_entrypoint_validation",
+  "status": "PASS_SCOPED",
+  "software_checks": 20,
+  "GPU_bitwise_comparisons": 12,
+  "actual_forwards": 24,
+  "research_extraction": false,
+  "confirmatory_extraction": false,
+  "human_G1": "PENDING_DEFERRED",
+  "public_dataset_admission": "PENDING",
+  "numerical_neutrality": "Bitwise equality only on 12 G0 QA fixtures; no research-result neutrality claim",
+  "next": "Prepare bounded exploratory extraction run using pinned full manifest"
+}

@@ -1,0 +1,12 @@
+{"id": "qa00", "prefix": "Find a caf\u00e9 in Montr\u00e9al; actually, make it a bakery."}
+{"id": "qa01", "prefix": "Parse https://example.org/a?q=7 and return only the hostname."}
+{"id": "qa02", "prefix": "Summarize 12.5 percent growth in 2024 versus 2023 without forecasting."}
+{"id": "qa03", "prefix": "Write Python: value = {'key': [1, 2, 3]}; preserve punctuation."}
+{"id": "qa04", "prefix": "Draft a reply to O\u2019Connor thanking them \u2014 do not send it."}
+{"id": "qa05", "prefix": "  Compare\talpha and beta\nusing the attached figures."}
+{"id": "qa06", "prefix": "Find a restaurant near the station, excluding places without outdoor seating."}
+{"id": "qa07", "prefix": "Research battery suppliers in Europe; include distributors as well."}
+{"id": "qa08", "prefix": "Translate the phrase na\u00efve fa\u00e7ade into plain English."}
+{"id": "qa09", "prefix": "Schedule a 15-minute meeting next Thursday; only draft the invitation."}
+{"id": "qa10", "prefix": "Explain the filename report_v2-final.csv, not its contents."}
+{"id": "qa11", "prefix": "Prepare notes about the \ud83d\udeb2 route, then switch the destination to the museum."}

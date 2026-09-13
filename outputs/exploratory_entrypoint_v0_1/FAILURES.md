@@ -1,0 +1,3 @@
+# Preserved failures
+
+Attempt 01 failed before software checks or model loading: Modal imports the launcher remotely as /root/modal_validate.py; local repository ancestor resolution assumed at least two parent levels and raised IndexError. The original launcher and complete log are preserved. The correction confines local file discovery/image mounting to modal.is_local(); worker source and numerical extractor are unchanged. No GPU validation worker was launched because CPU checks had not completed. The local runtime also lacked torch, so tests run in the pinned Modal image instead of installing an unpinned local dependency.
