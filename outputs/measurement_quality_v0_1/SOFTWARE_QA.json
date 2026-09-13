@@ -1,0 +1,381 @@
+{
+  "status": "PASS_SOFTWARE_ONLY",
+  "checks": [
+    {
+      "name": "exact_reuse",
+      "status": "PASS",
+      "measurement": {
+        "status": "MEASURED_SOFTWARE_FIXTURE",
+        "scope": "synthetic unit fixture only",
+        "final_task_correct": true,
+        "early_lookup_units": 1,
+        "consumed_early_units": 1,
+        "verified_consumed_early_units": 1,
+        "verified_consumed_fraction": 1.0,
+        "fresh_lookup_units": 0,
+        "fresh_reference_lookup_units": 1,
+        "avoided_lookup_units_if_task_correct": 1,
+        "trace": [
+          {
+            "key": "a",
+            "origin": "early_cache",
+            "value_matches_reference": true
+          }
+        ],
+        "actual": [
+          10
+        ],
+        "reference": [
+          10
+        ],
+        "binary_usefulness": null,
+        "research_label_created": false,
+        "cost_unit": "symbolic lookup count; excludes oracle/validation overhead; not latency or measured compute"
+      }
+    },
+    {
+      "name": "narrowing_keeps_work",
+      "status": "PASS",
+      "measurement": {
+        "status": "MEASURED_SOFTWARE_FIXTURE",
+        "scope": "synthetic unit fixture only",
+        "final_task_correct": true,
+        "early_lookup_units": 3,
+        "consumed_early_units": 1,
+        "verified_consumed_early_units": 1,
+        "verified_consumed_fraction": 0.3333333333333333,
+        "fresh_lookup_units": 0,
+        "fresh_reference_lookup_units": 1,
+        "avoided_lookup_units_if_task_correct": 1,
+        "trace": [
+          {
+            "key": "b",
+            "origin": "early_cache",
+            "value_matches_reference": true
+          }
+        ],
+        "actual": [
+          10
+        ],
+        "reference": [
+          10
+        ],
+        "binary_usefulness": null,
+        "research_label_created": false,
+        "cost_unit": "symbolic lookup count; excludes oracle/validation overhead; not latency or measured compute"
+      }
+    },
+    {
+      "name": "same_output_different_target",
+      "status": "PASS",
+      "measurement": {
+        "status": "MEASURED_SOFTWARE_FIXTURE",
+        "scope": "synthetic unit fixture only",
+        "final_task_correct": true,
+        "early_lookup_units": 1,
+        "consumed_early_units": 0,
+        "verified_consumed_early_units": 0,
+        "verified_consumed_fraction": 0.0,
+        "fresh_lookup_units": 1,
+        "fresh_reference_lookup_units": 1,
+        "avoided_lookup_units_if_task_correct": 0,
+        "trace": [
+          {
+            "key": "b",
+            "origin": "fresh_lookup",
+            "value_matches_reference": true
+          }
+        ],
+        "actual": [
+          10
+        ],
+        "reference": [
+          10
+        ],
+        "binary_usefulness": null,
+        "research_label_created": false,
+        "cost_unit": "symbolic lookup count; excludes oracle/validation overhead; not latency or measured compute"
+      }
+    },
+    {
+      "name": "unused_early_work_task_still_succeeds",
+      "status": "PASS",
+      "measurement": {
+        "status": "MEASURED_SOFTWARE_FIXTURE",
+        "scope": "synthetic unit fixture only",
+        "final_task_correct": true,
+        "early_lookup_units": 1,
+        "consumed_early_units": 0,
+        "verified_consumed_early_units": 0,
+        "verified_consumed_fraction": 0.0,
+        "fresh_lookup_units": 1,
+        "fresh_reference_lookup_units": 1,
+        "avoided_lookup_units_if_task_correct": 0,
+        "trace": [
+          {
+            "key": "a",
+            "origin": "fresh_lookup",
+            "value_matches_reference": true
+          }
+        ],
+        "actual": [
+          10
+        ],
+        "reference": [
+          10
+        ],
+        "binary_usefulness": null,
+        "research_label_created": false,
+        "cost_unit": "symbolic lookup count; excludes oracle/validation overhead; not latency or measured compute"
+      }
+    },
+    {
+      "name": "stale_version_same_value",
+      "status": "PASS",
+      "measurement": {
+        "status": "MEASURED_SOFTWARE_FIXTURE",
+        "scope": "synthetic unit fixture only",
+        "final_task_correct": true,
+        "early_lookup_units": 1,
+        "consumed_early_units": 0,
+        "verified_consumed_early_units": 0,
+        "verified_consumed_fraction": 0.0,
+        "fresh_lookup_units": 1,
+        "fresh_reference_lookup_units": 1,
+        "avoided_lookup_units_if_task_correct": 0,
+        "trace": [
+          {
+            "key": "a",
+            "origin": "fresh_lookup",
+            "value_matches_reference": true
+          }
+        ],
+        "actual": [
+          10
+        ],
+        "reference": [
+          10
+        ],
+        "binary_usefulness": null,
+        "research_label_created": false,
+        "cost_unit": "symbolic lookup count; excludes oracle/validation overhead; not latency or measured compute"
+      }
+    },
+    {
+      "name": "stale_version_changed_value",
+      "status": "PASS",
+      "measurement": {
+        "status": "MEASURED_SOFTWARE_FIXTURE",
+        "scope": "synthetic unit fixture only",
+        "final_task_correct": true,
+        "early_lookup_units": 1,
+        "consumed_early_units": 0,
+        "verified_consumed_early_units": 0,
+        "verified_consumed_fraction": 0.0,
+        "fresh_lookup_units": 1,
+        "fresh_reference_lookup_units": 1,
+        "avoided_lookup_units_if_task_correct": 0,
+        "trace": [
+          {
+            "key": "a",
+            "origin": "fresh_lookup",
+            "value_matches_reference": true
+          }
+        ],
+        "actual": [
+          99
+        ],
+        "reference": [
+          99
+        ],
+        "binary_usefulness": null,
+        "research_label_created": false,
+        "cost_unit": "symbolic lookup count; excludes oracle/validation overhead; not latency or measured compute"
+      }
+    },
+    {
+      "name": "mixed_reuse_and_new_lookup",
+      "status": "PASS",
+      "measurement": {
+        "status": "MEASURED_SOFTWARE_FIXTURE",
+        "scope": "synthetic unit fixture only",
+        "final_task_correct": true,
+        "early_lookup_units": 1,
+        "consumed_early_units": 1,
+        "verified_consumed_early_units": 1,
+        "verified_consumed_fraction": 1.0,
+        "fresh_lookup_units": 1,
+        "fresh_reference_lookup_units": 2,
+        "avoided_lookup_units_if_task_correct": 1,
+        "trace": [
+          {
+            "key": "a",
+            "origin": "early_cache",
+            "value_matches_reference": true
+          },
+          {
+            "key": "c",
+            "origin": "fresh_lookup",
+            "value_matches_reference": true
+          }
+        ],
+        "actual": [
+          10,
+          30
+        ],
+        "reference": [
+          10,
+          30
+        ],
+        "binary_usefulness": null,
+        "research_label_created": false,
+        "cost_unit": "symbolic lookup count; excludes oracle/validation overhead; not latency or measured compute"
+      }
+    },
+    {
+      "name": "changed_action_type",
+      "status": "PASS",
+      "measurement": {
+        "status": "MEASURED_SOFTWARE_FIXTURE",
+        "scope": "synthetic unit fixture only",
+        "final_task_correct": true,
+        "early_lookup_units": 1,
+        "consumed_early_units": 0,
+        "verified_consumed_early_units": 0,
+        "verified_consumed_fraction": 0.0,
+        "fresh_lookup_units": 0,
+        "fresh_reference_lookup_units": 0,
+        "avoided_lookup_units_if_task_correct": 0,
+        "trace": [],
+        "actual": 1,
+        "reference": 1,
+        "binary_usefulness": null,
+        "research_label_created": false,
+        "cost_unit": "symbolic lookup count; excludes oracle/validation overhead; not latency or measured compute"
+      }
+    },
+    {
+      "name": "empty_early_work",
+      "status": "PASS",
+      "measurement": {
+        "status": "MEASURED_SOFTWARE_FIXTURE",
+        "scope": "synthetic unit fixture only",
+        "final_task_correct": true,
+        "early_lookup_units": 0,
+        "consumed_early_units": 0,
+        "verified_consumed_early_units": 0,
+        "verified_consumed_fraction": null,
+        "fresh_lookup_units": 1,
+        "fresh_reference_lookup_units": 1,
+        "avoided_lookup_units_if_task_correct": 0,
+        "trace": [
+          {
+            "key": "a",
+            "origin": "fresh_lookup",
+            "value_matches_reference": true
+          }
+        ],
+        "actual": [
+          10
+        ],
+        "reference": [
+          10
+        ],
+        "binary_usefulness": null,
+        "research_label_created": false,
+        "cost_unit": "symbolic lookup count; excludes oracle/validation overhead; not latency or measured compute"
+      }
+    },
+    {
+      "name": "corrupted_cache_detected",
+      "status": "PASS",
+      "measurement": {
+        "status": "MEASURED_SOFTWARE_FIXTURE",
+        "scope": "synthetic unit fixture only",
+        "final_task_correct": false,
+        "early_lookup_units": 1,
+        "consumed_early_units": 1,
+        "verified_consumed_early_units": 0,
+        "verified_consumed_fraction": 0.0,
+        "fresh_lookup_units": 0,
+        "fresh_reference_lookup_units": 1,
+        "avoided_lookup_units_if_task_correct": null,
+        "trace": [
+          {
+            "key": "a",
+            "origin": "early_cache",
+            "value_matches_reference": false
+          }
+        ],
+        "actual": [
+          99
+        ],
+        "reference": [
+          10
+        ],
+        "binary_usefulness": null,
+        "research_label_created": false,
+        "cost_unit": "symbolic lookup count; excludes oracle/validation overhead; not latency or measured compute"
+      }
+    },
+    {
+      "name": "missing_final_environment",
+      "status": "PASS",
+      "measurement": {
+        "status": "UNRESOLVED_FIXTURE",
+        "reason": "Missing environment facts",
+        "binary_usefulness": null,
+        "research_label_created": false
+      }
+    },
+    {
+      "name": "missing_version_evidence",
+      "status": "PASS",
+      "measurement": {
+        "status": "UNRESOLVED_FIXTURE",
+        "reason": "Missing version/value evidence",
+        "binary_usefulness": null,
+        "research_label_created": false
+      }
+    },
+    {
+      "name": "duplicate_keys",
+      "status": "PASS",
+      "expected_rejection": true
+    },
+    {
+      "name": "unsupported_operation",
+      "status": "PASS",
+      "expected_rejection": true
+    },
+    {
+      "name": "surprisal_shift_and_unused_final_logit_row",
+      "status": "PASS",
+      "measurement": {
+        "scored_tokens": 2,
+        "sum_nll": 0.5108256237659905,
+        "mean_nll": 0.25541281188299525,
+        "per_token_nll": [
+          0.2876820724517808,
+          0.2231435513142097
+        ],
+        "first_token_scored": false
+      }
+    },
+    {
+      "name": "one_token_has_no_scored_continuation",
+      "status": "PASS"
+    },
+    {
+      "name": "active_logits_coverage_rejection",
+      "status": "PASS",
+      "expected_rejection": true
+    }
+  ],
+  "count": 17,
+  "research_cases_validated": 0,
+  "human_G1": "PENDING_DEFERRED",
+  "real_model_surprisal_computed": false,
+  "binary_labels_created": 0,
+  "source_sha256": "9dc14eacd3d3246adf735f7e6669b6772b010722063abcb4628532f93add05d5"
+}

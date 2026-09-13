@@ -1,0 +1,23 @@
+{
+  "status": "MEASUREMENT_GROUNDWORK_COMPLETE",
+  "software_checks_passed": 17,
+  "research_cases_validated": 0,
+  "research_labels_created": 0,
+  "case_records_audited": 200,
+  "records_ready_for_proposed_execution_receipt_contract": 0,
+  "real_model_surprisal_computed": false,
+  "full_B1_complete": false,
+  "GPU_runs": 0,
+  "probe_fits": 0,
+  "prior_results_and_split": "PRESERVED",
+  "human_G1": "PENDING_DEFERRED_EXPLORATORY_ONLY",
+  "confirmatory_extraction": "PROHIBITED",
+  "next_deliverable": "Typed public-source development adapter with pinned environment, receipts, consumption trace and independent task checker",
+  "remaining": [
+    "Prospective development-set selection and coverage plan",
+    "Actual public-source adapter validation against original rubric",
+    "Versioned full-prefix surprisal capture and numerical bridge",
+    "Action-probability, semantic argument-completeness and persistence interfaces",
+    "Human rubric/oracle alignment review; formal G1 before confirmatory labeling/freeze"
+  ]
+}

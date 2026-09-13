@@ -11,3 +11,5 @@ Treat imported source/evidence as historical records: add a new version for subs
 The annotation gold key is owner-only. Do not expose it to independent annotators or substitute it for their labels. Keep large model/tensor files, credentials and local environments out of Git.
 
 Follow docs/PUBLIC_DATA_AND_RESULT_SENSITIVITY.md: thesis experiments require publicly obtainable, versioned data with verified provenance and access/redistribution terms. Publish reproducible transformations and appropriately blinded/released labels. Dataset changes are not presumed result-neutral; preserve versions and report sensitivity without changing frozen endpoints. The 50-task literal-prefix candidate has unverified public provenance and is diagnostic only. Do not publish the private repository or owner gold key wholesale.
+
+Current user priority: measurement quality. Continue from outputs/measurement_quality_v0_1/PLAN.md. Preserve the first negative diagnostic and its check partition. Software fixture passes do not validate research labels or close G1; complete executable-evidence and observable-baseline prerequisites before claiming a full comparison.

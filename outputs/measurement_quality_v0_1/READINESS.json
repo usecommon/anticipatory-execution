@@ -1,0 +1,35 @@
+{
+  "status": "AUDIT_COMPLETE",
+  "case_records": 200,
+  "source_counts": {
+    "synthetic": 100,
+    "public_bfcl": 100
+  },
+  "records_ready_for_proposed_execution_receipt_contract": 0,
+  "missing_field_counts": {
+    "pinned_environment": 200,
+    "typed_candidate": 200,
+    "execution_receipt": 200,
+    "reuse_trace": 200,
+    "independent_task_check": 200
+  },
+  "check_source_coverage": {
+    "public_bfcl": {
+      "cases": 16,
+      "tasks": 14,
+      "positive": 16,
+      "negative": 0
+    },
+    "synthetic": {
+      "cases": 16,
+      "tasks": 14,
+      "positive": 14,
+      "negative": 2
+    }
+  },
+  "interpretation": "Existing case text cannot be automatically admitted to this proposed execution-receipt interface. This does not mark cases non-reusable or prove no useful work exists. No real artifact was executed.",
+  "source_hashes": {
+    "outputs/checkpoint_ai_judge_v0_1/results/MAIN_200.jsonl": "6bd2fc99ec60ff460a54d3f8ed05382efa0196f4e49a237d9cd9647d73ebb4d5",
+    "outputs/exploratory_comparison_v0_1/run_20260913T013948081119Z/RESULT.json": "f3f965844eb219f2689d5516e319d9fd0f987bd8c9bca2d34070eb267dfb77cc"
+  }
+}
