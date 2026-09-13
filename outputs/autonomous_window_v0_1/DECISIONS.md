@@ -16,3 +16,5 @@ Deferred, with progress permitted elsewhere:
 6. New prompted research inputs require a new versioned allowlist plus checks. Do not overwrite the earlier validated entrypoint or silently reuse old plain-prefix tensors. Next implementation: prompted capture manifest, sidecar joins, response-code summaries and software/preflight checks, then a bounded authorized exploratory run.
 
 No pending question is interpreted as user approval of a protocol change. The frozen thesis, numerical contract, old labels/results and confirmatory prohibition persist. No work should launch after the deadline; already-running bounded work may be brought to a documented safe stopping point.
+
+Closure: heartbeat update confirmed PAUSED. The following clock observation was 2026-09-13 13:17:18 UTC, later than the intended deadline; this additional timing gap is not assigned an unverified cause. Both recorded Modal jobs completed before the deadline. No further research job was launched during cleanup. The record does not establish six hours of continuous productive execution. Completed milestones are saved in commit 4abf1db; this closure is a later documentation commit.

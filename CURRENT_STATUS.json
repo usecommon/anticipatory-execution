@@ -93,6 +93,8 @@
   },
   "autonomy_window": {
     "deadline_UTC": "2026-09-13T10:53:20Z",
-    "decision_log": "outputs/autonomous_window_v0_1/DECISIONS.md"
+    "decision_log": "outputs/autonomous_window_v0_1/DECISIONS.md",
+    "status": "CLOSED_HEARTBEAT_PAUSED",
+    "closure_record": "outputs/autonomous_window_v0_1/STATUS.json"
   }
 }
