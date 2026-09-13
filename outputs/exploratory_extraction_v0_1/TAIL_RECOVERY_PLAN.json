@@ -1,0 +1,26 @@
+{
+  "trigger": "Fourth CPU range 3012..4013 timed out at 600 seconds; first three complete ranges preserved, not rerun.",
+  "original_extraction": "PASS unchanged",
+  "new_ranges": [
+    [
+      3012,
+      3263
+    ],
+    [
+      3263,
+      3514
+    ],
+    [
+      3514,
+      3765
+    ],
+    [
+      3765,
+      4013
+    ]
+  ],
+  "resources": "CPU only, max 4 workers x2 CPUs/8GiB, 600 seconds each, zero configured retries",
+  "criteria": "Same verify_shard function as previous recovery; exact code equality checked separately.",
+  "merge": "Three prior PASS ranges plus all four new PASS tail ranges, exact 4013 unique IDs and identical manifest/contract",
+  "no_GPU_rerun": true
+}

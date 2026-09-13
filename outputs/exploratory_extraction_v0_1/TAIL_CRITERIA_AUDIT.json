@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "verify_shard_AST_identical_to_first_parallel_recovery": true,
+  "changes": "Only target index ranges, retained-report provenance, launcher app name and merge orchestration",
+  "no_acceptance_criterion_changes": true
+}

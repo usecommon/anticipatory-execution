@@ -1,0 +1,18 @@
+{
+  "local_files": {
+    "worker.py": "outputs/exploratory_extraction_v0_1/worker.py",
+    "entrypoint.py": "outputs/exploratory_entrypoint_v0_1/entrypoint.py",
+    "extractor.py": "outputs/g0_closure_v0_5/source/extractor.py",
+    "identity.json": "outputs/g0_closure_v0_5/checkpoint_identity.json",
+    "research.jsonl": "outputs/exploratory_preflight_v0_1/EXTRACTION_INPUT.jsonl",
+    "preflight.json": "outputs/exploratory_preflight_v0_1/run_20260913T000004720678Z/RESULT.json"
+  },
+  "remote_files": {
+    "worker.py": "6f93c87ce5560446a8dfa78bb9229dc1250d16c49624e3867fc12d1e27f79da1",
+    "entrypoint.py": "865cfd91f88477affdfda2dea6fc3aed68ddabf2c0179fa289605359e242c620",
+    "extractor.py": "f7b871a69dbb7aa165743f2e25f24680cb2d4118844135498cb1fb9a2ac22283",
+    "identity.json": "d1d727b6c10c192c9d93d6ad475fb8cad0f8da4d2e1f57ee32a37ade58c38748",
+    "research.jsonl": "a2b4cb69d993433603e06cb6536b2579f994acbde7bdda8a92734cdfdc0709ba",
+    "preflight.json": "40e522157a51e1d16d0b5aef4501189d8fc4267087e5c6c8ef1fc0fd9d301b22"
+  }
+}

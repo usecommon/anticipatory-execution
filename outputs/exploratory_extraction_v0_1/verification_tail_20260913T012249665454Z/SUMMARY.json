@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checked_tensors": 4013,
+  "tensor_bytes": 4129834482,
+  "seconds": 56.541019439697266,
+  "container_id": "multiple_CPU_workers",
+  "container_ids": [
+    "ta-01M2C51Y13HETF764T5775NZYR",
+    "ta-01M2C51YD697TR408EDCKJGQFR",
+    "ta-01M2C51YTAWF8BC64MNK3BQYWR",
+    "ta-01M2C5RDWFKSF2X33ND1MR12XR",
+    "ta-01M2C5RE4PVK86MSGKPFDYSX0R",
+    "ta-01M2C5REB7Z9027MTNCP3EK10R",
+    "ta-01M2C5REGA0STP9MNT9YY7DKTR"
+  ],
+  "independent_CPU_worker": true,
+  "all_hashes_shapes_tokens_masks_positions_finite_pass": true,
+  "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+  "manifest_sha256": "43783139ee00aff6a498f08bd2443cff8cb4c54cc4755ffd7e7c2f64fc4a4582",
+  "verification_kind": "bounded_parallel_tail_recovery",
+  "recovery_source": "modal_verify_tail.py",
+  "recovery_evidence": "verification_tail_20260913T012249665454Z"
+}

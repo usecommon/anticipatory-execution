@@ -1,0 +1,95 @@
+✓ Initialized. View run at 
+https://modal.com/apps/jeff-34667/main/ap-9UhQdvH6vMVx5dgfGdTVhC
+✓ Created objects.
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/outputs/anticipatory-execution/outputs/exploratory_extraction_v0_1/modal
+│   _extract.py
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/outputs/anticipatory-execution/outputs/exploratory_extraction_v0_1/FREEZ
+│   E.json
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/outputs/anticipatory-execution/outputs/exploratory_preflight_v0_1/run_20
+│   260913T000004720678Z/RESULT.json
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/outputs/anticipatory-execution/outputs/exploratory_preflight_v0_1/EXTRAC
+│   TION_INPUT.jsonl
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/outputs/anticipatory-execution/outputs/g0_closure_v0_5/checkpoint_identi
+│   ty.json
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/outputs/anticipatory-execution/outputs/g0_closure_v0_5/source/extractor.
+│   py
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/outputs/anticipatory-execution/outputs/exploratory_entrypoint_v0_1/entry
+│   point.py
+├── 🔨 Created mount 
+│   /Users/jeffkim/Documents/Codex/2026-09-11/read-readme-md-and-continue-execut
+│   ion/outputs/anticipatory-execution/outputs/exploratory_extraction_v0_1/worke
+│   r.py
+├── 🔨 Created function verify_saved.
+└── 🔨 Created function extract.
+Progress: 0/4013 saved; 30s worker wall time
+Progress: 0/4013 saved; 60s worker wall time
+Progress: 0/4013 saved; 90s worker wall time
+Progress: 0/4013 saved; 120s worker wall time
+Progress: 0/4013 saved; 150s worker wall time
+Progress: 0/4013 saved; 180s worker wall time
+Progress: 0/4013 saved; 210s worker wall time
+Progress: 0/4013 saved; 240s worker wall time
+Progress: 0/4013 saved; 270s worker wall time
+Progress: 0/4013 saved; 300s worker wall time
+Progress: 0/4013 saved; 330s worker wall time
+Progress: 0/4013 saved; 360s worker wall time
+Progress: 0/4013 saved; 390s worker wall time
+Progress: 0/4013 saved; 420s worker wall time
+Progress: 0/4013 saved; 450s worker wall time
+Progress: 111/4013 saved; 480s worker wall time
+Progress: 236/4013 saved; 510s worker wall time
+Progress: 362/4013 saved; 540s worker wall time
+Progress: 490/4013 saved; 570s worker wall time
+Progress: 617/4013 saved; 600s worker wall time
+Progress: 742/4013 saved; 630s worker wall time
+Progress: 870/4013 saved; 660s worker wall time
+Progress: 997/4013 saved; 690s worker wall time
+Progress: 1125/4013 saved; 720s worker wall time
+Progress: 1254/4013 saved; 750s worker wall time
+Progress: 1382/4013 saved; 780s worker wall time
+Progress: 1509/4013 saved; 810s worker wall time
+Progress: 1638/4013 saved; 840s worker wall time
+Progress: 1763/4013 saved; 870s worker wall time
+Progress: 1889/4013 saved; 900s worker wall time
+Progress: 2016/4013 saved; 930s worker wall time
+Progress: 2142/4013 saved; 960s worker wall time
+Progress: 2265/4013 saved; 990s worker wall time
+Progress: 2386/4013 saved; 1020s worker wall time
+Progress: 2510/4013 saved; 1050s worker wall time
+Progress: 2642/4013 saved; 1080s worker wall time
+Progress: 2774/4013 saved; 1110s worker wall time
+Progress: 2904/4013 saved; 1140s worker wall time
+Progress: 3036/4013 saved; 1170s worker wall time
+Progress: 3164/4013 saved; 1200s worker wall time
+Progress: 3291/4013 saved; 1230s worker wall time
+Progress: 3421/4013 saved; 1260s worker wall time
+Progress: 3549/4013 saved; 1290s worker wall time
+Progress: 3679/4013 saved; 1320s worker wall time
+Progress: 3807/4013 saved; 1350s worker wall time
+Progress: 3935/4013 saved; 1380s worker wall time
+Extraction: {'exit': 0, 'seconds': 1399.1002988815308, 'label': 'run_20260913T003027625834Z', 'status': 'PASS'}
+Independent verification: 500/4013
+Independent verification: 1000/4013
+Independent verification: 1500/4013
+Independent verification: 2000/4013
+Independent verification: 500/4013
+Disconnecting from Modal - This will terminate your Modal app in a few seconds.
+
+Stopping app - keyboard interrupt received. Use `modal run --detach` to prevent KeyboardInterrupts from killing apps.
+Runner terminated.
+✓ App aborted. View run at 
+https://modal.com/apps/jeff-34667/main/ap-9UhQdvH6vMVx5dgfGdTVhC

@@ -1,0 +1,30 @@
+{
+  "target": "run_20260913T003027625834Z",
+  "source_sha256": "6472a3a079da4f26576da429deffc1b234b48941cc2b923786b560bd8b752f94",
+  "retained_sources": {
+    "verification_recovery_20260913T011036317129Z/shard_0_1004.json": "3404b9f9fd5943790b667cdc60a2bdb36be8832586ed981e1d2482e5968b37e7",
+    "verification_recovery_20260913T011036317129Z/shard_1004_2008.json": "698daf18a6c33f186855f30e928d67b568d5cdc3e6398b1f4ab444f12d465345",
+    "verification_recovery_20260913T011036317129Z/shard_2008_3012.json": "c2a1eafc6dbb4534603d68eff93fbe5a8fdaa682f26c5d511a0409c33ad29ec5"
+  },
+  "ranges": [
+    [
+      3012,
+      3263
+    ],
+    [
+      3263,
+      3514
+    ],
+    [
+      3514,
+      3765
+    ],
+    [
+      3765,
+      4013
+    ]
+  ],
+  "GPU": false,
+  "timeout_seconds_per_shard": 600,
+  "max_containers": 4
+}

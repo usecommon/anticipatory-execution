@@ -1,0 +1,10 @@
+{
+  "status": "PASS_RAW_RECOVERED",
+  "raw_sha256": "2dbb4803ba4520511dff8e51673267ea1ef6f239a108888cf136f5ed319b9204",
+  "text_payload_sha256": "42bd2f4b83376466c4aa5c0c31100c52cb2d88d3c491da4b36b30e53e4c791ed",
+  "cause": "Path.read_text universal-newline translation converts progress carriage returns to newlines",
+  "raw_and_normalized_copies_preserved": true,
+  "raw_bytes_match_original_inventory": true,
+  "normalizing_raw_reproduces_returned_text": true,
+  "tensor_impact": false
+}

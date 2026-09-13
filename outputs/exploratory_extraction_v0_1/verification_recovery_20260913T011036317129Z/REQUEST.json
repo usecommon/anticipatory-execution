@@ -1,0 +1,25 @@
+{
+  "target": "run_20260913T003027625834Z",
+  "source_sha256": "e9441e2eb0dd2045d709f50f3db3c8a8854698895efbfda13ae024d168a08f4c",
+  "ranges": [
+    [
+      0,
+      1004
+    ],
+    [
+      1004,
+      2008
+    ],
+    [
+      2008,
+      3012
+    ],
+    [
+      3012,
+      4013
+    ]
+  ],
+  "GPU": false,
+  "timeout_seconds_per_shard": 600,
+  "max_containers": 4
+}

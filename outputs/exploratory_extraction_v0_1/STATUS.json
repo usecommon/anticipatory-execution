@@ -1,0 +1,18 @@
+{
+  "gate": "AI_only_exploratory_prefix_state_extraction",
+  "status": "PASS_SCOPED",
+  "input_prefixes": 4013,
+  "actual_forwards": 4013,
+  "independently_verified_tensors": 4013,
+  "tensor_bytes": 4129834482,
+  "contract_id": "95dd7686f82fc1380c02539ec14fc73ab3073fc8be7b7ca015e40fd6e4fac1b0",
+  "GPU_subprocess_seconds": 1399.1002988815308,
+  "verification_recovery": "Serial audit stopped incomplete; fourth large CPU range timed out; seven complete disjoint ranges ultimately verified all outputs. GPU extraction not repeated.",
+  "raw_log_transport": "Exact byte copy recovered and matched; normalized text copy also retained",
+  "human_G1": "PENDING_DEFERRED",
+  "public_dataset_admission": "PENDING_PRIVATE_DIAGNOSTIC_ONLY",
+  "confirmatory_extraction": false,
+  "probe_fitting": false,
+  "thesis_hypothesis_result": "NOT_TESTED",
+  "next": "Freeze strong-observable baseline and snapshot/dynamics diagnostic comparison plus label sensitivity"
+}

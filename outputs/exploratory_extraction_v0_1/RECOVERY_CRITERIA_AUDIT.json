@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "original_assertions": 19,
+  "recovery_assertions": 20,
+  "all_original_assertion_expressions_retained": true,
+  "additional_assertion": "explicit integer shard bounds within 0..4013",
+  "IO_semantics": "hash original tensor bytes then load same bytes via BytesIO; no tensor modification",
+  "merge_requirement": "all disjoint ranges complete and all 4013 unique IDs present"
+}

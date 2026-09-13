@@ -1,3 +1,5 @@
+> Latest execution (2026-09-12 local start): [4,013-prefix exploratory extraction and independent verification passed](../outputs/exploratory_extraction_v0_1/README.md). Raw tensors remain on the named Modal volume. Verification failures/recoveries are preserved. No probes or H2/H3 results exist yet; read the feature-coverage audit before implementing comparisons. Human G1 remains deferred for exploratory work only.
+
 > Current gate-timing update (2026-09-12): read [AI-only exploratory amendment](AI_ONLY_EXPLORATORY_AMENDMENT_v0_1.md) before the historical status below. Human G1 is deferred only for exploratory development; technical/data prerequisites remain. Human G1 still blocks confirmatory labeling/freeze, and confirmatory extraction remains prohibited.
 
 # Anticipatory Execution — ChatGPT and Codex Cloud continuation handoff

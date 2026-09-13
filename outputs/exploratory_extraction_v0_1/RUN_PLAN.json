@@ -1,0 +1,33 @@
+{
+  "scope": "First complete private AI-labeled exploratory prefix-state extraction; no efficacy claim",
+  "inputs": 4013,
+  "GPU_forwards": 4013,
+  "maximum_active_tokens": 52,
+  "physical_width": 128,
+  "partition": "exploratory",
+  "configuration": "canonical-v0.5 unchanged; exact A100-SXM4-40GB; FP32/eager/serial/no-cache",
+  "source_code": "Previously validated extractor and entrypoint imported byte-identically",
+  "resources": {
+    "GPU": "A100-40GB",
+    "CPU": 2,
+    "host_memory_mib": 49152,
+    "subprocess_deadline_seconds": 2100,
+    "function_timeout_seconds": 2400,
+    "retries": 0,
+    "max_containers": 1,
+    "independent_CPU_verifier": {
+      "cpu": 2,
+      "memory_mib": 8192,
+      "timeout_seconds": 1200
+    }
+  },
+  "raw_tensor_storage_estimate": "approximately 4.2 GB; keep on Modal volume, not Git",
+  "billing": "Resource bounded; metered cost not yet queried",
+  "human_G1": "PENDING_DEFERRED",
+  "public_release_admission": "PENDING; private diagnostic use only",
+  "confirmatory_extraction": false,
+  "model_weight_training": false,
+  "probe_fitting": false,
+  "failures": "Preserve unique run directory, logs, progress, partial tensors, hashes; never reuse output directory",
+  "next": "Verify complete outputs; then separately define exploratory observable/snapshot/dynamics comparisons and sensitivity analyses"
+}

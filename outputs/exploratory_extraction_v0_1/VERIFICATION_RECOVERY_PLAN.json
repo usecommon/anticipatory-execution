@@ -1,0 +1,33 @@
+{
+  "reason": "Serial full-file verification reported 2000/4013 after roughly 14 minutes, projecting beyond its 20-minute bound; explicitly stopped and preserved as incomplete.",
+  "original_GPU_extraction": "PASS unchanged; never rerun",
+  "ranges": [
+    [
+      0,
+      1004
+    ],
+    [
+      1004,
+      2008
+    ],
+    [
+      2008,
+      3012
+    ],
+    [
+      3012,
+      4013
+    ]
+  ],
+  "CPU_resources": {
+    "max_containers": 4,
+    "cpus_per_container": 2,
+    "memory_mib_per_container": 8192,
+    "timeout_seconds_per_shard": 600,
+    "retries": 0
+  },
+  "checks": "Same original semantic, token, mask, position, finiteness, shape and SHA256 assertions; exact disjoint coverage verified on merge.",
+  "IO_change": "Read each tensor once into bounded per-file bytes; hash original bytes and torch.load BytesIO of those same bytes. No tensor resaving or model inference.",
+  "original_verification_status": "STOPPED_INCOMPLETE_NOT_PASS",
+  "all_shards_required": true
+}

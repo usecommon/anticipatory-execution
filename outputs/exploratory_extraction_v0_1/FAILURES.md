@@ -1,0 +1,13 @@
+# Failures and transport differences
+
+No extraction failure has been reported. A post-extraction text-transport hash mismatch was detected for worker.log only. Path.read_text() normalizes carriage returns from progress output; HASHES.json correctly hashes the original bytes. The original remote log was separately downloaded as worker_raw.log and matches its original SHA256 exactly. Normalizing those raw bytes reproduces the initially returned text. Both are retained, with LOG_TRANSPORT_CHECK.json. Source, tensors and JSON evidence are unchanged; no extraction rerun or hash waiver was needed. The local verifier now checks the exact raw log and verifies the normalization relation explicitly.
+
+Monitoring-only CLI attempts included an option-parsing error before adding a command separator, and an unavailable ps executable in the slim container. These did not affect the worker. Read-only nvidia-smi and Python file inspection confirmed startup/preflight completion; no live code or configuration was changed.
+
+The original serial CPU verifier was explicitly stopped after reporting 2,000/4,013 files at roughly 14 minutes, because its observed pace projected beyond the 20-minute bound. This is STOPPED_INCOMPLETE, not a verification pass or an extraction failure. Its log and local interruption evidence remain preserved. A separate frozen read-only CPU recovery partitions all 4,013 indices into four disjoint ranges and retains the same substantive assertions, while reading each tensor once for both hashing and loading. All four ranges must pass. No GPU inference is repeated.
+
+After the first verifier container was stopped, Modal restarted that invocation despite configured user-code retries=0; a new 500-file progress milestone appeared. The original client/app was then interrupted and confirmed aborted. This platform restart is retained in modal_attempt_01.log and does not count as a completed audit. Only the later complete, merged CPU recovery can establish verification PASS.
+
+Parallel recovery attempt 01: the first three ranges completed successfully (3,012 files). Range 3012..4013 timed out at 600 seconds after reporting a 750-file milestone. Its FunctionTimeoutError and recovery FAILURE.txt are retained. That partial range is not counted as PASS. A new bounded tail-only recovery splits those 1,001 files into four disjoint ranges, retaining the first three completed reports byte-for-byte and running the unchanged verify_shard checker. No GPU run or successful range is repeated.
+
+Git whitespace checks flag trailing spaces emitted by the Modal CLI in raw .log evidence. Those original log bytes are retained; source/document checks exclude raw logs. This is a formatting finding, not a numerical or integrity waiver.
