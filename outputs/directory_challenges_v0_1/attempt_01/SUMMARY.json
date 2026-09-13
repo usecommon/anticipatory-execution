@@ -1,0 +1,12 @@
+{
+  "status": "PASS_CHALLENGE_CHECKS",
+  "authored_cases": 14,
+  "expected_mechanics_passed": 14,
+  "correct_final_tasks": 12,
+  "incorrect_final_tasks_preserved": 1,
+  "unresolved_final_tasks": 1,
+  "metadata_extra_field_rejected": true,
+  "research_labels_created": 0,
+  "public_records_changed": 0,
+  "interpretation": "Expected-failure detection is a challenge-check pass, NOT a successful final task or empirical speculation-risk result"
+}

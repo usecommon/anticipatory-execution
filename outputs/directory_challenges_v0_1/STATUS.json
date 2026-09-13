@@ -1,0 +1,15 @@
+{
+  "status": "PASS_AUTHORED_MECHANICAL_CHALLENGES",
+  "authored_cases": 14,
+  "expected_mechanics_passed": 14,
+  "correct_final_tasks": 12,
+  "incorrect_final_tasks_preserved": 1,
+  "unresolved_final_tasks": 1,
+  "research_labels_created": 0,
+  "public_data_changed": false,
+  "real_provider_freshness_implemented": false,
+  "model_forwards": 0,
+  "human_G1": "PENDING_DEFERRED_EXPLORATORY_ONLY",
+  "confirmatory_extraction": "PROHIBITED",
+  "next_step": "Resolve actual freshness/provider scope and missing full-B1 interfaces before more probes"
+}

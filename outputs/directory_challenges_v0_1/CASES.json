@@ -1,0 +1,861 @@
+[
+  {
+    "id": "exact_reuse",
+    "origin": "authored_software_fixture",
+    "initial": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "final": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "candidate": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "task": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "executor_mode": "normal",
+    "tamper_receipt": false,
+    "expected_mechanics": {
+      "decision_reason": "eligible",
+      "reused": true,
+      "final_task_correct": true,
+      "offline_witness": true,
+      "contributing_units": 2
+    },
+    "research_binary_label": null
+  },
+  {
+    "id": "target_change_equal_names",
+    "origin": "authored_software_fixture",
+    "initial": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "final": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "candidate": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "task": {
+      "directory": "B",
+      "include_hidden": true
+    },
+    "executor_mode": "normal",
+    "tamper_receipt": false,
+    "expected_mechanics": {
+      "decision_reason": "target_changed",
+      "reused": false,
+      "final_task_correct": true,
+      "offline_witness": false,
+      "contributing_units": 0
+    },
+    "research_binary_label": null
+  },
+  {
+    "id": "hidden_narrowing_preserves_subset",
+    "origin": "authored_software_fixture",
+    "initial": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "final": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "candidate": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "task": {
+      "directory": "A",
+      "include_hidden": false
+    },
+    "executor_mode": "normal",
+    "tamper_receipt": false,
+    "expected_mechanics": {
+      "decision_reason": "eligible",
+      "reused": true,
+      "final_task_correct": true,
+      "offline_witness": true,
+      "contributing_units": 1
+    },
+    "research_binary_label": null
+  },
+  {
+    "id": "hidden_expansion_requires_new_listing",
+    "origin": "authored_software_fixture",
+    "initial": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "final": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "candidate": {
+      "directory": "A",
+      "include_hidden": false
+    },
+    "task": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "executor_mode": "normal",
+    "tamper_receipt": false,
+    "expected_mechanics": {
+      "decision_reason": "insufficient_request_coverage",
+      "reused": false,
+      "final_task_correct": true,
+      "offline_witness": false,
+      "contributing_units": 0
+    },
+    "research_binary_label": null
+  },
+  {
+    "id": "stale_added_entry",
+    "origin": "authored_software_fixture",
+    "initial": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "final": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r2",
+        "entries": [
+          "a.txt",
+          ".hidden",
+          "new.txt"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "candidate": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "task": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "executor_mode": "normal",
+    "tamper_receipt": false,
+    "expected_mechanics": {
+      "decision_reason": "revision_changed",
+      "reused": false,
+      "final_task_correct": true,
+      "offline_witness": false,
+      "contributing_units": 0
+    },
+    "research_binary_label": null
+  },
+  {
+    "id": "unrelated_directory_changed",
+    "origin": "authored_software_fixture",
+    "initial": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "final": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r2",
+        "entries": [
+          "elsewhere"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "candidate": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "task": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "executor_mode": "normal",
+    "tamper_receipt": false,
+    "expected_mechanics": {
+      "decision_reason": "eligible",
+      "reused": true,
+      "final_task_correct": true,
+      "offline_witness": true,
+      "contributing_units": 2
+    },
+    "research_binary_label": null
+  },
+  {
+    "id": "content_only_change_not_listing_dependency",
+    "origin": "authored_software_fixture",
+    "initial": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "final": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 2
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "candidate": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "task": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "executor_mode": "normal",
+    "tamper_receipt": false,
+    "expected_mechanics": {
+      "decision_reason": "eligible",
+      "reused": true,
+      "final_task_correct": true,
+      "offline_witness": true,
+      "contributing_units": 2
+    },
+    "research_binary_label": null
+  },
+  {
+    "id": "useful_receipt_deliberately_ignored",
+    "origin": "authored_software_fixture",
+    "initial": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "final": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "candidate": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "task": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "executor_mode": "ignore",
+    "tamper_receipt": false,
+    "expected_mechanics": {
+      "decision_reason": "eligible",
+      "reused": false,
+      "final_task_correct": true,
+      "offline_witness": true,
+      "contributing_units": 0
+    },
+    "research_binary_label": null
+  },
+  {
+    "id": "irrelevant_receipt_read_not_contributed",
+    "origin": "authored_software_fixture",
+    "initial": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "final": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "candidate": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "task": {
+      "directory": "B",
+      "include_hidden": true
+    },
+    "executor_mode": "read_irrelevant",
+    "tamper_receipt": false,
+    "expected_mechanics": {
+      "decision_reason": "target_changed",
+      "reused": false,
+      "final_task_correct": true,
+      "offline_witness": false,
+      "contributing_units": 0
+    },
+    "research_binary_label": null
+  },
+  {
+    "id": "receipt_corrupted",
+    "origin": "authored_software_fixture",
+    "initial": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "final": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "candidate": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "task": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "executor_mode": "normal",
+    "tamper_receipt": true,
+    "expected_mechanics": {
+      "decision_reason": "integrity_failure",
+      "reused": false,
+      "final_task_correct": true,
+      "offline_witness": false,
+      "contributing_units": 0
+    },
+    "research_binary_label": null
+  },
+  {
+    "id": "missing_revision_metadata",
+    "origin": "authored_software_fixture",
+    "initial": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "final": {
+      "A": {
+        "incarnation": "A1",
+        "revision": null,
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "candidate": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "task": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "executor_mode": "normal",
+    "tamper_receipt": false,
+    "expected_mechanics": {
+      "decision_reason": "metadata_unavailable",
+      "reused": false,
+      "final_task_correct": true,
+      "offline_witness": true,
+      "contributing_units": 0
+    },
+    "research_binary_label": null
+  },
+  {
+    "id": "provider_breaks_revision_contract",
+    "origin": "authored_software_fixture",
+    "initial": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "final": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden",
+          "new.txt"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "candidate": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "task": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "executor_mode": "normal",
+    "tamper_receipt": false,
+    "expected_mechanics": {
+      "decision_reason": "eligible",
+      "reused": true,
+      "final_task_correct": false,
+      "offline_witness": false,
+      "contributing_units": 0
+    },
+    "research_binary_label": null
+  },
+  {
+    "id": "aba_replacement_same_revision",
+    "origin": "authored_software_fixture",
+    "initial": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "final": {
+      "A": {
+        "incarnation": "A2",
+        "revision": "r1",
+        "entries": [
+          "replacement"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "candidate": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "task": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "executor_mode": "normal",
+    "tamper_receipt": false,
+    "expected_mechanics": {
+      "decision_reason": "incarnation_changed",
+      "reused": false,
+      "final_task_correct": true,
+      "offline_witness": false,
+      "contributing_units": 0
+    },
+    "research_binary_label": null
+  },
+  {
+    "id": "final_environment_unavailable",
+    "origin": "authored_software_fixture",
+    "initial": {
+      "A": {
+        "incarnation": "A1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      },
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "final": {
+      "B": {
+        "incarnation": "B1",
+        "revision": "r1",
+        "entries": [
+          "a.txt",
+          ".hidden"
+        ],
+        "content_epoch": 1
+      }
+    },
+    "candidate": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "task": {
+      "directory": "A",
+      "include_hidden": true
+    },
+    "executor_mode": "normal",
+    "tamper_receipt": false,
+    "expected_mechanics": {
+      "decision_reason": "metadata_unavailable",
+      "reused": false,
+      "final_task_correct": null,
+      "offline_witness": null,
+      "contributing_units": 0
+    },
+    "research_binary_label": null
+  }
+]

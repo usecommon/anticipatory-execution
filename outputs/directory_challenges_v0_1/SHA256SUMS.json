@@ -1,0 +1,16 @@
+{
+  "CASES.json": "9aab18b51a199f2e26fd8758f6364e4e9566a8eafbaea6d50643740b726a8062",
+  "CASE_FREEZE.json": "99ffa1140222571472496289e7e44afb94d2a0896934af9c0672e3746e9b2775",
+  "FRESHNESS_CONTRACT.md": "e880625b63a429cf76deb9405a5b4b159fe9a503054eaf57c6bef0d5782a8ccf",
+  "PLAN.md": "04f08abc618e547f14547addc8345046fb2d9d49b7da8c9f2140d6328441ffdf",
+  "README.md": "6914c5f9682718e462261b64ea3f37f88f5c30fd19bf09a8f5fdb4d307f16ff1",
+  "RUN_FREEZE.json": "a85b2f603fdfd56b049f67cfffcdbaa4a44f1922b545fa0bb54d1d30d89cbe9f",
+  "STATUS.json": "9afba8e524e2f97e0db2af863dbb8f5a1b8c907612556ffd1e2f8d3f146ad79d",
+  "VERIFICATION.json": "54c208ded21c3e5dbdcd6b680a6fa3502f9af1cb7b80914d3c0806019d696577",
+  "attempt_01/PARTIAL.jsonl": "6d1fb3e506d5d611d6f1abcfb5bcbedd89f87ed57c6bccbeb5ced9e528aaf1fb",
+  "attempt_01/RESULTS.jsonl": "6d1fb3e506d5d611d6f1abcfb5bcbedd89f87ed57c6bccbeb5ced9e528aaf1fb",
+  "attempt_01/SUMMARY.json": "7a0b0abe4d27cf984a6f66f19ddb8a07fbf58e1ff9cf1021830a545fb9a07cff",
+  "measure.py": "4372634a71c2474a43f903a19bab509003105ae6a17c2e2accac6da0226671d0",
+  "run.py": "4d703eabc354078c1fd1d8f5921b54cdb42592f33c8610a3a848cea7e7879780",
+  "verify.py": "5507da835a8bc163dd270757c8235cc55f9b94cb2bf3b1d73b5e4d368f7329f3"
+}

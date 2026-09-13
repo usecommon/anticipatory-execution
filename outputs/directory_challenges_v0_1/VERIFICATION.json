@@ -1,0 +1,13 @@
+{
+  "status": "PASS_STORED_EVIDENCE",
+  "case_and_run_freezes_verified": true,
+  "authored_cases_verified": 14,
+  "final_task_outcomes": {
+    "True": 12,
+    "False": 1,
+    "None": 1
+  },
+  "broken_provider_failure_retained": true,
+  "research_labels_created": 0,
+  "interpretation": "Mechanical expectations and task outcomes distinguished; no risk-rate or rubric-validity inference"
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "current_phase": "prefix_directory_reuse_witnesses",
+  "current_phase": "authored_directory_measurement_challenges",
   "frozen_thesis": "Do not predict what the user will type next. Predict what work will not need to be undone.",
   "G0": {
     "status": "PASS_SCOPED",
@@ -38,7 +38,7 @@
     "authorized": false,
     "performed": false
   },
-  "current_priority": "Discriminating authored challenge cases kept separate from public tasks; deployable freshness/completeness definition; full-B1 preparation",
+  "current_priority": "Resolve actual freshness/provider scope; implement missing observable-baseline capture and action-feature interfaces before further probes",
   "historical_status_policy": "Historical phase files retain their original state; this file consolidates later authorized exploratory progress",
   "numerical_neutrality_claim": false,
   "public_directory_adapter": {
@@ -58,5 +58,14 @@
     "instruction_groups_with_witnesses": 3,
     "new_usefulness_labels": 0,
     "freshness": "offline privileged static-environment verification"
+  },
+  "directory_challenges": {
+    "report": "outputs/directory_challenges_v0_1/README.md",
+    "expected_mechanics_passed": 14,
+    "correct_final_tasks": 12,
+    "incorrect_final_tasks_preserved": 1,
+    "unresolved_final_tasks": 1,
+    "new_labels": 0,
+    "real_freshness_provider": false
   }
 }

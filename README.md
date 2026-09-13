@@ -52,6 +52,8 @@ The [original-context directory adapter](outputs/public_directory_adapter_v0_1/R
 
 The [prefix-only directory reuse run](outputs/prefix_directory_reuse_v0_1/README.md) produced 12 proposals and 15 abstentions across 27 checkpoints. Eight early listings supported correct final tasks without another listing, across four records/three instruction groups. Four early actions lack a final checker. These are authored-rule, static-oracle execution witnesses, not new usefulness labels or model evidence.
 
+The [separate authored directory challenges](outputs/directory_challenges_v0_1/README.md) matched all 14 mechanical expectations: 12 correct tasks, one exposed stale-result failure, one unresolved environment. The mocked metadata guard distinguishes refusal, consumption and offline reuse witnesses. No public cases or labels changed; actual provider freshness and full B1 remain open.
+
 ## Current state
 
 - **G0 PASS, scoped:** canonical-v0.5, frozen Qwen2.5-7B-Instruct, NVIDIA A100-SXM4-40GB, FP32 eager, physical shape [1,128], active length 1..128, serial prefixes, explicit positions/masks, cache off. Two fresh Modal containers passed 8,427 checks each; 155 cross-container cases matched bitwise.
